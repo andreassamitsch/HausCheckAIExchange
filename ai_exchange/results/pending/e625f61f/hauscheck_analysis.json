@@ -1,0 +1,175 @@
+{
+  "house_id": "e625f61f",
+  "analysis_date": "2026-07-11T04:08:17.400439+00:00",
+  "new_score": 67,
+  "confidence": "mittel",
+  "summary": "Das Objekt bietet mit rund 198 m² Wohnfläche, sieben Zimmern, 1.335 m² Grundstück, separatem Nebengebäude und langem Carport ein überdurchschnittlich großzügiges Nutzungspaket. Die Außenansichten wirken ordentlich gepflegt: Fassade, Garten, Zufahrt, Balkon und Nebengebäude zeigen keine klar erkennbaren akuten Großschäden. Positiv sind außerdem die ländliche, offene Lage, die gute Nutzbarkeit der Außenflächen und die vermutlich vorhandene Photovoltaikanlage am Nebengebäude. Deutliche Abzüge entstehen durch den energetisch schwachen Kennwert von HWB 186 und fGEE 2,02 sowie durch die fehlenden Angaben zu Heizung, Baujahr, Innenausstattung, Keller, Leitungen und Genehmigungen. Der Angebotspreis von 398.000 Euro ist daher nur dann überzeugend, wenn Innenräume und Haustechnik ähnlich gepflegt sind und bei Dach, Heizung und Feuchtigkeit kein größerer Sanierungsstau besteht.",
+  "positive_findings": [
+    "Gesichert: 198 m² Wohnfläche und sieben Zimmer bieten viel Platz für Familie, Homeoffice oder Mehrgenerationennutzung.",
+    "Gesichert: Das Grundstück mit 1.335 m² bietet großzügige Garten- und Freizeitflächen.",
+    "Gesichert: Separates Nebengebäude, Garage beziehungsweise Werkstattflächen und Langcarport erhöhen den praktischen Nutzwert deutlich.",
+    "Gesichert aus den Bildern: Hauptfassade, Außenanlagen, Zufahrt, Balkon und Garten wirken insgesamt ordentlich gepflegt.",
+    "Gesichert aus den Bildern: Der Garten ist eben bis leicht geneigt und mit Pool, Spielbereich, Rasen und befestigten Flächen gut nutzbar.",
+    "Abgeleitet: Die große Modulfläche auf dem Dach des Nebengebäudes dürfte eine Photovoltaikanlage sein und könnte die laufenden Energiekosten reduzieren; Leistung, Eigentum und Ertrag sind zu prüfen.",
+    "Abgeleitet: Die offene ländliche Lage und die im Inserat genannte Sackgasse sprechen für wenig Durchzugsverkehr und gute Besonnung.",
+    "Gesichert aus den Bildern: Mehrere überdachte Stellplätze sowie geschlossene Abstell- und Werkstattbereiche sind vorhanden."
+  ],
+  "risk_findings": [
+    "Gesichert: HWB 186 und fGEE 2,02 weisen auf einen deutlich unterdurchschnittlichen energetischen Standard hin.",
+    "Unsicher: Heizsystem, Alter der Heizung, Warmwasserbereitung und tatsächlicher Jahresverbrauch fehlen vollständig.",
+    "Unsicher: Im Export sind keine Innenaufnahmen von Küche, Bädern, Wohnräumen, Keller oder Technikraum enthalten; der Modernisierungsgrad innen ist nicht beurteilbar.",
+    "Abgeleitet aus den Bildern: Die Dachdeckung des Haupthauses wirkt nicht neu und zeigt stellenweise Alterung beziehungsweise Bewuchs; Restlebensdauer und Unterdach müssen fachlich geprüft werden.",
+    "Unsicher: Baujahr, Sanierungsjahre, Fensteralter, Dämmung, Elektroinstallation und Leitungen sind nicht dokumentiert.",
+    "Unsicher: Baurechtlicher Konsens für Nebengebäude, Langcarport, Pool, Dachanlage und allfällige spätere Umbauten ist nicht belegt.",
+    "Abgeleitet: Die offene Feld- beziehungsweise Tallage kann Themen wie Oberflächenwasser, Grundwasser, Nebel oder Hochwasserrelevanz mit sich bringen; dafür gibt es aus den Bildern keinen Nachweis, eine Standortprüfung ist aber erforderlich.",
+    "Abgeleitet: Das Nebengebäude wirkt funktional, jedoch teilweise älter und einfach ausgebaut; Dach, Holzbauteile, Elektroinstallation und Feuchteschutz sollten separat bewertet werden.",
+    "Unsicher: Die tatsächliche Verkehrssituation der Sackgasse, landwirtschaftlicher Verkehr und mögliche Geruchs- oder Lärmbelastung sind nicht erkennbar."
+  ],
+  "estimated_investment_eur": {
+    "low": 35000,
+    "high": 125000,
+    "confidence": "niedrig",
+    "comment": "Die Spanne umfasst eine mögliche Erneuerung beziehungsweise Optimierung von Heizung und Warmwasser, kleinere Dach- und Fassadenarbeiten, technische Nachbesserungen sowie eine teilweise Innenmodernisierung. Bei gutem Innenzustand und jüngerer Heizung kann der Bedarf darunter liegen. Falls Dach, Fenster, Elektro, Sanitär oder umfassende Dämmmaßnahmen notwendig sind, kann er deutlich darüber liegen. Kaufnebenkosten sind nicht enthalten."
+  },
+  "address_hints": [
+    {
+      "hint": "Gemeindegebiet 8552 Eibiswald",
+      "basis": "Die Ortsangabe ist im Inserat und in den extrahierten Daten enthalten.",
+      "confidence": "hoch"
+    },
+    {
+      "hint": "Ländliche Rand- oder Streusiedlungslage an einer kleinen Zufahrtsstraße mit offenen Wiesenflächen",
+      "basis": "Mehrere Außenbilder zeigen Felder, lockere Bebauung, eine schmale lokale Straße und eine weitgehend freie Aussicht; das Inserat nennt eine sonnige Sackgassenlage.",
+      "confidence": "mittel"
+    },
+    {
+      "hint": "Eher ebene bis leicht geneigte Tal- beziehungsweise Beckenlage als steile Hanglage",
+      "basis": "Grundstück, Zufahrt und angrenzende Wiesen wirken auf den Bildern überwiegend eben; die weitere Umgebung steigt teilweise bewaldet an.",
+      "confidence": "mittel"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/01.jpg",
+      "area": "Gesamt- und Umgebungslage",
+      "condition": "Das Anwesen liegt in offener, ländlicher Umgebung mit Wiesen, lockerer Bebauung und bewaldeten Höhen im Hintergrund.",
+      "positive": ["Großzügige freie Umgebung", "Gute Einsehbarkeit der Gesamtanlage", "Haupt- und Nebengebäude sind klar voneinander getrennt"],
+      "risks": ["Exakte Lage, Hochwasser- und Oberflächenwassersituation sind aus dem Bild nicht beurteilbar", "Landwirtschaftliche Immissionen sind möglich, aber nicht nachgewiesen"],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/02.jpg",
+      "area": "Zufahrt und Grundstückseingang",
+      "condition": "Befestigte Zufahrt mit Toranlage, Hecke und weitgehend ebener Einfahrt.",
+      "positive": ["Gut befahrbare, asphaltierte Zufahrt", "Keine steile oder auffällig enge Einfahrt erkennbar", "Abgrenzung durch Hecke und Tor"],
+      "risks": ["Eigentumsgrenzen, Zufahrtsrecht und Winterdienst sind nicht erkennbar", "Breite für größere Fahrzeuge sollte vor Ort geprüft werden"],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/03.jpg",
+      "area": "Haupthaus, Straßenseite und Dach",
+      "condition": "Fassade und Fenster wirken gepflegt, das geneigte Dach erscheint älter, jedoch ohne klar sichtbare akute Schadstelle.",
+      "positive": ["Gleichmäßige Fassade ohne deutlich sichtbare große Risse", "Ordentliche Dachrinnen und Dachüberstände", "Großer überdachter Balkon"],
+      "risks": ["Dachdeckung zeigt Alterung beziehungsweise Bewuchs", "Restlebensdauer von Dach, Unterdach und Kaminköpfen ist nicht beurteilbar", "Haus liegt unmittelbar an einer kleinen Straße; tatsächliche Verkehrsbelastung prüfen"],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/04.jpg",
+      "area": "Nebengebäude, Dachanlage und Garten",
+      "condition": "Das Nebengebäude wirkt funktional und gepflegt, mit großer Modulfläche am Dach und zusätzlichen überdachten Bereichen.",
+      "positive": ["Hoher Nutzwert als Werkstatt, Lager oder Freizeitgebäude", "Große mutmaßliche Photovoltaikfläche", "Gepflegter Rasen und gute Erreichbarkeit"],
+      "risks": ["Alter und Dichtheit des Daches unter den Modulen sind nicht beurteilbar", "Genehmigung, technische Dokumentation und Eigentum der Anlage prüfen", "Holzbauteile und seitliche Verkleidungen benötigen regelmäßigen Unterhalt"],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/05.jpg",
+      "area": "Garten- und befestigte Außenflächen",
+      "condition": "Strukturierter Garten mit Pflanzbeeten, befestigten Flächen und gepflegter Einfriedung.",
+      "positive": ["Gut nutzbare, ebene Außenflächen", "Bestehende Gartenstruktur reduziert sofortigen Gestaltungsbedarf"],
+      "risks": ["Entwässerung der befestigten Flächen und Zustand der Pflasterfugen sind vor Ort zu prüfen", "Pflegeaufwand für Hecken und Garten ist relativ hoch"],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/06.jpg",
+      "area": "Haupthaus und Fernwirkung",
+      "condition": "Das Gebäude wirkt aus der Distanz gepflegt und liegt frei an Grünflächen.",
+      "positive": ["Gute Besonnung und freie Sicht", "Keine auffällige Verformung oder große Fassadenschäden erkennbar"],
+      "risks": ["Witterungsexposition ist durch die freie Lage erhöht", "Lagebezogene Naturgefahren sind aus dem Bild nicht sicher ableitbar"],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/07.jpg",
+      "area": "Freizeitgarten mit Pool und Spielbereich",
+      "condition": "Gepflegte Rasenfläche mit Aufstellpool und Kinderspielgerät.",
+      "positive": ["Familienfreundlicher, sofort nutzbarer Garten", "Ausreichend Platz für Freizeitnutzung"],
+      "risks": ["Aufstellpool und Spielgerät haben nur begrenzten dauerhaften Immobilienwert", "Sicherheit, Untergrund und allfällige Genehmigung des Pools prüfen"],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/08.jpg",
+      "area": "Zufahrt, Haupthaus und Nebengebäude",
+      "condition": "Gesamtanlage wirkt ordentlich erschlossen und räumlich gut organisiert.",
+      "positive": ["Kurze Wege zwischen Wohnhaus, Garage und Carport", "Mehrere Stell- und Abstellmöglichkeiten", "Gepflegte Einfriedung"],
+      "risks": ["Befahrbarkeit mit größeren Fahrzeugen und Wendefläche vor Ort prüfen", "Grenzabstände und baurechtlicher Konsens der Nebengebäude sind unbekannt"],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/09.jpg",
+      "area": "Langcarport",
+      "condition": "Überdachte Stellfläche mit sichtbarer Holzkonstruktion; keine klare akute Durchbiegung oder Beschädigung erkennbar.",
+      "positive": ["Mehrere wettergeschützte Stellplätze", "Zusätzliche Beleuchtung vorhanden"],
+      "risks": ["Holzschutz, Dachabdichtung, Anschlüsse und Fundamentierung fachlich prüfen", "Genehmigung und Schneelastnachweis sind nicht dokumentiert"],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/10.jpg",
+      "area": "Nebengebäude, Garage und Werkstatt",
+      "condition": "Massiv wirkendes Nebengebäude mit mehreren Zugängen, offener Garage beziehungsweise Werkstatt und angebautem Carport.",
+      "positive": ["Sehr hoher Nutzwert für Lager, Hobby, Werkstatt oder Fahrzeuge", "Befestigte Vorfläche und gute Zufahrt", "Außenfassade wirkt ordentlich"],
+      "risks": ["Innenzustand, Bodenaufbau, Feuchtigkeit und Elektroinstallation sind nicht beurteilbar", "Nutzung als Aufenthalts- oder Wohnraum wäre gesondert genehmigungs- und ausstattungsabhängig"],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/11.jpg",
+      "area": "Balkon und Aussicht",
+      "condition": "Großer überdachter, gefliester Balkon mit Metallgeländer und freiem Blick über Wiesen.",
+      "positive": ["Attraktive Aussicht", "Witterungsgeschützter Außenbereich", "Belag und Geländer wirken gepflegt"],
+      "risks": ["Abdichtung, Gefälle, Frostschäden und Geländerbefestigung sind bildlich nicht sicher prüfbar", "Agrarische Nutzung der angrenzenden Flächen kann saisonale Immissionen verursachen"],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/12.jpg",
+      "area": "Rück- beziehungsweise Seitenfassade",
+      "condition": "Fassade, Sockel und Rasen wirken sauber und gepflegt; keine klaren Feuchtespuren oder großen Risse sichtbar.",
+      "positive": ["Ordentlicher äußerer Gesamtzustand", "Gepflegte Grünfläche direkt am Haus", "Großer Dachüberstand schützt die Fassade"],
+      "risks": ["Feuchtigkeit im Sockel oder Keller kann anhand eines trockenen Außenfotos nicht ausgeschlossen werden", "Wärmedämmung und Fensterqualität sind optisch nicht verlässlich feststellbar"],
+      "confidence": "mittel"
+    }
+  ],
+  "recommendation": "Das Objekt ist wegen seiner Größe, der gepflegten Außenwirkung, des großen Nebengebäudes und der ländlichen Lage grundsätzlich besichtigungswürdig. Vor einer Preisentscheidung sollten jedoch Innenräume, Keller und Haustechnik vollständig dokumentiert und die energetischen Schwächen konkret bepreist werden. Ein Kauf ist aus heutiger Sicht nur dann empfehlenswert, wenn Heizung, Dach und Leitungen keinen größeren kurzfristigen Sanierungsbedarf zeigen, sämtliche Nebengebäude und Dachanlagen genehmigt sind und sich der Preis nach Abzug eines realistischen Energie- und Modernisierungsbudgets noch trägt. Ohne diese Nachweise sollte das Objekt trotz guter Außenwirkung nicht vorschnell als bezugsfertig bewertet werden.",
+  "next_steps": [
+    "Vollständiges Exposé, Grundrisse und sämtliche Innenaufnahmen anfordern; besonders Küche, Bäder, Keller, Technikraum und Dachraum prüfen.",
+    "Heizungsart, Baujahr der Anlage, Warmwasserbereitung, letzte Wartungen und reale Energieverbräuche der letzten drei Jahre anfordern.",
+    "Vollständigen Energieausweis prüfen und konkrete Angebote für Heizung, Dämmung, Fenster beziehungsweise oberste Geschoßdecke einholen.",
+    "Dach des Haupthauses und Nebengebäudes inklusive Unterdach, Kaminen, Dachrinnen und Anschlüssen durch einen Fachbetrieb prüfen lassen.",
+    "Elektroinstallation, Wasser- und Abwasserleitungen, Sicherungskasten und allfällige Altmaterialien technisch überprüfen.",
+    "Keller, Sockelzonen und Nebengebäude auf Feuchtigkeit, Geruch, Salzbelastung und Schimmelspuren kontrollieren.",
+    "Baubescheide, Einreichpläne und Benützungsbewilligungen für Wohnhaus, Nebengebäude, Langcarport, Pool und Dachanlage abgleichen.",
+    "Grundbuch, Servitute, Grundstücksgrenzen, Zufahrtsrecht und allfällige Leitungsrechte prüfen.",
+    "Hochwasser-, Hangwasser- und Oberflächenwasserkarten sowie die Entwässerung des Grundstücks prüfen.",
+    "Bei einer Besichtigung Verkehr, landwirtschaftliche Immissionen, Besonnung und Lärmniveau zu mehreren Tageszeiten beurteilen.",
+    "Photovoltaikanlage auf Leistung, Alter, Ertrag, Förderbindung, Speicher, Einspeisevertrag und Eigentumsverhältnisse prüfen.",
+    "Vor Verhandlung einen unabhängigen Bausachverständigen beiziehen und aus dessen Befund ein verbindliches Sanierungsbudget ableiten."
+  ],
+  "score_reasoning": "67 von 100 Punkten: Deutliche Pluspunkte entstehen durch 198 m² Wohnfläche, sieben Zimmer, 1.335 m² Grund, die gepflegte Außenwirkung, den großen Garten, mehrere Stellplätze sowie das separate Nebengebäude mit vermutlich vorhandener Photovoltaik. Der Score bleibt dennoch im Bereich 'prüfen', weil HWB 186 und fGEE 2,02 energetisch klar schwach sind und wesentliche Informationen zu Heizung, Baujahr, Innenausstattung, Keller, Leitungen, Dachaufbau und Genehmigungen fehlen. Der Angebotspreis kann daher ohne Innen- und Technikprüfung nicht als günstig oder marktgerecht bestätigt werden. Bei nachweislich gutem Innenzustand und jüngerer Haustechnik wäre eine höhere Bewertung möglich; bei Sanierungsstau kann sie deutlich sinken.",
+  "limitations": [
+    "Im Paket sind nur zwölf exportierte Bilder enthalten, obwohl 105 Medien gezählt werden; die Auswahl kann wichtige Innen- oder Detailansichten auslassen.",
+    "Die vorliegenden Bilder zeigen praktisch nur Außenbereiche, Garten, Nebengebäude und Carport.",
+    "Baujahr, Sanierungsjahre, Heizungsart und tatsächliche Betriebskosten fehlen.",
+    "Es liegen keine Grundrisse, Baubescheide, Genehmigungen, Grundbuchdaten oder technischen Prüfberichte vor.",
+    "Keine belastbare Aussage zu Feuchtigkeit, Statik, Schadstoffen, Elektro, Sanitär oder Dachunterkonstruktion ist anhand der Bilder möglich.",
+    "Die genaue Adresse ist nicht bekannt; Lage-, Verkehrs- und Naturgefahrenprüfung ist daher nur allgemein möglich.",
+    "Es wurde keine aktuelle Marktpreis- oder Vergleichsobjektanalyse durchgeführt.",
+    "Die Investitionsschätzung ist wegen fehlender Innen- und Technikdaten nur eine grobe Bandbreite."
+  ]
+}
