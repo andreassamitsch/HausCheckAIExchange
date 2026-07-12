@@ -1,0 +1,284 @@
+{
+  "kind": "hauscheck_base64_image_test",
+  "version": 1,
+  "created_at": "2026-07-12T18:29:16.617364+00:00",
+  "house_id": "69e948cf",
+  "repo": "andreassamitsch/HausCheckAIExchange",
+  "branch": "main",
+  "base_dir": "ai_exchange/tests/base64/69e948cf",
+  "options": {
+    "path": "ai_exchange/tests/base64",
+    "image_limit": 1,
+    "image_max_size": 1800,
+    "image_quality": 90,
+    "chunk_size": 40000
+  },
+  "house": {
+    "id": "69e948cf",
+    "title": "Wohnen und Leben dort wo die andere gerne Urlaub machen, 240 m², € 249.000,-, (8454 Arnfels) - willhaben",
+    "status": "new",
+    "location_text": "8454 Arnfels",
+    "address_status": "municipality_only",
+    "price_eur": 249000,
+    "living_area_m2": 240.0,
+    "plot_area_m2": 2500.0,
+    "rooms": 2.0,
+    "year_built": null,
+    "heating": null,
+    "energy_hwb": null,
+    "energy_fgee": null,
+    "energy_class_hwb": null,
+    "energy_class_fgee": null,
+    "notes": null,
+    "created_at": "2026-07-11T17:44:50.399820+00:00",
+    "updated_at": "2026-07-11T17:44:50.439340+00:00"
+  },
+  "sources": [
+    {
+      "source_name": "willhaben.at",
+      "source_url": "https://www.willhaben.at/iad/immobilien/d/haus-kaufen/steiermark/leibnitz/wohnen-und-leben-dort-wo-die-andere-gerne-urlaub-machen-2035409583",
+      "external_id": "2035409583",
+      "description": "Wohnen und Leben dort wo die andere gerne Urlaub machen. Wählen Sie aus 113.814 Angeboten. Immobilien suchen und finden auf willhaben.",
+      "parser_status": "success",
+      "parser_warnings": "[]"
+    }
+  ],
+  "evidence": [
+    {
+      "field_name": "title",
+      "value_text": "Wohnen und Leben dort wo die andere gerne Urlaub machen, 240 m², € 249.000,-, (8454 Arnfels) - willhaben",
+      "source_label": "og:title/title",
+      "source_text_snippet": "Wohnen und Leben dort wo die andere gerne Urlaub machen, 240 m², € 249.000,-, (8454 Arnfels) - willhaben",
+      "confidence": "verified"
+    },
+    {
+      "field_name": "description",
+      "value_text": "Wohnen und Leben dort wo die andere gerne Urlaub machen. Wählen Sie aus 113.814 Angeboten. Immobilien suchen und finden auf willhaben.",
+      "source_label": "og:description",
+      "source_text_snippet": "Wohnen und Leben dort wo die andere gerne Urlaub machen. Wählen Sie aus 113.814 Angeboten. Immobilien suchen und finden auf willhaben.",
+      "confidence": "derived"
+    },
+    {
+      "field_name": "price_eur",
+      "value_text": "249000",
+      "source_label": "text/price",
+      "source_text_snippet": "Kaufpreis/€ im Seitentext",
+      "confidence": "derived"
+    },
+    {
+      "field_name": "living_area_m2",
+      "value_text": "240.0",
+      "source_label": "explicit living area label",
+      "source_text_snippet": "Wohnfläche 240 m",
+      "confidence": "verified"
+    },
+    {
+      "field_name": "plot_area_m2",
+      "value_text": "2500.0",
+      "source_label": "explicit plot area label",
+      "source_text_snippet": "Grundfläche 2.500 m",
+      "confidence": "verified"
+    },
+    {
+      "field_name": "rooms",
+      "value_text": "2.0",
+      "source_label": "Zimmer label",
+      "source_text_snippet": "Zimmer 2",
+      "confidence": "derived"
+    },
+    {
+      "field_name": "location_text",
+      "value_text": "8454 Arnfels",
+      "source_label": "postal code text",
+      "source_text_snippet": "8454 Arnfels",
+      "confidence": "derived"
+    }
+  ],
+  "import_schema": {
+    "type": "object",
+    "required": [
+      "house_id",
+      "analysis_date",
+      "new_score",
+      "confidence",
+      "summary",
+      "recommendation"
+    ],
+    "properties": {
+      "house_id": {
+        "const": "69e948cf"
+      },
+      "analysis_date": {
+        "type": "string",
+        "description": "ISO-Datum oder ISO-Zeitpunkt"
+      },
+      "new_score": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 100
+      },
+      "confidence": {
+        "enum": [
+          "niedrig",
+          "mittel",
+          "hoch"
+        ]
+      },
+      "summary": {
+        "type": "string"
+      },
+      "positive_findings": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "risk_findings": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "estimated_investment_eur": {
+        "type": "object",
+        "properties": {
+          "low": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "high": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "confidence": {
+            "enum": [
+              "niedrig",
+              "mittel",
+              "hoch"
+            ]
+          },
+          "comment": {
+            "type": "string"
+          }
+        }
+      },
+      "address_hints": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "hint": {
+              "type": "string"
+            },
+            "basis": {
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "niedrig",
+                "mittel",
+                "hoch"
+              ]
+            }
+          }
+        }
+      },
+      "image_findings": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "image": {
+              "type": "string"
+            },
+            "area": {
+              "type": "string"
+            },
+            "condition": {
+              "type": "string"
+            },
+            "positive": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "risks": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "confidence": {
+              "enum": [
+                "niedrig",
+                "mittel",
+                "hoch"
+              ]
+            }
+          }
+        }
+      },
+      "recommendation": {
+        "type": "string"
+      },
+      "next_steps": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "score_reasoning": {
+        "type": "string"
+      },
+      "limitations": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "index": 1,
+      "media_id": "fa1663c2",
+      "original_url": "https://cache.willhaben.at/mmo/3/203/540/9583_1284889939.jpg",
+      "source_local_path": "/share/hauscheck/projects/69e948cf/images/fa1663c2_9583_1284889939.jpg",
+      "mime_type": "image/jpeg",
+      "output_file": "image_01.jpg",
+      "base64_chars": 453624,
+      "chunk_count": 12,
+      "chunks": [
+        "ai_exchange/tests/base64/69e948cf/images/01/part_001.txt",
+        "ai_exchange/tests/base64/69e948cf/images/01/part_002.txt",
+        "ai_exchange/tests/base64/69e948cf/images/01/part_003.txt",
+        "ai_exchange/tests/base64/69e948cf/images/01/part_004.txt",
+        "ai_exchange/tests/base64/69e948cf/images/01/part_005.txt",
+        "ai_exchange/tests/base64/69e948cf/images/01/part_006.txt",
+        "ai_exchange/tests/base64/69e948cf/images/01/part_007.txt",
+        "ai_exchange/tests/base64/69e948cf/images/01/part_008.txt",
+        "ai_exchange/tests/base64/69e948cf/images/01/part_009.txt",
+        "ai_exchange/tests/base64/69e948cf/images/01/part_010.txt",
+        "ai_exchange/tests/base64/69e948cf/images/01/part_011.txt",
+        "ai_exchange/tests/base64/69e948cf/images/01/part_012.txt"
+      ],
+      "original_file_name": "fa1663c2_9583_1284889939.jpg",
+      "original_size_bytes": 340218,
+      "export_format": "original_jpeg",
+      "max_size": 1800,
+      "quality": 90,
+      "original_width": 900,
+      "original_height": 1200,
+      "original_mode": "RGB",
+      "export_width": 900,
+      "export_height": 1200
+    }
+  ],
+  "decode_instruction": "Concatenate chunks in listed order, base64-decode to output_file, then open as JPEG.",
+  "decode_python": "b64=''.join(Path(p).read_text().strip() for p in image['chunks']); Path(image['output_file']).write_bytes(base64.b64decode(b64))"
+}
