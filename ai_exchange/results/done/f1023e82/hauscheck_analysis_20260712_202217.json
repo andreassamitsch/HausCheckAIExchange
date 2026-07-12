@@ -1,0 +1,236 @@
+{
+  "house_id": "f1023e82",
+  "analysis_date": "2026-07-11T13:30:00+02:00",
+  "new_score": 58,
+  "confidence": "mittel",
+  "summary": "Großes, sichtbar gepflegtes Wohnhaus mit 240 m² Wohnfläche, 1.461 m² Grundstück, schön angelegtem Garten, Balkonen, Garage und Carport. Die Außenansichten vermitteln einen ordentlichen Erhaltungszustand ohne klar erkennbare akute Schäden. Innen zeigen die verfügbaren Bilder jedoch einen deutlich älteren Ausstattungsstand, insbesondere bei Bad, Holzdecken, Bodenbelägen und Treppenhaus. Der bestätigte HWB von 176 kWh/m²a und fGEE 2,28 sprechen für eine energetisch schwache Immobilie. Das Objekt ist grundsätzlich interessant für Käufer mit hohem Platzbedarf, sollte wegen Energiezustand, Haustechnik, möglicher Dach-/Fassadenarbeiten und fehlender Innenraumdokumentation aber nur nach genauer technischer Prüfung und mit erheblicher Modernisierungsreserve weiterverfolgt werden.",
+  "positive_findings": [
+    "Gesichert: 240 m² Wohnfläche, 8 Zimmer und 1.461 m² Grundstück bieten sehr viel Platz.",
+    "Gesichert: Außenanlagen und Garten wirken auf den Bildern sehr gepflegt und gut nutzbar.",
+    "Gesichert: Garage, Carport und mehrere Balkone sind sichtbar vorhanden.",
+    "Gesichert: Fassade, Fensterumrahmungen und Dachflächen zeigen auf den verfügbaren Außenbildern keine eindeutig erkennbaren akuten Großschäden.",
+    "Abgeleitet: Die Immobilie scheint laufend gepflegt worden zu sein, auch wenn der Ausstattungsstandard überwiegend älter ist.",
+    "Gesichert: Die Lage wirkt grün, locker bebaut und mit weitem Ausblick in Richtung Ortsrand beziehungsweise Hanglage."
+  ],
+  "risk_findings": [
+    "Gesichert: HWB 176 kWh/m²a und fGEE 2,28 bedeuten einen klar unterdurchschnittlichen energetischen Zustand.",
+    "Gesichert: Bad, Holzdecken, Teppich-/Bodenbeläge, Türen und Teile des Treppenhauses entsprechen sichtbar einem älteren Ausstattungsstandard.",
+    "Abgeleitet: Bei 240 m² Wohnfläche können Heiz- und laufende Instandhaltungskosten deutlich über einem durchschnittlichen Einfamilienhaus liegen.",
+    "Unsicher: Alter, Energieträger und technischer Zustand der Heizung sind aus dem Inserat nicht verlässlich ableitbar; Bild 12 zeigt zwar eine umfangreiche Heizungs-/Verteilerinstallation, aber keine sichere Systemidentifikation.",
+    "Unsicher: Dachaufbau, Dämmung, Fensteralter, Elektrik, Leitungen und Abdichtung des Kellers sind anhand der Bilder nicht ausreichend beurteilbar.",
+    "Unsicher: Von insgesamt 93 Medien wurden nur 12 Bilder exportiert; Küche, weitere Bäder, Kellerbereiche und zahlreiche Wohnräume fehlen in der vorliegenden Auswahl.",
+    "Abgeleitet: Der Kaufpreis von 395.000 Euro ist nur dann plausibel, wenn Gebäudehülle und Haustechnik technisch besser sind, als der Energiekennwert vermuten lässt, oder wenn Lage und Grundstück besonders hochwertig sind."
+  ],
+  "estimated_investment_eur": {
+    "low": 80000,
+    "high": 180000,
+    "confidence": "niedrig",
+    "comment": "Sehr grobe Reserve für schrittweise Innenmodernisierung, Bad/Böden/Oberflächen, mögliche Heizungsoptimierung und energetische Maßnahmen. Bei notwendigem Fenstertausch, Fassadendämmung, Dachsanierung, kompletter Heizungsumstellung oder Erneuerung von Elektrik und Leitungen kann der Bedarf auch darüber liegen. Ohne Baujahr, Heizungstyp, Sanierungshistorie, Pläne und vollständige Innenbilder ist keine belastbare Kostenschätzung möglich."
+  },
+  "address_hints": [
+    {
+      "hint": "Gemeindegebiet 8552 Eibiswald, wahrscheinlich grüne Ortsrand- oder leicht erhöhte Lage",
+      "basis": "Inseratsangabe 8552 Eibiswald sowie Bilder 05 und 07 mit Blick über Grünflächen, lockerer Bebauung und bewaldeten Hängen",
+      "confidence": "mittel"
+    },
+    {
+      "hint": "Keine belastbare Straßen- oder Ortsteilzuordnung möglich",
+      "basis": "Die Bilder enthalten keine eindeutig lesbaren Straßenschilder, Hausnummern oder markanten Identifikationspunkte",
+      "confidence": "hoch"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/01.jpg",
+      "area": "Außenansicht und Garten",
+      "condition": "Gepflegtes Wohnhaus mit älterer Gestaltung, dichtem Baumbestand und ordentlich angelegtem Vorgarten.",
+      "positive": [
+        "Fassade wirkt sauber",
+        "Garten sichtbar gepflegt",
+        "Balkon vorhanden"
+      ],
+      "risks": [
+        "Starker Bewuchs kann Bauteile beschatten",
+        "Sockel- und Fassadenzustand nur oberflächlich beurteilbar"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/02.jpg",
+      "area": "Grundstück und Garten",
+      "condition": "Große ebene beziehungsweise leicht geneigte Grünfläche mit Obst- und Zierbäumen.",
+      "positive": [
+        "Sehr gut nutzbare Gartenfläche",
+        "Gepflegter Gesamteindruck"
+      ],
+      "risks": [
+        "Pflegeaufwand bei 1.461 m² Grundstück",
+        "Entwässerung und Grundstücksgrenzen nicht erkennbar"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/03.jpg",
+      "area": "Hauptfassade",
+      "condition": "Ordentliche, traditionell gestaltete Fassade mit Holzbalustraden und älteren Fenstern beziehungsweise Rollläden.",
+      "positive": [
+        "Keine klaren Risse oder Abplatzungen sichtbar",
+        "Großer Balkon"
+      ],
+      "risks": [
+        "Alter und Dämmstandard der Fenster unklar",
+        "Holzbalkone auf Feuchte und Tragfähigkeit prüfen"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/04.jpg",
+      "area": "Seitenfassade, Balkon und Garage",
+      "condition": "Gepflegter Eindruck, Garage im Sockelbereich und große Balkonfläche.",
+      "positive": [
+        "Garage vorhanden",
+        "Fassade optisch ordentlich"
+      ],
+      "risks": [
+        "Abdichtung von Garage/Sockel gegen Erdfeuchte prüfen",
+        "Balkonanschlüsse und Geländer technisch kontrollieren"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/05.jpg",
+      "area": "Ausblick und Umgebung",
+      "condition": "Grüne, locker bebaute Umgebung mit Blick auf bewaldete Hänge.",
+      "positive": [
+        "Ruhig und naturnah wirkende Lage",
+        "Freier Ausblick"
+      ],
+      "risks": [
+        "Verkehr, Zufahrt, Hangwasser und tatsächliche Besonnung nicht bewertbar"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/06.jpg",
+      "area": "Zufahrt, Garage und Carport",
+      "condition": "Befestigte Zufahrt mit Garage und überdachtem Stellplatz.",
+      "positive": [
+        "Mehrere Stellmöglichkeiten",
+        "Direkter wettergeschützter Zugang möglich"
+      ],
+      "risks": [
+        "Breite, Gefälle und Wintertauglichkeit der Zufahrt vor Ort prüfen",
+        "Dachentwässerung des Carports nicht erkennbar"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/07.jpg",
+      "area": "Balkonblick",
+      "condition": "Guter Grün- und Fernblick; Grundstück wirkt großzügig.",
+      "positive": [
+        "Hohe Wohnqualität durch Aussicht",
+        "Viel Grün"
+      ],
+      "risks": [
+        "Balkonabdichtung und Holzkonstruktion nicht prüfbar"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/08.jpg",
+      "area": "Badezimmer",
+      "condition": "Sehr sauber wirkendes, aber deutlich veraltetes Bad mit boden- und wandhohen Fliesen, älteren Sanitärobjekten und kleiner Wanne.",
+      "positive": [
+        "Sauberer und gepflegter Eindruck",
+        "Tageslicht scheint vorhanden"
+      ],
+      "risks": [
+        "Modernisierung wahrscheinlich",
+        "Abdichtung, Leitungen und Untergrund wegen Alters prüfen",
+        "Barrierefreiheit gering"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/09.jpg",
+      "area": "Schlafzimmer im Dachgeschoss",
+      "condition": "Gepflegter, aber älterer Ausbau mit Holzdecke, Dachschräge und Teppichboden.",
+      "positive": [
+        "Heller Raum",
+        "Balkon- oder Terrassentür vorhanden"
+      ],
+      "risks": [
+        "Dämmstandard des Daches unklar",
+        "Teppich und Oberflächen modernisierungsbedürftig",
+        "Anschlussbereiche der Dachschräge auf Feuchte prüfen"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/10.jpg",
+      "area": "Weiteres Zimmer im Dachgeschoss",
+      "condition": "Ordentlich und nutzbar, aber gestalterisch älter mit Holzdecke und gemischten Bodenoberflächen.",
+      "positive": [
+        "Großzügige Nutzbarkeit",
+        "Gepflegter Eindruck"
+      ],
+      "risks": [
+        "Energetischer Dachaufbau nicht beurteilbar",
+        "Modernisierungsbedarf bei Oberflächen"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/11.jpg",
+      "area": "Treppenhaus",
+      "condition": "Massive Holztreppe mit älterer Gestaltung; keine offensichtlichen Schäden sichtbar.",
+      "positive": [
+        "Solide wirkende Konstruktion",
+        "Tageslicht über Glasbausteine"
+      ],
+      "risks": [
+        "Geländerhöhe und Absturzsicherheit prüfen",
+        "Viele Stufen und fehlende Barrierefreiheit",
+        "Elektrik und Oberflächenalter unklar"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/12.jpg",
+      "area": "Technik-/Kellerraum",
+      "condition": "Umfangreiche, sichtbar nachgerüstete beziehungsweise modernisierte Rohr-, Verteiler- und Steuerungsinstallation; das eigentliche Heizsystem ist nicht eindeutig identifizierbar.",
+      "positive": [
+        "Installationen wirken geordnet",
+        "Rohrleitungen sind teilweise gedämmt",
+        "Keine klar sichtbare Feuchte an den gezeigten Wänden"
+      ],
+      "risks": [
+        "Hersteller, Alter, Leistung und Energieträger unbekannt",
+        "Wartungsnachweise und hydraulisches Schema verlangen",
+        "Offene Kellerdecke und technische Ausführung durch Fachbetrieb prüfen"
+      ],
+      "confidence": "mittel"
+    }
+  ],
+  "recommendation": "Weiter prüfen, aber nicht ohne technische Besichtigung und ausreichend Modernisierungsbudget kaufen. Das Haus punktet mit Platz, Grundstück und gepflegtem Erscheinungsbild; Energiekennwerte und veraltete Innenausstattung drücken die Bewertung deutlich. Ein Angebot sollte erst nach Klärung von Heizung, Fensteralter, Dachaufbau, Kellerfeuchte, Elektrik, Leitungen und Sanierungshistorie abgegeben werden. Bei größeren ungeklärten Gewerken wäre ein deutlicher Preisabschlag gegenüber 395.000 Euro erforderlich.",
+  "next_steps": [
+    "Vollständiges Exposé mit allen 93 Medien, Grundrissen, Baujahr, Baubeschreibung und Sanierungsliste anfordern.",
+    "Energieausweis vollständig prüfen: Bezugsfläche, Heizsystem, Warmwasser, Empfehlungen und Ausstellungsdatum.",
+    "Heizung eindeutig identifizieren und Alter, Energieträger, Jahresverbrauch, Wartungen sowie allfällige Reparaturen der letzten Jahre belegen lassen.",
+    "Fenster, Dach, Fassade, Balkone, Garage und Keller mit Bausachverständigem auf Feuchte, Wärmebrücken und Sanierungsbedarf prüfen.",
+    "Elektrik, Wasser- und Abwasserleitungen sowie Sicherungskasten auf Alter und Normzustand prüfen lassen.",
+    "Reale Betriebskosten der letzten drei Jahre inklusive Heizenergie, Strom, Wasser, Versicherung und Gemeindeabgaben anfordern.",
+    "Baubewilligungen, Benützungsbewilligung, Einreichpläne, Grundbuch, Dienstbarkeiten und Übereinstimmung des Bestands mit den Plänen prüfen.",
+    "Vor Preisverhandlung mindestens zwei Szenarien kalkulieren: nur Innenmodernisierung sowie umfassende energetische Sanierung."
+  ],
+  "score_reasoning": "Ausgangspunkt sind die guten Flächenwerte und der sichtbar gepflegte Außenbereich. Positiv wirken außerdem Garten, Stellplätze, Balkone und der insgesamt ordentliche Erhaltungszustand. Deutliche Abzüge entstehen durch den bestätigten HWB 176, den fGEE 2,28, die große beheizte Fläche von 240 m², den sichtbar älteren Innenausbau und die vielen unbekannten technischen Kerndaten. Weil nur 12 von 93 Medien vorliegen und zentrale Bereiche fehlen, bleibt die Sicherheit mittel. Insgesamt ergibt sich 58/100: prüfenswert, aber nur mit technischer Due Diligence und erheblicher Kostenreserve.",
+  "limitations": [
+    "Es wurden nur 12 der laut Paket vorhandenen 93 Medien zur Analyse exportiert.",
+    "Baujahr, Heizungsart, Sanierungsjahre und tatsächlicher Energieverbrauch fehlen.",
+    "Keine Grundrisse, Pläne, Grundbuchdaten, Bauakte oder Betriebskostenabrechnungen vorhanden.",
+    "Bilder erlauben keine verlässliche Prüfung von Statik, Abdichtung, Schadstoffen, Leitungen, Elektrik oder verdeckter Feuchtigkeit.",
+    "Preisbewertung ohne exakte Mikrolage, Widmung, Zufahrt, Dienstbarkeiten und regionalen Vergleichsmarkt nur eingeschränkt möglich."
+  ],
+  "source": "manual_chatgpt_upload"
+}
