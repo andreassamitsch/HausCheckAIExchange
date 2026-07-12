@@ -7,6 +7,7 @@
   "output_file": "image_01.jpg",
   "base64_chars": 217748,
   "chunk_count": 6,
+  "line_length": 4000,
   "chunks": [
     "ai_exchange/tests/base64/56df78a2/images/01/part_001.txt",
     "ai_exchange/tests/base64/56df78a2/images/01/part_002.txt",
@@ -24,5 +25,6 @@
   "original_height": 512,
   "original_mode": "RGB",
   "export_width": 1024,
-  "export_height": 512
+  "export_height": 512,
+  "export_size_bytes": 163310
 }
