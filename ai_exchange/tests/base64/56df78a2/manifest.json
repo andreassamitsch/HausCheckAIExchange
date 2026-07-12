@@ -1,7 +1,7 @@
 {
   "kind": "hauscheck_base64_image_test",
-  "version": 1,
-  "created_at": "2026-07-12T18:27:45.138333+00:00",
+  "version": 2,
+  "created_at": "2026-07-12T19:55:43.077118+00:00",
   "house_id": "56df78a2",
   "repo": "andreassamitsch/HausCheckAIExchange",
   "branch": "main",
@@ -11,7 +11,8 @@
     "image_limit": 1,
     "image_max_size": 1800,
     "image_quality": 90,
-    "chunk_size": 40000
+    "chunk_size": 40000,
+    "line_length": 4000
   },
   "house": {
     "id": "56df78a2",
@@ -246,6 +247,7 @@
       "output_file": "image_01.jpg",
       "base64_chars": 217748,
       "chunk_count": 6,
+      "line_length": 4000,
       "chunks": [
         "ai_exchange/tests/base64/56df78a2/images/01/part_001.txt",
         "ai_exchange/tests/base64/56df78a2/images/01/part_002.txt",
@@ -263,9 +265,10 @@
       "original_height": 512,
       "original_mode": "RGB",
       "export_width": 1024,
-      "export_height": 512
+      "export_height": 512,
+      "export_size_bytes": 163310
     }
   ],
-  "decode_instruction": "Concatenate chunks in listed order, base64-decode to output_file, then open as JPEG.",
-  "decode_python": "b64=''.join(Path(p).read_text().strip() for p in image['chunks']); Path(image['output_file']).write_bytes(base64.b64decode(b64))"
+  "decode_instruction": "Concatenate chunk files in listed order, remove whitespace/newlines, base64-decode to output_file, then open as JPEG.",
+  "decode_python": "raw=''.join(Path(p).read_text() for p in image['chunks']); b64=''.join(raw.split()); Path(image['output_file']).write_bytes(base64.b64decode(b64))"
 }
