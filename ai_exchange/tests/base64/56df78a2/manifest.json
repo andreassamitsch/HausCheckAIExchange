@@ -1,0 +1,271 @@
+{
+  "kind": "hauscheck_base64_image_test",
+  "version": 1,
+  "created_at": "2026-07-12T18:27:45.138333+00:00",
+  "house_id": "56df78a2",
+  "repo": "andreassamitsch/HausCheckAIExchange",
+  "branch": "main",
+  "base_dir": "ai_exchange/tests/base64/56df78a2",
+  "options": {
+    "path": "ai_exchange/tests/base64",
+    "image_limit": 1,
+    "image_max_size": 1800,
+    "image_quality": 90,
+    "chunk_size": 40000
+  },
+  "house": {
+    "id": "56df78a2",
+    "title": "Sanierungsbedürftiges Haus - Vierkanthof mit großem Nebengebäude in Gleinstätten, 140 m², € 349.000,-, (8443 Gleinstätten) - willhaben",
+    "status": "new",
+    "location_text": "8443 Gleinstätten",
+    "address_status": "municipality_only",
+    "price_eur": 349000,
+    "living_area_m2": 140.0,
+    "plot_area_m2": 913.0,
+    "rooms": null,
+    "year_built": null,
+    "heating": null,
+    "energy_hwb": null,
+    "energy_fgee": null,
+    "energy_class_hwb": null,
+    "energy_class_fgee": null,
+    "notes": null,
+    "created_at": "2026-07-12T13:58:11.850990+00:00",
+    "updated_at": "2026-07-12T13:58:11.869575+00:00"
+  },
+  "sources": [
+    {
+      "source_name": "willhaben.at",
+      "source_url": "https://www.willhaben.at/iad/immobilien/d/haus-kaufen/steiermark/leibnitz/sanierungsbeduerftiges-haus-vierkanthof-mit-grossem-nebengebaeude-in-gleinstaetten-1005272292",
+      "external_id": "1005272292",
+      "description": "Sanierungsbedürftiges Haus - Vierkanthof mit großem Nebengebäude in Gleinstätten. Wählen Sie aus 113.577 Angeboten. Immobilien suchen und finden auf willhaben.",
+      "parser_status": "success",
+      "parser_warnings": "[]"
+    }
+  ],
+  "evidence": [
+    {
+      "field_name": "title",
+      "value_text": "Sanierungsbedürftiges Haus - Vierkanthof mit großem Nebengebäude in Gleinstätten, 140 m², € 349.000,-, (8443 Gleinstätten) - willhaben",
+      "source_label": "og:title/title",
+      "source_text_snippet": "Sanierungsbedürftiges Haus - Vierkanthof mit großem Nebengebäude in Gleinstätten, 140 m², € 349.000,-, (8443 Gleinstätten) - willhaben",
+      "confidence": "verified"
+    },
+    {
+      "field_name": "description",
+      "value_text": "Sanierungsbedürftiges Haus - Vierkanthof mit großem Nebengebäude in Gleinstätten. Wählen Sie aus 113.577 Angeboten. Immobilien suchen und finden auf willhaben.",
+      "source_label": "og:description",
+      "source_text_snippet": "Sanierungsbedürftiges Haus - Vierkanthof mit großem Nebengebäude in Gleinstätten. Wählen Sie aus 113.577 Angeboten. Immobilien suchen und finden auf willhaben.",
+      "confidence": "derived"
+    },
+    {
+      "field_name": "price_eur",
+      "value_text": "349000",
+      "source_label": "text/price",
+      "source_text_snippet": "Kaufpreis/€ im Seitentext",
+      "confidence": "derived"
+    },
+    {
+      "field_name": "living_area_m2",
+      "value_text": "140.0",
+      "source_label": "explicit living area label",
+      "source_text_snippet": "Wohnfläche 140 m",
+      "confidence": "verified"
+    },
+    {
+      "field_name": "plot_area_m2",
+      "value_text": "913.0",
+      "source_label": "explicit plot area label",
+      "source_text_snippet": "Grundfläche 913 m",
+      "confidence": "verified"
+    },
+    {
+      "field_name": "location_text",
+      "value_text": "8443 Gleinstätten",
+      "source_label": "postal code text",
+      "source_text_snippet": "8443 Gleinstätten",
+      "confidence": "derived"
+    }
+  ],
+  "import_schema": {
+    "type": "object",
+    "required": [
+      "house_id",
+      "analysis_date",
+      "new_score",
+      "confidence",
+      "summary",
+      "recommendation"
+    ],
+    "properties": {
+      "house_id": {
+        "const": "56df78a2"
+      },
+      "analysis_date": {
+        "type": "string",
+        "description": "ISO-Datum oder ISO-Zeitpunkt"
+      },
+      "new_score": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 100
+      },
+      "confidence": {
+        "enum": [
+          "niedrig",
+          "mittel",
+          "hoch"
+        ]
+      },
+      "summary": {
+        "type": "string"
+      },
+      "positive_findings": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "risk_findings": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "estimated_investment_eur": {
+        "type": "object",
+        "properties": {
+          "low": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "high": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "confidence": {
+            "enum": [
+              "niedrig",
+              "mittel",
+              "hoch"
+            ]
+          },
+          "comment": {
+            "type": "string"
+          }
+        }
+      },
+      "address_hints": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "hint": {
+              "type": "string"
+            },
+            "basis": {
+              "type": "string"
+            },
+            "confidence": {
+              "enum": [
+                "niedrig",
+                "mittel",
+                "hoch"
+              ]
+            }
+          }
+        }
+      },
+      "image_findings": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "image": {
+              "type": "string"
+            },
+            "area": {
+              "type": "string"
+            },
+            "condition": {
+              "type": "string"
+            },
+            "positive": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "risks": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "confidence": {
+              "enum": [
+                "niedrig",
+                "mittel",
+                "hoch"
+              ]
+            }
+          }
+        }
+      },
+      "recommendation": {
+        "type": "string"
+      },
+      "next_steps": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "score_reasoning": {
+        "type": "string"
+      },
+      "limitations": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "index": 1,
+      "media_id": "46e780f9",
+      "original_url": "https://cache.willhaben.at/mmo/2/100/527/2292_-1673796558.jpg",
+      "source_local_path": "/share/hauscheck/projects/56df78a2/images/46e780f9_2292_-1673796558.jpg",
+      "mime_type": "image/jpeg",
+      "output_file": "image_01.jpg",
+      "base64_chars": 217748,
+      "chunk_count": 6,
+      "chunks": [
+        "ai_exchange/tests/base64/56df78a2/images/01/part_001.txt",
+        "ai_exchange/tests/base64/56df78a2/images/01/part_002.txt",
+        "ai_exchange/tests/base64/56df78a2/images/01/part_003.txt",
+        "ai_exchange/tests/base64/56df78a2/images/01/part_004.txt",
+        "ai_exchange/tests/base64/56df78a2/images/01/part_005.txt",
+        "ai_exchange/tests/base64/56df78a2/images/01/part_006.txt"
+      ],
+      "original_file_name": "46e780f9_2292_-1673796558.jpg",
+      "original_size_bytes": 163310,
+      "export_format": "original_jpeg",
+      "max_size": 1800,
+      "quality": 90,
+      "original_width": 1024,
+      "original_height": 512,
+      "original_mode": "RGB",
+      "export_width": 1024,
+      "export_height": 512
+    }
+  ],
+  "decode_instruction": "Concatenate chunks in listed order, base64-decode to output_file, then open as JPEG.",
+  "decode_python": "b64=''.join(Path(p).read_text().strip() for p in image['chunks']); Path(image['output_file']).write_bytes(base64.b64decode(b64))"
+}
