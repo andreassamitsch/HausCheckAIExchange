@@ -1,0 +1,220 @@
+{
+  "house_id": "2fb65e26",
+  "analysis_date": "2026-07-13T21:02:00Z",
+  "new_score": 61,
+  "confidence": "mittel",
+  "summary": "Gepflegtes Ein- oder Zweifamilienhaus in Hörmsdorf/Eibiswald mit 134,5 m² Wohnfläche, sehr großem Grundstück, überdachtem Pool, Wintergarten und zusätzlichem Garagen-/Nebengebäude. Die Außenanlagen und sichtbaren Oberflächen wirken ordentlich gepflegt. Dem stehen ein sehr schlechter Energiezustand (HWB 362, fGEE 4,17), eine alte Öl-/Holzheizung und ein überwiegend älterer Innenausbau gegenüber. Das Objekt ist grundsätzlich interessant, aber nur bei deutlichem Preisabschlag und nach technischer Prüfung.",
+  "positive_findings": [
+    "Gesichert: 134,5 m² Wohnfläche, 7 Zimmer und 5.614 m² Grundfläche laut Inseratsdaten.",
+    "Gesichert: Überdachter Pool, Wintergarten, Carport sowie separates Garagen-/Nebengebäude sind auf den Bildern erkennbar.",
+    "Gesichert: Garten, Teichanlage, Rasenflächen und Außenbereiche wirken sichtbar intensiv gepflegt.",
+    "Abgeleitet: Das Haus dürfte aufgrund der Raumanzahl und Inseratbeschreibung flexibel als Ein- oder Zweifamilienhaus nutzbar sein.",
+    "Abgeleitet: Die ruhige, grüne Hang-/Randlage mit Fernblick ist ein deutlicher Wohnwertvorteil."
+  ],
+  "risk_findings": [
+    "Gesichert: HWB 362 kWh/m²a und fGEE 4,17 weisen auf einen sehr schlechten energetischen Standard hin.",
+    "Gesichert: Als Heizung werden Holzofen und Ölheizung genannt; Alter und technischer Zustand sind nicht dokumentiert.",
+    "Gesichert: Küche, Bodenbeläge und Teile der Innenausstattung wirken funktional, aber deutlich älter.",
+    "Abgeleitet: Fenster, Gebäudehülle und Dachaufbau dürften energetisch nicht dem heutigen Standard entsprechen.",
+    "Unsicher: Zustand von Leitungen, Elektrik, Keller/Abdichtung, Pooltechnik und Dach ist anhand der Bilder nicht belastbar beurteilbar.",
+    "Unsicher: Bei 5.614 m² Grund sind Widmung, Hanganteile, Pflegeaufwand und tatsächliche Nutzbarkeit zu prüfen."
+  ],
+  "estimated_investment_eur": {
+    "low": 90000,
+    "high": 210000,
+    "confidence": "niedrig",
+    "comment": "Bandbreite für wahrscheinlich notwendige energetische und technische Erneuerungen sowie zeitgemäße Innenmodernisierung. Eine umfassende Sanierung von Gebäudehülle, Fenstern und Heizung kann den oberen Bereich überschreiten."
+  },
+  "address_hints": [
+    {
+      "hint": "Hörmsdorf 108, 8552 Eibiswald",
+      "basis": "Im ausgelesenen Exposétext ausdrücklich als Objektadresse genannt.",
+      "confidence": "mittel"
+    },
+    {
+      "hint": "Grüne Rand- oder Hanglage im Raum Eibiswald mit Fernblick",
+      "basis": "Außenbilder zeigen Waldanschluss, Gefälle und weiten Ausblick; genaue Mikrolage nicht unabhängig geprüft.",
+      "confidence": "mittel"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/01.jpg",
+      "area": "Gesamtansicht",
+      "condition": "Haus, Poolüberdachung, Garten und Nebengebäude wirken gepflegt; ältere Gebäudesubstanz erkennbar.",
+      "positive": ["Großzügige Grünfläche", "Ordentliche Außenpflege", "Mehrere Nutzungsbereiche"],
+      "risks": ["Energetischer Zustand äußerlich nicht modern", "Großer laufender Pflegeaufwand"],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/02.jpg",
+      "area": "Zufahrt und Gesamtanlage",
+      "condition": "Gepflegte Zufahrt und strukturierte Außenanlage; keine deutlichen Schäden aus dieser Distanz sichtbar.",
+      "positive": ["Befestigte Zufahrt", "Separate Nebenflächen"],
+      "risks": ["Gefälle und Wintertauglichkeit der Zufahrt prüfen"],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/03.jpg",
+      "area": "Garten und Teich",
+      "condition": "Sehr gepflegte, aufwendig gestaltete Zier- und Teichanlage.",
+      "positive": ["Hoher Freizeit- und Gartenwert"],
+      "risks": ["Erheblicher Pflege- und Wartungsaufwand", "Teichabdichtung und Technik unbekannt"],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/04.jpg",
+      "area": "Hausfassade und Pool",
+      "condition": "Fassade optisch ordentlich, Dachdeckung ohne klar erkennbare Schäden; Alter und Aufbau bleiben unklar.",
+      "positive": ["Gepflegter Eindruck", "Überdachter Pool"],
+      "risks": ["Fassade und Dach nur oberflächlich beurteilbar", "Pooltechnik nicht sichtbar"],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/05.jpg",
+      "area": "Eingangs-/Terrassenbereich",
+      "condition": "Gepflegter, teilweise überdachter Außenbereich; mehrere nachträgliche An- und Überdachungselemente sichtbar.",
+      "positive": ["Wettergeschützter Außenbereich"],
+      "risks": ["Genehmigungen und fachgerechte Anschlüsse der Anbauten prüfen"],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/06.jpg",
+      "area": "Garten, Pool und Wintergarten",
+      "condition": "Attraktive Aussicht und klar nutzbare Freizeitflächen; Wintergarten und Poolüberdachung wirken älter, aber gepflegt.",
+      "positive": ["Fernblick", "Wintergarten", "Pool"],
+      "risks": ["Dichtheit, Verglasung und sommerlicher Wärmeschutz prüfen"],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/07.jpg",
+      "area": "Garagen-/Nebengebäude",
+      "condition": "Solides, älteres Nebengebäude mit Garage und weiterer Nutzfläche; Fassade optisch ordentlich.",
+      "positive": ["Zusätzliche Garage und Nutzfläche"],
+      "risks": ["Dach, Feuchtigkeit, Elektrik und baurechtlicher Bestand unbekannt"],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/08.jpg",
+      "area": "Garagen-/Nebengebäude",
+      "condition": "Doppelung beziehungsweise zweite Aufnahme desselben Gebäudes; keine zusätzlichen belastbaren Zustandsdetails.",
+      "positive": ["Großzügige Nebennutzfläche"],
+      "risks": ["Kein Innenzustand dokumentiert"],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/09.jpg",
+      "area": "Aussicht und Poolbereich",
+      "condition": "Gepflegte Außenanlage mit attraktiver Aussicht; Poolüberdachung sichtbar.",
+      "positive": ["Gute Aussicht", "Hoher Freizeitwert"],
+      "risks": ["Hangwasser und Oberflächenentwässerung prüfen"],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/10.jpg",
+      "area": "Wohnzimmer",
+      "condition": "Sauber und bewohnbar, aber Material- und Farbgestaltung überwiegend älter; Holzfußboden wirkt gepflegt.",
+      "positive": ["Gepflegter Boden", "Ordentlicher Allgemeinzustand"],
+      "risks": ["Optische Modernisierung wahrscheinlich"],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/11.jpg",
+      "area": "Wintergarten",
+      "condition": "Großzügiger verglaster Aufenthaltsbereich mit Aussicht; Konstruktion wirkt älter.",
+      "positive": ["Zusätzlicher Aufenthaltswert", "Sehr heller Raum"],
+      "risks": ["Wärmeschutz, Dichtheit und Genehmigungsstatus prüfen"],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/12.jpg",
+      "area": "Küche",
+      "condition": "Funktionale, aber deutlich ältere Küche mit älteren Geräten und Boden-/Wandgestaltung.",
+      "positive": ["Direkt nutzbar", "Tageslicht und Ausgang ins Freie"],
+      "risks": ["Mittelfristiger Erneuerungsbedarf", "Elektroanschlüsse und Gerätealter prüfen"],
+      "confidence": "hoch"
+    }
+  ],
+  "recommendation": "Besichtigung ist sinnvoll, wenn das große Grundstück, Pool, Nebengebäude und die Lage den eigenen Bedarf treffen. Wegen des extrem schlechten Energiekennwerts sollte der Kauf jedoch nur nach Energie-/Bausubstanzprüfung und bei einem Zielpreis um etwa 295.000 bis 310.000 Euro weiterverfolgt werden. Oberhalb von rund 320.000 Euro wird das Verhältnis aus Kaufpreis und zu erwartender Sanierung aus heutiger Sicht unattraktiv.",
+  "next_steps": [
+    "Vollständigen Energieausweis und jährlichen Öl-/Holzverbrauch der letzten drei Jahre anfordern.",
+    "Alter, Leistung, Tankzustand und Wartung der Ölheizung sowie Kaminbefunde prüfen.",
+    "Dach, Fenster, Fassade, Keller/Feuchtigkeit, Elektro- und Wasserleitungen durch Fachleute prüfen lassen.",
+    "Poolhülle, Überdachung, Filter-, Heiz- und Entwässerungstechnik testen und Wartungsnachweise verlangen.",
+    "Widmung, Grundstücksgrenzen, Zufahrtsrechte, Hangwasser und Genehmigungen für Wintergarten, Carport, Pool und Nebengebäude prüfen.",
+    "Kostenschätzung für Heizungstausch und energetisches Sanierungskonzept vor einem verbindlichen Angebot erstellen lassen."
+  ],
+  "score_reasoning": "Der Score von 61 berücksichtigt den guten sichtbaren Pflegezustand, das große Grundstück, Pool, Wintergarten, Nebengebäude und die flexible Nutzbarkeit positiv. Deutlich negativ wirken der bestätigte HWB von 362, fGEE 4,17, die Öl-/Holzheizung, der ältere Innenausbau und die hohen Unsicherheiten bei Gebäudehülle und Technik. Das Objekt ist daher prüfenswert, aber kein sorgenfreier Einzug ohne erhebliche finanzielle Reserve.",
+  "limitations": [
+    "Es wurden zwölf exportierte Bilder analysiert; das Inserat nennt insgesamt 69 Medien.",
+    "Nicht sichtbare Bauteile, Statik, Leitungen, Abdichtungen und Genehmigungen sind nicht beurteilbar.",
+    "Die Preisbewertung ist mangels belastbarer Vergleichsobjekte keine Marktwert- oder Verkehrswertermittlung.",
+    "Mehrere Bilder scheinen inhaltliche Doppelungen aus Inserat und Exposé zu sein; sie wurden nicht als zusätzliche Belege gewertet.",
+    "Aus den vorliegenden Bildern war kein eindeutiger Hinweis auf KI-generierte Renderings oder reine Werbegrafiken erkennbar."
+  ],
+  "price_assessment": {
+    "asking_price_eur": 349000,
+    "fair_value_low_eur": 285000,
+    "fair_value_high_eur": 320000,
+    "suggested_first_offer_eur": 280000,
+    "suggested_target_price_eur": 300000,
+    "maximum_recommended_price_eur": 320000,
+    "confidence": "niedrig",
+    "reasoning": "Der Angebotspreis bildet Grundstück, Pool und Nebenflächen ab, berücksichtigt den außergewöhnlich schlechten Energiezustand und den wahrscheinlichen Modernisierungsbedarf aber aus Käufersicht nicht ausreichend. Ohne technische Prüfung und regionale Vergleichsdaten bleibt die Bandbreite grob."
+  },
+  "investment_items": [
+    {
+      "category": "Heizung",
+      "measure": "Ölheizung durch zeitgemäßes Heizsystem ersetzen; Wärmeverteilung und Warmwasser mitprüfen.",
+      "priority": "kurzfristig",
+      "low_eur": 30000,
+      "high_eur": 55000,
+      "confidence": "mittel",
+      "basis": "Inserat nennt Öl-/Holzheizung; HWB und fGEE sind sehr schlecht."
+    },
+    {
+      "category": "Gebäudehülle",
+      "measure": "Energetische Verbesserung von Fassade beziehungsweise oberster Geschossdecke/Dach nach Sanierungskonzept.",
+      "priority": "mittelfristig",
+      "low_eur": 35000,
+      "high_eur": 90000,
+      "confidence": "niedrig",
+      "basis": "HWB 362 und älterer sichtbarer Gebäudestandard; Aufbau und Flächen unbekannt."
+    },
+    {
+      "category": "Fenster und Verglasungen",
+      "measure": "Fenster sowie Wintergartenverglasung auf Dichtheit und Wärmeschutz prüfen, teilweise oder vollständig erneuern.",
+      "priority": "mittelfristig",
+      "low_eur": 15000,
+      "high_eur": 40000,
+      "confidence": "niedrig",
+      "basis": "Sichtbar ältere Verglasungs-/Fensterkonstruktionen; technische Daten fehlen."
+    },
+    {
+      "category": "Innenausbau",
+      "measure": "Küche, Oberflächen, Malerarbeiten und punktuelle Boden-/Sanitärmodernisierung.",
+      "priority": "mittelfristig",
+      "low_eur": 15000,
+      "high_eur": 45000,
+      "confidence": "mittel",
+      "basis": "Küche und Wohnzimmer sind gepflegt, aber sichtbar älter."
+    },
+    {
+      "category": "Pool und Außenanlagen",
+      "measure": "Technikreserve für Pool, Überdachung, Teich und Entwässerung.",
+      "priority": "unklar",
+      "low_eur": 5000,
+      "high_eur": 20000,
+      "confidence": "niedrig",
+      "basis": "Große und technisch aufwendige Außenanlagen; Zustand der Technik nicht dokumentiert."
+    }
+  ],
+  "estimated_total_cost_eur": {
+    "low": 390000,
+    "high": 510000,
+    "confidence": "niedrig",
+    "includes_purchase_price": true,
+    "includes_acquisition_costs": false,
+    "comment": "Zielkaufpreis von etwa 300.000 Euro plus grobe Investitionsbandbreite von 90.000 bis 210.000 Euro; Kaufnebenkosten, Finanzierung und Steuern nicht enthalten."
+  }
+}
