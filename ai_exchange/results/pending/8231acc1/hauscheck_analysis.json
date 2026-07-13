@@ -1,0 +1,205 @@
+{
+  "house_id": "8231acc1",
+  "analysis_date": "2026-07-13T20:01:55+00:00",
+  "new_score": 55,
+  "confidence": "mittel",
+  "summary": "Gesichert sind 390.000 € Kaufpreis, 1.190 m² Grundstück, HWB 115,1 und fGEE 1,63 sowie ein Wohnhaus mit sehr großem Werkstatt-/Garagengebäude. Die Bilder zeigen gepflegte Fassaden und ein funktional nutzbares, aber einfach ausgebautes und stark belegtes Werkstattgebäude. Der Zustand der Wohnräume, Haustechnik und des Dachs ist nicht ausreichend dokumentiert. Das Objekt ist vor allem für Käufer mit echtem Bedarf an Werkstatt- oder Gewerbefläche prüfenswert; als reines Wohnhaus ist das Preis-Leistungs-Verhältnis wegen der hohen Gesamtfläche und der großen Zustandsunsicherheit schwer einzuordnen.",
+  "positive_findings": [
+    "Gesichert: großes Grundstück mit 1.190 m² und außergewöhnlich umfangreichen Werkstatt-/Garagenflächen.",
+    "Gesichert aus Bildern: Außenfassaden wirken überwiegend instand gehalten; moderne Kunststofffenster sind sichtbar.",
+    "Gesichert aus Bildern: mehrere große, ebenerdig erreichbare Garagen- und Werkstattbereiche vorhanden.",
+    "Gesichert: Pellet-Zentralheizung laut strukturiertem Energieblock; HWB 115,1 und fGEE 1,63 sind für einen älteren Bestand mittelmäßig, aber nicht extrem schlecht.",
+    "Abgeleitet: gewerbliche oder hobbybezogene Nutzung kann einen erheblichen Zusatznutzen bieten, sofern genehmigt."
+  ],
+  "risk_findings": [
+    "Unsicher: Die angegebene Wohnfläche von 386 m² könnte Nutz-, Werkstatt- oder Gesamtflächen enthalten; die tatsächliche reine Wohnfläche muss anhand von Plänen geklärt werden.",
+    "Gesichert aus Bildern: Werkstattflächen sind einfach ausgebaut, teils stark belegt und zeigen ältere Boden-, Decken- und Oberflächenzustände.",
+    "Unsicher: Wohnräume, Küche, Bäder, Keller, Heizung, Elektro- und Wasserleitungen sind auf den exportierten Bildern nicht beurteilbar.",
+    "Abgeleitet: Bei sehr großen Gebäudeflächen können Dach-, Fassaden-, Heiz- und Instandhaltungskosten überdurchschnittlich hoch sein.",
+    "Unsicher: Genehmigung und Widmung der Werkstatt-/Gewerbenutzung sowie allfällige Altlasten aus früherer Nutzung sind nicht dokumentiert.",
+    "Abgeleitet: Asphalt- und Hofflächen wirken stellenweise gealtert und könnten mittelfristig Sanierung benötigen."
+  ],
+  "estimated_investment_eur": {
+    "low": 50000,
+    "high": 140000,
+    "confidence": "niedrig",
+    "comment": "Bandbreite für wahrscheinliche Modernisierung und Reserven bei großem Altbestand. Ohne Innenfotos, Baujahr, Dach-, Heizungs- und Leitungsprüfung ist keine belastbare Summe möglich; bei gravierenden technischen Mängeln kann sie höher ausfallen."
+  },
+  "address_hints": [
+    {
+      "hint": "Gemeindegebiet 8455 Oberhaag, eher locker bebautes Wohn-/Mischgebiet",
+      "basis": "Inseratsangabe sowie sichtbare Nachbarbebauung und Straßenraum",
+      "confidence": "mittel"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/01.jpg",
+      "area": "Wohnhaus Vorderseite",
+      "condition": "Fassade und Fenster wirken gepflegt; ältere Dachform, Dachdeckung nur eingeschränkt beurteilbar.",
+      "positive": ["ordentlicher Außenputz", "mehrere modern wirkende Fenster"],
+      "risks": ["Dachalter und Unterbau nicht erkennbar", "Hofbelag wirkt gealtert"],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/02.jpg",
+      "area": "Nebengebäude/Werkstatt außen",
+      "condition": "Großer Anbau mit breiter Überdachung; Fassade ordentlich, Sockel und Außenflächen teilweise roh bzw. funktional.",
+      "positive": ["große überdachte Nutzfläche", "ebenerdige Zufahrt"],
+      "risks": ["Entwässerung und Anschlussdetails nicht sichtbar"],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/03.jpg",
+      "area": "Große Werkstatthalle",
+      "condition": "Sehr große, beheizbar wirkende Halle mit einfacher Holzdecke und älterem Boden; stark belegt.",
+      "positive": ["außergewöhnlich große Nutzfläche", "Fahrzeugnutzung möglich"],
+      "risks": ["Boden- und Deckenaufbau ungeklärt", "Elektroinstallation und Brandschutz nicht beurteilbar"],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/04.jpg",
+      "area": "Straßenseitige Werkstattfront",
+      "condition": "Langgestrecktes Gebäude mit mehreren Toren und Zufahrt direkt vom befestigten Bereich.",
+      "positive": ["gute Erreichbarkeit", "mehrere getrennte Zugänge"],
+      "risks": ["gewerberechtliche Zulässigkeit nicht ableitbar"],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/05.jpg",
+      "area": "Überdachte Garage/Arbeitsbereich",
+      "condition": "Teilweise modernisierte Oberflächen, jedoch offener bzw. einfacher Ausbau.",
+      "positive": ["großes Sektionaltor", "helle Arbeitsfläche"],
+      "risks": ["Wärmedämmung und Abdichtung unklar"],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/06.jpg",
+      "area": "Kleine Garage/Lager",
+      "condition": "Funktional, stark belegt, ältere Oberflächen und Installationen sichtbar.",
+      "positive": ["zusätzlicher Stauraum"],
+      "risks": ["Elektro- und Brandschutzprüfung erforderlich"],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/07.jpg",
+      "area": "Werkstatthalle innen",
+      "condition": "Großzügig und nutzbar, aber einfacher Industrie-/Hobbystandard.",
+      "positive": ["Fahrzeuggrube oder abgesenkter Arbeitsbereich sichtbar", "viel Tageslicht"],
+      "risks": ["Zustand der Grube, Abdichtung und Genehmigung prüfen"],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/08.jpg",
+      "area": "Nebengebäude Rückseite",
+      "condition": "Schlichte Fassade mit großem Tor; Sockel und Geländeanschluss nicht vollständig sichtbar.",
+      "positive": ["zusätzliche Zufahrt"],
+      "risks": ["Feuchte- und Entwässerungssituation nicht beurteilbar"],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/09.jpg",
+      "area": "Wohnhaus und Garage Hofseite",
+      "condition": "Gesamtanlage äußerlich ordentlich; Balkon und Anbauten sichtbar.",
+      "positive": ["zusammenhängende Anlage", "große befestigte Nutzfläche"],
+      "risks": ["Balkonabdichtung und Geländerzustand prüfen"],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/10.jpg",
+      "area": "Garage/Lager",
+      "condition": "Stark belegt; bauliche Oberflächen nur teilweise sichtbar.",
+      "positive": ["großes Tor", "viel Lagerfläche"],
+      "risks": ["verdeckte Schäden wegen Belegung nicht erkennbar"],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/11.jpg",
+      "area": "Werkstatt innen",
+      "condition": "Einfacher, älterer Ausbau mit Holzdecke und umfangreicher Lagerung.",
+      "positive": ["praktisch nutzbare Fläche"],
+      "risks": ["Brandschutz, Elektrik und Tragkonstruktion prüfen"],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/12.jpg",
+      "area": "Balkon/Seitenfassade",
+      "condition": "Fassade und Fenster wirken intakt; schmaler Balkon mit Metallgeländer.",
+      "positive": ["gepflegter Putz", "modern wirkendes Fenster"],
+      "risks": ["Abdichtung und Anschlüsse des Balkons nicht sichtbar"],
+      "confidence": "mittel"
+    }
+  ],
+  "recommendation": "Nur dann weiterverfolgen, wenn die große Werkstattfläche tatsächlich gebraucht und rechtlich nutzbar ist. Vor einem Angebot unbedingt Nutzflächenaufstellung, genehmigte Pläne, Widmung, Altlasten-/Betriebsanlagenthemen und eine technische Prüfung von Wohnhaus, Dach, Pelletheizung, Elektro und Werkstattgrube einholen. Ein Zielpreis um 340.000 € erscheint unter den derzeitigen Unsicherheiten vertretbarer; über 360.000 € nur bei gutem Innenzustand und vollständig geklärter Genehmigungslage.",
+  "next_steps": [
+    "Baupläne und Flächenaufstellung anfordern: reine Wohnfläche, Werkstatt, Garage, Lager getrennt ausweisen.",
+    "Baubewilligungen, Benützungsbewilligung, Widmung und Betriebsanlagengenehmigung der Werkstatt prüfen.",
+    "Wohnräume, Keller, Dachstuhl, Pelletheizung, Elektroverteiler und Wasserleitungen mit Fachperson besichtigen.",
+    "Werkstattgrube auf Dichtheit, Entwässerung, Ölabscheider und behördliche Zulässigkeit prüfen.",
+    "Nach früherer gewerblicher Nutzung, Öl-/Chemikalienlagerung und möglichen Bodenverunreinigungen fragen.",
+    "Betriebs- und Heizkosten für die gesamte Gebäudefläche vorlegen lassen."
+  ],
+  "score_reasoning": "Der Score liegt im Bereich 'prüfen'. Positiv sind Grundstück, große Nutzflächen, äußerlich ordentlicher Zustand und ein nicht extrem schlechter Energiekennwert. Abzüge entstehen durch den hohen Angebotspreis, die unklare Bedeutung der 386 m², fehlende Wohnraumdokumentation sowie erhebliche technische, genehmigungsrechtliche und laufende Kostenrisiken der großen Werkstattanlage.",
+  "limitations": [
+    "Nur 12 von insgesamt 84 Medien waren im Analysepaket enthalten.",
+    "Keine Innenbilder der eigentlichen Wohnräume, Bäder oder Küche vorhanden.",
+    "Baujahr, Dachalter, Heizungsalter, Sanierungshistorie und Betriebskosten fehlen.",
+    "Keine Vergleichsobjekte oder rechtliche Unterlagen geprüft; Preisband ist keine Verkehrswertermittlung."
+  ],
+  "price_assessment": {
+    "asking_price_eur": 390000,
+    "fair_value_low_eur": 320000,
+    "fair_value_high_eur": 365000,
+    "suggested_first_offer_eur": 315000,
+    "suggested_target_price_eur": 340000,
+    "maximum_recommended_price_eur": 360000,
+    "confidence": "niedrig",
+    "reasoning": "Die große Werkstatt kann hohen Nutzwert haben, der Marktwert hängt aber stark von genehmigter Nutzung, tatsächlicher Wohnfläche und technischem Zustand ab. Wegen fehlender Innen- und Techniknachweise ist ein deutlicher Sicherheitsabschlag zum Angebotspreis angemessen."
+  },
+  "investment_items": [
+    {
+      "category": "Technische Prüfung und Sofortmaßnahmen",
+      "measure": "Elektro, Heizung, Sanitär, Dach und Werkstattgrube prüfen und kleinere Mängel beheben",
+      "priority": "sofort",
+      "low_eur": 10000,
+      "high_eur": 30000,
+      "confidence": "niedrig",
+      "basis": "Großer Bestand mit nicht dokumentiertem Alter und einfacher Werkstattausstattung"
+    },
+    {
+      "category": "Wohnbereich",
+      "measure": "Innenmodernisierung von Küche, Bad, Böden und Oberflächen je nach tatsächlichem Zustand",
+      "priority": "kurzfristig",
+      "low_eur": 25000,
+      "high_eur": 70000,
+      "confidence": "niedrig",
+      "basis": "Wohnräume fehlen in der Bilddokumentation; Reserve statt gesicherter Mangel"
+    },
+    {
+      "category": "Werkstatt/Garagen",
+      "measure": "Boden, Beleuchtung, Elektro, Brandschutz und Ordnung/Entsorgung anpassen",
+      "priority": "kurzfristig",
+      "low_eur": 10000,
+      "high_eur": 30000,
+      "confidence": "mittel",
+      "basis": "Bilder zeigen einfachen Ausbau und starke Belegung"
+    },
+    {
+      "category": "Außenanlagen",
+      "measure": "Hofbeläge, Entwässerung und kleinere Fassaden-/Sockelarbeiten",
+      "priority": "mittelfristig",
+      "low_eur": 5000,
+      "high_eur": 10000,
+      "confidence": "niedrig",
+      "basis": "Gealterte befestigte Flächen und unklare Geländeanschlüsse"
+    }
+  ],
+  "estimated_total_cost_eur": {
+    "low": 390000,
+    "high": 480000,
+    "confidence": "niedrig",
+    "includes_purchase_price": true,
+    "includes_acquisition_costs": false,
+    "comment": "Zielkaufpreis 340.000 € plus grobe Investitionsbandbreite 50.000–140.000 €; Kaufnebenkosten, Finanzierung und Steuern nicht enthalten."
+  }
+}
