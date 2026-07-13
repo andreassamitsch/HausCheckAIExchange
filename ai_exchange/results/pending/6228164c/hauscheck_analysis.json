@@ -1,0 +1,55 @@
+{
+  "house_id": "6228164c",
+  "analysis_date": "2026-07-13T10:18:10.167929+00:00",
+  "new_score": 48,
+  "confidence": "niedrig",
+  "summary": "Das Inserat bewirbt ein noch zu errichtendes Mansarden-Fertighaus mit rund 125 m² und fünf Zimmern ab 178.000 € inklusive Fundament; zusätzlich ist ein 748 m² großes Grundstück in Eibiswald erfasst. Gesichert ist aus den Bildern nur eine als Musterbild gekennzeichnete Wiese sowie Plan-, Ausstattungs- und Werbegrafiken. Das gezeigte Haus ist eine Visualisierung und kein Zustandsnachweis. Unklar bleibt insbesondere, ob Grundstück, Haus, Erdarbeiten, Anschlüsse, Haustechnik, Innenausbau, Nebenkosten und Abgaben vollständig im genannten Preis enthalten sind.",
+  "positive_findings": [
+    "Gesichert: Das geplante Raumprogramm umfasst laut Grafik etwa 125,7 m² netto mit Schlafzimmer im Erdgeschoss und zwei Kinderzimmern im Obergeschoss.",
+    "Gesichert: Der Angebotstitel nennt Fundament als Bestandteil des Einstiegspreises.",
+    "Abgeleitet: Ein standardisiertes Fertighaus kann Planungs- und Bauzeit reduzieren, sofern Leistungsumfang und Fixpreis vertraglich sauber definiert sind."
+  ],
+  "risk_findings": [
+    "Gesichert: Das Hausbild ist eine Render-/Werbegrafik und darf nicht als Nachweis eines bestehenden Gebäudes oder einer konkreten Ausführung gewertet werden.",
+    "Gesichert: Bild 01 ist ausdrücklich als Musterbild gekennzeichnet; auch die konkrete Grundstückssituation ist damit nicht belegt.",
+    "Unsicher: Der Preisumfang ist nicht nachvollziehbar; insbesondere Grundstückskauf, Erdarbeiten, Anschlüsse, Haustechnik, Bodenplatte/Fundamentdetails, Innenausbau und Außenanlagen können Zusatzkosten verursachen.",
+    "Unsicher: Energiekennwerte, Bauweise, Wandaufbau, Schallschutz, Lieferzeit, Gewährleistung und Zahlungsplan fehlen im Paket.",
+    "Abgeleitet: Ein Einstiegspreis ohne vollständige Bau- und Leistungsbeschreibung birgt ein hohes Nachtrags- und Budgetrisiko."
+  ],
+  "estimated_investment_eur": {
+    "low": null,
+    "high": null,
+    "confidence": "niedrig",
+    "comment": "Der Endpreis kann aus den vorliegenden Unterlagen nicht seriös geschätzt werden. Vorhanden ist nur ein Ab-Preis. Eine belastbare Gesamtkalkulation muss Grundstück, Nebenkosten, Planung, Genehmigungen, Erdarbeiten, Anschlüsse, Ausbaustufe, Haustechnik und Außenanlagen enthalten."
+  },
+  "address_hints": [
+    {
+      "hint": "Angebotsgebiet 8552 Eibiswald; konkrete Parzelle und Lage nicht belegt",
+      "basis": "Ortsangabe im Inserat, während das Grundstücksbild als Musterbild bezeichnet ist",
+      "confidence": "hoch"
+    }
+  ],
+  "image_findings": [
+    {"image":"images/01.jpg","area":"Grundstücksdarstellung","condition":"Wiesenfoto mit sichtbarem Hinweis 'Musterbild'; kein belastbarer Nachweis der angebotenen Parzelle.","positive":[],"risks":["Lage, Neigung, Zufahrt und Umgebung der echten Parzelle unbekannt"],"confidence":"hoch"},
+    {"image":"images/02.jpg","area":"Hausvisualisierung","condition":"Computer- beziehungsweise Werberendering eines fertigen Hauses mit Carport und Terrasse; kein Zustandsnachweis.","positive":["anschauliche Darstellung des Entwurfskonzepts"],"risks":["Ausstattung und Außenanlagen möglicherweise nicht im Preis enthalten"],"confidence":"hoch"},
+    {"image":"images/03.jpg","area":"Leistungs-/Ausstattungstabelle","condition":"Werbegrafik mit Variantenvergleich; Textdetails sind im Export nur eingeschränkt lesbar.","positive":["Hinweis auf unterschiedliche Ausbaustufen"],"risks":["genauer Leistungsumfang muss im Originaldokument geprüft werden"],"confidence":"mittel"},
+    {"image":"images/04.jpg-images/05.jpg","area":"Grundrisse","condition":"Planungsdarstellungen für Erd- und Obergeschoss.","positive":["Schlafzimmer und Bad im Erdgeschoss","zwei größere Kinderzimmer im Obergeschoss"],"risks":["Maße, Möblierbarkeit und Planstand vertraglich bestätigen"],"confidence":"hoch"},
+    {"image":"images/06.jpg-images/09.jpg","area":"Zertifikats-, Flächen- und Firmenwerbung","condition":"Logos, Flächenaufstellung und Anbieterwerbung; kein Nachweis des Bauzustands oder einer konkreten Leistungserbringung.","positive":["Flächenaufstellung ergibt 125,7 m² netto"],"risks":["Zertifikatsgültigkeit und Vertragspartei separat prüfen"],"confidence":"mittel"}
+  ],
+  "recommendation": "Der Ab-Preis ist für eine Kaufentscheidung nicht ausreichend. Das Angebot erst weiterverfolgen, wenn ein verbindlicher Gesamtpreis für die konkrete Parzelle und eine detaillierte Bau- und Leistungsbeschreibung vorliegen. Bis dahin ist es wegen des hohen Kosten- und Leistungsumfangrisikos kritisch zu bewerten.",
+  "next_steps": [
+    "Konkrete Grundstücksadresse, Eigentümer, Kaufpreis, Widmung, Zufahrt und Anschlüsse nachweisen lassen.",
+    "Vollständige Bau- und Leistungsbeschreibung mit klarer Ausbaustufe und sämtlichen Ausschlüssen verlangen.",
+    "Fixpreisangebot inklusive Erdarbeiten, Fundament, Transport, Montage, Haustechnik, Innenausbau, Planung und Nebenkosten erstellen lassen.",
+    "Zahlungsplan, Fertigstellungstermin, Gewährleistung, Sicherheiten und Bonität der Vertragspartei prüfen.",
+    "Energieausweis beziehungsweise berechnete Energiekennwerte und technischen Wand-/Dachaufbau anfordern.",
+    "Angebot mit zwei schlüsselfertigen Vergleichsangeboten auf identischem Leistungsumfang vergleichen."
+  ],
+  "score_reasoning": "Das Raumprogramm kann attraktiv sein, aber die vorliegenden Bilder bestehen fast nur aus Muster-, Render- und Werbematerial. Der genannte Ab-Preis ist ohne belegten Gesamtumfang nicht vergleichbar und birgt ein hohes Nachtragsrisiko; daher bleibt der Score kritisch.",
+  "limitations": [
+    "Keine Fotos eines bestehenden Hauses vorhanden.",
+    "Das Grundstücksbild ist als Musterbild gekennzeichnet.",
+    "Nur neun von 27 Medien wurden exportiert.",
+    "Keine vollständige Bau- und Leistungsbeschreibung oder Gesamtkostenaufstellung im Paket."
+  ]
+}
