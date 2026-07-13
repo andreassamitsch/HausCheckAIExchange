@@ -1,14 +1,14 @@
 {
   "kind": "hauscheck_pending_artifact_pointer",
   "version": 1,
-  "created_at": "2026-07-13T15:23:12.409291+00:00",
-  "run_id": 29261985855,
+  "created_at": "2026-07-13T15:39:04.162528+00:00",
+  "run_id": 29263112871,
   "run_attempt": 1,
-  "source_commit": "50594ab418c7f5abe362715958eb70528b6b39ec",
-  "artifact_id": 8283762063,
-  "artifact_name": "hauscheck-pending-29261985855",
-  "artifact_url": "https://github.com/andreassamitsch/HausCheckAIExchange/actions/runs/29261985855/artifacts/8283762063",
-  "artifact_digest": "5c2a2a7341e681377bd420a1f8d1164c37c3be26efe6bd44ad24cd3e2de32ca6",
+  "source_commit": "79c49d33fa3f7b242ee3e50c70d553a224c3889f",
+  "artifact_id": 8284223835,
+  "artifact_name": "hauscheck-pending-29263112871",
+  "artifact_url": "https://github.com/andreassamitsch/HausCheckAIExchange/actions/runs/29263112871/artifacts/8284223835",
+  "artifact_digest": "fbddab91edb24d0b0f6dbae1b9728184411c51e5f4413d36eac727e712e6dd38",
   "expires_after_days": 3,
   "files": [
     {
@@ -34,6 +34,12 @@
       "source_path": "ai_exchange/exports/pending/3f66a103.zip",
       "size_bytes": 1888215,
       "sha256": "1aa2c8c7d358347a0f862ee7c15ee9cbd890ec217b11b58abed5ca2d3b86f962"
+    },
+    {
+      "name": "4e09b605.zip",
+      "source_path": "ai_exchange/exports/pending/4e09b605.zip",
+      "size_bytes": 898094,
+      "sha256": "47ad654907085f17daeb12b05c4065019e9799730d64f2bbe9e050cd03231854"
     },
     {
       "name": "56df78a2.zip",
@@ -64,6 +70,12 @@
       "source_path": "ai_exchange/exports/pending/97cdfb21.zip",
       "size_bytes": 921727,
       "sha256": "4e0d5cfd9fa667693a9351a1777891bf06d0c79ac27f1b3b35df2c01ff13f96e"
+    },
+    {
+      "name": "a24cfb92.zip",
+      "source_path": "ai_exchange/exports/pending/a24cfb92.zip",
+      "size_bytes": 986288,
+      "sha256": "5c51be46bc7b9ab8c3a6ed052567bc00f475f7f3e28661f25a694bdcaed97d09"
     },
     {
       "name": "a92d966e.zip",
