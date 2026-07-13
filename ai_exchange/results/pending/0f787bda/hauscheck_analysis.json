@@ -1,0 +1,78 @@
+{
+  "house_id": "0f787bda",
+  "analysis_date": "2026-07-13T07:13:43.588301+00:00",
+  "new_score": 57,
+  "confidence": "mittel",
+  "summary": "Gesichert sind ein sehr großes Mehrparteien-/Mehrzweckobjekt im Ortskern mit 295 m² Wohnfläche, Werkstatt-/Garagenflächen und teils modernisierten Innenräumen. Die Bilder zeigen zugleich ältere Keller-/Technikbereiche und einen heterogenen Ausbauzustand. Beim HWB besteht ein Parserwiderspruch: listing.json nennt 1204, der Evidenztext ausdrücklich 120,4; belastbar ist daher nur, dass der Energiekennwert vor Vertragsentscheidung am Originalausweis geprüft werden muss.",
+  "positive_findings": [
+    "Gesichert: sehr großes Flächenangebot mit 295 m² Wohnfläche, 10 Zimmern und 935 m² Grundstück.",
+    "Gesichert: Werkstatt/Garage, separate Nutzbereiche und mögliche Einliegerwohnung bieten flexible Nutzung.",
+    "Gesichert: Fassade und Dach wirken auf den Außenbildern gepflegt; mehrere Innenräume sind hell und gebrauchsfähig.",
+    "Abgeleitet: Preis pro Wohnfläche ist für die Größe grundsätzlich attraktiv, sofern Flächen baurechtlich und technisch voll nutzbar sind."
+  ],
+  "risk_findings": [
+    "Gesichert: Keller-/Technik- und Werkstattbereiche sind deutlich älter und teilweise roh bzw. abgenutzt.",
+    "Unsicher: Der Energiekennwert ist widersprüchlich erfasst (1204 gegenüber Evidenz 120,4).",
+    "Abgeleitet: Mehrere Gebäudeteile und Nutzungsarten erhöhen Risiko für Instandhaltung, Genehmigungen und laufende Kosten.",
+    "Unsicher: Zustand von Leitungen, Heizung, Dachaufbau, Abdichtung und tragenden Bauteilen ist aus Bildern nicht sicher beurteilbar."
+  ],
+  "estimated_investment_eur": {
+    "low": 60000,
+    "high": 180000,
+    "confidence": "niedrig",
+    "comment": "Grobe Spanne für technische Erneuerungen, energetische Maßnahmen und Modernisierung einzelner Altbereiche; ohne Baujahr, Haustechnikdaten und Gutachten nicht belastbar."
+  },
+  "address_hints": [
+    {
+      "hint": "Ortskern von Gleinstätten, straßenseitig dicht bebaut",
+      "basis": "Inseratstitel und Außenbilder mit unmittelbar angrenzender Ortsbebauung",
+      "confidence": "hoch"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/01.jpg-images/03.jpg",
+      "area": "Außenansichten",
+      "condition": "Fassade und Dach wirken überwiegend gepflegt; dichtes Ortsumfeld.",
+      "positive": ["großes Gebäudeensemble", "Dachflächen optisch ohne offensichtliche Großschäden"],
+      "risks": ["wenig Privatheit zur Straße", "Anschlüsse und ältere Gebäudeteile nicht prüfbar"],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/04.jpg",
+      "area": "Garage/Werkstatt",
+      "condition": "Nutzbar, aber deutlich gewerblich/technisch geprägt und teilweise abgenutzt.",
+      "positive": ["große Nutzfläche"],
+      "risks": ["Boden-/Wandzustand und mögliche Altlasten prüfen"],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/06.jpg-images/08.jpg",
+      "area": "Keller/Technik",
+      "condition": "Älterer, teils roher Ausbau mit sichtbarer Technik.",
+      "positive": ["Technik zugänglich"],
+      "risks": ["Feuchte, Leitungen, Heizung und Abdichtung fachlich prüfen"],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/09.jpg-images/12.jpg",
+      "area": "Wohnräume",
+      "condition": "Mehrere Räume modernisiert und grundsätzlich sofort nutzbar.",
+      "positive": ["hell", "großzügige Räume"],
+      "risks": ["Ausbauzustand nicht durchgehend einheitlich"],
+      "confidence": "hoch"
+    }
+  ],
+  "recommendation": "Nur nach technischer und rechtlicher Due Diligence weiterverfolgen. Interessant für Käufer mit echtem Bedarf an sehr viel Fläche/Werkstatt; als normales Familienhaus ist Komplexität und Folgekostenrisiko hoch.",
+  "next_steps": [
+    "Original-Energieausweis prüfen und HWB-Widerspruch 1204/120,4 klären.",
+    "Baubewilligungen, Nutzflächenwidmung, Einliegerwohnung und Werkstattnutzung abgleichen.",
+    "Heizung, Elektrik, Wasser/Abwasser, Kellerfeuchte und Dach durch Sachverständige prüfen.",
+    "Laufende Kosten für 295 m² und mehrere Gebäudeteile anfordern."
+  ],
+  "score_reasoning": "Viel Fläche und flexible Nutzung erhöhen den Nutzwert; heterogener Zustand, unklare Energieangabe und hohe technische Komplexität begrenzen den Score.",
+  "limitations": [
+    "Nur 12 exportierte Bilder aus deutlich mehr Medien analysiert.",
+    "Keine vollständige Baubeschreibung, Baujahre oder Haustechnikunterlagen vorhanden."
+  ]
+}
