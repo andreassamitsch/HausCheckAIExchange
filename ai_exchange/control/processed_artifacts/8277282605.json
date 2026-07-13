@@ -1,0 +1,36 @@
+{
+  "kind": "hauscheck_processed_artifact",
+  "version": 1,
+  "artifact_id": 8277282605,
+  "artifact_name": "hauscheck-pending-29245800253",
+  "run_id": 29245800253,
+  "processed_at": "2026-07-13T11:40:00Z",
+  "status": "completed",
+  "processed_house_ids": [
+    "0f787bda",
+    "1c0ebd6b",
+    "1f6d2453",
+    "3f66a103",
+    "56df78a2",
+    "6228164c",
+    "69e948cf",
+    "97cdfb21",
+    "e625f61f",
+    "f1023e82"
+  ],
+  "newly_processed_house_ids": [
+    "3f66a103"
+  ],
+  "already_completed_house_ids": [
+    "0f787bda",
+    "1c0ebd6b",
+    "1f6d2453",
+    "56df78a2",
+    "6228164c",
+    "69e948cf",
+    "97cdfb21",
+    "e625f61f",
+    "f1023e82"
+  ],
+  "errors": []
+}
