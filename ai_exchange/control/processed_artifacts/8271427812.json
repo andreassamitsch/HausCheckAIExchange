@@ -1,0 +1,26 @@
+{
+  "artifact_id": 8271427812,
+  "artifact_name": "hauscheck-pending-29230774439",
+  "run_id": 29230774439,
+  "processed_at": "2026-07-13T07:16:30+00:00",
+  "status": "completed",
+  "processed_house_ids": [
+    "0f787bda",
+    "56df78a2",
+    "69e948cf",
+    "97cdfb21",
+    "e625f61f",
+    "f1023e82"
+  ],
+  "created_results": [
+    "0f787bda",
+    "56df78a2",
+    "69e948cf",
+    "97cdfb21"
+  ],
+  "existing_results_retained": [
+    "e625f61f",
+    "f1023e82"
+  ],
+  "errors": []
+}
