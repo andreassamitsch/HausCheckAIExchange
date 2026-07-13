@@ -11,7 +11,8 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
+  actions: read
 
 jobs:
   bundle-pending-zips:
@@ -69,6 +70,7 @@ jobs:
           PY
 
       - name: Upload pending ZIPs as workflow artifact
+        id: upload
         uses: actions/upload-artifact@v4
         with:
           name: hauscheck-pending-${{ github.run_id }}
@@ -76,3 +78,51 @@ jobs:
           if-no-files-found: error
           compression-level: 0
           retention-days: 3
+
+      - name: Publish latest artifact pointer
+        shell: bash
+        env:
+          ARTIFACT_ID: ${{ steps.upload.outputs.artifact-id }}
+          ARTIFACT_URL: ${{ steps.upload.outputs.artifact-url }}
+          ARTIFACT_DIGEST: ${{ steps.upload.outputs.artifact-digest }}
+          ARTIFACT_NAME: hauscheck-pending-${{ github.run_id }}
+        run: |
+          set -euo pipefail
+          mkdir -p ai_exchange/control
+
+          python3 - <<'PY'
+          import json
+          import os
+          from datetime import datetime, timezone
+
+          with open('.artifact/hauscheck-pending/artifact_manifest.json', encoding='utf-8') as handle:
+              source_manifest = json.load(handle)
+
+          pointer = {
+              'kind': 'hauscheck_pending_artifact_pointer',
+              'version': 1,
+              'created_at': datetime.now(timezone.utc).isoformat(),
+              'run_id': int(os.environ['GITHUB_RUN_ID']),
+              'run_attempt': int(os.environ['GITHUB_RUN_ATTEMPT']),
+              'source_commit': os.environ['GITHUB_SHA'],
+              'artifact_id': int(os.environ['ARTIFACT_ID']),
+              'artifact_name': os.environ['ARTIFACT_NAME'],
+              'artifact_url': os.environ.get('ARTIFACT_URL'),
+              'artifact_digest': os.environ.get('ARTIFACT_DIGEST'),
+              'expires_after_days': 3,
+              'files': source_manifest['files'],
+          }
+
+          with open('ai_exchange/control/latest_artifact.json', 'w', encoding='utf-8') as handle:
+              json.dump(pointer, handle, ensure_ascii=False, indent=2)
+          PY
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add ai_exchange/control/latest_artifact.json
+          if git diff --cached --quiet; then
+            echo "Artifact pointer ist unverändert."
+          else
+            git commit -m "Publish latest HausCheck artifact pointer [skip ci]"
+            git push
+          fi
