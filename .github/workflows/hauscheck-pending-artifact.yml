@@ -34,14 +34,9 @@ jobs:
           import json
           import os
           import shutil
-          import sys
           from datetime import datetime, timezone
 
           files = sorted(glob.glob('ai_exchange/exports/pending/*.zip'))
-          if not files:
-              print('Keine pending ZIP-Dateien gefunden.', file=sys.stderr)
-              sys.exit(2)
-
           target_dir = '.artifact/hauscheck-pending'
           manifest = {
               'kind': 'hauscheck_pending_zip_artifact',
