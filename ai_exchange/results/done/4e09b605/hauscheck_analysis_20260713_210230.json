@@ -1,0 +1,120 @@
+{
+  "house_id": "4e09b605",
+  "analysis_date": "2026-07-13T16:01:26+00:00",
+  "new_score": 45,
+  "confidence": "niedrig",
+  "summary": "Gesichert angeboten wird ein Fertighaus-Bungalow mit rund 146,9 m² Nettofläche um 241.100 € inklusive Fundament; das Inserat nennt zudem ein vorhandenes Grundstück mit 1.213 m² in Oberhaag. Die exportierten Bilder zeigen jedoch überwiegend Musterbilder, Renderings, Grundriss- und Werbeunterlagen und keinen real ausgeführten Bauzustand. Daher sind Ausstattungsqualität, tatsächlicher Leistungsumfang, Baunebenkosten, Grundstückspreis sowie Anschluss- und Erdarbeiten nicht belastbar beurteilbar.",
+  "positive_findings": [
+    "Gesichert: geplanter Bungalow-Grundriss mit rund 146,9 m² und mehreren Schlaf-/Kinderzimmern.",
+    "Gesichert: Fundament ist laut Titel im Angebotspreis enthalten.",
+    "Abgeleitet: ebenerdige Bauweise kann langfristig praktisch und barrierearm nutzbar sein."
+  ],
+  "risk_findings": [
+    "Gesichert: Die Außenansicht ist ein Rendering und das Grundstücksbild ausdrücklich ein Musterbild; beides ist kein Zustandsnachweis.",
+    "Unsicher: Ob der Grundstückspreis im genannten Kaufpreis enthalten ist, geht aus den Exportdaten nicht eindeutig hervor.",
+    "Unsicher: Ausbaugrad, Haustechnik, Bodenplatte/Fundamentumfang, Erdarbeiten, Anschlüsse, Außenanlagen, Gebühren und Genehmigungen sind nicht dokumentiert.",
+    "Abgeleitet: Der Endpreis kann deutlich über 241.100 € liegen, wenn wesentliche Baunebenkosten und Ausstattungspakete hinzukommen."
+  ],
+  "estimated_investment_eur": {
+    "low": 80000,
+    "high": 180000,
+    "confidence": "niedrig",
+    "comment": "Grobe Reserve für nicht dokumentierte Baunebenkosten, Anschlüsse, Erdarbeiten, Außenanlagen und mögliche Ausstattungsmehrkosten; Grundstückskosten nur dann zusätzlich, wenn sie nicht enthalten sind."
+  },
+  "address_hints": [
+    {
+      "hint": "Gemeindegebiet Oberhaag; konkretes Grundstück nicht identifizierbar",
+      "basis": "Inseratsort 8455 Oberhaag; Bild 01 ist als Musterbild gekennzeichnet",
+      "confidence": "niedrig"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/01.jpg",
+      "area": "Grundstück",
+      "condition": "Werbe-/Musterbild einer ebenen Rasenfläche; kein Nachweis des konkreten Bauplatzes.",
+      "positive": [],
+      "risks": [
+        "Topografie, Zufahrt, Anschlüsse und Widmung des realen Grundstücks unbekannt"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/02.jpg",
+      "area": "Hausdarstellung",
+      "condition": "Architektur-Rendering eines fertigen Bungalows mit Pool und gestalteter Außenanlage.",
+      "positive": [
+        "ansprechendes Planungskonzept"
+      ],
+      "risks": [
+        "kein Foto eines gebauten Objekts",
+        "Pool und Außenanlage offenbar nicht als Leistungsbestandteil belegt"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/03.jpg-images/07.jpg",
+      "area": "Leistungsübersicht, Grundriss und Werbung",
+      "condition": "Planungs- und Vertriebsunterlagen; keine reale Bauausführung sichtbar.",
+      "positive": [
+        "Grundriss mit 146,89 m² Nettofläche nachvollziehbar"
+      ],
+      "risks": [
+        "Leistungsumfang aus Übersicht auf Exportbild nicht vollständig belastbar lesbar"
+      ],
+      "confidence": "mittel"
+    }
+  ],
+  "recommendation": "Nur als Bauprojekt weiterverfolgen, nicht wie ein fertiges Haus bewerten. Vor einer Reservierung ist ein verbindliches, vollständiges Fixpreisangebot inklusive Grundstück, Erdarbeiten, Anschlüssen, Gebühren und schlüsselfertiger Ausstattung erforderlich.",
+  "next_steps": [
+    "Detaillierte Bau- und Leistungsbeschreibung samt Ausschlüssen anfordern.",
+    "Schriftlich klären, ob Grundstück und Kaufnebenkosten im Preis enthalten sind.",
+    "Bodengutachten, Widmung, Zufahrt, Hang-/Oberflächenwasser und Anschlusskosten prüfen.",
+    "Gesamtbudget mit unabhängiger Baukostenprüfung und mindestens 10-15 % Reserve kalkulieren."
+  ],
+  "score_reasoning": "Der attraktive Plan und der niedrige Einstiegspreis werden durch sehr geringe Beweiskraft der Werbebilder und große Unklarheit über den Gesamtpreis relativiert.",
+  "limitations": [
+    "Keine Fotos eines realen Hauses oder des konkreten Grundstücks.",
+    "Keine vollständige Leistungsbeschreibung oder Kostenaufstellung.",
+    "Kein Energiekennwert und kein Bauzeit-/Genehmigungsstand."
+  ],
+  "price_assessment": {
+    "asking_price_eur": 241100,
+    "fair_value_low_eur": null,
+    "fair_value_high_eur": null,
+    "suggested_first_offer_eur": null,
+    "suggested_target_price_eur": null,
+    "maximum_recommended_price_eur": null,
+    "confidence": "niedrig",
+    "reasoning": "Ohne klaren Leistungsumfang und Klärung der Grundstückskosten ist keine seriöse Kaufpreiseinschätzung möglich."
+  },
+  "investment_items": [
+    {
+      "category": "Baunebenkosten",
+      "measure": "Erdarbeiten, Anschlüsse, Gebühren und Baustelleneinrichtung",
+      "priority": "sofort",
+      "low_eur": 50000,
+      "high_eur": 120000,
+      "confidence": "niedrig",
+      "basis": "Im Export nicht als inkludiert dokumentiert."
+    },
+    {
+      "category": "Außenanlagen",
+      "measure": "Zufahrt, Entwässerung, Terrasse und Geländeherstellung",
+      "priority": "kurzfristig",
+      "low_eur": 30000,
+      "high_eur": 60000,
+      "confidence": "niedrig",
+      "basis": "Rendering zeigt fertige Außenanlage, deren Leistungsumfang nicht belegt ist."
+    }
+  ],
+  "estimated_total_cost_eur": {
+    "low": 321100,
+    "high": 421100,
+    "confidence": "niedrig",
+    "includes_purchase_price": true,
+    "includes_acquisition_costs": false,
+    "comment": "Angebotspreis plus grobe Reserve; Grundstückskosten können zusätzlich anfallen."
+  },
+  "source": "manual_chatgpt_upload"
+}
