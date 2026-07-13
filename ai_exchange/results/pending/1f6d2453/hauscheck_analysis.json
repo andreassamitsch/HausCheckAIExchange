@@ -1,0 +1,54 @@
+{
+  "house_id": "1f6d2453",
+  "analysis_date": "2026-07-13T09:17:50.468457+00:00",
+  "new_score": 67,
+  "confidence": "mittel",
+  "summary": "Gesichert angeboten wird ein Ein- oder Zweifamilienhaus in Eibiswald mit 160 m² Wohnfläche, sechs Zimmern, 1.355 m² Grundstück und 3-fach-Carport um 295.000 €. Die Bilder zeigen ein gepflegt wirkendes, älteres Wohnhaus mit großer Garage, Carport und teils stark geneigtem Grundstück. Innen sind nur wenige Räume sichtbar: ein leerer Raum mit Steinboden, ein kleiner Raum mit Einbaumöbeln, eine geflieste Garage und ein älterer Heizraum. Der Gesamtzustand wirkt gebrauchsfähig, der Modernisierungsgrad und die energetische Qualität bleiben jedoch weitgehend offen.",
+  "positive_findings": [
+    "Gesichert: 160 m² Wohnfläche, sechs Zimmer und 1.355 m² Grund bieten viel Platz.",
+    "Gesichert: 3-fach-Carport und integrierte Garage schaffen außergewöhnlich viel Stell- und Nutzfläche.",
+    "Gesichert: Fassade, Dachdeckung, Fensteransichten und Außenanlagen wirken auf den Fotos überwiegend gepflegt.",
+    "Abgeleitet: Eine Nutzung als Ein- oder Zweifamilienhaus kann flexibel sein, muss aber baurechtlich und technisch bestätigt werden."
+  ],
+  "risk_findings": [
+    "Gesichert: Ein erheblicher Teil des Grundstücks liegt am steilen Hang direkt neben beziehungsweise hinter dem Haus.",
+    "Gesichert: Die Heizanlage und sichtbaren Leitungen wirken älter; Alter, Energieträger und Restlebensdauer sind nicht angegeben.",
+    "Abgeleitet: Innenausstattung und Oberflächen wirken teilweise älter beziehungsweise uneinheitlich und können Modernisierung erfordern.",
+    "Unsicher: Feuchte, Abdichtung, Drainage, Hangstabilität, Dachaufbau, Elektrik und Leitungszustand sind aus den Bildern nicht beurteilbar.",
+    "Unsicher: HWB, fGEE, Baujahr und konkrete Sanierungshistorie fehlen."
+  ],
+  "estimated_investment_eur": {
+    "low": 30000,
+    "high": 120000,
+    "confidence": "niedrig",
+    "comment": "Grobe Spanne für Innenmodernisierung, mögliche Heizungs-/Haustechnikerneuerung und punktuelle Gebäude- oder Hangentwässerungsmaßnahmen. Ohne Energieausweis, Baujahr, Zustandsbericht und vollständige Innenbilder ist die Spanne nicht belastbar."
+  },
+  "address_hints": [
+    {
+      "hint": "Siedlungsrand- oder Hanglage im Raum Eibiswald mit Blick auf Gewerbe-/Siedlungsflächen",
+      "basis": "Ortsangabe sowie Außenbilder mit steiler Wiese am Haus und sichtbarer Bebauung im Tal",
+      "confidence": "mittel"
+    }
+  ],
+  "image_findings": [
+    {"image":"images/01.jpg-images/02.jpg","area":"Grundstück und Garten","condition":"Kleine ebene Gartenbereiche gehen in einen deutlich steilen Wiesenhang über.","positive":["gepflegte Grünflächen","teilweise Aussicht"],"risks":["Hangpflege","Oberflächenwasser und Hangstabilität prüfen"],"confidence":"hoch"},
+    {"image":"images/03.jpg-images/08.jpg","area":"Fassade, Dach, Garage und Carport","condition":"Äußerlich ordentlich und gepflegt wirkendes Haus mit großer Garage und überdachtem Stellplatzangebot.","positive":["viel Stellfläche","Dachdeckung optisch geschlossen","Fassade ohne klar erkennbare Großschäden"],"risks":["Alter von Dach, Fenstern und Fassade nicht ableitbar","Sockel- und Anschlussbereiche fachlich prüfen"],"confidence":"mittel"},
+    {"image":"images/09.jpg-images/10.jpg","area":"Innenräume","condition":"Sauber und nutzbar, aber gestalterisch teilweise älter; nur ein sehr kleiner Ausschnitt des Wohnbereichs ist dokumentiert.","positive":["gepflegte Oberflächen","Einbaumöbel vorhanden"],"risks":["Modernisierungsbedarf je nach Anspruch","Küche und Bäder fehlen in der Bildauswahl"],"confidence":"mittel"},
+    {"image":"images/11.jpg","area":"Garage","condition":"Groß, hell und gefliest; Sektionaltor und direkter Außenbezug sichtbar.","positive":["hochwertig nutzbare Nebenfläche"],"risks":["Tor, Abdichtung und Bodenablauf prüfen"],"confidence":"hoch"},
+    {"image":"images/12.jpg","area":"Heizraum / Haustechnik","condition":"Ältere Heiz- und Rohrinstallation mit Ausdehnungsgefäß; genaue Technik nicht sicher identifizierbar.","positive":["Technik gut zugänglich"],"risks":["Alter und Effizienz prüfen","möglicher kurzfristiger Erneuerungsbedarf"],"confidence":"mittel"}
+  ],
+  "recommendation": "Interessant, wenn viel Fläche, Garage und Carport wichtig sind. Vor einer Preisentscheidung sind Energieausweis, Heizung, Hangentwässerung und die vollständigen Innenräume zwingend zu prüfen. Bei technisch ordentlichem Zustand ist das Objekt eine Besichtigung wert.",
+  "next_steps": [
+    "Energieausweis, Baujahr und Liste aller Sanierungen samt Rechnungen anfordern.",
+    "Heizsystem, Alter, Verbrauch und geplante Ersatzkosten durch Fachbetrieb prüfen lassen.",
+    "Hang, Drainage, Stützungen, Keller-/Sockelbereiche und Spuren von Oberflächenwasser besichtigen.",
+    "Baurechtliche Genehmigung einer allfälligen Zweifamiliennutzung und aller Nebengebäude prüfen.",
+    "Vollständige Fotos beziehungsweise Besichtigung von Küche, Bädern, Keller, Dachraum und allen Wohneinheiten verlangen."
+  ],
+  "score_reasoning": "Große Wohn- und Grundstücksfläche sowie sehr gute Stellplatz- und Nutzflächen sprechen für das Haus. Fehlende Energie- und Baudaten, der steile Hang, die ältere Haustechnik und die lückenhafte Innenansicht verhindern derzeit eine Einstufung als klar interessant.",
+  "limitations": [
+    "Nur 12 von 60 Medien wurden exportiert.",
+    "Küche, Bäder, große Teile der Wohnräume, Keller und Dachraum sind nicht dokumentiert.",
+    "Keine Energiekennwerte, kein Baujahr und keine Sanierungsliste vorhanden."
+  ]
+}
