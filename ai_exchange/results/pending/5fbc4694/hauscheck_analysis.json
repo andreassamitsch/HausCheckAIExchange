@@ -1,0 +1,158 @@
+{
+  "house_id": "5fbc4694",
+  "analysis_date": "2026-07-13T19:00:57.634199+00:00",
+  "new_score": 58,
+  "confidence": "mittel",
+  "summary": "Gesichert angeboten wird ein Einfamilienhaus mit zusätzlichem Gästehaus in 8553 Sankt Oswald ob Eibiswald um 249.000 €, mit 178 m² Wohnfläche, 1.029 m² Grundstück, HWB 292 und fGEE 3,24. Die zwölf Bilder zeigen zwei ältere Gebäude in sonniger Hang- und Aussichtslage. Das Haupthaus wirkt äußerlich gepflegt und gebrauchsfähig, das Gästehaus ist ein älterer Holzbau. Innen sind nur zwei sehr einfache, deutlich veraltete Duschbäder und eine Holzstiege dokumentiert. Die schlechten Energiekennwerte sind gesichert und sprechen für erheblichen energetischen sowie haustechnischen Prüfbedarf. Der niedrige Kaufpreis und das zusätzliche Gästehaus sind attraktiv, werden aber durch Sanierungsrisiken, Hanglage und die sehr lückenhafte Innenansicht relativiert.",
+  "positive_findings": [
+    "Gesichert: 178 m² Wohnfläche und zusätzliches Gästehaus bieten überdurchschnittlich viel Nutzungsflexibilität.",
+    "Gesichert: Das 1.029 m² große Grundstück liegt in sonniger, grüner Aussichtslage.",
+    "Gesichert: Haupthaus und Gästehaus wirken auf den Außenbildern grundsätzlich gepflegt und nicht offensichtlich verwahrlost.",
+    "Gesichert: Garage beziehungsweise integrierte Stellfläche ist am Haupthaus sichtbar.",
+    "Abgeleitet: Das Preisniveau kann trotz Sanierungsbedarf interessant sein, sofern beide Gebäude baurechtlich genehmigt und technisch brauchbar sind."
+  ],
+  "risk_findings": [
+    "Gesichert: HWB 292 und fGEE 3,24 weisen auf eine sehr schwache energetische Qualität hin.",
+    "Gesichert: Die zwei gezeigten Duschbäder sind technisch und gestalterisch stark veraltet.",
+    "Gesichert: Das Gästehaus ist ein älterer Holzbau; Dach, Holzschutz, Feuchte und Fundamentzustand sind aus den Bildern nicht sicher beurteilbar.",
+    "Abgeleitet: Heizung, Fenster, Dämmung, Warmwasser und Elektroinstallation könnten größeren Erneuerungsbedarf haben.",
+    "Unsicher: Der tatsächliche Zustand von Küche, Wohnräumen, Keller, Dachraum, Heizung, Leitungen und Abdichtung ist wegen fehlender Bilder nicht beurteilbar.",
+    "Unsicher: Genehmigung, Widmung und ganzjährige Nutzbarkeit des Gästehauses sind nicht dokumentiert.",
+    "Unsicher: Hangwasser, Zufahrt im Winter und laufende Pflegekosten der zwei Gebäude sind offen."
+  ],
+  "estimated_investment_eur": {
+    "low": 90000,
+    "high": 210000,
+    "confidence": "niedrig",
+    "comment": "Grobe Bandbreite für energetische Sanierung, mögliche Heizungs- und Fenstersanierung, zwei Bäder, Elektro-/Leitungsarbeiten sowie Instandsetzung des Gästehauses. Ohne technische Besichtigung, Energieausweisdetails und vollständige Innenbilder ist die Spanne nicht belastbar."
+  },
+  "price_assessment": {
+    "asking_price_eur": 249000,
+    "fair_value_low_eur": 205000,
+    "fair_value_high_eur": 235000,
+    "suggested_first_offer_eur": 195000,
+    "suggested_target_price_eur": 215000,
+    "maximum_recommended_price_eur": 230000,
+    "confidence": "niedrig",
+    "reasoning": "Die große Wohnfläche, das Gästehaus und die Aussichtslage schaffen Substanzwert. Dagegen stehen sehr schlechte Energiekennwerte, veraltete Sanitärbereiche, zwei zu erhaltende Gebäude und große Unsicherheit über Haustechnik und Innenzustand. Ohne Vergleichsobjekte ist dies keine Marktwertbestimmung; der Maximalpreis setzt einen technisch grundsätzlich brauchbaren Zustand und eine genehmigte Nutzung des Gästehauses voraus."
+  },
+  "investment_items": [
+    {
+      "category": "Energie und Heizung",
+      "measure": "Energetisches Sanierungskonzept und je nach Befund Erneuerung von Heizung, Fenstern und Teilen der Gebäudehülle",
+      "priority": "kurzfristig",
+      "low_eur": 50000,
+      "high_eur": 130000,
+      "confidence": "niedrig",
+      "basis": "Gesicherter HWB 292 und fGEE 3,24; konkrete Bauteile und Heizungsart fehlen."
+    },
+    {
+      "category": "Sanitär",
+      "measure": "Erneuerung der zwei sichtbaren Duschbäder",
+      "priority": "kurzfristig",
+      "low_eur": 20000,
+      "high_eur": 40000,
+      "confidence": "mittel",
+      "basis": "Beide Bäder sind auf images/05.jpg und images/07.jpg deutlich veraltet."
+    },
+    {
+      "category": "Gästehaus",
+      "measure": "Holzschutz, Dach, Feuchte, Fundament und Haustechnik prüfen und nach Befund sanieren",
+      "priority": "unklar",
+      "low_eur": 10000,
+      "high_eur": 50000,
+      "confidence": "niedrig",
+      "basis": "Älterer Holzbau auf images/02.jpg und images/06.jpg; keine Innen- oder Detailaufnahmen."
+    },
+    {
+      "category": "Elektro und Leitungen",
+      "measure": "Elektro-, Wasser- und Abwasserinstallationen prüfen und gegebenenfalls abschnittsweise erneuern",
+      "priority": "unklar",
+      "low_eur": 10000,
+      "high_eur": 30000,
+      "confidence": "niedrig",
+      "basis": "Alter Gebäudebestand und veraltete Sanitärbereiche; keine direkten Nachweise zum Leitungszustand."
+    }
+  ],
+  "estimated_total_cost_eur": {
+    "low": 305000,
+    "high": 425000,
+    "confidence": "niedrig",
+    "includes_purchase_price": true,
+    "includes_acquisition_costs": false,
+    "comment": "Summe aus empfohlenem Zielpreis von 215.000 € und Investitionsbandbreite von 90.000–210.000 €. Kaufnebenkosten, Finanzierung und Steuern sind nicht enthalten."
+  },
+  "address_hints": [
+    {
+      "hint": "Sonnige, ländliche Hanglage im Raum Sankt Oswald ob Eibiswald mit Fernblick und lockerer Bebauung",
+      "basis": "Ortsangabe im Inserat sowie Bilder 01, 08 und 09 mit Obstgarten, Hanglage und bewaldeter Aussicht",
+      "confidence": "hoch"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/01.jpg",
+      "area": "Grundstück und Aussicht",
+      "condition": "Grünes, leicht geneigtes Grundstück mit Obstbäumen und freiem Landschaftsblick.",
+      "positive": ["sonnig", "Obstgarten", "ruhige Aussichtslage"],
+      "risks": ["Hangpflege", "Oberflächenwasser und Zufahrt im Winter prüfen"],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/02.jpg, images/06.jpg",
+      "area": "Gästehaus",
+      "condition": "Älterer dunkler Holzbau mit steilem Dach und einfachem Eingangsbereich; äußerlich vollständig, aber altersbedingt prüfbedürftig.",
+      "positive": ["separates Gebäude", "zusätzliche Nutzungsoption"],
+      "risks": ["Holzschutz", "Dachdeckung", "Feuchte", "Fundament und Genehmigung unklar"],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/03.jpg, images/04.jpg, images/10.jpg, images/12.jpg",
+      "area": "Haupthaus außen",
+      "condition": "Älteres verputztes Wohnhaus mit Satteldach, Balkon und integrierter Garage. Fassade und Dach wirken gepflegt, der energetische Zustand ist laut Kennwerten dennoch schwach.",
+      "positive": ["gepflegter Gesamteindruck", "Garage", "Balkon"],
+      "risks": ["Fensteralter", "Dämmstandard", "Dachaufbau und Sockelabdichtung prüfen"],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/05.jpg, images/07.jpg",
+      "area": "Duschbäder",
+      "condition": "Zwei kleine, funktionsfähig wirkende, aber stark veraltete Duschbäder mit älteren Fliesen, Armaturen und offenen Duschwannen.",
+      "positive": ["zwei Sanitärbereiche vorhanden"],
+      "risks": ["Sanierungsbedarf", "Abdichtung und Leitungen prüfen", "geringe Bewegungsfläche"],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/08.jpg, images/09.jpg",
+      "area": "Lage und Umgebung",
+      "condition": "Weite Aussicht über bewaldete Hügellandschaft; lockere Nachbarbebauung ist sichtbar.",
+      "positive": ["Fernblick", "ländliche Umgebung"],
+      "risks": ["Entfernung zu Infrastruktur und Winterzufahrt nicht beurteilbar"],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/11.jpg",
+      "area": "Stiegenhaus",
+      "condition": "Gepflegte Holzstiege mit Teppichauflagen und Holzgeländer; gestalterisch älter.",
+      "positive": ["solider sichtbarer Eindruck"],
+      "risks": ["Trittsicherheit und Geländerhöhe prüfen"],
+      "confidence": "mittel"
+    }
+  ],
+  "recommendation": "Das Objekt ist aufgrund von Fläche, Gästehaus, Aussicht und Preis grundsätzlich besichtigungswürdig, aber nur mit großem technischen Vorbehalt. Vor einem Angebot müssen Energieausweis, Heizung, beide Gebäude, Genehmigung des Gästehauses und der vollständige Innenzustand geprüft werden. Bei bestätigtem Sanierungsbedarf sollte der Kaufpreis deutlich unter 249.000 € liegen.",
+  "next_steps": [
+    "Vollständigen Energieausweis, Heizungsart, Alter der Anlage und Verbrauchsdaten der letzten drei Jahre anfordern.",
+    "Baubewilligungen, Nutzungsart und ganzjährige Bewohnbarkeit des Gästehauses schriftlich prüfen.",
+    "Haupthaus und Gästehaus durch Bausachverständigen auf Dach, Feuchte, Holzschutz, Fundament, Keller und Abdichtung untersuchen lassen.",
+    "Elektro-, Wasser-, Abwasser- und Heizungsinstallationen durch Fachbetriebe bewerten lassen.",
+    "Vollständige Besichtigung aller Wohnräume, Küche, Keller, Dachraum und des Gästehaus-Innenbereichs durchführen.",
+    "Sanierungskosten vor Preisverhandlung konkretisieren und mit einem Zielpreis um 215.000 € verhandeln."
+  ],
+  "score_reasoning": "Viel Fläche, zwei Gebäude, Aussichtslage und ein moderater Angebotspreis sprechen für das Objekt. Sehr schlechte Energiekennwerte, veraltete Bäder, zwei instandzuhaltende Gebäude und große Informationslücken zu Haustechnik und Innenzustand begrenzen den Score auf den Bereich 'prüfen'.",
+  "limitations": [
+    "Nur 12 von 78 Medien wurden exportiert und analysiert.",
+    "Keine belastbaren Bilder von Küche, Wohn- und Schlafräumen, Keller, Heizraum, Dachraum oder Gästehaus-Innenbereich vorhanden.",
+    "Baujahr, Heizungsart, Sanierungshistorie und Verbrauchsdaten fehlen.",
+    "Die Kaufpreiseinschätzung basiert nicht auf einer vollständigen Vergleichswertanalyse."
+  ]
+}
