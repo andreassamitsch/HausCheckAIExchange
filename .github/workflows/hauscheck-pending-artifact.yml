@@ -1,0 +1,78 @@
+name: HausCheck pending ZIP artifact
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "ai_exchange/exports/pending/*.zip"
+      - "ai_exchange/control/build_pending_artifact.txt"
+      - ".github/workflows/hauscheck-pending-artifact.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  bundle-pending-zips:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Prepare pending ZIP artifact
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf .artifact/hauscheck-pending
+          mkdir -p .artifact/hauscheck-pending
+
+          python3 - <<'PY'
+          import glob
+          import hashlib
+          import json
+          import os
+          import shutil
+          import sys
+          from datetime import datetime, timezone
+
+          files = sorted(glob.glob('ai_exchange/exports/pending/*.zip'))
+          if not files:
+              print('Keine pending ZIP-Dateien gefunden.', file=sys.stderr)
+              sys.exit(2)
+
+          target_dir = '.artifact/hauscheck-pending'
+          manifest = {
+              'kind': 'hauscheck_pending_zip_artifact',
+              'version': 1,
+              'created_at': datetime.now(timezone.utc).isoformat(),
+              'source_commit': os.environ.get('GITHUB_SHA'),
+              'files': [],
+          }
+
+          for source in files:
+              name = os.path.basename(source)
+              target = os.path.join(target_dir, name)
+              shutil.copy2(source, target)
+              raw = open(source, 'rb').read()
+              manifest['files'].append({
+                  'name': name,
+                  'source_path': source,
+                  'size_bytes': len(raw),
+                  'sha256': hashlib.sha256(raw).hexdigest(),
+              })
+
+          with open(os.path.join(target_dir, 'artifact_manifest.json'), 'w', encoding='utf-8') as handle:
+              json.dump(manifest, handle, ensure_ascii=False, indent=2)
+
+          print(f"{len(files)} ZIP-Datei(en) für das Artifact vorbereitet.")
+          PY
+
+      - name: Upload pending ZIPs as workflow artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: hauscheck-pending-${{ github.run_id }}
+          path: .artifact/hauscheck-pending
+          if-no-files-found: error
+          compression-level: 0
+          retention-days: 3
