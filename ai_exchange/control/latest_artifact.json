@@ -1,14 +1,14 @@
 {
   "kind": "hauscheck_pending_artifact_pointer",
   "version": 1,
-  "created_at": "2026-07-13T11:18:45.017293+00:00",
-  "run_id": 29245800253,
+  "created_at": "2026-07-13T15:19:43.106698+00:00",
+  "run_id": 29261751486,
   "run_attempt": 1,
-  "source_commit": "a724d5a3945eaa5d1bb569c28df26f3383892240",
-  "artifact_id": 8277282605,
-  "artifact_name": "hauscheck-pending-29245800253",
-  "artifact_url": "https://github.com/andreassamitsch/HausCheckAIExchange/actions/runs/29245800253/artifacts/8277282605",
-  "artifact_digest": "29e066bd4bd5dd6c3ed01e85d816bf0af2c9cc99bb9c8b472d9667a7be17ca8a",
+  "source_commit": "326c7618aca35374ce4475cc35768757210007be",
+  "artifact_id": 8283658496,
+  "artifact_name": "hauscheck-pending-29261751486",
+  "artifact_url": "https://github.com/andreassamitsch/HausCheckAIExchange/actions/runs/29261751486/artifacts/8283658496",
+  "artifact_digest": "ffec9208e425bd1ab1381762824213442700ed306ac86e5ac9d416341e050f98",
   "expires_after_days": 3,
   "files": [
     {
@@ -20,20 +20,20 @@
     {
       "name": "1c0ebd6b.zip",
       "source_path": "ai_exchange/exports/pending/1c0ebd6b.zip",
-      "size_bytes": 1253916,
-      "sha256": "97e3678aa1be2a3019cf8b9463e77a39542dff7375e5139132fd91f4d429fb5d"
+      "size_bytes": 1255171,
+      "sha256": "bd295f3aa686765dd89938fc1d9ab77e1d77731f3251bc522e2cb8dfb263db87"
     },
     {
       "name": "1f6d2453.zip",
       "source_path": "ai_exchange/exports/pending/1f6d2453.zip",
-      "size_bytes": 2416177,
-      "sha256": "af0ef301fefa9a996c2296cbccdfe837f2617f26c19a8cd45d71f81f5fdbc19a"
+      "size_bytes": 2417423,
+      "sha256": "56a90c77a20f72b3d770aa08e2f121b57aa38355f645f8196e3f898a3341d5cb"
     },
     {
       "name": "3f66a103.zip",
       "source_path": "ai_exchange/exports/pending/3f66a103.zip",
-      "size_bytes": 1886894,
-      "sha256": "db10d7b09522f0f671c1f496a140a0a3bff5dbaf0681926da62bbadce1b923c2"
+      "size_bytes": 1888217,
+      "sha256": "4477768f340b3b001c0f569dc4b53b504007f4eb28466af75a70f2c4d0238e3c"
     },
     {
       "name": "56df78a2.zip",
@@ -44,14 +44,20 @@
     {
       "name": "6228164c.zip",
       "source_path": "ai_exchange/exports/pending/6228164c.zip",
-      "size_bytes": 1012489,
-      "sha256": "ff7bf225a3e15d6623ab9c21fc0e8c9204ae02fccf93c155c1bb15bfd2742e82"
+      "size_bytes": 1013744,
+      "sha256": "b53703b128513c5d2545380b5c1f5902c414bbfe9e2f611788bb1c14eeae14d8"
     },
     {
       "name": "69e948cf.zip",
       "source_path": "ai_exchange/exports/pending/69e948cf.zip",
       "size_bytes": 3900173,
       "sha256": "1fe391f6bb7a653e227c990d9df9f6e9433ede89bc06234956bb694476207049"
+    },
+    {
+      "name": "89aa52c7.zip",
+      "source_path": "ai_exchange/exports/pending/89aa52c7.zip",
+      "size_bytes": 2830870,
+      "sha256": "3e34248bcd3375a076c52ef2199fd8f304a2896a922dc334b6855b6fb020d2dc"
     },
     {
       "name": "97cdfb21.zip",
