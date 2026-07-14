@@ -1,0 +1,64 @@
+{
+  "house_id": "1c0ebd6b",
+  "analysis_date": "2026-07-13T09:18:04.647108+00:00",
+  "new_score": 60,
+  "confidence": "mittel",
+  "summary": "Gesichert angeboten wird ein 1.213 m² großes Baugrundstück in 8551 Mitterlimberg um 59.000 €. Die fünf Bilder zeigen eine offene, gemähte Wiesenfläche mit deutlicher Hangneigung, Waldrand und Fernblick. Die in listing.json zusätzlich als Wohnfläche erfassten 1.213 m² sind bei einem reinen Grundstücksangebot offensichtlich ein Parserfehler und kein Gebäudewert. Ob das Grundstück tatsächlich voll bebaubar, erschlossen und frei von geologischen oder rechtlichen Einschränkungen ist, bleibt unsicher.",
+  "positive_findings": [
+    "Gesichert: relativ großes Grundstück mit 1.213 m² zu einem rechnerisch niedrigen Grundstückspreis.",
+    "Gesichert: grüne, locker bebaute Umgebung mit Waldrand und Fernblick.",
+    "Abgeleitet: Die offene Wiesenfläche wirkt grundsätzlich gut zugänglich für Planung und Vermessung, sofern die Zufahrt rechtlich und technisch gesichert ist."
+  ],
+  "risk_findings": [
+    "Gesichert: Das Gelände ist sichtbar geneigt; Erdarbeiten, Stützungen und Entwässerung können die Baukosten erhöhen.",
+    "Gesichert: listing.json weist 1.213 m² fälschlich auch als Wohnfläche aus; es gibt kein bestehendes Haus.",
+    "Unsicher: Widmung, Bebauungsdichte, Baugrenzen, Zufahrt, Anschlüsse und Aufschließungskosten sind im Paket nicht belegt.",
+    "Unsicher: Hangwasser, Bodenbeschaffenheit, Rutschungsrisiko und mögliche Waldabstände sind aus Bildern nicht sicher beurteilbar."
+  ],
+  "estimated_investment_eur": {
+    "low": null,
+    "high": null,
+    "confidence": "niedrig",
+    "comment": "Für das Grundstück selbst ist kein belastbarer Investitionsrahmen ableitbar. Zusätzlich zum Kaufpreis können insbesondere Aufschließung, Zufahrt, Erdarbeiten, Entwässerung, Stützungen und Hausbau anfallen; ohne Baugrundgutachten und Anschlussangebote wäre eine Zahl spekulativ."
+  },
+  "address_hints": [
+    {
+      "hint": "Hanglage am Rand einer bewaldeten, ländlichen Umgebung in Mitterlimberg",
+      "basis": "Ortsangabe im Inserat und sichtbare Wiesenhang-/Waldrandlage auf allen fünf Bildern",
+      "confidence": "hoch"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/01.jpg-images/05.jpg",
+      "area": "Baugrundstück / Gelände",
+      "condition": "Gemähte, unbebaute Wiesenfläche mit klar erkennbarer Neigung; angrenzender Baum- und Waldbestand sowie Fernblick.",
+      "positive": [
+        "großzügige Freifläche",
+        "ländliche Aussicht",
+        "keine sichtbaren Bestandsgebäude zum Abbruch"
+      ],
+      "risks": [
+        "Hangneigung",
+        "Entwässerung und Stützung prüfen",
+        "Abstand zum Wald und tatsächliche Grundstücksgrenzen unklar"
+      ],
+      "confidence": "hoch"
+    }
+  ],
+  "recommendation": "Als günstiges Grundstück grundsätzlich prüfenswert, aber nur nach schriftlicher Klärung von Baulandwidmung, Bebauungsbestimmungen, Zufahrt, Aufschließung und Baugrund. Die Hanglage kann den niedrigen Kaufpreis durch hohe Nebenkosten relativieren.",
+  "next_steps": [
+    "Aktuellen Flächenwidmungs- und Bebauungsplan sowie Bebauungsdichte bei der Gemeinde einholen.",
+    "Grenzkataster, Zufahrtsrecht und Leitungsrechte im Grundbuch prüfen.",
+    "Kosten und Lage von Wasser, Kanal, Strom, Telekom und Straßenanschluss schriftlich anfragen.",
+    "Geotechnische Vorprüfung inklusive Hangwasser, Tragfähigkeit und möglicher Rutschungsgefahr beauftragen.",
+    "Mit Vorentwurf Höhenlinien, Erdbewegungen, Stützmauern und Entwässerung kalkulieren."
+  ],
+  "score_reasoning": "Der niedrige Preis, die Grundstücksgröße und die ruhige Aussicht sind attraktiv. Der Score bleibt im Prüfbereich, weil Hanglage, Erschließung, Bebaubarkeit und Baugrund nicht belegt sind und die tatsächlichen Gesamtkosten stark beeinflussen können.",
+  "limitations": [
+    "Nur fünf ähnliche Außenbilder vorhanden.",
+    "Keine Widmungs-, Vermessungs-, Anschluss- oder Baugrundunterlagen im Paket.",
+    "Die als Wohnfläche gespeicherte Fläche ist ein Parserfehler und wurde nicht als Gebäudefläche gewertet."
+  ],
+  "source": "manual_chatgpt_upload"
+}
