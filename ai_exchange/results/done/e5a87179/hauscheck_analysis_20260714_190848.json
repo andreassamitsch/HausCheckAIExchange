@@ -1,0 +1,148 @@
+{
+  "house_id": "e5a87179",
+  "analysis_date": "2026-07-13T16:01:26+00:00",
+  "new_score": 60,
+  "confidence": "mittel",
+  "summary": "Gesichert angeboten wird ein Objekt in Obergreith mit 154,64 m² Wohnfläche, 1.727 m² Grundstück, neun Zimmern, HWB 153 und fGEE 1,63 um 381.000 €. Die Bilder zeigen eine große, offenbar gemischt privat und gewerblich beziehungsweise gastronomisch genutzte Liegenschaft mit gepflegtem Garten, überdachten Terrassen, Gastraum-/Barbereich und einem noch nicht fertig ausgebauten Dach- oder Obergeschossbereich. Die Bildauswahl enthält zudem starke Makler- und Finanzierungswerbung.",
+  "positive_findings": [
+    "Gesichert: großes Grundstück mit Fernblick und gepflegten Außenflächen.",
+    "Gesichert: umfangreiche überdachte Terrassen- und Aufenthaltsbereiche.",
+    "Gesichert: neun Zimmer und erkennbare zusätzliche Nutzflächen bieten flexible Nutzungsmöglichkeiten.",
+    "Abgeleitet: Kombination aus Wohnen, Hobby und Gewerbe kann für passende Käufer einen Zusatznutzen bieten."
+  ],
+  "risk_findings": [
+    "Gesichert: HWB 153 entspricht energetisch schwachem Bestand.",
+    "Gesichert: Ein großer Innenbereich ist sichtbar im Roh-/Ausbauzustand.",
+    "Gesichert: Ein Teil der Räume wirkt gastronomisch/gewerblich genutzt; Umnutzung und Genehmigungen sind zu klären.",
+    "Unsicher: Art der Zentralheizung; der Hinweis auf Solarenergie ist unvollständig und keine vollständige Heizsystembeschreibung.",
+    "Unsicher: Fertigstellungskosten, Brandschutz, Schallschutz, Statik und baurechtlicher Status der Ausbauflächen.",
+    "Gesichert: Bild 12 ist reine Finanzierungswerbung und kein Zustandsnachweis."
+  ],
+  "estimated_investment_eur": {
+    "low": 70000,
+    "high": 190000,
+    "confidence": "niedrig",
+    "comment": "Grobe Spanne für Fertigstellung des Rohbereichs, energetische Maßnahmen, Haustechnik und Anpassung der gewerblichen Bereiche an die gewünschte Nutzung."
+  },
+  "address_hints": [
+    {
+      "hint": "Aussichtsreiche, ländliche Lage in Obergreith mit umliegenden Wiesen und lockerer Bebauung",
+      "basis": "Bilder 01-04 und 06-11",
+      "confidence": "hoch"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/01.jpg-images/04.jpg, images/06.jpg, images/10.jpg-images/11.jpg",
+      "area": "Garten, Aussicht und Außenanlagen",
+      "condition": "Gepflegte Grünflächen, Obstbäume, überdachte Sitzbereiche und weitläufige Aussicht.",
+      "positive": [
+        "attraktive Aussicht",
+        "große Außenbereiche"
+      ],
+      "risks": [
+        "Pflegeaufwand",
+        "Genehmigung der Überdachungen prüfen"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/05.jpg",
+      "area": "Ausbau-/Dachbereich",
+      "condition": "Großer Raum mit sichtbarer Holzkonstruktion, Mauerwerk, Dämmmaterial und unfertigen Oberflächen.",
+      "positive": [
+        "großes Ausbaupotenzial"
+      ],
+      "risks": [
+        "erheblicher Fertigstellungsbedarf",
+        "Statik, Dämmung, Brandschutz und Bewilligung prüfen"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/07.jpg-images/09.jpg",
+      "area": "Gebäude und Bar-/Gastrobereich",
+      "condition": "Großes mehrteiliges Gebäude mit gewerblich wirkender Front und vollständig eingerichtetem Barbereich.",
+      "positive": [
+        "vorhandene Infrastruktur"
+      ],
+      "risks": [
+        "Nutzungskonzept und Genehmigung klären",
+        "möglicher Rückbau-/Umbauaufwand"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/12.jpg",
+      "area": "Werbegrafik",
+      "condition": "Finanzierungswerbung mit Objektfoto.",
+      "positive": [],
+      "risks": [
+        "nicht als Zustandsnachweis verwendbar"
+      ],
+      "confidence": "hoch"
+    }
+  ],
+  "recommendation": "Nur für Käufer interessant, die die gemischte Nutzung und den Ausbauzustand gezielt brauchen. Für reines Familienwohnen wirkt der Preis angesichts HWB, Umbau- und Genehmigungsrisiken eher hoch. Vor Kauf sind Nutzungsbewilligung, Ausbaukosten und Heizsystem zwingend zu klären.",
+  "next_steps": [
+    "Bauakte, Nutzungsbewilligungen und genehmigte Flächen für Wohnen/Gewerbe prüfen.",
+    "Detaillierte Pläne und Fertigstellungsstand des Rohbereichs anfordern.",
+    "Heizsystem, Solaranteil, Verbrauch und Energieausweis vollständig klären.",
+    "Brandschutz, Statik, Schallschutz und Haustechnik sachverständig prüfen.",
+    "Kalkulation für gewünschte Umnutzung und Fertigstellung erstellen."
+  ],
+  "score_reasoning": "Schöne Lage, großes Grundstück und flexible Flächen sind Pluspunkte; hoher Preis, HWB 153, unfertiger Ausbau und mögliche gewerbliche Sonderthemen erhöhen Risiko und Investitionsbedarf.",
+  "limitations": [
+    "Keine vollständigen Innenraumfotos der Wohnbereiche.",
+    "Heizsystem nur unklar beschrieben.",
+    "Genehmigungs- und Nutzungssituation nicht dokumentiert."
+  ],
+  "price_assessment": {
+    "asking_price_eur": 381000,
+    "fair_value_low_eur": 300000,
+    "fair_value_high_eur": 350000,
+    "suggested_first_offer_eur": 290000,
+    "suggested_target_price_eur": 320000,
+    "maximum_recommended_price_eur": 345000,
+    "confidence": "niedrig",
+    "reasoning": "Abschlag für Rohbereich, Energiezustand und Nutzungs-/Genehmigungsrisiken; ohne Vergleichsobjekte kein Verkehrswert."
+  },
+  "investment_items": [
+    {
+      "category": "Ausbau",
+      "measure": "Roh-/Dachbereich fertigstellen",
+      "priority": "kurzfristig",
+      "low_eur": 40000,
+      "high_eur": 100000,
+      "confidence": "niedrig",
+      "basis": "Bild 05 zeigt unfertigen Ausbau."
+    },
+    {
+      "category": "Energie/Heizung",
+      "measure": "Heizung und Gebäudehülle optimieren",
+      "priority": "mittelfristig",
+      "low_eur": 20000,
+      "high_eur": 60000,
+      "confidence": "niedrig",
+      "basis": "HWB 153 und unklare Heizungsbeschreibung."
+    },
+    {
+      "category": "Umnutzung",
+      "measure": "Gewerbliche Räume an Wohn- oder andere Nutzung anpassen",
+      "priority": "unklar",
+      "low_eur": 10000,
+      "high_eur": 30000,
+      "confidence": "niedrig",
+      "basis": "Bilder 07-09 zeigen Gastro-/Barbereich."
+    }
+  ],
+  "estimated_total_cost_eur": {
+    "low": 390000,
+    "high": 510000,
+    "confidence": "niedrig",
+    "includes_purchase_price": true,
+    "includes_acquisition_costs": false,
+    "comment": "Zielpreis 320.000 € plus Investitionsspanne."
+  },
+  "source": "manual_chatgpt_upload"
+}
