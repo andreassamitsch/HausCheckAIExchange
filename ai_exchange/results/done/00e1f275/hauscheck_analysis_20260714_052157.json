@@ -1,0 +1,192 @@
+{
+  "house_id": "00e1f275",
+  "analysis_date": "2026-07-13T19:00:06Z",
+  "new_score": 48,
+  "confidence": "mittel",
+  "summary": "Gesichert angeboten wird ein Einfamilienhaus in 8552 Eibiswald mit 154 m² Wohnfläche, 1.794 m² Grundstück und einem Kaufpreis von 349.000 €. Der HWB von 320 kWh/m²a und der fGEE von 3,76 sind verifiziert und zeigen einen sehr schwachen energetischen Zustand. Die zwölf exportierten Bilder zeigen ein älteres, freistehendes Haus in sonniger Hanglage mit weitem Ausblick, großem Garten, Balkon und Garage beziehungsweise Kellergeschoss. Außen wirkt das Gebäude grundsätzlich gepflegt und geschlossen; innen sind mehrere Räume leer und teilweise oberflächlich modernisiert, Bad, Heizkörper, Untergeschoss und technische Leitungen wirken jedoch deutlich älter. Ein umfassender energetischer und haustechnischer Sanierungsbedarf ist plausibel, Umfang und Substanzrisiken bleiben ohne Besichtigung unsicher.",
+  "positive_findings": [
+    "Gesichert: großes Grundstück mit 1.794 m², Garten, Baumbestand und freiem Ausblick.",
+    "Gesichert: 154 m² Wohnfläche, Balkon sowie Garage beziehungsweise nutzbares Untergeschoss sind vorhanden.",
+    "Gesichert: Fassade, Dachflächen und Fensteröffnungen zeigen auf den Bildern keine klar erkennbaren akuten Großschäden.",
+    "Gesichert: mehrere Wohnräume sind leer, hell und grundsätzlich sofort für eine Modernisierung zugänglich.",
+    "Abgeleitet: Lage, Grundstücksgröße und Aussicht können einen relevanten Zusatzwert darstellen, sofern Zufahrt, Hangentwässerung und Widmung unproblematisch sind."
+  ],
+  "risk_findings": [
+    "Gesichert: HWB 320 kWh/m²a und fGEE 3,76 bedeuten eine sehr schlechte energetische Qualität.",
+    "Gesichert: Bad, Heizkörper, Teile der Elektroinstallation und das Untergeschoss wirken technisch beziehungsweise gestalterisch deutlich veraltet.",
+    "Gesichert: Im Keller- beziehungsweise Garagenbereich sind offene Leitungsführungen, rohe Oberflächen und Gebrauchsspuren sichtbar.",
+    "Abgeleitet: Eine größere Erneuerung von Heizung, Gebäudehülle, Fenstern und Haustechnik ist wahrscheinlich, aber nicht vollständig belegt.",
+    "Unsicher: Zustand von Dachstuhl, Kellerabdichtung, Drainage, Fundamenten, Wasserleitungen, Elektrik und möglicher Feuchte ist aus den Bildern nicht belastbar feststellbar.",
+    "Unsicher: Baujahr, Heizsystem, Sanierungshistorie, Genehmigungsstand und tatsächliche Nutzbarkeit aller 154 m² fehlen."
+  ],
+  "estimated_investment_eur": {
+    "low": 110000,
+    "high": 220000,
+    "confidence": "niedrig",
+    "comment": "Grobe Bandbreite für energetische Sanierung, mögliche Heizungserneuerung, Fenster- und Dämmmaßnahmen, Elektro- und Sanitärarbeiten sowie Innenmodernisierung. Ohne vollständigen Energieausweis, Baujahr, Heizsystem, Leitungsprüfung und Besichtigung ist die Spanne nicht belastbar."
+  },
+  "address_hints": [
+    {
+      "hint": "Sonnige, leicht bis mäßig geneigte Wohnlage im Raum Eibiswald mit freiem Blick auf bewaldete Höhen und lockerer Nachbarbebauung",
+      "basis": "Ortsangabe im Inserat sowie Außenbilder mit Hanglage, Fernblick, großem Garten und sichtbaren Nachbarhäusern",
+      "confidence": "mittel"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/01.jpg-images/05.jpg, images/08.jpg",
+      "area": "Außenansichten, Grundstück und Gebäudehülle",
+      "condition": "Freistehendes, zweigeschossig wirkendes Wohnhaus mit orangefarbener Putzfassade, hellem Sockelgeschoss, Satteldach, Balkon, Außentreppe und großem Garten. Dach und Fassade wirken optisch geschlossen; das Grundstück ist geneigt.",
+      "positive": [
+        "großer Garten",
+        "sonnige Lage und Aussicht",
+        "Garage beziehungsweise Untergeschoss",
+        "äußerlich grundsätzlich gepflegter Eindruck"
+      ],
+      "risks": [
+        "Hangwasser und Entwässerung prüfen",
+        "Sockel und Kellerabdichtung fachlich prüfen",
+        "Dach, Balkonanschlüsse und Geländer technisch prüfen"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/06.jpg, images/09.jpg, images/10.jpg",
+      "area": "Wohn- und Schlafräume",
+      "condition": "Leere, helle Räume mit Laminat- beziehungsweise Holzböden, älteren Heizkörpern und teilweise neueren Wandoberflächen beziehungsweise Fototapete. Keine eindeutigen Feuchte- oder Schimmelschäden sichtbar.",
+      "positive": [
+        "große Fensterflächen",
+        "helle Räume",
+        "grundsätzlich nutzbarer Innenbestand"
+      ],
+      "risks": [
+        "Oberflächen und Böden teilweise zu erneuern",
+        "energetische Qualität der Fenster unklar",
+        "Heizsystem und Rohrnetz prüfen"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/07.jpg",
+      "area": "Bad",
+      "condition": "Voll verfliestes älteres Bad mit Eckbadewanne, WC, Heizkörper und kleinem Fenster. Es wirkt nutzbar, aber technisch und gestalterisch nicht aktuell.",
+      "positive": [
+        "Fenster vorhanden",
+        "grundsätzlich funktionsfähige Ausstattung erkennbar"
+      ],
+      "risks": [
+        "Sanitärleitungen und Abdichtung prüfen",
+        "mittelfristiger bis kurzfristiger Modernisierungsbedarf"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/11.jpg-images/12.jpg",
+      "area": "Keller, Garage und Technikbereich",
+      "condition": "Gefliester beziehungsweise roher Untergeschossbereich mit sichtbaren Leitungen, Treppe, Gebrauchsspuren und teilweise unfertigen Oberflächen. Keine eindeutige starke Durchfeuchtung erkennbar, jedoch ist die Beurteilung eingeschränkt.",
+      "positive": [
+        "zusätzliche Nutz- und Lagerfläche",
+        "technische Installationen teilweise zugänglich"
+      ],
+      "risks": [
+        "Feuchte und Abdichtung prüfen",
+        "Elektro- und Leitungszustand prüfen",
+        "Brandschutz und sichere Leitungsführung klären"
+      ],
+      "confidence": "mittel"
+    }
+  ],
+  "recommendation": "Das Objekt ist wegen Grundstück, Wohnfläche, Aussicht und grundsätzlich brauchbarer Gebäudestruktur interessant, beim aktuellen Preis aber nur mit deutlichem Sicherheitsabschlag prüfenswert. Der verifizierte HWB von 320 und fGEE 3,76 machen eine tiefgehende energetische und haustechnische Prüfung zwingend. Ein Kauf sollte nur nach technischer Besichtigung, vollständiger Kostenschätzung und einer Preisverhandlung in Richtung etwa 270.000 € erfolgen; ohne belastbare Sanierungsdaten sollte der Preis von 349.000 € nicht akzeptiert werden.",
+  "next_steps": [
+    "Vollständigen Energieausweis einschließlich Bauteilaufbauten und Verbesserungsvorschlägen anfordern.",
+    "Heizsystem, Alter, Brennstoff, Warmwasserbereitung und reale Verbrauchsdaten der letzten drei Jahre klären.",
+    "Dach, Fenster, Fassade, Balkon, Kellerabdichtung, Drainage und Hangwasser durch einen unabhängigen Bausachverständigen prüfen lassen.",
+    "Elektro-, Wasser-, Abwasser- und Heizungsleitungen fachlich überprüfen und Sanierungsangebot erstellen lassen.",
+    "Baubewilligungen, Bestandspläne, Flächenwidmung, Zufahrt und Übereinstimmung der 154 m² Wohnfläche mit dem genehmigten Bestand prüfen.",
+    "Vor Kauf ein abgestimmtes Sanierungskonzept mit Prioritäten und Gesamtbudget erstellen.",
+    "Mit einem ersten Angebot um 245.000 € beginnen und einen Zielpreis um 270.000 € anstreben."
+  ],
+  "score_reasoning": "Grundstück, Wohnfläche, Ausblick und der optisch geschlossene Außenbau sind klare Pluspunkte. Sehr schlechte Energiekennwerte, ältere Haustechnik, veraltetes Bad, sichtbarer Modernisierungsbedarf und zahlreiche nicht dokumentierte technische Risiken belasten die Bewertung stark. Da der Angebotspreis die voraussichtliche Sanierung nur unzureichend berücksichtigt, liegt das Objekt derzeit knapp im kritischen Bereich.",
+  "limitations": [
+    "Nur 12 von 39 Medien wurden exportiert und analysiert.",
+    "Keine Bilder von Küche, Heizraum, Dachraum und allen Wohnräumen vorhanden.",
+    "Baujahr, Heizungsart, Sanierungshistorie und Verbrauchsdaten fehlen.",
+    "Keine belastbaren Vergleichsobjekte oder Grundstückswertdaten für eine Marktwertermittlung verwendet.",
+    "Nicht sichtbare Bauteile, Statik, Abdichtung und Genehmigungslage können nicht beurteilt werden."
+  ],
+  "price_assessment": {
+    "asking_price_eur": 349000,
+    "fair_value_low_eur": 255000,
+    "fair_value_high_eur": 295000,
+    "suggested_first_offer_eur": 245000,
+    "suggested_target_price_eur": 270000,
+    "maximum_recommended_price_eur": 290000,
+    "confidence": "niedrig",
+    "reasoning": "Die Einschätzung berücksichtigt die große Grundstücksfläche, 154 m² Wohnfläche und den äußerlich brauchbaren Bestand, zieht aber einen erheblichen Abschlag für HWB 320, fGEE 3,76, älteres Bad und Haustechnik sowie den wahrscheinlichen sechsstelligen Sanierungsbedarf ab. Ohne lokale Vergleichsobjekte und technische Prüfung ist dies keine Verkehrswertermittlung."
+  },
+  "investment_items": [
+    {
+      "category": "Energie und Heizung",
+      "measure": "Heizsystem prüfen und wahrscheinlich erneuern beziehungsweise in ein Gesamtsanierungskonzept integrieren",
+      "priority": "kurzfristig",
+      "low_eur": 25000,
+      "high_eur": 50000,
+      "confidence": "niedrig",
+      "basis": "Verifizierter HWB 320 und fGEE 3,76; Heizungsart und Anlagenalter fehlen."
+    },
+    {
+      "category": "Gebäudehülle",
+      "measure": "Fassade, oberste Geschossdecke beziehungsweise Dach und gegebenenfalls Kellerdecke energetisch verbessern",
+      "priority": "kurzfristig",
+      "low_eur": 40000,
+      "high_eur": 90000,
+      "confidence": "niedrig",
+      "basis": "Sehr schlechte Energiekennwerte; konkreter Bauteilaufbau ist nicht dokumentiert."
+    },
+    {
+      "category": "Fenster und Außentüren",
+      "measure": "Fensterzustand prüfen und bei unzureichendem Standard teilweise oder vollständig erneuern",
+      "priority": "mittelfristig",
+      "low_eur": 15000,
+      "high_eur": 30000,
+      "confidence": "niedrig",
+      "basis": "Fenster sind sichtbar, Alter und Wärmeschutz jedoch nicht feststellbar."
+    },
+    {
+      "category": "Sanitär",
+      "measure": "Bad modernisieren und Leitungen beziehungsweise Abdichtung prüfen",
+      "priority": "mittelfristig",
+      "low_eur": 15000,
+      "high_eur": 30000,
+      "confidence": "mittel",
+      "basis": "Ältere sichtbare Badgestaltung und Sanitärinstallation."
+    },
+    {
+      "category": "Elektro und Haustechnik",
+      "measure": "Elektroinstallation, Verteiler, Leitungsführung und technische Sicherheit prüfen und teilweise erneuern",
+      "priority": "kurzfristig",
+      "low_eur": 10000,
+      "high_eur": 25000,
+      "confidence": "niedrig",
+      "basis": "Ältere beziehungsweise offen geführte Installationen im Untergeschoss sichtbar; Gesamtzustand unbekannt."
+    },
+    {
+      "category": "Innenausbau",
+      "measure": "Böden, Wände, Beleuchtung und einzelne Räume nach Anspruch modernisieren",
+      "priority": "optional",
+      "low_eur": 5000,
+      "high_eur": 20000,
+      "confidence": "mittel",
+      "basis": "Mehrere Räume sind nutzbar, aber teilweise gestalterisch und technisch älter."
+    }
+  ],
+  "estimated_total_cost_eur": {
+    "low": 380000,
+    "high": 490000,
+    "confidence": "niedrig",
+    "includes_purchase_price": true,
+    "includes_acquisition_costs": false,
+    "comment": "Summe aus empfohlenem Zielpreis von rund 270.000 € und grober Investitionsbandbreite von 110.000 bis 220.000 €. Kaufnebenkosten, Finanzierung, Steuern und unvorhergesehene verdeckte Schäden sind nicht enthalten."
+  },
+  "source": "manual_chatgpt_upload"
+}
