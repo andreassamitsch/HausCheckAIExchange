@@ -1,0 +1,124 @@
+{
+  "house_id": "3f66a103",
+  "analysis_date": "2026-07-13T11:18:29.563303+00:00",
+  "new_score": 61,
+  "confidence": "mittel",
+  "summary": "Gesichert angeboten wird ein Anwesen in 8552 Eibiswald mit 120 m² Wohnfläche, 4.455 m² Grundstück, Nebengebäude, HWB 195 und fGEE 4,19 um 330.000 €. Die zwölf Bilder zeigen ein älteres, äußerlich gepflegt wirkendes Wohnhaus in sonniger, leicht geneigter Grünlage, ein separates Nebengebäude sowie bewohnte Innenräume mit teilweise modernisiertem Zubau, aber überwiegend älterer Ausstattung. Die sehr schwachen Energiekennwerte sind gesichert und sprechen für erheblichen energetischen beziehungsweise haustechnischen Prüfbedarf. Ob und in welchem Umfang das Grundstück tatsächlich teilbar und zusätzlich bebaubar ist, bleibt rechtlich und technisch zu klären.",
+  "positive_findings": [
+    "Gesichert: sehr großes Grundstück mit 4.455 m² und freier, sonniger Grünfläche rund um das Haus.",
+    "Gesichert: separates Nebengebäude mit Garage beziehungsweise Nutzfläche ist vorhanden.",
+    "Gesichert: Wohn- und Essbereich im jüngeren Zubau wirken hell, gepflegt und grundsätzlich sofort nutzbar.",
+    "Gesichert: Fassade, Dachflächen und Außenanlagen zeigen auf den Fotos keine klar erkennbaren akuten Großschäden.",
+    "Abgeleitet: Das große Grundstück und die laut Inserat mögliche Teilbarkeit können einen erheblichen Zusatzwert darstellen, sofern Widmung, Zufahrt und Parzellierung tatsächlich umsetzbar sind."
+  ],
+  "risk_findings": [
+    "Gesichert: HWB 195 und fGEE 4,19 weisen auf eine schwache energetische Gesamtqualität hin.",
+    "Gesichert: Küche, Esszimmer, Vorraum und Teile der Innenausstattung wirken älter beziehungsweise gestalterisch uneinheitlich.",
+    "Abgeleitet: Heizung, Fenster, Dämmung und Luftdichtheit können wegen der Energiekennwerte größeren Erneuerungsbedarf haben; Details sind nicht dokumentiert.",
+    "Unsicher: Alter und Zustand von Dach, Holzfassade, Kellerabdichtung, Elektro-, Wasser- und Heizungsinstallation sind aus den Bildern nicht belastbar beurteilbar.",
+    "Unsicher: Die beworbene Teilbarkeit und zusätzliche Bebaubarkeit des Grundstücks sind nicht durch Widmung, Bebauungsplan, Vermessung oder Zufahrtsnachweis belegt."
+  ],
+  "estimated_investment_eur": {
+    "low": 70000,
+    "high": 180000,
+    "confidence": "niedrig",
+    "comment": "Grobe Spanne für energetische Sanierung, mögliche Heizungserneuerung, Fenster- beziehungsweise Dämmmaßnahmen und Modernisierung älterer Innenbereiche. Ohne Baujahr, Heizsystem, Energieausweisdetails, Sanierungshistorie und technische Besichtigung ist die Spanne nicht belastbar."
+  },
+  "address_hints": [
+    {
+      "hint": "Sonnige, leicht geneigte Wohnlage im Gemeindegebiet Eibiswald mit lockerer Nachbarbebauung und Fernblick",
+      "basis": "Ortsangabe im Inserat sowie Außenbilder mit großem Grünanteil, Hangneigung und sichtbarer Siedlungsumgebung",
+      "confidence": "mittel"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/01.jpg-images/05.jpg",
+      "area": "Außenansichten, Grundstück und Nebengebäude",
+      "condition": "Älteres Wohnhaus mit dunkler Holzfassade im Oberbereich, heller Sockelzone, Satteldach, großem gepflegtem Grundstück und separatem Nebengebäude. Das Gelände ist leicht bis mäßig geneigt.",
+      "positive": [
+        "große Freiflächen",
+        "sonnige Lage",
+        "Nebengebäude vorhanden",
+        "Dach und Fassade optisch geschlossen"
+      ],
+      "risks": [
+        "Holzfassade und Dachanschlüsse fachlich prüfen",
+        "Entwässerung und Hangwasser klären",
+        "Nebengebäude baurechtlich und technisch prüfen"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/06.jpg-images/07.jpg",
+      "area": "Wohn- und Essbereich im Zubau",
+      "condition": "Heller, gepflegter Wohnbereich mit sichtbarer Holzbalkendecke beziehungsweise Holzdecke, Parkett- oder Laminatboden und großen Fensterflächen.",
+      "positive": [
+        "hell",
+        "großzügiger Aufenthaltsbereich",
+        "gepflegter Eindruck"
+      ],
+      "risks": [
+        "genauer Aufbau und energetische Qualität des Zubaus unbekannt"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/08.jpg-images/10.jpg",
+      "area": "Esszimmer, Küche und Vorraum",
+      "condition": "Sauber und bewohnbar, jedoch überwiegend ältere Ausstattung und uneinheitliche Oberflächen. Die Küche wirkt funktional, aber nicht aktuell modernisiert.",
+      "positive": [
+        "nutzbarer Bestand",
+        "separate Küche und Esszone"
+      ],
+      "risks": [
+        "Modernisierungsbedarf je nach Anspruch",
+        "Elektro- und Installationszustand nicht sichtbar",
+        "steile Holzstiege prüfen"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/11.jpg",
+      "area": "Grundriss Erdgeschoss",
+      "condition": "Plan zeigt Schlafzimmer, Wohnzimmer, Küche, Speis, Bad, WC, Windfang sowie Erweiterungen für Wohnzimmer und Küche mit jeweils rund 15 m².",
+      "positive": [
+        "Schlafzimmer und Bad im Erdgeschoss",
+        "klar erkennbare Wohnraumerweiterung"
+      ],
+      "risks": [
+        "Genehmigungsstand und Übereinstimmung mit Naturmaß prüfen"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/12.jpg",
+      "area": "Grundriss Kellergeschoss",
+      "condition": "Plan zeigt bestehenden Keller und einen Kellerraum unter der Erweiterung; Details sind nur eingeschränkt lesbar.",
+      "positive": [
+        "zusätzliche Nutz- und Lagerfläche"
+      ],
+      "risks": [
+        "Feuchte, Abdichtung, Raumhöhe und tatsächliche Nutzbarkeit prüfen"
+      ],
+      "confidence": "mittel"
+    }
+  ],
+  "recommendation": "Das Objekt ist wegen Grundstücksgröße, Nebengebäude und grundsätzlich nutzbarem Wohnbestand prüfenswert, aber nicht ohne erhebliche Vorbehalte. Besonders die schlechten Energiekennwerte und die unbewiesene Teilbarkeit können den wirtschaftlichen Wert stark verändern. Eine Besichtigung lohnt sich nur zusammen mit der frühzeitigen Klärung von Widmung, Parzellierung, Heizung und technischer Substanz.",
+  "next_steps": [
+    "Vollständigen Energieausweis, Heizsystem, Alter der Anlage und reale Verbrauchsdaten der letzten drei Jahre anfordern.",
+    "Flächenwidmung, Bebauungsdichte, Mindestgrundstücksgrößen, Zufahrt und tatsächliche Teilbarkeit bei Gemeinde und Vermessungsbüro schriftlich klären.",
+    "Baubewilligungen und Bestandspläne für Wohnhaus, Zubau und Nebengebäude mit dem Ist-Zustand abgleichen.",
+    "Dach, Holzfassade, Kellerfeuchte, Drainage, Fenster, Elektrik und Leitungen durch einen unabhängigen Sachverständigen prüfen lassen.",
+    "Sanierungskonzept samt Kosten für Heizung, Gebäudehülle und Innenmodernisierung erstellen.",
+    "Kaufpreis erst nach Abzug realistischer Sanierungskosten und nur bei belegtem Zusatzwert des teilbaren Baugrunds verhandeln."
+  ],
+  "score_reasoning": "Die große Grundfläche, das Nebengebäude und der gepflegte, nutzbare Wohnbereich sind klare Pluspunkte. Dagegen stehen sehr schwache Energiekennwerte, ein älterer und uneinheitlicher Ausbau, fehlende Technikdaten und die noch nicht belegte Teilbarkeit des Grundstücks. Deshalb liegt das Objekt derzeit im Bereich 'prüfen' und nicht im klar interessanten Bereich.",
+  "limitations": [
+    "Nur 12 von 36 Medien wurden exportiert und analysiert.",
+    "Keine Fotos von Bad, WC, Schlafzimmer, Keller, Heizraum oder Dachraum vorhanden.",
+    "Baujahr, Heizungsart, Sanierungshistorie und Verbrauchsdaten fehlen.",
+    "Teilbarkeit und Bebaubarkeit des Grundstücks sind nur Inseratsbehauptungen und nicht dokumentiert."
+  ],
+  "source": "manual_chatgpt_upload"
+}
