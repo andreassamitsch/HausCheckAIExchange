@@ -1,0 +1,258 @@
+{
+  "house_id": "2fb65e26",
+  "analysis_date": "2026-07-14T06:00:00Z",
+  "new_score": 59,
+  "confidence": "mittel",
+  "summary": "Gesichert ist ein 1952 massiv errichtetes, 1972 im Dachgeschoss ausgebautes Ein-/Zweifamilienhaus mit rund 134,5 m² Nutzfläche, 5.614 m² Grund, zwei Garagen/Nebengebäuden, Wintergarten und überdachtem Pool. Die zwölf aktuellen Bilder zeigen ausschließlich Außenbereiche und den Wintergarten; diese wirken außergewöhnlich gepflegt. Abgeleitet ist dennoch ein hoher technischer und energetischer Modernisierungsbedarf, insbesondere wegen HWB 362, fGEE 4,17, Ölheizung aus 2000 und Fenstern aus 1999. Unsicher bleiben Innenausbau, Dachaufbau, Leitungen, Feuchtigkeit, Pooltechnik und Genehmigungsstand.",
+  "positive_findings": [
+    "Gesichert: Ruhige Lage am Ende einer Sackgasse laut Exposé.",
+    "Gesichert: Sehr gepflegte Garten-, Zufahrts- und Außenanlagen auf allen aktuellen Bildern.",
+    "Gesichert: Überdachter Pool, Wintergarten, zwei Garagen/Nebengebäude, Brunnen und Eigenwald laut Exposé.",
+    "Gesichert: Kunststofffenster mit Zweifachverglasung wurden 1999 eingebaut.",
+    "Abgeleitet: Flexible Nutzung als Ein- oder Zweifamilienhaus durch separaten Zugang zum Dachgeschoss."
+  ],
+  "risk_findings": [
+    "Gesichert: HWB 362 kWh/m²a und fGEE 4,17 bedeuten einen sehr schlechten energetischen Standard.",
+    "Gesichert: Öl-Zentralheizung aus 2000 plus feste Brennstoffe; mittelfristiger Ersatz ist wahrscheinlich.",
+    "Gesichert: Das Exposé bezeichnet den Zustand zugleich als gepflegt und sanierungsbedürftig.",
+    "Abgeleitet: Wintergarten, Poolüberdachung und mehrere An-/Nebenbauten erhöhen Wartungs- und Genehmigungsrisiken.",
+    "Unsicher: Keine aktuellen Innenraumfotos; Zustand von Küche, Bädern, Elektrik, Leitungen und Böden nicht belastbar beurteilbar.",
+    "Unsicher: Dach, Abdichtung, Hang-/Oberflächenwasser und Pooltechnik sind visuell nicht prüfbar."
+  ],
+  "estimated_investment_eur": {
+    "low": 85000,
+    "high": 210000,
+    "confidence": "niedrig",
+    "comment": "Grobe Bandbreite für Heizung, energetische Verbesserungen, mögliche technische Erneuerungen und Innenmodernisierung. Ohne Innenbesichtigung und Fachprüfung kann der tatsächliche Bedarf deutlich abweichen."
+  },
+  "address_hints": [
+    {
+      "hint": "Hörmsdorf 108, 8552 Eibiswald",
+      "basis": "Im Exposétext ausdrücklich als Objekt bezeichnet; listing.json führt jedoch nur die Gemeinde als bestätigt.",
+      "confidence": "mittel"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/01.jpg",
+      "area": "Gesamtansicht",
+      "condition": "Große Rasenfläche, Haus, Poolüberdachung und Nebengebäude wirken sehr gepflegt.",
+      "positive": [
+        "Großzügige Freifläche",
+        "Ordentliche Gesamtanlage"
+      ],
+      "risks": [
+        "Technischer Zustand aus Distanz nicht erkennbar"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/02.jpg",
+      "area": "Zufahrt und Grundstück",
+      "condition": "Befestigte Zufahrt und strukturierte Gartenanlage; leichte Steigung sichtbar.",
+      "positive": [
+        "Gute Erschließung",
+        "Separate Nutzbereiche"
+      ],
+      "risks": [
+        "Wintertauglichkeit und Entwässerung prüfen"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/03.jpg",
+      "area": "Zierteich und Garten",
+      "condition": "Aufwendig gestaltete und sichtbar gepflegte Teichanlage.",
+      "positive": [
+        "Hoher Freizeitwert"
+      ],
+      "risks": [
+        "Hoher Pflegeaufwand",
+        "Teichabdichtung und Technik unbekannt"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/04.jpg",
+      "area": "Haus und Pool",
+      "condition": "Fassade und Dachdeckung wirken optisch ordentlich; keine groben Schäden erkennbar.",
+      "positive": [
+        "Gepflegte Außenhülle"
+      ],
+      "risks": [
+        "Dachaufbau und Dämmung nicht beurteilbar"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/05.jpg",
+      "area": "Terrassen-/Eingangsseite",
+      "condition": "Mehrere überdachte und angebaute Bereiche wirken ordentlich instand gehalten.",
+      "positive": [
+        "Wetterschutz",
+        "Nutzbare Außenbereiche"
+      ],
+      "risks": [
+        "Anschlüsse und Bewilligungen prüfen"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/06.jpg",
+      "area": "Aussicht, Garten und Wintergarten",
+      "condition": "Gepflegte Anlage mit Fernblick; Poolüberdachung und Wintergarten sichtbar.",
+      "positive": [
+        "Aussicht",
+        "Freizeitwert"
+      ],
+      "risks": [
+        "Hangwasser und Oberflächenentwässerung prüfen"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/07.jpg",
+      "area": "Garagen-/Nebengebäude",
+      "condition": "Älteres, äußerlich ordentliches Nebengebäude mit mehreren Toren.",
+      "positive": [
+        "Viel Nebenfläche",
+        "Werkstattpotenzial"
+      ],
+      "risks": [
+        "Dach, Elektrik, Feuchtigkeit und Genehmigung unbekannt"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/08.jpg",
+      "area": "Gesamtansicht",
+      "condition": "Doppelung bzw. nahezu identische Ansicht zu Bild 02; keine zusätzlichen Zustandsbelege.",
+      "positive": [
+        "Gepflegte Anlage"
+      ],
+      "risks": [],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/09.jpg",
+      "area": "Pool und Fernblick",
+      "condition": "Poolüberdachung und Außenanlage wirken gepflegt.",
+      "positive": [
+        "Attraktive Aussicht"
+      ],
+      "risks": [
+        "Poolbecken und Technik nicht sichtbar"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/10.jpg",
+      "area": "Gesamtansicht",
+      "condition": "Nahezu identische Außenansicht zu Bild 02/08; keine neuen Schäden erkennbar.",
+      "positive": [
+        "Ordentlicher Gesamteindruck"
+      ],
+      "risks": [],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/11.jpg",
+      "area": "Wintergarten innen",
+      "condition": "Heller, älterer Wintergarten mit Fliesenboden und großflächiger Verglasung; gepflegt wirkend.",
+      "positive": [
+        "Zusätzlicher Aufenthaltsraum",
+        "Fernblick"
+      ],
+      "risks": [
+        "Dichtheit, sommerlicher Wärmeschutz und energetische Qualität prüfen"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/12.jpg",
+      "area": "Haus und Pool",
+      "condition": "Nahezu identische Ansicht zu Bild 04; äußerlich gepflegter Zustand.",
+      "positive": [
+        "Gepflegte Fassade"
+      ],
+      "risks": [
+        "Keine zusätzlichen technischen Aussagen möglich"
+      ],
+      "confidence": "hoch"
+    }
+  ],
+  "recommendation": "Nur nach technischer Besichtigung und deutlichem Preisabschlag weiterverfolgen. Der sichtbare Pflegezustand und das Grundstück sind attraktiv, der bestätigte Energiezustand und das Alter der Haustechnik sprechen jedoch gegen einen Kauf nahe 349.000 Euro. Zielbereich grob 290.000 bis 310.000 Euro; maximal etwa 320.000 Euro nur bei überraschend guter Substanz, vollständigen Bewilligungen und niedrigerem tatsächlichem Investitionsbedarf.",
+  "next_steps": [
+    "Vollständigen Energieausweis sowie Öl-/Holzverbrauch der letzten drei Jahre anfordern.",
+    "Innenräume, Kellerersatzräume, Dachstuhl, Feuchtigkeit, Elektrik und Leitungen durch Fachleute prüfen.",
+    "Bewilligungen und Pläne für DG-Ausbau, Wintergarten, Pool, Terrassen, Garagen und weitere Zubauten abgleichen.",
+    "Pooltechnik, Überdachung, Dichtheit und laufende Betriebskosten prüfen.",
+    "Widmung der Teilflächen, Grundstücksgrenzen, Zufahrt, Brunnenrecht und Ortswasseranschluss klären.",
+    "Vor Angebot ein Sanierungskonzept mit Kosten für Heizung und Gebäudehülle erstellen lassen."
+  ],
+  "score_reasoning": "Positiv wirken Lage, große Grundfläche, flexible Nutzung und der sehr gepflegte sichtbare Außenbereich. Stark negativ wirken der extrem schlechte HWB/fGEE, die Ölheizung aus 2000, das hohe Gebäudealter und fehlende aktuelle Innenraumbelege. Daraus ergibt sich ein prüfenswertes, aber sanierungs- und kostenriskantes Objekt.",
+  "limitations": [
+    "Die zwölf aktuellen Bilder zeigen fast nur Außenansichten; mehrere sind Doppelungen.",
+    "Keine aktuellen Bilder von Küche, Bädern, Schlafräumen, Technikraum oder Dachstuhl enthalten.",
+    "Werbegrafiken oder eindeutig KI-bearbeitete Bilder waren in den zwölf Bildern nicht erkennbar.",
+    "Preis- und Investitionswerte sind grobe Einschätzungen und kein Verkehrswert- oder Baugutachten."
+  ],
+  "price_assessment": {
+    "asking_price_eur": 349000,
+    "fair_value_low_eur": 280000,
+    "fair_value_high_eur": 320000,
+    "suggested_first_offer_eur": 275000,
+    "suggested_target_price_eur": 300000,
+    "maximum_recommended_price_eur": 320000,
+    "confidence": "niedrig",
+    "reasoning": "Großes Grundstück, Pool und Nebengebäude stützen den Wert; Energiekennzahlen, alte Heizung, Sanierungsbezeichnung und fehlende Innenbelege rechtfertigen einen deutlichen Risikoabschlag."
+  },
+  "investment_items": [
+    {
+      "category": "Heizung",
+      "measure": "Ölheizung samt Warmwasser- und Verteilungskonzept erneuern.",
+      "priority": "kurzfristig",
+      "low_eur": 30000,
+      "high_eur": 55000,
+      "confidence": "mittel",
+      "basis": "Ölheizung Baujahr 2000, HWB 362, fGEE 4,17."
+    },
+    {
+      "category": "Gebäudehülle",
+      "measure": "Dämmung von Fassade bzw. Dach/oberster Decke nach Energieberatung.",
+      "priority": "mittelfristig",
+      "low_eur": 35000,
+      "high_eur": 95000,
+      "confidence": "niedrig",
+      "basis": "Sehr schlechte Energiekennzahlen; Aufbau unbekannt."
+    },
+    {
+      "category": "Fenster/Wintergarten",
+      "measure": "Dichtheit und energetische Qualität prüfen, punktuell erneuern.",
+      "priority": "mittelfristig",
+      "low_eur": 10000,
+      "high_eur": 35000,
+      "confidence": "niedrig",
+      "basis": "Fenster von 1999, Wintergarten von 1995."
+    },
+    {
+      "category": "Innenausbau/Technik",
+      "measure": "Reserve für Elektrik, Sanitär, Bäder, Küchen und Oberflächen.",
+      "priority": "unklar",
+      "low_eur": 15000,
+      "high_eur": 60000,
+      "confidence": "niedrig",
+      "basis": "Keine aktuellen Innenraumfotos oder belastbaren technischen Befunde."
+    },
+    {
+      "category": "Pool/Nebengebäude",
+      "measure": "Technik, Überdachung, Dächer und Elektroinstallation instand setzen, falls erforderlich.",
+      "priority": "unklar",
+      "low_eur": 5000,
+      "high_eur": 25000,
+      "confidence": "niedrig",
+      "basis": "Nur äußerlich sichtbar; technischer Zustand unbekannt."
+    }
+  ],
+  "source": "manual_chatgpt_upload"
+}
