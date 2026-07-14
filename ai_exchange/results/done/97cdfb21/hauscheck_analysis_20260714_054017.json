@@ -1,0 +1,102 @@
+{
+  "house_id": "97cdfb21",
+  "analysis_date": "2026-07-13T07:14:23.259026+00:00",
+  "new_score": 46,
+  "confidence": "mittel",
+  "summary": "Das Angebot ist kein fertig vorhandenes Haus, sondern offenbar ein Fertighausprojekt auf vorhandenem Grundstück. Gesichert sind ein Musterbild, Grundrisse und eine Leistungsübersicht; das gerenderte Hausbild und Mustergrundstück sind keine Zustandsnachweise. Der Preis von 190.000 € „inkl. Fundament“ ist daher nicht mit einem schlüsselfertigen Gesamtpreis gleichzusetzen.",
+  "positive_findings": [
+    "Gesichert: geplante 128,66/129 m² mit funktionalem Grundriss und fünf Zimmern.",
+    "Gesichert: Grundstück mit 637 m² wird als vorhanden angegeben.",
+    "Abgeleitet: Neubau bietet planbaren Standard und geringeres unmittelbares Sanierungsrisiko, sofern Leistungsumfang klar definiert ist."
+  ],
+  "risk_findings": [
+    "Gesichert: Visualisierung und Musterbild zeigen nicht den realen Bauzustand.",
+    "Gesichert: Leistungsübersicht deutet unterschiedliche Ausbaustufen an; Gesamtpreis ist unklar.",
+    "Unsicher: Baunebenkosten, Erdarbeiten, Anschlüsse, Genehmigungen, Außenanlagen und Innenausstattung sind nicht vollständig belegt.",
+    "Unsicher: Grundstückslage, Erschließung und Bebaubarkeit sind bildlich nicht nachgewiesen."
+  ],
+  "estimated_investment_eur": {
+    "low": 120000,
+    "high": 260000,
+    "confidence": "niedrig",
+    "comment": "Zusätzliche grobe Kosten über dem genannten Hauspreis für Ausbau, Haustechnik, Anschlüsse, Gebühren, Erdarbeiten und Außenanlagen; exakter Lieferumfang ist entscheidend."
+  },
+  "address_hints": [
+    {
+      "hint": "Grundstück im Bereich Pistorf/Gleinstätten",
+      "basis": "Inseratsort; konkreter Lagebeweis fehlt",
+      "confidence": "mittel"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/01.jpg",
+      "area": "Grundstück-Musterbild",
+      "condition": "Als Musterbild gekennzeichnet; kein Nachweis des tatsächlichen Grundstücks.",
+      "positive": [],
+      "risks": [
+        "keine Aussage zu Topografie oder Erschließung"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/02.jpg",
+      "area": "Hausvisualisierung",
+      "condition": "Gerenderte/werbliche Darstellung, kein gebauter Zustand.",
+      "positive": [
+        "zeigt geplante Architektur"
+      ],
+      "risks": [
+        "Ausstattung und Außenanlage möglicherweise nicht enthalten"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/03.jpg",
+      "area": "Leistungsübersicht",
+      "condition": "Grafische Tabelle zu Ausbaustufen.",
+      "positive": [
+        "Leistungsabgrenzung grundsätzlich vorgesehen"
+      ],
+      "risks": [
+        "Details im Originalangebot vertraglich klären"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/04.jpg-images/08.jpg",
+      "area": "Grundrisse/Flächen",
+      "condition": "Planunterlagen mit rund 128,66 m² Nettofläche.",
+      "positive": [
+        "funktionaler Familiengrundriss"
+      ],
+      "risks": [
+        "Planstand und Genehmigungsfähigkeit prüfen"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/06.jpg-images/09.jpg",
+      "area": "Zertifikat/Logo",
+      "condition": "Werbe-/Zertifikatsgrafiken; kein Zustandsnachweis.",
+      "positive": [],
+      "risks": [
+        "Zertifikatsumfang und Gültigkeit verifizieren"
+      ],
+      "confidence": "mittel"
+    }
+  ],
+  "recommendation": "Nicht anhand des Inseratspreises als günstiges fertiges Haus bewerten. Erst nach vollständigem Fixpreisangebot für bezugsfertigen Zustand inklusive Grundstück, Nebenkosten und Außenanlagen vergleichbar.",
+  "next_steps": [
+    "Detaillierte Bau- und Leistungsbeschreibung je Ausbaustufe anfordern.",
+    "Gesamtprojektkosten inklusive Grundstück, Anschlüssen, Erdarbeiten, Gebühren und Außenanlagen kalkulieren.",
+    "Grundstücksadresse, Widmung, Bebauungsbestimmungen und Bodengutachten prüfen.",
+    "Zahlungsplan, Gewährleistung, Preisgleitung und Fertigstellungstermin vertraglich prüfen."
+  ],
+  "score_reasoning": "Neubaupotenzial und guter Grundriss, aber der genannte Preis bildet offenbar nur einen Teil des Gesamtprojekts ab; reale Lage und Zustand sind nicht dokumentiert.",
+  "limitations": [
+    "Keine realen Hausbilder; überwiegend Renderings, Pläne und Werbegrafiken.",
+    "Unvollständiger Leistungs- und Kostenumfang."
+  ],
+  "source": "manual_chatgpt_upload"
+}
