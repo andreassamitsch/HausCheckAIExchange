@@ -1,0 +1,72 @@
+{
+  "house_id": "89aa52c7",
+  "analysis_date": "2026-07-15T21:03:42.567123+00:00",
+  "new_score": 58,
+  "confidence": "hoch",
+  "summary": "Gesichert: älteres Einfamilienhaus mit 160 m², Angebotspreis 239.000 € und sehr großem Garten. Die 36 Bilder zeigen einen grundsätzlich bewohnbaren Zustand, teilweise modernisierte Küche und Sanitärbereiche, aber deutliche Alters- und Sanierungsthemen. Abgeleitet: Keller/Sockel, Dach und Außenhaut sind prüfbedürftig. Unsicher: Heizungsdetails, Energiekennzahlen und tatsächliche Grundstücksfläche.",
+  "positive_findings": [
+    "Großes grünes Grundstück",
+    "Mehrere gut nutzbare Wohnräume",
+    "Teilweise modernisierte Küche und Sanitärbereiche"
+  ],
+  "risk_findings": [
+    "Keller-/Sockelbereiche wirken feuchteanfällig",
+    "Dach und Außenhaut altersbedingt prüfbedürftig",
+    "Energiekennzahlen und Heizungsdetails fehlen"
+  ],
+  "estimated_investment_eur": {
+    "low": 70000,
+    "high": 190000,
+    "confidence": "mittel",
+    "comment": "Grobe Reserve für Gebäudehülle, Technik, Feuchte und Innenausbau."
+  },
+  "image_findings": [
+    {
+      "image": "images/01.jpg-images/36.jpg",
+      "area": "Gesamtes Objekt",
+      "condition": "Alle 36 Bilder visuell geprüft; keine Werbegrafik als Zustandsnachweis verwendet.",
+      "positive": [
+        "Großer Garten",
+        "Bewohnbare Innenräume"
+      ],
+      "risks": [
+        "Feuchte-/Sockelrisiko",
+        "Ältere Dach- und Fassadensubstanz"
+      ],
+      "confidence": "hoch"
+    }
+  ],
+  "recommendation": "Preislich interessant, aber nur nach Feuchte-, Dach- und Technikprüfung weiterverfolgen.",
+  "next_steps": [
+    "Grundstücksfläche und Grenzen verifizieren",
+    "Keller/Sockel auf Feuchte prüfen",
+    "Dach, Heizung, Elektrik und Leitungen begutachten",
+    "Bauakt und Genehmigungen abgleichen"
+  ],
+  "score_reasoning": "Mittlerer Score wegen günstigem Einstieg und großem Grundstück, aber erheblichem Sanierungsrisiko.",
+  "limitations": [
+    "Keine Vor-Ort-Besichtigung",
+    "Keine gesicherten Energiekennzahlen"
+  ],
+  "price_assessment": {
+    "asking_price_eur": 239000,
+    "fair_value_low_eur": 205000,
+    "fair_value_high_eur": 225000,
+    "suggested_first_offer_eur": 190000,
+    "suggested_target_price_eur": 205000,
+    "maximum_recommended_price_eur": 225000,
+    "confidence": "mittel",
+    "reasoning": "Grobe Einordnung aus sichtbarem Zustand und Sanierungsreserve."
+  },
+  "image_coverage": {
+    "exported_images_reviewed": 36,
+    "exterior_images": 16,
+    "interior_images": 15,
+    "technical_or_outbuilding_images": 4,
+    "plans_or_documents": 0,
+    "unclassified_images": 1,
+    "comment": "Alle exportierten Bilder geprüft."
+  },
+  "analysis_request_id": "f7cd010c2c4540a08ccda10384311c11",
+  "source": "manual_chatgpt_upload"
+}
