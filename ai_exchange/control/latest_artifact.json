@@ -2,14 +2,14 @@
   "kind": "hauscheck_pending_artifact_pointer",
   "version": 2,
   "status": "ready",
-  "created_at": "2026-07-15T20:04:58.039454+00:00",
-  "run_id": 29446938095,
+  "created_at": "2026-07-15T20:05:44.701417+00:00",
+  "run_id": 29446988387,
   "run_attempt": 1,
-  "source_commit": "7d6cb119ba984cae11f4fdbcc56d9ac7cf0588b0",
-  "artifact_id": 8355833558,
-  "artifact_name": "hauscheck-pending-29446938095",
-  "artifact_url": "https://github.com/andreassamitsch/HausCheckAIExchange/actions/runs/29446938095/artifacts/8355833558",
-  "artifact_digest": "93c22a0ce4f44f9062983f577372df2312951ad1b94c2b3cb2bef3bd28078d90",
+  "source_commit": "f035798bacdfb305f71d162e458ea6e417244af1",
+  "artifact_id": 8355853124,
+  "artifact_name": "hauscheck-pending-29446988387",
+  "artifact_url": "https://github.com/andreassamitsch/HausCheckAIExchange/actions/runs/29446988387/artifacts/8355853124",
+  "artifact_digest": "92f1c1deaf4a2fa7031e032386d41723a9801a035dd929e896d8efb036fe899b",
   "expires_after_days": 3,
   "files": [
     {
@@ -19,34 +19,10 @@
       "sha256": "20c8ca184335e09c61f15f43159b1e1184dd2755facb48255107a8da8609e801"
     },
     {
-      "name": "1c0ebd6b.zip",
-      "source_path": "ai_exchange/exports/pending/1c0ebd6b.zip",
-      "size_bytes": 1168194,
-      "sha256": "3dd52826e7b9a38fdb27b9519aed803140446c5f83e53aff4ff22d4d3c80edbf"
-    },
-    {
       "name": "29b8088a.zip",
       "source_path": "ai_exchange/exports/pending/29b8088a.zip",
       "size_bytes": 1589169,
       "sha256": "3301e3e24ac36084738b522417fa09db91959c2c8488cfb363949ea29797643b"
-    },
-    {
-      "name": "3f66a103.zip",
-      "source_path": "ai_exchange/exports/pending/3f66a103.zip",
-      "size_bytes": 1800941,
-      "sha256": "427d0e6649245eb9f61be22f79ae39f695d555277348669e583c0604ebde3be3"
-    },
-    {
-      "name": "4c79ba18.zip",
-      "source_path": "ai_exchange/exports/pending/4c79ba18.zip",
-      "size_bytes": 3550741,
-      "sha256": "07c700f7c0e866125604b7493117e99dc9b59bc271efdaa3d2375a2d99619ff5"
-    },
-    {
-      "name": "4e09b605.zip",
-      "source_path": "ai_exchange/exports/pending/4e09b605.zip",
-      "size_bytes": 848291,
-      "sha256": "673c135f1bad97faac4cc05994f9b652b55e5e8924476649e9fd58ee6b57e495"
     },
     {
       "name": "5fbc4694.zip",
