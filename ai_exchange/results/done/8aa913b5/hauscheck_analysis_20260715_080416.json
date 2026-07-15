@@ -1,0 +1,241 @@
+{
+  "house_id": "8aa913b5",
+  "analysis_date": "2026-07-14T19:00:48+00:00",
+  "new_score": 55,
+  "confidence": "mittel",
+  "summary": "Gesichert sind 420.000 € Kaufpreis, rund 140 m² Wohnfläche, 3.800 m² Grundstück, HWB 161, fGEE 2,16 sowie Etagenheizung, Öfen und Solar. Zwölf Außenbilder zeigen ein sehr gepflegtes, individuell gestaltetes Haus in Hang- und Aussichtslage mit Weingarten, Gartenhütte, Holzfassade und großzügigen Außenanlagen. Abgeleitet ist der Außenpflegezustand gut. Unsicher bleiben Innenzustand, Baujahr, Heizungsalter, Hangentwässerung, Bewilligungen und tatsächlicher Sanierungsstand.",
+  "positive_findings": [
+    "Gesichert: großes Grundstück mit rund 3.800 m² und eigenem Weingarten.",
+    "Gesichert: gepflegte Gartenanlage, mehrere Sitzbereiche, Aussicht und Nebengebäude.",
+    "Gesichert aus Bildern: Fassade, Holzverkleidung, Fensterläden, Außenanlagen und Balkon wirken ordentlich instand gehalten.",
+    "Gesichert: Solarunterstützung, Glasfaseroption und Kanal-/Ortswasseranschluss werden angegeben."
+  ],
+  "risk_findings": [
+    "Gesichert: HWB 161 und fGEE 2,16 sind energetisch deutlich schwächer als ein modernes Gebäude.",
+    "Gesichert: 420.000 € liegen über dem bisherigen Suchlimit von 400.000 € und erscheinen angesichts der Energiewerte ambitioniert.",
+    "Unsicher: Innenräume, Heizungsalter, Leitungen, Feuchte und tatsächlicher Modernisierungsstand sind nicht bildlich belegt.",
+    "Abgeleitet: Hanglage, große Gartenfläche und Weingarten verursachen laufenden Pflege- und Entwässerungsaufwand.",
+    "Unsicher: Wintergarten/Veranda, Carport, Gartenhütte, Partyraum und weitere Anbauten müssen baurechtlich geprüft werden."
+  ],
+  "estimated_investment_eur": {
+    "low": 35000,
+    "high": 130000,
+    "confidence": "niedrig",
+    "comment": "Reserve für Energie/Heizung, Holz- und Balkonwartung, Abdichtungen sowie unbekannte Innen-/Technikarbeiten."
+  },
+  "address_hints": [
+    {
+      "hint": "Guntschenberg, 8551 Wies",
+      "basis": "listing.json führt diese Lage mit address_status exact; keine Hausnummer enthalten.",
+      "confidence": "hoch"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/01.jpg",
+      "area": "Gartensitzplatz",
+      "condition": "Gepflegt angelegter Sitz- und Gartenbereich; keine akuten Schäden erkennbar.",
+      "positive": [
+        "gepflegte Außenanlage"
+      ],
+      "risks": [
+        "Stützmauer und Entwässerung prüfen"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/02.jpg",
+      "area": "Hauptansicht",
+      "condition": "Putz- und Holzfassade wirken ordentlich; große Fensterflächen und verglaster Anbau sichtbar.",
+      "positive": [
+        "gepflegter Gesamteindruck"
+      ],
+      "risks": [
+        "Anschlussdetails und Bewilligung prüfen"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/03.jpg",
+      "area": "Gartendetail",
+      "condition": "Gestalteter Rückzugsbereich mit Hecken und Stufen.",
+      "positive": [
+        "hohe Gartenqualität"
+      ],
+      "risks": [
+        "Pflegeaufwand"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/04.jpg",
+      "area": "Haus/Garten",
+      "condition": "Holzoberbau, Balkon und Garten wirken gepflegt.",
+      "positive": [
+        "großzügige Außenwirkung"
+      ],
+      "risks": [
+        "Holzschutz und Balkonanschlüsse prüfen"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/05.jpg",
+      "area": "Laube/Sitzplatz",
+      "condition": "Metalllaube und befestigter Sitzplatz ordentlich gestaltet.",
+      "positive": [
+        "zusätzlicher Aufenthaltsbereich"
+      ],
+      "risks": [
+        "kein Zustandsnachweis für Fundamente"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/06.jpg",
+      "area": "Eingangsseite",
+      "condition": "Eingang, Fensterläden und Putzfassade wirken instand gehalten.",
+      "positive": [
+        "ordentlicher Zugang"
+      ],
+      "risks": [
+        "Fensterstandard unbekannt"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/07.jpg",
+      "area": "Weingarten/Aussicht",
+      "condition": "Hanglage mit Garten und Fernblick klar erkennbar.",
+      "positive": [
+        "Panoramalage"
+      ],
+      "risks": [
+        "Hangentwässerung und Pflegeaufwand"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/08.jpg",
+      "area": "Sockel/Garten",
+      "condition": "Steingarten und Sockelbereich wirken gepflegt.",
+      "positive": [
+        "ordentliche Gestaltung"
+      ],
+      "risks": [
+        "Feuchte am Sockel nicht prüfbar"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/09.jpg",
+      "area": "Weingarten/Panorama",
+      "condition": "Offene Aussicht über Weingarten und Landschaft.",
+      "positive": [
+        "attraktive Aussicht"
+      ],
+      "risks": [
+        "Ertrag und Pflegezustand des Weingartens unklar"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/10.jpg",
+      "area": "Gartenhütte",
+      "condition": "Holzhütte wirkt äußerlich funktional.",
+      "positive": [
+        "zusätzliche Nutzfläche"
+      ],
+      "risks": [
+        "Dach, Fundament und Bewilligung prüfen"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/11.jpg",
+      "area": "Gesamtgarten",
+      "condition": "Großzügige, terrassierte Gartenanlage mit Aussicht.",
+      "positive": [
+        "hohe Aufenthaltsqualität"
+      ],
+      "risks": [
+        "erheblicher Pflegeaufwand"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/12.jpg",
+      "area": "Balkon/Holzfassade",
+      "condition": "Holzfassade und Balkon wirken gepflegt, jedoch witterungsexponiert.",
+      "positive": [
+        "charaktervolle Bauweise"
+      ],
+      "risks": [
+        "Holzschutz, Fugen und Tragfähigkeit prüfen"
+      ],
+      "confidence": "mittel"
+    }
+  ],
+  "recommendation": "Optisch attraktives und gut gepflegtes Liebhaberobjekt, aber zu 420.000 € nur dann interessant, wenn Innenzustand, Technik, Bewilligungen und Verbrauchsdaten außergewöhnlich gut dokumentiert sind. Zielpreis eher deutlich unter 400.000 € ansetzen.",
+  "next_steps": [
+    "Innenbesichtigung und vollständige Fotodokumentation durchführen.",
+    "Energieausweis, Heizungsalter, Jahresverbräuche und Solarumfang prüfen.",
+    "Hangentwässerung, Stützmauern, Zufahrt und Winterdienst beurteilen.",
+    "Bewilligungen für alle An- und Nebengebäude prüfen.",
+    "Laufenden Pflegeaufwand und Ertrag/Pflegezustand des Weingartens klären."
+  ],
+  "score_reasoning": "Großes Grundstück, Aussicht und sehr gepflegte Außenanlagen sind starke Pluspunkte. Der hohe Angebotspreis, HWB 161, fGEE 2,16 und fehlende Innen-/Techniknachweise begrenzen die Bewertung.",
+  "limitations": [
+    "Zwölf Bilder zeigen fast ausschließlich Außenbereiche.",
+    "Keine belastbare Prüfung von Innenräumen und Haustechnik.",
+    "Keine Aussage zu versteckten Mängeln oder rechtlichem Zustand."
+  ],
+  "price_assessment": {
+    "asking_price_eur": 420000,
+    "fair_value_low_eur": 340000,
+    "fair_value_high_eur": 390000,
+    "suggested_first_offer_eur": 340000,
+    "suggested_target_price_eur": 365000,
+    "maximum_recommended_price_eur": 385000,
+    "confidence": "niedrig",
+    "reasoning": "Gepflegtes, besonderes Anwesen, aber energetisch schwach und mit erheblicher Unsicherheit bei Innenzustand, Technik und Hang-/Nebengebäuden."
+  },
+  "investment_items": [
+    {
+      "category": "Energie und Heizung",
+      "measure": "Heizung und Gebäudehülle nach Energieberatung optimieren",
+      "priority": "kurzfristig",
+      "low_eur": 20000,
+      "high_eur": 80000,
+      "confidence": "niedrig",
+      "basis": "HWB 161 und fGEE 2,16."
+    },
+    {
+      "category": "Holz/Balkon/Anbauten",
+      "measure": "Holzschutz, Balkon, Wintergarten und Anschlussdetails prüfen und instand halten",
+      "priority": "mittelfristig",
+      "low_eur": 10000,
+      "high_eur": 35000,
+      "confidence": "niedrig",
+      "basis": "Großer sichtbarer Anteil an Holz- und Anbauteilen."
+    },
+    {
+      "category": "Innenräume/Haustechnik",
+      "measure": "Reserve für unbekannte Innen- und Technikarbeiten",
+      "priority": "unklar",
+      "low_eur": 5000,
+      "high_eur": 50000,
+      "confidence": "niedrig",
+      "basis": "Keine Innenbilder im Export."
+    }
+  ],
+  "estimated_total_cost_eur": {
+    "low": 400000,
+    "high": 515000,
+    "confidence": "niedrig",
+    "includes_purchase_price": true,
+    "includes_acquisition_costs": false,
+    "comment": "Ziel-/Maximalpreis plus Investitionsreserve; Kaufnebenkosten nicht enthalten."
+  },
+  "source": "manual_chatgpt_upload"
+}
