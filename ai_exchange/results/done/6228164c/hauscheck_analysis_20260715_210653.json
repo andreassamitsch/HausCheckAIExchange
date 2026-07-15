@@ -1,0 +1,58 @@
+{
+  "house_id": "6228164c",
+  "analysis_date": "2026-07-15T21:03:42.567123+00:00",
+  "new_score": 38,
+  "confidence": "mittel",
+  "summary": "Gesichert: Fertighaus-/Bauangebot mit rund 125 m² und genanntem Grundstück. Abgeleitet: Der Preis von 178.000 € ist sehr wahrscheinlich kein vollständiger Gesamtpreis. Unsicher: tatsächlicher Leistungsumfang, Baunebenkosten und Endpreis. Die 9 Bilder bestehen fast nur aus Grundrissen, Musterbild, Logos und Unterlagen; sie sind kein Zustandsnachweis eines realen Hauses.",
+  "positive_findings": [
+    "Plausibler Grundriss",
+    "Fundament laut Titel enthalten"
+  ],
+  "risk_findings": [
+    "Fast ausschließlich Muster- und Werbematerial",
+    "Unklarer Leistungsumfang und erhebliche Zusatzkosten möglich",
+    "Keine visuelle Zustandsprüfung eines bestehenden Gebäudes möglich"
+  ],
+  "estimated_investment_eur": {
+    "low": 80000,
+    "high": 200000,
+    "confidence": "niedrig",
+    "comment": "Nur grobe Zusatzkostenreserve; Angebot und Leistungsbeschreibung müssen vollständig geprüft werden."
+  },
+  "image_findings": [
+    {
+      "image": "images/01.jpg-images/09.jpg",
+      "area": "Pläne/Werbematerial",
+      "condition": "Alle 9 Bilder visuell geprüft; Musterbild und Werbegrafiken nicht als Zustandsnachweis verwendet.",
+      "positive": [
+        "Grundrisse vorhanden"
+      ],
+      "risks": [
+        "Kein reales Bestandsobjekt dokumentiert"
+      ],
+      "confidence": "hoch"
+    }
+  ],
+  "recommendation": "Nur mit vollständiger, fixierter Leistungsbeschreibung und Gesamtpreiskalkulation weiterverfolgen.",
+  "next_steps": [
+    "Leistungsbeschreibung und Ausschlüsse prüfen",
+    "Erdarbeiten, Anschlüsse, Außenanlagen, Gebühren und Ausbau vollständig kalkulieren",
+    "Grundstück, Widmung und Bebaubarkeit prüfen"
+  ],
+  "score_reasoning": "Niedriger Score wegen fehlender Gesamtpreistransparenz und fehlendem realen Zustandsnachweis.",
+  "limitations": [
+    "Nur Werbe-/Planmaterial",
+    "Keine Vor-Ort-Besichtigung"
+  ],
+  "image_coverage": {
+    "exported_images_reviewed": 9,
+    "exterior_images": 1,
+    "interior_images": 0,
+    "technical_or_outbuilding_images": 0,
+    "plans_or_documents": 7,
+    "unclassified_images": 1,
+    "comment": "Musterbild nicht als Zustandsnachweis gewertet."
+  },
+  "analysis_request_id": "ae8fc7a24f914128b300e7eb6119793b",
+  "source": "manual_chatgpt_upload"
+}
