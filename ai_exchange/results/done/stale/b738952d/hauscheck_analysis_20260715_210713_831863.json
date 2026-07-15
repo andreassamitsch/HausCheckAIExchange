@@ -1,0 +1,77 @@
+{
+  "house_id": "b738952d",
+  "analysis_date": "2026-07-15T21:03:42.567123+00:00",
+  "new_score": 54,
+  "confidence": "hoch",
+  "summary": "Gesichert: charaktervolles historisches Landhaus mit 190 m², 926 m² Grund, HWB 346,6 und fGEE 2,99. Die 40 Bilder zeigen viele gepflegte Innenräume, originale Holzsubstanz und schöne Aussicht. Abgeleitet: Trotz gutem optischem Eindruck bestehen wegen des Baualters hohe technische und energetische Risiken. Unsicher: tatsächlicher Zustand von Dach, Holztragwerk, Feuchte, Elektrik und Heizung.",
+  "positive_findings": [
+    "Hoher historischer und gestalterischer Charakter",
+    "Viele gepflegte Innenräume und Holzböden",
+    "Schöne Aussichts- und Höhenlage"
+  ],
+  "risk_findings": [
+    "Sehr schlechte Energiekennzahlen",
+    "Bausubstanz von etwa 1850 mit hohen Detailrisiken",
+    "Dach, Holzbauteile, Feuchte, Elektrik und Heizung umfassend prüfen"
+  ],
+  "estimated_investment_eur": {
+    "low": 60000,
+    "high": 190000,
+    "confidence": "mittel",
+    "comment": "Grobe Reserve; bei historischem Bestand können verdeckte Schäden die Kosten deutlich erhöhen."
+  },
+  "image_findings": [
+    {
+      "image": "images/01.jpg-images/40.jpg",
+      "area": "Haus, Innenräume, Außenanlagen und Nebengebäude",
+      "condition": "Alle 40 Bilder visuell geprüft; gepflegter Eindruck, aber technische Substanz bleibt nur teilweise sichtbar.",
+      "positive": [
+        "Charaktervolle Räume",
+        "Gepflegte Oberflächen"
+      ],
+      "risks": [
+        "Altersbedingte Substanzrisiken",
+        "Energetisch sehr schwach"
+      ],
+      "confidence": "hoch"
+    }
+  ],
+  "recommendation": "Nur für Käufer mit Sanierungsreserve und nach vertiefter Altbauprüfung empfehlenswert.",
+  "next_steps": [
+    "Bausachverständigen für historischen Bestand beiziehen",
+    "Dachstuhl, Holzschäden und Feuchte prüfen",
+    "Heizung, Elektrik, Leitungen und Energiehülle bewerten",
+    "Bauakt und Genehmigungen prüfen"
+  ],
+  "score_reasoning": "Der besondere Charakter und gepflegte Zustand werden durch sehr schlechte Energiekennzahlen und schwer kalkulierbare Altbaurisiken deutlich relativiert.",
+  "limitations": [
+    "Keine Vor-Ort-Besichtigung",
+    "Verdeckte historische Bauteile nicht beurteilbar"
+  ],
+  "price_assessment": {
+    "asking_price_eur": 339000,
+    "fair_value_low_eur": 275000,
+    "fair_value_high_eur": 295000,
+    "suggested_first_offer_eur": 260000,
+    "suggested_target_price_eur": 275000,
+    "maximum_recommended_price_eur": 295000,
+    "confidence": "mittel",
+    "reasoning": "Grobe Einordnung aus Zustand, Energiekennzahlen und Altbaurisiko."
+  },
+  "image_coverage": {
+    "exported_images_reviewed": 40,
+    "exterior_images": 13,
+    "interior_images": 20,
+    "technical_or_outbuilding_images": 5,
+    "plans_or_documents": 0,
+    "unclassified_images": 2,
+    "comment": "Alle exportierten Bilder geprüft."
+  },
+  "analysis_request_id": "fb585ae2fccb45bcb08989f0d4710618",
+  "hauscheck_archive": {
+    "category": "stale",
+    "reason": "Auftragskennung gehört zu einem anderen Export (fb585ae2fccb statt 76a0e0e4b0aa)",
+    "source_path": "ai_exchange/results/pending/b738952d/hauscheck_analysis.json",
+    "archived_at": "2026-07-15T21:07:13.831804+00:00"
+  }
+}
