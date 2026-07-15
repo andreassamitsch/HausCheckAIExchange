@@ -1,0 +1,257 @@
+{
+  "house_id": "9913cc4c",
+  "analysis_date": "2026-07-13T20:01:55+00:00",
+  "new_score": 73,
+  "confidence": "mittel",
+  "summary": "Gesichert sind 143 m² Wohnfläche, 735 m² Grundstück, 420.000 € Kaufpreis, HWB 47,7 und fGEE 0,62. Die zwölf Bilder zeigen einen modernen Bungalow mit Garage, Terrasse und guter Gebäudehülle. Mehrere Innenaufnahmen zeigen aber noch belagsfertige Räume, während andere bereits Küche und Parkett zeigen. Daher ist unklar, ob 420.000 € den belagsfertigen oder schlüsselfertigen Zustand betreffen und ob alle Bilder den aktuellen Stand darstellen.",
+  "positive_findings": [
+    "Gesichert: sehr gute Energiekennwerte HWB 47,7 und fGEE 0,62.",
+    "Gesichert aus Bildern: moderner eingeschossiger Bau mit neuer Fassade, neuem Dach, großen Fenstern und überdachter Terrasse.",
+    "Gesichert aus Bildern: Garage mit Sektionaltor und Bodenablauf.",
+    "Gesichert aus Bildern: funktionale offene Raumplanung; einzelne Bilder zeigen moderne Küche und Parkett.",
+    "Abgeleitet: weitgehend barrierearme Wohnform."
+  ],
+  "risk_findings": [
+    "Gesichert aus Bildern: mehrere Räume sind noch im Roh-/Belagsfertigzustand; Böden, Malerarbeiten, Sanitär und Elektro-Endmontage fehlen.",
+    "Unsicher: Leistungsumfang belagsfertig versus schlüsselfertig ist nicht dokumentiert.",
+    "Unsicher: fertige und unfertige Bilder könnten unterschiedliche Bauphasen oder Referenzbilder zeigen.",
+    "Gesichert aus Bildern: Außenanlage ist teilweise noch einfach bzw. nicht endgültig fertiggestellt.",
+    "Unsicher: Heizsystem, PV, Beschattung, Lüftung und Anschlusskosten fehlen.",
+    "Abgeleitet: verbleibende Ausbaukosten können das Gesamtbudget deutlich über 450.000 € erhöhen."
+  ],
+  "estimated_investment_eur": {
+    "low": 25000,
+    "high": 75000,
+    "confidence": "mittel",
+    "comment": "Grobe Fertigstellung ab belagsfertigem Zustand. Bei bereits schlüsselfertigem Preis kann der Bedarf deutlich niedriger sein."
+  },
+  "address_hints": [
+    {
+      "hint": "Gemeindegebiet 8551 Wies, flache Wohnlage mit offener Nachbarbebauung",
+      "basis": "Inseratsangabe und Außenbilder",
+      "confidence": "mittel"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/01.jpg",
+      "area": "Garten/Rückansicht",
+      "condition": "Neuer Baukörper, großer ebener Garten, junge Außenanlage.",
+      "positive": [
+        "überdachte Terrasse",
+        "ebener Garten"
+      ],
+      "risks": [
+        "Außenanlage noch nicht endgültig"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/02.jpg",
+      "area": "Seitenansicht",
+      "condition": "Neuwertige Fassade und Dach, eingeschossige Bauweise.",
+      "positive": [
+        "große Dachüberstände"
+      ],
+      "risks": [
+        "Sockelanschluss prüfen"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/03.jpg",
+      "area": "Hausfront/Technik",
+      "condition": "Neuwertig; Außengerät sichtbar.",
+      "positive": [
+        "moderne Fenster"
+      ],
+      "risks": [
+        "Heizsystem und Schall ungeklärt"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/04.jpg",
+      "area": "Terrasse",
+      "condition": "Fertig gepflastert, große Schiebetür, Überdachung.",
+      "positive": [
+        "barrierearmer Zugang"
+      ],
+      "risks": [
+        "Gefälle/Abdichtung nicht prüfbar"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/05.jpg",
+      "area": "Grundriss",
+      "condition": "Funktionale eingeschossige Aufteilung erkennbar.",
+      "positive": [
+        "klare Raumorganisation"
+      ],
+      "risks": [
+        "Planstand mit Bewilligung abgleichen"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/06.jpg",
+      "area": "Küche",
+      "condition": "Modern und hochwertig wirkend, möglicherweise Referenz oder spätere Bauphase.",
+      "positive": [
+        "Einbauküche mit Insel"
+      ],
+      "risks": [
+        "Unklar, ob im Preis enthalten"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/07.jpg",
+      "area": "Wohnraum",
+      "condition": "Heller großer Raum mit Parkett, kleinere Abschlüsse offen.",
+      "positive": [
+        "großzügig",
+        "Holzboden"
+      ],
+      "risks": [
+        "Leuchten/Details fehlen"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/08.jpg",
+      "area": "Garage",
+      "condition": "Neuwertig, Betonboden und Ablauf.",
+      "positive": [
+        "direkt nutzbar"
+      ],
+      "risks": [
+        "Oberflächen teils roh"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/09.jpg",
+      "area": "Wohn-/Essbereich",
+      "condition": "Belagsfertig mit Estrich und vorbereiteten Anschlüssen.",
+      "positive": [
+        "große Fenster"
+      ],
+      "risks": [
+        "Boden, Maler, Elektro und Küche fehlen"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/10.jpg",
+      "area": "Zimmer",
+      "condition": "Parkett und verputzte Wände, Endausstattung fehlt.",
+      "positive": [
+        "hell",
+        "moderner Boden"
+      ],
+      "risks": [
+        "Leuchten/Abschlüsse fehlen"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/11.jpg",
+      "area": "Wohn-/Küchenbereich",
+      "condition": "Estrich, Putz und vorbereitete Anschlüsse; Endausbau fehlt.",
+      "positive": [
+        "offene Planung"
+      ],
+      "risks": [
+        "erheblicher Fertigstellungsumfang möglich"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/12.jpg",
+      "area": "Bad",
+      "condition": "Verputzter Roh-/Belagsfertigzustand ohne Fliesen und Sanitär.",
+      "positive": [
+        "Anschlüsse vorbereitet"
+      ],
+      "risks": [
+        "komplette Badfertigstellung erforderlich"
+      ],
+      "confidence": "hoch"
+    }
+  ],
+  "recommendation": "Interessant, sofern 420.000 € einen verbindlich beschriebenen schlüsselfertigen Zustand inklusive Böden, Sanitär, Innentüren, Malerarbeiten und wesentlichen Außenanlagen umfasst. Für belagsfertig sollte deutlich nachverhandelt werden. Vor Reservierung Bau- und Ausstattungsbeschreibung, Fixpreis, Fertigstellungstermin und Gewährleistung verlangen.",
+  "next_steps": [
+    "Leistungsumfang zu 420.000 € schriftlich klären.",
+    "Ist-Zustand mit Bildern und bewilligtem Plan vor Ort abgleichen.",
+    "Fixpreis für alle fehlenden Ausbauarbeiten einholen.",
+    "Heizung, Warmwasser, Kühlung, PV-Vorbereitung und Betriebskosten dokumentieren lassen.",
+    "Bewilligungen, Fertigstellungsanzeige und Gewährleistung prüfen.",
+    "Grundstück, Zufahrt und Oberflächenwasser prüfen."
+  ],
+  "score_reasoning": "Interessant wegen Energiekennwerten, modernem Bauzustand, Bungalowkonzept und Lage in Wies. Abzüge wegen hohem Preis, widersprüchlichem Ausbauzustand und unklaren Fertigstellungskosten.",
+  "limitations": [
+    "Nur 12 von 43 Medien enthalten.",
+    "Keine vollständige Bau- und Ausstattungsbeschreibung.",
+    "Unklar, ob alle Bilder denselben aktuellen Bauzustand zeigen.",
+    "Keine Vergleichsobjekte oder Vertragsunterlagen geprüft; keine Verkehrswertermittlung."
+  ],
+  "price_assessment": {
+    "asking_price_eur": 420000,
+    "fair_value_low_eur": 380000,
+    "fair_value_high_eur": 420000,
+    "suggested_first_offer_eur": 375000,
+    "suggested_target_price_eur": 395000,
+    "maximum_recommended_price_eur": 415000,
+    "confidence": "niedrig",
+    "reasoning": "Schlüsselfertig kann ein Preis nahe dem Angebot plausibel sein; belagsfertig sind erhebliche Ausbaukosten abzuziehen."
+  },
+  "investment_items": [
+    {
+      "category": "Innenausbau",
+      "measure": "Böden, Malerarbeiten, Sockelleisten und Elektro-Endmontage",
+      "priority": "sofort",
+      "low_eur": 10000,
+      "high_eur": 25000,
+      "confidence": "mittel",
+      "basis": "Belagsfertige Räume sichtbar"
+    },
+    {
+      "category": "Sanitär",
+      "measure": "Bad/WC fliesen und ausstatten",
+      "priority": "sofort",
+      "low_eur": 12000,
+      "high_eur": 25000,
+      "confidence": "mittel",
+      "basis": "Bad unfertig sichtbar"
+    },
+    {
+      "category": "Küche",
+      "measure": "Einbauküche, falls nicht enthalten",
+      "priority": "sofort",
+      "low_eur": 15000,
+      "high_eur": 30000,
+      "confidence": "niedrig",
+      "basis": "Küchenbild vorhanden, Vertragsumfang unklar"
+    },
+    {
+      "category": "Außenanlage",
+      "measure": "Einfassungen, Bepflanzung und Geländefertigstellung",
+      "priority": "kurzfristig",
+      "low_eur": 5000,
+      "high_eur": 20000,
+      "confidence": "niedrig",
+      "basis": "Außenanlage teilweise einfach"
+    }
+  ],
+  "estimated_total_cost_eur": {
+    "low": 420000,
+    "high": 470000,
+    "confidence": "mittel",
+    "includes_purchase_price": true,
+    "includes_acquisition_costs": false,
+    "comment": "Zielpreis 395.000 € plus 25.000–75.000 € möglicher Fertigstellung; Nebenkosten nicht enthalten."
+  },
+  "source": "manual_chatgpt_upload"
+}
