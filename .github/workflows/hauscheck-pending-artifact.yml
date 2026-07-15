@@ -22,6 +22,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Prepare pending ZIP artifact
+        id: prepare
         shell: bash
         run: |
           set -euo pipefail
@@ -40,7 +41,7 @@ jobs:
           target_dir = '.artifact/hauscheck-pending'
           manifest = {
               'kind': 'hauscheck_pending_zip_artifact',
-              'version': 1,
+              'version': 2,
               'created_at': datetime.now(timezone.utc).isoformat(),
               'source_commit': os.environ.get('GITHUB_SHA'),
               'files': [],
@@ -61,11 +62,19 @@ jobs:
           with open(os.path.join(target_dir, 'artifact_manifest.json'), 'w', encoding='utf-8') as handle:
               json.dump(manifest, handle, ensure_ascii=False, indent=2)
 
-          print(f"{len(files)} ZIP-Datei(en) für das Artifact vorbereitet.")
+          with open(os.environ['GITHUB_OUTPUT'], 'a', encoding='utf-8') as output:
+              output.write(f"has_files={'true' if files else 'false'}\n")
+              output.write(f"file_count={len(files)}\n")
+
+          if files:
+              print(f"{len(files)} ZIP-Datei(en) für das Artifact vorbereitet.")
+          else:
+              print('Keine pending ZIP-Dateien vorhanden. Der Queue-Zeiger wird leer gesetzt; das ist kein Fehler.')
           PY
 
       - name: Upload pending ZIPs as workflow artifact
         id: upload
+        if: steps.prepare.outputs.has_files == 'true'
         uses: actions/upload-artifact@v4
         with:
           name: hauscheck-pending-${{ github.run_id }}
@@ -77,6 +86,7 @@ jobs:
       - name: Publish latest artifact pointer
         shell: bash
         env:
+          HAS_FILES: ${{ steps.prepare.outputs.has_files }}
           ARTIFACT_ID: ${{ steps.upload.outputs.artifact-id }}
           ARTIFACT_URL: ${{ steps.upload.outputs.artifact-url }}
           ARTIFACT_DIGEST: ${{ steps.upload.outputs.artifact-digest }}
@@ -93,18 +103,21 @@ jobs:
           with open('.artifact/hauscheck-pending/artifact_manifest.json', encoding='utf-8') as handle:
               source_manifest = json.load(handle)
 
+          has_files = os.environ.get('HAS_FILES') == 'true'
+          artifact_id = os.environ.get('ARTIFACT_ID', '').strip()
           pointer = {
               'kind': 'hauscheck_pending_artifact_pointer',
-              'version': 1,
+              'version': 2,
+              'status': 'ready' if has_files else 'empty',
               'created_at': datetime.now(timezone.utc).isoformat(),
               'run_id': int(os.environ['GITHUB_RUN_ID']),
               'run_attempt': int(os.environ['GITHUB_RUN_ATTEMPT']),
               'source_commit': os.environ['GITHUB_SHA'],
-              'artifact_id': int(os.environ['ARTIFACT_ID']),
-              'artifact_name': os.environ['ARTIFACT_NAME'],
-              'artifact_url': os.environ.get('ARTIFACT_URL'),
-              'artifact_digest': os.environ.get('ARTIFACT_DIGEST'),
-              'expires_after_days': 3,
+              'artifact_id': int(artifact_id) if artifact_id else None,
+              'artifact_name': os.environ['ARTIFACT_NAME'] if has_files else None,
+              'artifact_url': os.environ.get('ARTIFACT_URL') or None,
+              'artifact_digest': os.environ.get('ARTIFACT_DIGEST') or None,
+              'expires_after_days': 3 if has_files else None,
               'files': source_manifest['files'],
           }
 
