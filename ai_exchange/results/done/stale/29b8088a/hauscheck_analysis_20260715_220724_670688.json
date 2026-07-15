@@ -1,0 +1,175 @@
+{
+  "house_id": "29b8088a",
+  "analysis_date": "2026-07-15T22:03:02.942413+00:00",
+  "new_score": 57,
+  "confidence": "mittel",
+  "analysis_request_id": "a243f952cedb47db874f0f224db5ea05",
+  "summary": "Gesichert sind 320.000 € Kaufpreis, ca. 275 m² Wohnnutzfläche, rund 2.000–2.011 m² Grund, Gas-Zentralheizung, HWB 352 und fGEE 4,04. Die Bilder zeigen ein äußerlich ordentliches, teils modernisiertes großes Wohnhaus mit brauchbarer Küche und mehreren nutzbaren Zimmern. Abgeleitet ist dennoch ein erheblicher energetischer und technischer Erneuerungsbedarf. Unsicher bleiben Baujahr, Alter von Dach, Fenstern, Heizung und Leitungen sowie Feuchte- und Bewilligungsthemen.",
+  "positive_findings": [
+    "Sehr große Wohnnutzfläche und großes, überwiegend ebenes Grundstück.",
+    "Küche, mehrere Wohn- und Schlafräume sowie zwei Nassbereiche wirken grundsätzlich nutzbar.",
+    "Fassade, Dachdeckung und Außenanlagen zeigen auf den Fotos keine offensichtlichen akuten Großschäden.",
+    "Terrasse/Balkon, Garten, Holzschuppen und PKW-Unterstand erhöhen den Nutzwert."
+  ],
+  "risk_findings": [
+    "HWB 352 und fGEE 4,04 sind gesichert sehr schlecht und sprechen für hohe laufende Kosten bzw. Sanierungsdruck.",
+    "Der Gewölbekeller zeigt alters- und bauarttypisch ein erhöhtes Feuchterisiko; auf Fotos ist dies nicht abschließend beurteilbar.",
+    "Teilweise ältere Oberflächen, Holzverkleidungen, Sanitärausstattung und Treppenhaus.",
+    "Gasheizung, Fenster, Dachaufbau, Elektro- und Wasserleitungen sind altersmäßig nicht dokumentiert."
+  ],
+  "estimated_investment_eur": {
+    "low": 80000,
+    "high": 220000,
+    "confidence": "niedrig",
+    "comment": "Grobe Reserve für Energie, Heizung, Fenster/Dämmung sowie technische und optische Erneuerungen; tatsächlicher Umfang erst nach Gutachten."
+  },
+  "price_assessment": {
+    "asking_price_eur": 320000,
+    "fair_value_low_eur": 260000,
+    "fair_value_high_eur": 300000,
+    "suggested_first_offer_eur": 245000,
+    "suggested_target_price_eur": 275000,
+    "maximum_recommended_price_eur": 295000,
+    "confidence": "niedrig",
+    "reasoning": "Die enorme Fläche und das Grundstück sind positiv, der sehr schlechte Energiezustand und die unbekannte technische Substanz rechtfertigen aber einen deutlichen Risikoabschlag."
+  },
+  "investment_items": [
+    {
+      "category": "Energie",
+      "measure": "Sanierungskonzept für Gebäudehülle, Fenster und oberste Geschossdecke",
+      "priority": "kurzfristig",
+      "low_eur": 40000,
+      "high_eur": 130000,
+      "confidence": "niedrig",
+      "basis": "HWB 352, fGEE 4,04; aus Bildern kein genauer Aufbau ableitbar."
+    },
+    {
+      "category": "Heizung",
+      "measure": "Gasheizung prüfen und mittelfristig ersetzen/umstellen",
+      "priority": "mittelfristig",
+      "low_eur": 20000,
+      "high_eur": 50000,
+      "confidence": "niedrig",
+      "basis": "Gas-Zentralheizung gesichert, Alter und Zustand unbekannt."
+    },
+    {
+      "category": "Technik/Innen",
+      "measure": "Reserve für Elektro, Sanitär, Bäder und Oberflächen",
+      "priority": "unklar",
+      "low_eur": 20000,
+      "high_eur": 60000,
+      "confidence": "niedrig",
+      "basis": "Teilweise ältere Ausstattung, keine technische Dokumentation."
+    }
+  ],
+  "estimated_total_cost_eur": {
+    "low": 355000,
+    "high": 495000,
+    "confidence": "niedrig",
+    "includes_purchase_price": true,
+    "includes_acquisition_costs": false,
+    "comment": "Zielpreis plus grobe Investitionsreserve; Nebenkosten nicht enthalten."
+  },
+  "address_hints": [
+    {
+      "hint": "Ortsrandlage in 8551 Wies",
+      "basis": "Inseratstitel und sichtbare lockere Bebauung/Gartenlage",
+      "confidence": "mittel"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "01-04.jpg",
+      "area": "Außenansichten/Nebengebäude",
+      "condition": "ordentlich, einfacher bis älterer Standard",
+      "positive": [
+        "Fassade wirkt gepflegt",
+        "großer Garten und Unterstand"
+      ],
+      "risks": [
+        "Dach- und Fassadenaufbau nicht prüfbar",
+        "Unterstand/Nebengebäude bewilligungsrechtlich prüfen"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "05-21.jpg",
+      "area": "Innenräume",
+      "condition": "überwiegend bewohnbar, gemischter Modernisierungsstand",
+      "positive": [
+        "brauchbare Küche",
+        "mehrere helle Räume",
+        "zwei Nassbereiche"
+      ],
+      "risks": [
+        "ältere Oberflächen und Ausstattung",
+        "keine Detailprüfung von Leitungen/Feuchte möglich"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "22-24.jpg",
+      "area": "Terrasse und Garten",
+      "condition": "nutzbar",
+      "positive": [
+        "große Freifläche",
+        "Terrasse"
+      ],
+      "risks": [
+        "Abdichtung und Geländer prüfen"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "25.jpg",
+      "area": "Gewölbekeller",
+      "condition": "alt, technisch ungeklärt",
+      "positive": [
+        "zusätzliche Lagerfläche"
+      ],
+      "risks": [
+        "erhöhtes Feuchterisiko",
+        "Boden/Wandaufbau ungeklärt"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "26.jpg",
+      "area": "Küche Duplikat",
+      "condition": "wie Bild 07",
+      "positive": [
+        "modernere Einbauküche"
+      ],
+      "risks": [],
+      "confidence": "hoch"
+    }
+  ],
+  "image_coverage": {
+    "exported_images_reviewed": 26,
+    "exterior_images": 7,
+    "interior_images": 18,
+    "technical_or_outbuilding_images": 1,
+    "plans_or_documents": 0,
+    "unclassified_images": 0,
+    "comment": "Alle 26 exportierten JPGs visuell geprüft; Bild 26 ist ein Küchenduplikat."
+  },
+  "recommendation": "Nur nach technischer Besichtigung und belastbarem Sanierungsbudget weiterverfolgen. Interessant ist das Objekt vor allem bei deutlichem Preisnachlass und wenn die große Fläche tatsächlich benötigt wird.",
+  "next_steps": [
+    "Energieausweis und Heizkosten der letzten drei Jahre anfordern.",
+    "Bausachverständigen für Dach, Kellerfeuchte, Fassade, Fenster und Leitungen beiziehen.",
+    "Baujahr, Sanierungen und Alter der Gasheizung klären.",
+    "Bewilligungen und Flächenwidmung von Zubauten, Schuppen und Unterstand prüfen."
+  ],
+  "score_reasoning": "Große Fläche, großer Grund und grundsätzlich bewohnbare Räume werden durch extrem schlechte Energiekennzahlen, unbekannte Haustechnik und hohes Sanierungsrisiko deutlich relativiert.",
+  "limitations": [
+    "Keine exakte Adresse.",
+    "Keine Detailaufnahmen von Heizung, Elektroverteilung oder Dachstuhl.",
+    "Kosten sind keine Kostenschätzung eines Fachplaners."
+  ],
+  "hauscheck_archive": {
+    "category": "stale",
+    "reason": "Auftragskennung gehört zu einem anderen Export (a243f952cedb statt 179871906e3e)",
+    "source_path": "ai_exchange/results/pending/29b8088a/hauscheck_analysis.json",
+    "archived_at": "2026-07-15T22:07:24.670632+00:00"
+  }
+}
