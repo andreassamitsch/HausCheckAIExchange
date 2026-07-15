@@ -1,0 +1,201 @@
+{
+  "house_id": "d3dd163b",
+  "analysis_date": "2026-07-15T09:00:50+00:00",
+  "new_score": 54,
+  "confidence": "mittel",
+  "summary": "Gesichert sind 339.000 € Kaufpreis, rund 190 m² Wohnfläche, 926 m² Grundstück, 6 Zimmer, Baujahr 1850, Fernwärme und ein sehr hoher HWB von 346,6. Alle sieben exportierten Bilder wurden geprüft; sie zeigen ausschließlich Außenansichten beziehungsweise Aussicht. Das historische Landhaus wirkt außen gepflegt, mit geschlossen wirkender Ziegeldeckung, instand gehaltenen Holz- und Putzflächen, befestigter Zufahrt und gepflegtem Garten. Abgeleitet ist der äußere Erhaltungszustand ordentlich. Unsicher bleiben Innenzustand, Feuchte, Tragwerk, Haustechnik, Fensterqualität, Sanierungshistorie und tatsächlicher Energieverbrauch. Das Objekt ist sehr wahrscheinlich identisch mit Hausakte 18ad9564.",
+  "positive_findings": [
+    "Gesichert: 190 m² Wohnfläche, 926 m² Grundstück, 6 Zimmer und 339.000 € Angebotspreis.",
+    "Gesichert aus den Bildern: charaktervolle historische Architektur, gepflegte Außenanlagen und ein äußerlich geschlossen wirkendes Ziegeldach.",
+    "Gesichert: Fernwärme ist als Heizsystem angegeben.",
+    "Abgeleitet: attraktive Aussicht und landschaftlich ansprechende Lage im Ortsbereich von St. Oswald ob Eibiswald."
+  ],
+  "risk_findings": [
+    "Gesichert: HWB 346,6 bedeutet einen sehr hohen Heizwärmebedarf.",
+    "Abgeleitet: Baujahr 1850 sowie Holzfassade und Sockelbereiche erhöhen das Risiko für Wartungs- und Sanierungsbedarf.",
+    "Unsicher: Dachstuhl, Holzschutz, Fundamente, Abdichtung, Leitungen und Elektrik sind nicht beurteilbar.",
+    "Unsicher: Innenzustand und Qualität früherer Sanierungen sind mangels Innenbildern nicht prüfbar.",
+    "Unsicher: mögliche Auflagen im historischen Ortskern sowie Lärm durch Kirche oder Durchfahrt sind vor Ort zu klären."
+  ],
+  "estimated_investment_eur": {
+    "low": 50000,
+    "high": 180000,
+    "confidence": "niedrig",
+    "comment": "Breite Reserve wegen Baujahr 1850, HWB 346,6 und fehlender Innen-/Technikdokumentation. Bei nachgewiesener Kernsanierung kann der Bedarf geringer sein; bei Feuchte-, Holz-, Leitungs- oder Dachproblemen höher."
+  },
+  "address_hints": [
+    {
+      "hint": "Ortsbereich St. Oswald ob Eibiswald, 8553",
+      "basis": "Inseratsangabe; auf einem Bild ist ein Kirchturm in unmittelbarer Nähe sichtbar.",
+      "confidence": "mittel"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/01.jpg",
+      "area": "Vorder-/Gartenansicht",
+      "condition": "Historischer Holzbau mit weiß verputztem Sockel, großem Ziegeldach und gepflegter Gartenanlage. Keine groben Schäden erkennbar.",
+      "positive": [
+        "charaktervolle Architektur",
+        "gepflegte Außenanlage",
+        "Dachdeckung wirkt geschlossen"
+      ],
+      "risks": [
+        "Holzschutz, Dachstuhl und Sockelfeuchte nicht prüfbar"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/02.jpg",
+      "area": "Hauptfassade und Zufahrt",
+      "condition": "Symmetrische Holzfassade, befestigte Zufahrt und gepflegte Grünflächen. Außenbild wirkt ordentlich.",
+      "positive": [
+        "befestigte Zufahrt",
+        "Fassade optisch gepflegt"
+      ],
+      "risks": [
+        "Entwässerung, Fensterstandard und Holzsubstanz unbekannt"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/03.jpg",
+      "area": "Hof-/Seitenansicht",
+      "condition": "Putz- und Holzfassade mit Balkon beziehungsweise Laubengang; Brennholzlager unter dem Gang. Kirchturm nahe sichtbar.",
+      "positive": [
+        "Fassadenflächen wirken instand gehalten",
+        "überdachter Holzlagerbereich"
+      ],
+      "risks": [
+        "Balkontragwerk und Anschlüsse prüfen",
+        "mögliche Geräuschbelastung durch Kirche/Ortskern"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/04.jpg",
+      "area": "Balkon und Aussicht",
+      "condition": "Holzbalkon mit freier Grün- und Fernsicht. Tragwerk und Beschichtung sind aus dem Bild nicht sicher beurteilbar.",
+      "positive": [
+        "attraktive Aussicht",
+        "großzügiger Außenbezug"
+      ],
+      "risks": [
+        "Holztragfähigkeit und Geländersicherheit prüfen"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/05.jpg",
+      "area": "Gartenansicht",
+      "condition": "Außenansicht bei bedecktem Wetter; Fassade, Dach und Garten wirken gepflegt, ohne sichtbare großflächige Schäden.",
+      "positive": [
+        "gepflegter Garten",
+        "stimmiges Gesamtbild"
+      ],
+      "risks": [
+        "keine Detailprüfung von Holz, Sockel und Dachanschlüssen möglich"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/06.jpg",
+      "area": "Frontansicht/Zufahrt",
+      "condition": "Direkte Frontansicht mit befestigter Vorfläche. Dachdeckung und Fassade wirken vollständig.",
+      "positive": [
+        "gute Zufahrtsmöglichkeit optisch plausibel",
+        "keine offensichtlichen Fassadenausbrüche"
+      ],
+      "risks": [
+        "Gefälle und Oberflächenentwässerung prüfen",
+        "Fensterqualität unbekannt"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/07.jpg",
+      "area": "Rück-/Seitenansicht und Grundstück",
+      "condition": "Haus im leicht geneigten Grundstück; Dach und Holzfassade wirken aus Distanz ordentlich. Oberleitung beziehungsweise Leitungen queren den Bildbereich.",
+      "positive": [
+        "großzügige Freifläche",
+        "Dachform vollständig erkennbar"
+      ],
+      "risks": [
+        "Hangentwässerung und Geländeanschlüsse prüfen",
+        "Nähe beziehungsweise Rechte zu Leitungen klären"
+      ],
+      "confidence": "mittel"
+    }
+  ],
+  "recommendation": "Nur nach umfassender technischer Besichtigung weiterverfolgen. Die Außenwirkung ist attraktiv und gepflegt, doch HWB 346,6, Baujahr 1850 und fehlende Innenaufnahmen rechtfertigen einen erheblichen Risikopuffer und eine deutliche Preisverhandlung.",
+  "next_steps": [
+    "Vollständigen Energieausweis und belegte Sanierungshistorie anfordern.",
+    "Innenräume, Dachstuhl, Holztragwerk, Sockel, Feuchte und Fundamente mit Bausachverständigem prüfen.",
+    "Alter und Zustand von Fenstern, Elektrik, Wasser-/Abwasserleitungen und Fernwärmeübergabe klären.",
+    "Baubewilligungen, Nebengebäude, allfällige Schutzauflagen und Leitungsrechte prüfen.",
+    "Hausakten d3dd163b und 18ad9564 auf Zusammenführung prüfen."
+  ],
+  "score_reasoning": "Fläche, Grundstück, Charakter, Fernwärme und gepflegte Außenwirkung sind positiv. Der sehr schlechte HWB, das hohe Gebäudealter und die vollständig fehlende Innen-/Technikdokumentation führen zu deutlichen Abzügen. Daher bleibt das Objekt im Bereich 'prüfen'.",
+  "limitations": [
+    "Alle sieben Bilder zeigen Außenbereiche oder Aussicht; Innenräume, Technik und Nebenräume fehlen vollständig.",
+    "Keine Detailansichten von Dachanschlüssen, Sockel, Holztragwerk oder Fenstern.",
+    "Bilder ersetzen keine bautechnische oder rechtliche Prüfung."
+  ],
+  "price_assessment": {
+    "asking_price_eur": 339000,
+    "fair_value_low_eur": 250000,
+    "fair_value_high_eur": 300000,
+    "suggested_first_offer_eur": 250000,
+    "suggested_target_price_eur": 275000,
+    "maximum_recommended_price_eur": 295000,
+    "confidence": "niedrig",
+    "reasoning": "Der Angebotspreis steht einem HWB von 346,6, Baujahr 1850 und erheblichen unbekannten Bausubstanz- und Innenrisiken gegenüber. Ohne belastbare Sanierungsnachweise erscheint nur ein Preis deutlich unter dem Angebot vertretbar."
+  },
+  "investment_items": [
+    {
+      "category": "Energie/Gebäudehülle",
+      "measure": "Energieberatung und je nach Befund Sanierung von Fenstern, Dach/oberster Decke und ausgewählten Bauteilen",
+      "priority": "kurzfristig",
+      "low_eur": 30000,
+      "high_eur": 100000,
+      "confidence": "niedrig",
+      "basis": "HWB 346,6; konkrete Bauteilzustände unbekannt."
+    },
+    {
+      "category": "Bausubstanz/Holz",
+      "measure": "Prüfung und mögliche Sanierung von Holztragwerk, Fassade, Balkon, Sockel und Feuchteschutz",
+      "priority": "kurzfristig",
+      "low_eur": 10000,
+      "high_eur": 50000,
+      "confidence": "niedrig",
+      "basis": "Baujahr 1850 und sichtbare historische Holzbauteile."
+    },
+    {
+      "category": "Haustechnik/Innenausbau",
+      "measure": "Reserve für Elektrik, Sanitär, Leitungen und Innenmodernisierung",
+      "priority": "unklar",
+      "low_eur": 10000,
+      "high_eur": 60000,
+      "confidence": "niedrig",
+      "basis": "Keine Innen- oder Technikbilder und keine belastbaren Sanierungsnachweise."
+    }
+  ],
+  "estimated_total_cost_eur": {
+    "low": 325000,
+    "high": 475000,
+    "confidence": "niedrig",
+    "includes_purchase_price": true,
+    "includes_acquisition_costs": false,
+    "comment": "Grobe Spanne aus Ziel-/Maximalpreis und Investitionsreserve; Kaufnebenkosten, Finanzierung und Steuern nicht enthalten."
+  },
+  "image_coverage": {
+    "exported_images_reviewed": 7,
+    "exterior_images": 7,
+    "interior_images": 0,
+    "technical_or_outbuilding_images": 0,
+    "plans_or_documents": 0,
+    "unclassified_images": 0,
+    "comment": "Alle sieben exportierten JPGs wurden visuell geprüft. Es sind ausschließlich Außenansichten beziehungsweise Aussichtsbilder vorhanden; keine Werbegrafik und kein erkennbar KI-bearbeitetes Bild wurde als Zustandsnachweis verwendet."
+  },
+  "source": "manual_chatgpt_upload"
+}
