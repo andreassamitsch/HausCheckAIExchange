@@ -1,0 +1,103 @@
+{
+  "house_id": "56df78a2",
+  "analysis_date": "2026-07-13T07:14:23.259026+00:00",
+  "new_score": 38,
+  "confidence": "mittel",
+  "summary": "Gesichert handelt es sich um einen ausdrücklich sanierungsbedürftigen Hof-/Hausbestand mit 140 m² Wohnfläche und großem Nebengebäude. Die Bilder zeigen alten, teilweise entkernten Innenausbau, ältere Dächer und Bestandspläne; ein Bild ist reine Werbung und wurde nicht als Zustandsnachweis verwendet. Der Preis von 349.000 € erscheint angesichts des sichtbaren Sanierungsumfangs nur bei sehr guter Grundstückslage oder besonderem Nebengebäudewert plausibel.",
+  "positive_findings": [
+    "Gesichert: 913 m² Grundstück und große Neben-/Garagenflächen.",
+    "Gesichert: Grundriss- bzw. Bestandsplanbilder sind vorhanden und erleichtern die Vorprüfung.",
+    "Abgeleitet: Der Bestand bietet Potenzial für Werkstatt, Lager oder umfassende Neugestaltung."
+  ],
+  "risk_findings": [
+    "Gesichert: Innenräume sind stark sanierungsbedürftig bzw. teilweise entkernt.",
+    "Gesichert: Gebäudehülle und Nebengebäude wirken alt; Dach, Mauerwerk und Feuchte sind kritisch zu prüfen.",
+    "Unsicher: Keine belastbaren Energie-, Heizungs- oder Baujahrsdaten.",
+    "Abgeleitet: Gesamtsanierung kann wirtschaftlich in Richtung Neubaukosten gehen."
+  ],
+  "estimated_investment_eur": {
+    "low": 180000,
+    "high": 420000,
+    "confidence": "niedrig",
+    "comment": "Sehr grobe Gesamtsanierungsspanne inklusive Haustechnik, Gebäudehülle und Innenausbau; statische oder feuchtebedingte Schäden können darüber hinausgehen."
+  },
+  "address_hints": [
+    {
+      "hint": "Rand-/Ortslage Gleinstätten mit landwirtschaftlich geprägtem Umfeld",
+      "basis": "Inseratsort, Luftbild/Katastergrafik und Außenaufnahmen",
+      "confidence": "mittel"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/01.jpg-images/02.jpg",
+      "area": "Grundstück und Bestand",
+      "condition": "Große Grünfläche; alte, niedrige Gebäudestruktur.",
+      "positive": [
+        "ebene Freifläche"
+      ],
+      "risks": [
+        "Hülle und Dach alt",
+        "Zufahrt/Grundgrenzen prüfen"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/03.jpg",
+      "area": "Kataster-/Lagegrafik",
+      "condition": "Grafische Grundstücksdarstellung, kein Zustandsbild.",
+      "positive": [
+        "Lagebezug"
+      ],
+      "risks": [
+        "Grenzen nur anhand amtlicher Unterlagen bestätigen"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/04.jpg-images/07.jpg",
+      "area": "historische Außenbilder",
+      "condition": "Ältere Aufnahmen, eingeschränkter aktueller Beweiswert.",
+      "positive": [
+        "zeigen ursprüngliche Struktur"
+      ],
+      "risks": [
+        "nicht zwingend aktueller Zustand"
+      ],
+      "confidence": "niedrig"
+    },
+    {
+      "image": "images/08.jpg",
+      "area": "Werbegrafik",
+      "condition": "Maklerwerbung; nicht als Zustandsnachweis verwendet.",
+      "positive": [],
+      "risks": [],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/09.jpg-images/10.jpg",
+      "area": "Innenräume",
+      "condition": "Stark sanierungsbedürftig, teilweise entkernt.",
+      "positive": [
+        "freie Gestaltung möglich"
+      ],
+      "risks": [
+        "kompletter Ausbau und Haustechnik wahrscheinlich nötig"
+      ],
+      "confidence": "hoch"
+    }
+  ],
+  "recommendation": "Derzeit kritisch. Nur sinnvoll für sanierungserfahrene Käufer mit belastbarer Kostenschätzung und erheblichem Budget; vor Preisverhandlung zuerst Substanz- und Widmungsprüfung.",
+  "next_steps": [
+    "Bausachverständigen für Dach, Mauerwerk, Feuchte und Statik beauftragen.",
+    "Sanierungs-/Abbruchvarianten mit belastbaren Angeboten kalkulieren.",
+    "Aktuelle Grundbuch-, Kataster-, Widmungs- und Bewilligungsunterlagen prüfen.",
+    "Preis anhand Grundstückswert minus Sanierungs-/Abbruchrisiko neu bewerten."
+  ],
+  "score_reasoning": "Großes Potenzial und Nebengebäude stehen einem klar sichtbaren Vollsanierungsfall und hohem Preis gegenüber.",
+  "limitations": [
+    "Mehrere Bilder sind historisch, grafisch oder werblich und daher nur eingeschränkt als Zustandsnachweis nutzbar.",
+    "Keine Energie- und Haustechnikdaten."
+  ],
+  "source": "manual_chatgpt_upload"
+}
