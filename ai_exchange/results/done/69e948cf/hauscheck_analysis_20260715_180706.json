@@ -1,0 +1,264 @@
+{
+  "house_id": "69e948cf",
+  "analysis_date": "2026-07-15T18:08:00+00:00",
+  "new_score": 63,
+  "confidence": "mittel",
+  "summary": "Gesichert sind ein Angebotspreis von 249.000 €, rund 240 m² angegebene Wohnfläche, etwa 2.500 m² Grundstück und die Lageangabe 8454 Arnfels. Die 40 geprüften Inseratbilder zeigen ein ländliches Ensemble aus mehreren gelb verputzten Gebäuden mit großen, gut nutzbaren Werkstattflächen, Maschinenbestand, befestigter Zufahrt sowie Hang- und Grünflächen. Der sichtbar modernisierte Wohnteil umfasst zumindest Wohnküche, Bad und Schlafzimmer und wirkt sauber sowie kurzfristig nutzbar. Abgeleitet ist das Objekt vor allem für Käufer interessant, die Wohnen und Gewerbe beziehungsweise Werkstatt kombinieren möchten. Unsicher bleiben die tatsächliche Aufteilung und baurechtliche Widmung der angegebenen 240 m², Baujahr, Energiekennzahlen, Heizung, Dach- und Leitungszustand sowie ob Maschinen und Betriebsausstattung im Kaufpreis enthalten sind.",
+  "positive_findings": [
+    "Gesichert: Im Inserat angegebener Kaufpreis von 249.000 € bei 240 m² Wohnfläche und 2.500 m² Grundstück.",
+    "Gesichert aus den Bildern: Mehrere Gebäude beziehungsweise Gebäudeteile mit umfangreichen Werkstatt-, Lager- und Nebenflächen.",
+    "Gesichert aus den Bildern: Wohnküche, Badezimmer und Schlafzimmer wirken gepflegt, sauber und überwiegend modernisiert.",
+    "Gesichert aus den Bildern: Badezimmer mit bodengleicher beziehungsweise niedriger Duschtasse, moderner Glasabtrennung und zeitgemäßen Oberflächen.",
+    "Gesichert aus den Bildern: Große, helle Werkstatträume mit Sektionaltoren und befestigten Böden.",
+    "Abgeleitet: Gute Eignung für Wohnen plus Handwerk, Hobby, Lager oder kleines Gewerbe, sofern Widmung und Genehmigungen passen.",
+    "Abgeleitet: Ruhige, ländliche Hanglage mit Grünflächen und offenem Umfeld."
+  ],
+  "risk_findings": [
+    "Unsicher: Die Inseratangabe von 240 m² Wohnfläche passt nicht eindeutig zu den sichtbaren Wohnräumen; ein erheblicher Teil könnte Werkstatt-, Lager- oder Nebenfläche sein.",
+    "Unsicher: Keine Angaben zu Baujahr, Heizsystem, HWB, fGEE, Dachalter, Elektro-, Wasser- und Abwasserinstallation.",
+    "Gesichert aus den Bildern: Das Grundstück ist teilweise deutlich geneigt; Entwässerung, Hangstabilität und Zufahrt im Winter sind zu prüfen.",
+    "Abgeleitet: Mehrere ältere Gebäudeteile und unterschiedliche Bauformen können erhöhten Instandhaltungs- und Genehmigungsaufwand bedeuten.",
+    "Unsicher: Maschinen, Werkzeuge, Hebezeuge und Betriebseinrichtung sind sichtbar, aber deren Eigentum und Mitverkauf sind nicht geklärt.",
+    "Unsicher: Keine Bilder von Dachboden, Tragwerk, Heizung, Elektroverteilung, Keller beziehungsweise Fundamentanschlüssen oder Abwasseranlage.",
+    "Abgeleitet: Die Werkstattnutzung kann Altlasten-, Lärm-, Brandschutz- oder gewerberechtliche Prüfungen erforderlich machen.",
+    "Unsicher: Nur zwei Zimmer sind im Inserat erkannt; die tatsächliche Wohnraumaufteilung und Eignung für eine Familie sind offen."
+  ],
+  "estimated_investment_eur": {
+    "low": 40000,
+    "high": 140000,
+    "confidence": "niedrig",
+    "comment": "Grobe Reserve für technische Prüfung und mögliche Erneuerung von Heizung, Elektro, Fenstern, Dach beziehungsweise Entwässerung sowie Anpassungen von Wohn- und Werkstattflächen. Ohne Energieausweis, Baujahr und Haustechnikunterlagen ist keine belastbare Kostenschätzung möglich. Maschinen oder gewerbliche Ausstattung sind nicht eingerechnet."
+  },
+  "address_hints": [
+    {
+      "hint": "Gemeindegebiet 8454 Arnfels, ländliche Hanglage",
+      "basis": "Inserat nennt 8454 Arnfels; Bilder zeigen ein freistehendes, ländliches Ensemble an leicht bis deutlich geneigtem Gelände.",
+      "confidence": "hoch"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/01.jpg, images/21.jpg, images/30.jpg, images/31.jpg",
+      "area": "Gebäudeensemble, Zufahrt und Außenbereich",
+      "condition": "Mehrere gepflegt wirkende, gelb verputzte Gebäude mit befestigten Flächen; teilweise offene beziehungsweise überdachte Arbeitsbereiche.",
+      "positive": [
+        "Viel nutzbare Nebenfläche",
+        "Befestigte Zufahrt",
+        "Mehrere getrennte Gebäudeteile"
+      ],
+      "risks": [
+        "Genehmigungsstatus der Zubauten unklar",
+        "Entwässerung und Übergänge zwischen Gebäuden prüfen"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/14.jpg, images/16.jpg, images/19.jpg, images/23.jpg, images/32.jpg, images/33.jpg, images/39.jpg",
+      "area": "Grundstück, Hang und Fassaden",
+      "condition": "Ländliches, teilweise stark geneigtes Grundstück; Fassaden und Dacheindeckungen wirken auf Distanz ordentlich, sind aber nicht technisch beurteilbar.",
+      "positive": [
+        "Großzügige Grün- und Freiflächen",
+        "Ruhiges, offenes Umfeld"
+      ],
+      "risks": [
+        "Hangwasser und Oberflächenentwässerung",
+        "Dachzustand nur aus Distanz sichtbar",
+        "Wintertauglichkeit der Zufahrt prüfen"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/05.jpg, images/11.jpg, images/13.jpg, images/24.jpg, images/40.jpg",
+      "area": "Wohnküche und Wohnbereich",
+      "condition": "Kompakter, modernisierter und gepflegter Wohnbereich mit heller Einbauküche, Laminatboden und Kunststofffenstern beziehungsweise -türen.",
+      "positive": [
+        "Sofort nutzbar wirkender Zustand",
+        "Zeitgemäße Küchenoberflächen",
+        "Helle Raumwirkung"
+      ],
+      "risks": [
+        "Raumgröße und Grundriss nicht vollständig erkennbar",
+        "Heizsystem nicht sichtbar"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/06.jpg, images/12.jpg, images/17.jpg, images/35.jpg",
+      "area": "Badezimmer",
+      "condition": "Sauberer, modernisierter Sanitärraum mit Dusche, Waschbecken, WC und Warmwasserspeicher; Waschmaschine und teilweise Trockner vorhanden.",
+      "positive": [
+        "Moderner Gesamteindruck",
+        "Große Dusche",
+        "Ordentliche Oberflächen"
+      ],
+      "risks": [
+        "Elektro-Warmwasserbereitung kann laufende Kosten erhöhen",
+        "Abdichtung und Lüftung nicht prüfbar"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/15.jpg, images/26.jpg",
+      "area": "Schlafzimmer",
+      "condition": "Ein gepflegtes Schlafzimmer mit Laminatboden und einfacher Ausstattung ist dokumentiert.",
+      "positive": [
+        "Ordentlicher, bezugsfertiger Eindruck"
+      ],
+      "risks": [
+        "Nur ein Schlafraum sichtbar",
+        "Gesamte Wohnraumanzahl bleibt unklar"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/02.jpg, images/03.jpg, images/07.jpg, images/09.jpg, images/18.jpg, images/25.jpg, images/27.jpg, images/29.jpg, images/36.jpg, images/37.jpg",
+      "area": "Werkstatt- und Produktionsräume",
+      "condition": "Große, überwiegend saubere Werkstattflächen mit Metallbearbeitungsmaschinen, Schweißplatz, Sektionaltoren und funktionaler Beleuchtung.",
+      "positive": [
+        "Sehr umfangreiche Werkstattnutzung möglich",
+        "Große Tore und robuste Böden",
+        "Mehrere getrennte Arbeitsbereiche"
+      ],
+      "risks": [
+        "Maschinenzustand und Mitverkauf ungeklärt",
+        "Elektroanschlüsse, Absaugung, Brandschutz und gewerbliche Genehmigung prüfen",
+        "Mögliche Altlasten aus früherer Nutzung prüfen"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/04.jpg, images/10.jpg, images/22.jpg, images/28.jpg",
+      "area": "Gemischt genutzter Werkstatt-/Aufenthaltsraum",
+      "condition": "Ein großer Raum wird gleichzeitig als Werkstatt, Lager, Büro und Schlaf-/Aufenthaltsbereich genutzt.",
+      "positive": [
+        "Viel flexibel nutzbare Fläche"
+      ],
+      "risks": [
+        "Wohn- und Gewerbenutzung baurechtlich abklären",
+        "Brandschutz und Aufenthaltsraumqualität prüfen"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/34.jpg, images/38.jpg",
+      "area": "Außentüren, Klimagerät und WC-Zugang",
+      "condition": "Ordentliche Außentüren; ein Split-Klimagerät und ein separat beschrifteter WC-Zugang sind sichtbar.",
+      "positive": [
+        "Zusätzliche Kühl-/Heizmöglichkeit",
+        "Separates WC für Werkstatt denkbar"
+      ],
+      "risks": [
+        "Alter, Leistung und Wartung des Klimageräts unbekannt",
+        "Sanitär- und Genehmigungsstatus unklar"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "alle images/01.jpg bis images/40.jpg",
+      "area": "Bildauthentizität",
+      "condition": "Keine eindeutig als KI-bearbeitet gekennzeichneten Bilder und keine reinen Werbegrafiken erkannt; alle Bilder wirken wie reale Inseratfotos.",
+      "positive": [
+        "Breite Bildabdeckung von Außen-, Wohn- und Werkstattbereichen"
+      ],
+      "risks": [
+        "Keine Pläne oder technischen Unterlagen abgebildet"
+      ],
+      "confidence": "mittel"
+    }
+  ],
+  "recommendation": "Das Objekt ist wegen Preis, Grundstück und außergewöhnlich großer Werkstattflächen prüfenswert, aber nur für ein Nutzungskonzept, das die gewerblichen beziehungsweise handwerklichen Flächen tatsächlich benötigt. Vor einer Preiszusage müssen Nutzflächenaufstellung, Widmung, Bauakte, Benützungsbewilligungen, Energieausweis und technische Substanz geklärt werden. Bei gesicherter legaler Nutzung aller Flächen und unauffälliger Technik kann der Angebotspreis angemessen sein; ohne diese Nachweise sollte deutlich darunter verhandelt werden.",
+  "next_steps": [
+    "Aktuellen Grundbuchsauszug, Flächenwidmung und Bauakt mit allen bewilligten Gebäuden, Zubauten und Nutzungsarten anfordern.",
+    "Exakte Nutzflächenaufstellung verlangen: Wohnfläche, Werkstatt, Lager, Garage, Nebengebäude und nicht beheizte Flächen getrennt.",
+    "Klären, welche Maschinen, Werkzeuge und Betriebseinrichtungen im Kaufpreis enthalten sind und ob Rechte Dritter bestehen.",
+    "Energieausweis sowie Angaben zu Heizung, Warmwasser, Stromanschlussleistung, Wasser, Kanal oder Senkgrube anfordern.",
+    "Dach, Feuchte, Fundamente, Hangentwässerung, Elektroanlage und Werkstatttechnik durch Sachverständige prüfen lassen.",
+    "Gewerberechtliche Genehmigung, Brandschutz, Lärmschutz und mögliche Altlasten der Werkstattnutzung prüfen.",
+    "Zufahrt, Dienstbarkeiten, Schneeräumung und Erreichbarkeit für größere Fahrzeuge klären.",
+    "Vor Ort prüfen, ob der Wohnbereich mit der angegebenen Wohnfläche und dem eigenen Raumbedarf übereinstimmt."
+  ],
+  "score_reasoning": "Der Score von 63 berücksichtigt den niedrigen Preis je angegebener Fläche, das große Grundstück, den gepflegten sichtbaren Wohnteil und die außergewöhnlich umfangreichen Werkstattmöglichkeiten positiv. Deutliche Abschläge entstehen durch die ungeklärte Abgrenzung von Wohn- und Nutzfläche, fehlende Energie- und Gebäudedaten, mögliche Genehmigungs- und Altlastenthemen sowie die geringe dokumentierte Zahl klassischer Wohnräume. Das Objekt ist daher interessant für einen spezialisierten Käufer, aber kein risikoarmer Standard-Hauskauf.",
+  "limitations": [
+    "Keine Exposé-PDFs oder extrahierten Exposé-Texte vorhanden; document_manifest verweist nur auf eine README-Datei.",
+    "Keine Energiekennzahlen, kein Baujahr und keine Heizungsangaben verfügbar.",
+    "Bilder erlauben keine Aussage zu Statik, Feuchtigkeit hinter Bauteilen, Elektroprüfung, Leitungen oder Dachaufbau.",
+    "Die tatsächliche Wohnfläche und rechtliche Nutzung der sichtbaren Werkstattbereiche sind nicht belegt.",
+    "Investitions- und Preiswerte sind grobe Orientierungen und kein Verkehrswert- oder Bausachverständigengutachten."
+  ],
+  "price_assessment": {
+    "asking_price_eur": 249000,
+    "fair_value_low_eur": 215000,
+    "fair_value_high_eur": 250000,
+    "suggested_first_offer_eur": 210000,
+    "suggested_target_price_eur": 225000,
+    "maximum_recommended_price_eur": 240000,
+    "confidence": "niedrig",
+    "reasoning": "Der Angebotspreis wirkt gemessen an angegebener Fläche und Grundstück attraktiv. Der Wert hängt jedoch stark davon ab, wie viel der 240 m² rechtlich als Wohnfläche gilt, ob alle Gebäude und Nutzungen bewilligt sind, wie die technische Substanz ist und ob Betriebsausstattung enthalten ist. Ohne diese Nachweise ist ein Sicherheitsabschlag notwendig."
+  },
+  "investment_items": [
+    {
+      "category": "Gebäudeprüfung und Sofortreserve",
+      "measure": "Technische Ankaufsprüfung, kleinere Reparaturen, Abdichtungs- und Entwässerungsmaßnahmen",
+      "priority": "sofort",
+      "low_eur": 5000,
+      "high_eur": 20000,
+      "confidence": "niedrig",
+      "basis": "Mehrere Gebäudeteile, Hanglage und fehlende technische Unterlagen."
+    },
+    {
+      "category": "Heizung und Energie",
+      "measure": "Prüfung beziehungsweise mögliche Erneuerung von Heizung, Warmwasser, Regelung und energetischen Schwachstellen",
+      "priority": "kurzfristig",
+      "low_eur": 15000,
+      "high_eur": 60000,
+      "confidence": "niedrig",
+      "basis": "Heizsystem und Energiekennzahlen fehlen; sichtbar ist nur ein Elektro-Warmwasserspeicher und ein Splitgerät."
+    },
+    {
+      "category": "Elektro und Werkstatt",
+      "measure": "Elektroprüfung, Anpassung von Starkstrom, Schutztechnik, Beleuchtung, Absaugung und Brandschutz",
+      "priority": "kurzfristig",
+      "low_eur": 10000,
+      "high_eur": 40000,
+      "confidence": "niedrig",
+      "basis": "Umfangreiche Maschinen- und Schweißnutzung in mehreren Werkstatträumen."
+    },
+    {
+      "category": "Dach, Fassade und Fenster",
+      "measure": "Reserve für punktuelle Reparaturen oder teilweise Erneuerung nach Fachprüfung",
+      "priority": "mittelfristig",
+      "low_eur": 10000,
+      "high_eur": 60000,
+      "confidence": "niedrig",
+      "basis": "Mehrere ältere Gebäudeteile; Dach und Hülle sind nur aus Distanz sichtbar."
+    },
+    {
+      "category": "Wohnraumanpassung",
+      "measure": "Optionale Erweiterung oder Neuordnung der Wohnräume, falls mehr Schlafzimmer benötigt werden",
+      "priority": "optional",
+      "low_eur": 10000,
+      "high_eur": 50000,
+      "confidence": "niedrig",
+      "basis": "Es sind nur ein Schlafzimmer und ein kompakter Wohnbereich klar dokumentiert."
+    }
+  ],
+  "estimated_total_cost_eur": {
+    "low": 265000,
+    "high": 365000,
+    "confidence": "niedrig",
+    "includes_purchase_price": true,
+    "includes_acquisition_costs": false,
+    "comment": "Orientierung aus Zielkaufpreis von etwa 225.000 € plus 40.000 bis 140.000 € Investitionsreserve. Kaufnebenkosten, Finanzierung, Maschinenkäufe und gewerbliche Genehmigungskosten sind nicht enthalten."
+  },
+  "image_coverage": {
+    "exported_images_reviewed": 40,
+    "exterior_images": 13,
+    "interior_images": 12,
+    "technical_or_outbuilding_images": 15,
+    "plans_or_documents": 0,
+    "unclassified_images": 0,
+    "comment": "Alle 40 exportierten Bilder wurden visuell geprüft. Die Galerie deckt Außenbereiche, einen kompakten Wohnteil und zahlreiche Werkstatt-/Nebenräume gut ab; Pläne, Dachboden, Heizraum und technische Dokumente fehlen."
+  },
+  "analysis_request_id": "1e6a93df50f149af92c6438b983af0d8",
+  "source": "manual_chatgpt_upload"
+}
