@@ -1,0 +1,131 @@
+{
+  "house_id": "5fbc4694",
+  "analysis_date": "2026-07-15T20:02:40+00:00",
+  "new_score": 61,
+  "confidence": "mittel",
+  "summary": "Gesichert: 178 m² Wohnfläche, 1.029 m² Grund, HWB 292 und fGEE 3,24. Die Bilder zeigen ein gepflegtes Haupthaus und ein separates Gästehaus in sonniger Aussichtslage. Innenräume sind bewohnbar, aber Küche, Bäder und Heiztechnik wirken älter. Abgeleitet ist ein erheblicher energetischer und technischer Modernisierungsbedarf. Unsicher sind Baujahr, Sanierungshistorie, Dach-, Fenster-, Keller- und Gästehauszustand.",
+  "positive_findings": [
+    "Haupthaus plus Gästehaus",
+    "Schöne Aussicht und sonnige Lage",
+    "Gepflegte bewohnbare Räume",
+    "Mehrere Schlafräume",
+    "Garten mit Obstbäumen",
+    "Heizraum dokumentiert"
+  ],
+  "risk_findings": [
+    "HWB 292 und fGEE 3,24",
+    "Älter wirkender Heizkessel und Speicher",
+    "Küche und Bäder überaltert",
+    "Gästehaus in Holzbauweise technisch prüfen",
+    "Bergige Lage: Winterzufahrt und Entwässerung prüfen"
+  ],
+  "estimated_investment_eur": {
+    "low": 70000,
+    "high": 190000,
+    "confidence": "niedrig",
+    "comment": "Reserve für Heizung, Gebäudehülle, Küche/Bäder und mögliche Arbeiten am Gästehaus."
+  },
+  "address_hints": [
+    {
+      "hint": "8553 Sankt Oswald ob Eibiswald, Aussichtslage",
+      "basis": "listing.json und Bildhintergrund",
+      "confidence": "hoch"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/03.jpg, images/05.jpg, images/12.jpg, images/13.jpg",
+      "area": "Haupthaus außen",
+      "condition": "Gepflegter älterer Bestand.",
+      "positive": [
+        "Ordentliche Fassade aus Distanz",
+        "Balkone und Garage"
+      ],
+      "risks": [
+        "Dach- und Fensteralter ungeklärt"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/02.jpg, images/04.jpg, images/06.jpg, images/07.jpg, images/11.jpg, images/14.jpg, images/17.jpg–images/20.jpg, images/23.jpg–images/25.jpg",
+      "area": "Innenräume",
+      "condition": "Sauber und bewohnbar, aber großteils ältere Ausstattung.",
+      "positive": [
+        "Mehrere nutzbare Zimmer"
+      ],
+      "risks": [
+        "Küche und Bäder modernisierungsbedürftig"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/08.jpg",
+      "area": "Heizraum",
+      "condition": "Älter wirkender Kessel und Warmwasserspeicher.",
+      "positive": [
+        "Technik zugänglich"
+      ],
+      "risks": [
+        "Alter und Effizienz unklar"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/09.jpg, images/21.jpg",
+      "area": "Gästehaus",
+      "condition": "Separates älteres Holzgebäude.",
+      "positive": [
+        "Zusätzliche Nutzung"
+      ],
+      "risks": [
+        "Dach, Holzfassade und Bewilligung prüfen"
+      ],
+      "confidence": "mittel"
+    }
+  ],
+  "recommendation": "Wegen Preis, Gästehaus und Aussicht interessant, aber nur mit technischem Gutachten und geklärter Bewilligung beider Gebäude.",
+  "next_steps": [
+    "Energieausweis und Heizkosten anfordern",
+    "Heizung, Speicher und Kamin prüfen",
+    "Dach, Fenster und Fassaden beider Gebäude begutachten",
+    "Gästehaus auf Bewilligung und Feuchte prüfen",
+    "Winterzufahrt und Starkregenentwässerung beurteilen",
+    "Keller kontrollieren"
+  ],
+  "score_reasoning": "Preis und zwei nutzbare Gebäude sind positiv; sehr schlechte Energiekennwerte, ältere Technik und Modernisierungsbedarf drücken den Score.",
+  "limitations": [
+    "Keine Detailansichten von Keller, Dachraum oder Leitungen",
+    "Heizungsart im Listing nicht gesichert",
+    "Keine exakte Adresse"
+  ],
+  "price_assessment": {
+    "asking_price_eur": 249000,
+    "fair_value_low_eur": 225000,
+    "fair_value_high_eur": 270000,
+    "suggested_first_offer_eur": 215000,
+    "suggested_target_price_eur": 235000,
+    "maximum_recommended_price_eur": 255000,
+    "confidence": "niedrig",
+    "reasoning": "Attraktiver Preis für Fläche und Gästehaus, aber Abschlag für Energiezustand und Technikrisiken."
+  },
+  "investment_items": [],
+  "estimated_total_cost_eur": {
+    "low": 305000,
+    "high": 425000,
+    "confidence": "niedrig",
+    "includes_purchase_price": true,
+    "includes_acquisition_costs": false,
+    "comment": "Zielpreis plus Investitionsreserve."
+  },
+  "image_coverage": {
+    "exported_images_reviewed": 25,
+    "exterior_images": 9,
+    "interior_images": 13,
+    "technical_or_outbuilding_images": 3,
+    "plans_or_documents": 0,
+    "unclassified_images": 0,
+    "comment": "Alle exportierten Bilder visuell geprüft."
+  },
+  "analysis_request_id": "4130b500d3694b6aa5016fac0f5c14ad",
+  "source": "manual_chatgpt_upload"
+}
