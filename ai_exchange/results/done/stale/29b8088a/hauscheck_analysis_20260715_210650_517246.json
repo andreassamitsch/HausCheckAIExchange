@@ -1,0 +1,104 @@
+{
+  "house_id": "29b8088a",
+  "analysis_date": "2026-07-15T21:03:42.567123+00:00",
+  "new_score": 57,
+  "confidence": "hoch",
+  "summary": "Sehr großes Familienhaus mit 275 m² Wohnnutzfläche und 2.000 m² Grund. Die Bilder zeigen einen teils modernisierten, grundsätzlich bewohnbaren Zustand, aber auch älteren Ausbau und einen feuchteanfälligen Gewölbekeller. Gesichert kritisch sind HWB 352 und fGEE 4,04.",
+  "positive_findings": [
+    "Außergewöhnlich große Wohnfläche",
+    "Großer Garten und Terrasse",
+    "Küche und mehrere Räume wirken nutzbar bzw. teilweise erneuert"
+  ],
+  "risk_findings": [
+    "Extrem schwache Energiekennzahlen",
+    "Gewölbekeller mit möglichem Feuchte-/Salzthema",
+    "Uneinheitlicher Modernisierungsstand und hohe laufende Kosten"
+  ],
+  "estimated_investment_eur": {
+    "low": 90000,
+    "high": 220000,
+    "confidence": "mittel",
+    "comment": "Grobe Bandbreite für erkennbare bzw. plausible Maßnahmen; keine Kostenschätzung nach Besichtigung."
+  },
+  "address_hints": [
+    {
+      "hint": "8551 Wies",
+      "basis": "listing.json; keine exakte Adresse bestätigt",
+      "confidence": "hoch"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/*.jpg",
+      "area": "Gesamte exportierte Galerie",
+      "condition": "Alle 26 exportierten Bilder visuell geprüft; Werbegrafiken, Logos, Pläne und Musterbilder wurden nicht als Zustandsnachweis verwendet.",
+      "positive": [
+        "Außergewöhnlich große Wohnfläche",
+        "Großer Garten und Terrasse"
+      ],
+      "risks": [
+        "Extrem schwache Energiekennzahlen",
+        "Gewölbekeller mit möglichem Feuchte-/Salzthema"
+      ],
+      "confidence": "hoch"
+    }
+  ],
+  "recommendation": "Nur nach technischer Besichtigung, Unterlagenprüfung und belastbarer Kostenaufstellung weiterverfolgen.",
+  "next_steps": [
+    "Bauakt, Einreichpläne und Benützungsbewilligung prüfen",
+    "Dach, Feuchte, Fenster, Heizung, Elektrik und Leitungen durch Fachleute prüfen",
+    "Wohn-/Nutzflächen und alle Nebenobjekte mit genehmigten Plänen abgleichen",
+    "Energie- und Betriebskosten sowie Sanierungsangebote einholen"
+  ],
+  "score_reasoning": "Score 57: Abwägung aus Preis, Fläche, Energiekennzahlen, sichtbarem Zustand, Nutzbarkeit und technischem Risiko.",
+  "limitations": [
+    "Keine Vor-Ort-Besichtigung",
+    "Verdeckte Bauteile und technische Anlagen nicht vollständig beurteilbar",
+    "Preisband ist kein Verkehrswertgutachten"
+  ],
+  "price_assessment": {
+    "asking_price_eur": 320000,
+    "fair_value_low_eur": 270000,
+    "fair_value_high_eur": 295000,
+    "suggested_first_offer_eur": 255000,
+    "suggested_target_price_eur": 270000,
+    "maximum_recommended_price_eur": 295000,
+    "confidence": "mittel",
+    "reasoning": "Grobe Einordnung aus Inseratsdaten, sichtbarem Zustand und Sanierungsrisiko; Lage und Rechts-/Bewilligungssituation sind nicht vollständig verifiziert."
+  },
+  "investment_items": [
+    {
+      "category": "Gebäude/Technik",
+      "measure": "Technische Prüfung und je nach Befund Sanierung von Energiehülle, Heizung, Dach, Feuchte, Elektrik und Oberflächen",
+      "priority": "kurzfristig",
+      "low_eur": 90000,
+      "high_eur": 220000,
+      "confidence": "niedrig",
+      "basis": "Inseratsdaten und visuelle Prüfung"
+    }
+  ],
+  "estimated_total_cost_eur": {
+    "low": 360000,
+    "high": 515000,
+    "confidence": "niedrig",
+    "includes_purchase_price": true,
+    "includes_acquisition_costs": false,
+    "comment": "Kaufnebenkosten, Finanzierung und Steuern nicht enthalten."
+  },
+  "image_coverage": {
+    "exported_images_reviewed": 26,
+    "exterior_images": 7,
+    "interior_images": 17,
+    "technical_or_outbuilding_images": 2,
+    "plans_or_documents": 0,
+    "unclassified_images": 0,
+    "comment": "Kategorien überschneiden sich nicht."
+  },
+  "analysis_request_id": "a243f952cedb47db874f0f224db5ea05",
+  "hauscheck_archive": {
+    "category": "stale",
+    "reason": "Auftragskennung gehört zu einem anderen Export (a243f952cedb statt 179871906e3e)",
+    "source_path": "ai_exchange/results/pending/29b8088a/hauscheck_analysis.json",
+    "archived_at": "2026-07-15T21:06:50.517153+00:00"
+  }
+}
