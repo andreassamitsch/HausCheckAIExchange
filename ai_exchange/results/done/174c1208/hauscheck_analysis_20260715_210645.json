@@ -1,0 +1,99 @@
+{
+  "house_id": "174c1208",
+  "analysis_date": "2026-07-15T21:03:00+00:00",
+  "new_score": 59,
+  "confidence": "hoch",
+  "summary": "Gepflegtes, großzügiges Einfamilienhaus mit sehr schön angelegtem Grundstück, Pool und Nebengebäude. Gesichert sind Baujahr 1952, Öl-Zentralheizung, HWB 362 und fGEE 4,17; energetisch besteht klarer Handlungsbedarf. Die Bilder zeigen überwiegend ordentliche, nutzbare Innenräume, jedoch teils älteren Ausbau.",
+  "positive_findings": [
+    "Sehr großes Grundstück mit gepflegten Außenanlagen",
+    "Überdachter Pool und separates Nebengebäude/Garage",
+    "Innenräume überwiegend sauber und kurzfristig nutzbar"
+  ],
+  "risk_findings": [
+    "Sehr schlechter HWB 362 und fGEE 4,17",
+    "Ölheizung und unbekanntes Alter der Haustechnik",
+    "Baujahr 1952: Dach, Leitungen, Feuchte und Bewilligungen prüfen"
+  ],
+  "estimated_investment_eur": {
+    "low": 85000,
+    "high": 210000,
+    "confidence": "mittel",
+    "comment": "Grobe Bandbreite für erkennbare bzw. plausible Maßnahmen; keine Kostenschätzung nach Besichtigung."
+  },
+  "address_hints": [
+    {
+      "hint": "8552 Eibiswald",
+      "basis": "listing.json; keine exakte Adresse bestätigt",
+      "confidence": "hoch"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/*.jpg",
+      "area": "Gesamte exportierte Galerie",
+      "condition": "Alle 48 exportierten Bilder visuell geprüft; Werbegrafiken, Logos, Pläne und Musterbilder wurden nicht als Zustandsnachweis verwendet.",
+      "positive": [
+        "Sehr großes Grundstück mit gepflegten Außenanlagen",
+        "Überdachter Pool und separates Nebengebäude/Garage"
+      ],
+      "risks": [
+        "Sehr schlechter HWB 362 und fGEE 4,17",
+        "Ölheizung und unbekanntes Alter der Haustechnik"
+      ],
+      "confidence": "hoch"
+    }
+  ],
+  "recommendation": "Nur nach technischer Besichtigung, Unterlagenprüfung und belastbarer Kostenaufstellung weiterverfolgen.",
+  "next_steps": [
+    "Bauakt, Einreichpläne und Benützungsbewilligung prüfen",
+    "Dach, Feuchte, Fenster, Heizung, Elektrik und Leitungen durch Fachleute prüfen",
+    "Wohn-/Nutzflächen und alle Nebenobjekte mit genehmigten Plänen abgleichen",
+    "Energie- und Betriebskosten sowie Sanierungsangebote einholen"
+  ],
+  "score_reasoning": "Score 59: Abwägung aus Preis, Fläche, Energiekennzahlen, sichtbarem Zustand, Nutzbarkeit und technischem Risiko.",
+  "limitations": [
+    "Keine Vor-Ort-Besichtigung",
+    "Verdeckte Bauteile und technische Anlagen nicht vollständig beurteilbar",
+    "Preisband ist kein Verkehrswertgutachten"
+  ],
+  "price_assessment": {
+    "asking_price_eur": 349000,
+    "fair_value_low_eur": 300000,
+    "fair_value_high_eur": 320000,
+    "suggested_first_offer_eur": 285000,
+    "suggested_target_price_eur": 300000,
+    "maximum_recommended_price_eur": 320000,
+    "confidence": "mittel",
+    "reasoning": "Grobe Einordnung aus Inseratsdaten, sichtbarem Zustand und Sanierungsrisiko; Lage und Rechts-/Bewilligungssituation sind nicht vollständig verifiziert."
+  },
+  "investment_items": [
+    {
+      "category": "Gebäude/Technik",
+      "measure": "Technische Prüfung und je nach Befund Sanierung von Energiehülle, Heizung, Dach, Feuchte, Elektrik und Oberflächen",
+      "priority": "kurzfristig",
+      "low_eur": 85000,
+      "high_eur": 210000,
+      "confidence": "niedrig",
+      "basis": "Inseratsdaten und visuelle Prüfung"
+    }
+  ],
+  "estimated_total_cost_eur": {
+    "low": 385000,
+    "high": 530000,
+    "confidence": "niedrig",
+    "includes_purchase_price": true,
+    "includes_acquisition_costs": false,
+    "comment": "Kaufnebenkosten, Finanzierung und Steuern nicht enthalten."
+  },
+  "image_coverage": {
+    "exported_images_reviewed": 48,
+    "exterior_images": 15,
+    "interior_images": 23,
+    "technical_or_outbuilding_images": 3,
+    "plans_or_documents": 4,
+    "unclassified_images": 3,
+    "comment": "Logos, schwarze Platzhalter und Werbegrafiken sind als Dokument/unklassifiziert erfasst."
+  },
+  "analysis_request_id": "dd815efed4764448bb39e288185bcda0",
+  "source": "manual_chatgpt_upload"
+}
