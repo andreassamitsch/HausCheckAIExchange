@@ -1,0 +1,150 @@
+{
+  "house_id": "a24cfb92",
+  "analysis_date": "2026-07-15T22:03:02.942413+00:00",
+  "new_score": 39,
+  "confidence": "niedrig",
+  "analysis_request_id": "00338e8b9f334faa9d61111f90b36067",
+  "summary": "Gesichert sind nur ein beworbenes Stockhaus mit ca. 125 m², 1.024 m² Grundstück in 8455 Oberhaag und ein Preis ab 201.300 € inklusive Fundament. Die Bilder bestehen fast ausschließlich aus Logo, Grundrissen, Leistungsübersicht, Mustergrundstück und Rendering. Es gibt keinen Zustandsnachweis eines bestehenden Hauses. Unsicher sind Ausbaustufe, tatsächlicher Gesamtpreis, Grundstückseigentum, Anschlusskosten, Erdarbeiten, Außenanlagen und sämtliche projektspezifischen Mehrkosten.",
+  "positive_findings": [
+    "Grundriss mit rund 125 m² und fünf Zimmern ist familiengeeignet.",
+    "Fundament wird laut Titel im Einstiegspreis genannt.",
+    "Unterlagen zeigen eine nachvollziehbare Raumaufteilung."
+  ],
+  "risk_findings": [
+    "Kein reales Gebäude abgebildet; Rendering und Musterbilder sind kein Zustandsnachweis.",
+    "Der Preis ist ausdrücklich ein Ab-Preis und wahrscheinlich nicht bezugsfertig.",
+    "Leistungsumfang, Grundstück, Genehmigung, Bodenverhältnisse, Anschlüsse und Nebenkosten sind ungeklärt."
+  ],
+  "estimated_investment_eur": {
+    "low": 100000,
+    "high": 250000,
+    "confidence": "niedrig",
+    "comment": "Mögliche Zusatzkosten bis bezugsfertig; ohne verbindliches Angebot nicht belastbar."
+  },
+  "price_assessment": {
+    "asking_price_eur": 201300,
+    "fair_value_low_eur": null,
+    "fair_value_high_eur": null,
+    "suggested_first_offer_eur": null,
+    "suggested_target_price_eur": null,
+    "maximum_recommended_price_eur": null,
+    "confidence": "niedrig",
+    "reasoning": "Ein Ab-Preis ohne vollständige Bau- und Leistungsbeschreibung lässt keine seriöse Kaufpreisbewertung zu."
+  },
+  "investment_items": [
+    {
+      "category": "Projektkosten",
+      "measure": "Vollständiges Fixpreisangebot bis bezugsfertig einholen",
+      "priority": "sofort",
+      "low_eur": 80000,
+      "high_eur": 200000,
+      "confidence": "niedrig",
+      "basis": "Ab-Preis und nur schematische Leistungsübersicht."
+    },
+    {
+      "category": "Grundstück/Außen",
+      "measure": "Erdarbeiten, Anschlüsse, Zufahrt und Außenanlagen",
+      "priority": "sofort",
+      "low_eur": 20000,
+      "high_eur": 50000,
+      "confidence": "niedrig",
+      "basis": "Nicht gesichert im Angebot enthalten."
+    }
+  ],
+  "estimated_total_cost_eur": {
+    "low": 301300,
+    "high": 451300,
+    "confidence": "niedrig",
+    "includes_purchase_price": true,
+    "includes_acquisition_costs": false,
+    "comment": "Ab-Preis plus grobe Zusatzkostenreserve; kein Fixpreis."
+  },
+  "address_hints": [
+    {
+      "hint": "Baugrundstück im Gemeindegebiet 8455 Oberhaag",
+      "basis": "Inseratsort; keine konkrete Lage erkennbar",
+      "confidence": "niedrig"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "01-02.jpg",
+      "area": "Zertifikat/Logo",
+      "condition": "Werbeunterlagen",
+      "positive": [
+        "Anbieterhinweis"
+      ],
+      "risks": [
+        "kein Objektzustand ableitbar"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "03-04,06,09.jpg",
+      "area": "Grundrisse und Raumprogramm",
+      "condition": "Planunterlagen",
+      "positive": [
+        "familiengeeignete Aufteilung"
+      ],
+      "risks": [
+        "Genehmigungsstatus und Ausführung ungeklärt"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "05.jpg",
+      "area": "Mustergrundstück",
+      "condition": "ausdrücklich Musterbild",
+      "positive": [],
+      "risks": [
+        "nicht als tatsächliches Grundstück verwertbar"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "07.jpg",
+      "area": "Rendering",
+      "condition": "Werbegrafik/Visualisierung",
+      "positive": [
+        "zeigt Gestaltungsidee"
+      ],
+      "risks": [
+        "kein Zustands- oder Ausstattungsnachweis"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "08.jpg",
+      "area": "Leistungsübersicht",
+      "condition": "Werbedokument",
+      "positive": [],
+      "risks": [
+        "Details nicht projektspezifisch belegt"
+      ],
+      "confidence": "mittel"
+    }
+  ],
+  "image_coverage": {
+    "exported_images_reviewed": 9,
+    "exterior_images": 0,
+    "interior_images": 0,
+    "technical_or_outbuilding_images": 0,
+    "plans_or_documents": 8,
+    "unclassified_images": 1,
+    "comment": "Alle Bilder geprüft; Musterbild und Rendering nicht als Zustandsnachweis genutzt."
+  },
+  "recommendation": "Nicht als fertiges Hausangebot bewerten. Erst nach verbindlichem Gesamtfixpreis samt Grundstücks- und Nebenkostenvergleich weiterverfolgen.",
+  "next_steps": [
+    "Detaillierte Bau- und Leistungsbeschreibung verlangen.",
+    "Gesamtpreis bis bezugsfertig schriftlich fixieren.",
+    "Grundstück, Widmung, Zufahrt und Bodenverhältnisse prüfen.",
+    "Zahlungsplan, Gewährleistung und Referenzhäuser prüfen."
+  ],
+  "score_reasoning": "Brauchbare Planung, aber sehr hohes Kosten- und Projektrisiko durch Ab-Preis und fehlende reale Objektbasis.",
+  "limitations": [
+    "Keine realen Hausbilder.",
+    "Keine belastbare Leistungsbeschreibung.",
+    "Kein Energiekennwert und kein genehmigter Einreichplan belegt."
+  ],
+  "source": "manual_chatgpt_upload"
+}
