@@ -1,0 +1,71 @@
+{
+  "house_id": "8231acc1",
+  "analysis_date": "2026-07-15T21:03:42.567123+00:00",
+  "new_score": 61,
+  "confidence": "hoch",
+  "summary": "Gesichert: Wohnhaus mit sehr großem Werkstattgebäude, HWB 115,1 und fGEE 1,63. Die 28 Bilder zeigen ein älteres, grundsätzlich nutzbares Wohnhaus sowie umfangreiche Werkstatt-, Garage- und Technikflächen. Abgeleitet: Für Hobby, Fahrzeuge oder Gewerbe besteht hoher Nutzwert. Unsicher: Widmung, Genehmigungen, Brandschutz und mögliche Altlasten.",
+  "positive_findings": [
+    "Große Werkstatt-/Garagenflächen",
+    "Wohnräume grundsätzlich nutzbar",
+    "Für den Bestand vergleichsweise moderate Energiekennzahlen"
+  ],
+  "risk_findings": [
+    "Werkstattflächen teils stark belegt",
+    "Ältere Bäder, Oberflächen und Installationen",
+    "Widmung, Brandschutz und Altlasten klären"
+  ],
+  "estimated_investment_eur": {
+    "low": 50000,
+    "high": 150000,
+    "confidence": "mittel",
+    "comment": "Grobe Reserve für Technik, Oberflächen und mögliche Anpassungen."
+  },
+  "image_findings": [
+    {
+      "image": "images/01.jpg-images/28.jpg",
+      "area": "Haus, Werkstatt und Technik",
+      "condition": "Alle 28 Bilder visuell geprüft; Wohnhaus nutzbar, Werkstatt umfangreich, Ausbau überwiegend älter.",
+      "positive": [
+        "Große Nebenflächen",
+        "Mehrere nutzbare Wohnräume"
+      ],
+      "risks": [
+        "Technischer Zustand nicht vollständig sichtbar",
+        "Ältere Sanitärräume"
+      ],
+      "confidence": "hoch"
+    }
+  ],
+  "recommendation": "Interessant bei echtem Bedarf an Werkstattflächen; nur nach technischer und baurechtlicher Prüfung anbieten.",
+  "next_steps": [
+    "Bauakt und Nutzungsbewilligungen prüfen",
+    "Werkstatt auf Altlasten, Entwässerung und Brandschutz prüfen",
+    "Heizung, Elektrik, Dach und Feuchte begutachten"
+  ],
+  "score_reasoning": "Mittlerer Score: hoher Nutzwert und brauchbare Energiekennzahlen, aber erhebliche technische und rechtliche Prüfpflichten.",
+  "limitations": [
+    "Keine Vor-Ort-Besichtigung",
+    "Verdeckte Technik nicht beurteilbar"
+  ],
+  "price_assessment": {
+    "asking_price_eur": 390000,
+    "fair_value_low_eur": 340000,
+    "fair_value_high_eur": 365000,
+    "suggested_first_offer_eur": 325000,
+    "suggested_target_price_eur": 340000,
+    "maximum_recommended_price_eur": 365000,
+    "confidence": "mittel",
+    "reasoning": "Grobe Einordnung aus Flächen, Zustand und Werkstattnutzen."
+  },
+  "image_coverage": {
+    "exported_images_reviewed": 28,
+    "exterior_images": 8,
+    "interior_images": 12,
+    "technical_or_outbuilding_images": 8,
+    "plans_or_documents": 0,
+    "unclassified_images": 0,
+    "comment": "Alle exportierten Bilder geprüft."
+  },
+  "analysis_request_id": "69fef8a7b94341378d09ab97576408a5",
+  "source": "manual_chatgpt_upload"
+}
