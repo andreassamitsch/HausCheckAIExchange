@@ -1,0 +1,155 @@
+{
+  "house_id": "29b8088a",
+  "analysis_request_id": "2bc14558dfeb464886db0ae7e79ebf9a",
+  "analysis_date": "2026-07-16T10:10:00+00:00",
+  "new_score": 57,
+  "confidence": "mittel",
+  "summary": "Gesichert sind rund 275 m² Wohnnutzfläche, etwa 2.011 m² Grundstück, sechs Zimmer, Gas-Zentralheizung sowie sehr schwache Energiekennzahlen (HWB 352, fGEE 4,04). Die 26 Bilder zeigen ein äußerlich ordentliches, teilweise modernisiertes Haus mit brauchbaren Wohnräumen, zwei Bädern, großer Terrasse, Garten und Nebengebäude. Abgeleitet ist jedoch ein erheblicher energetischer und technischer Modernisierungsbedarf; der Gewölbekeller und die ältere Bausubstanz erhöhen das Prüfungsrisiko. Unsicher bleiben Baujahr, Qualität und Alter von Dach, Fenstern, Leitungen, Heizung und Abdichtung.",
+  "positive_findings": [
+    "Gesichert: sehr große Wohnnutzfläche und großes Grundstück in Wies.",
+    "Gesichert: mehrere helle, grundsätzlich nutzbare Wohn- und Schlafräume sowie zwei Bäder/WCs.",
+    "Gesichert: Küche und Teile der Oberflächen wirken bereits modernisiert und gebrauchsfähig.",
+    "Gesichert: Terrasse, Garten, Holzschuppen und PKW-Unterstand bieten gute Nutzbarkeit für Familie und Hobby.",
+    "Abgeleitet: flexible Nutzung als Ein-/Zweifamilienhaus oder Wohnen und Arbeiten ist plausibel."
+  ],
+  "risk_findings": [
+    "Gesichert: HWB 352 und fGEE 4,04 weisen auf sehr schlechte Gesamtenergieeffizienz hin.",
+    "Gesichert: Gas-Zentralheizung verursacht ein langfristiges Kosten- und Umstellungsrisiko.",
+    "Abgeleitet: Fassade, thermische Hülle, Fenster und Haustechnik dürften zumindest teilweise sanierungsbedürftig sein.",
+    "Gesichert: der Gewölbekeller zeigt ältere, rohe Bauteile; Feuchte und Abdichtung sind vor Ort fachlich zu prüfen.",
+    "Unsicher: Dachalter, Elektroinstallation, Wasser-/Abwasserleitungen, Heizkesselalter und baurechtlicher Status der Nebenflächen sind nicht dokumentiert."
+  ],
+  "estimated_investment_eur": {
+    "low": 90000,
+    "high": 230000,
+    "confidence": "niedrig",
+    "comment": "Grobe Bandbreite für energetische Sanierung, Heizungstausch, Fenster/Fassade/Dämmung sowie mögliche technische und Feuchtesanierungen. Ohne Baujahr, Energieausweisdetails und technische Besichtigung ist die Streuung hoch."
+  },
+  "address_hints": [
+    {
+      "hint": "Ortsrandlage in 8551 Wies",
+      "basis": "Inserattext nennt sonnige Ortsrandlage und Gemeinde Wies; Bilder zeigen lockere Wohnbebauung an einer Straße.",
+      "confidence": "hoch"
+    }
+  ],
+  "image_coverage": {
+    "exported_images_reviewed": 26,
+    "exterior_images": 8,
+    "interior_images": 16,
+    "technical_or_outbuilding_images": 2,
+    "plans_or_documents": 0,
+    "unclassified_images": 0,
+    "comment": "Alle 26 Bilder wurden visuell geprüft. Keine erkennbaren KI-Renderings oder reinen Werbegrafiken wurden als Zustandsnachweis verwendet."
+  },
+  "image_findings": [
+    {
+      "image": "images/01.jpg-images/03.jpg",
+      "area": "Außenansichten",
+      "condition": "Fassade und Dach wirken auf den Bildern ordentlich, der Sockel und die ältere Gebäudestruktur sollten jedoch näher geprüft werden.",
+      "positive": [
+        "gepflegte Grundwirkung",
+        "nutzbarer Garten"
+      ],
+      "risks": [
+        "Alter und Dämmstandard nicht erkennbar",
+        "Straßennähe sichtbar"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/05.jpg-images/21.jpg",
+      "area": "Wohnräume, Küche und Bäder",
+      "condition": "Überwiegend bewohnbar und teilweise modernisiert; Mischung aus neueren Oberflächen und älteren Bauteilen.",
+      "positive": [
+        "große Küche",
+        "mehrere helle Räume",
+        "zwei Bäder/WCs"
+      ],
+      "risks": [
+        "unterschiedlicher Modernisierungsstand",
+        "Installationsalter nicht sichtbar"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/25.jpg",
+      "area": "Gewölbekeller",
+      "condition": "Roher Altbaukeller mit sichtbarem Mauerwerk; auf dem Foto kein sicherer Schadensnachweis, aber erhöhte Feuchteprüfung erforderlich.",
+      "positive": [
+        "zusätzliche Lagerfläche"
+      ],
+      "risks": [
+        "mögliche Feuchte",
+        "Abdichtung unbekannt"
+      ],
+      "confidence": "mittel"
+    }
+  ],
+  "recommendation": "Nur nach technischer Vorprüfung weiterverfolgen. Das Flächenangebot ist attraktiv, aber der Kauf ist wirtschaftlich nur sinnvoll, wenn die hohe Sanierungsreserve im Budget bleibt und der tatsächliche Zustand von Keller, Dach, Heizung, Fenstern und Leitungen besser ist als im Risikoszenario.",
+  "next_steps": [
+    "Vollständigen Energieausweis und Heizkosten der letzten drei Jahre anfordern.",
+    "Baujahr, Sanierungsjahre und Rechnungen für Dach, Fenster, Fassade, Leitungen und Heizung belegen lassen.",
+    "Gewölbekeller mit Feuchtemessung und Sachverständigem prüfen.",
+    "Baubewilligungen und Nutzflächenabgrenzung für Wohnfläche, Schuppen und PKW-Unterstand kontrollieren.",
+    "Vor Angebot eine Kostenschätzung für Heizungsumstellung und thermische Sanierung einholen."
+  ],
+  "score_reasoning": "Große Fläche, Grundstück und grundsätzlich nutzbare Innenräume stützen den Score. Der extrem hohe HWB, fGEE 4,04, Gasheizung und erhebliche technische Unsicherheiten verhindern eine bessere Bewertung.",
+  "limitations": [
+    "Kein vollständiger Energieausweis und keine technischen Unterlagen im Paket.",
+    "Baujahr und konkrete Sanierungshistorie fehlen.",
+    "Bildanalyse ersetzt keine Bauzustandsprüfung; verdeckte Feuchte-, Dach- und Leitungsschäden sind nicht erkennbar."
+  ],
+  "price_assessment": {
+    "asking_price_eur": 320000,
+    "fair_value_low_eur": 245000,
+    "fair_value_high_eur": 285000,
+    "suggested_first_offer_eur": 230000,
+    "suggested_target_price_eur": 255000,
+    "maximum_recommended_price_eur": 275000,
+    "confidence": "niedrig",
+    "reasoning": "Der niedrige Quadratmeterpreis wird durch die sehr schlechte Energieeffizienz und das hohe Sanierungsrisiko relativiert. Ohne technische Prüfung ist nur eine vorsichtige Bandbreite vertretbar."
+  },
+  "investment_items": [
+    {
+      "category": "Heizung",
+      "measure": "Gasheizung prüfen und mittelfristig auf erneuerbares System umstellen",
+      "priority": "kurzfristig",
+      "low_eur": 25000,
+      "high_eur": 50000,
+      "confidence": "niedrig"
+    },
+    {
+      "category": "Energie",
+      "measure": "Thermische Sanierung von Fassade/Dach bzw. oberster Geschoßdecke und Fenstern nach Energieberatung",
+      "priority": "mittelfristig",
+      "low_eur": 50000,
+      "high_eur": 130000,
+      "confidence": "niedrig"
+    },
+    {
+      "category": "Keller",
+      "measure": "Feuchteursache, Drainage und Abdichtung prüfen; Reserve für Sanierung",
+      "priority": "unklar",
+      "low_eur": 5000,
+      "high_eur": 30000,
+      "confidence": "niedrig"
+    },
+    {
+      "category": "Haustechnik",
+      "measure": "Elektro-, Wasser- und Abwasserleitungen prüfen und bedarfsweise erneuern",
+      "priority": "unklar",
+      "low_eur": 10000,
+      "high_eur": 40000,
+      "confidence": "niedrig"
+    }
+  ],
+  "estimated_total_cost_eur": {
+    "low": 345000,
+    "high": 485000,
+    "confidence": "niedrig",
+    "includes_purchase_price": true,
+    "includes_acquisition_costs": false,
+    "comment": "Summe aus Zielkaufpreis und grober Investitionsbandbreite; Kaufnebenkosten, Finanzierung und Förderungen sind nicht enthalten."
+  },
+  "source": "manual_chatgpt_upload"
+}
