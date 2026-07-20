@@ -1,0 +1,172 @@
+{
+  "house_id": "7250396a",
+  "analysis_date": "2026-07-20T13:02:12.093461+00:00",
+  "new_score": 64,
+  "confidence": "mittel",
+  "summary": "Gesichert angeboten wird ein Wohnhaus in Aichberg 8, 8552 Eibiswald, mit 184 m² Wohnfläche, 741 m² Grundstück, Baujahr 1987, Fernwärme, HWB 164 und fGEE 2,15 um 300.000 €. Die 19 geprüften Bilder zeigen ein äußerlich gepflegtes, traditionell gestaltetes Haus mit Nebengebäude beziehungsweise Garage sowie helle, überwiegend leere und gebrauchsfähige Innenräume. Küche, Bäder, Sanitärbereiche, Stiege und mehrere Oberflächen sind jedoch deutlich älter. Vier Planbilder wurden nur als Unterlagen und nicht als Zustandsnachweis verwendet. Insgesamt wirkt das Objekt solide und bewohnbar, aber nicht umfassend modernisiert.",
+  "positive_findings": [
+    "Gesichert: 184 m² Wohnfläche bieten viel Platz für eine Familie oder flexible Nutzung.",
+    "Gesichert: Außenansichten, Fassade, Dachflächen und Garten wirken auf den Bildern ordentlich gepflegt; akute Großschäden sind nicht erkennbar.",
+    "Gesichert: Mehrere Wohnräume sind hell, leer und grundsätzlich sofort nutzbar.",
+    "Gesichert: Garage beziehungsweise Nebengebäude und zusätzliche Nebenflächen erhöhen den Nutzwert.",
+    "Gesichert: Fernwärme ist als Heizsystem angegeben und reduziert das Risiko eines kurzfristig zu ersetzenden eigenen Heizkessels.",
+    "Abgeleitet: Der Grundriss und die vorhandenen Flächen dürften eine familienfreundliche Nutzung ermöglichen; die tatsächliche Raumaufteilung ist anhand der Planunterlagen vor Ort zu bestätigen."
+  ],
+  "risk_findings": [
+    "Gesichert: Küche, Bad, separates WC, Stiege, Türen und mehrere Boden- beziehungsweise Wandoberflächen entsprechen überwiegend einem älteren Ausstattungsstand.",
+    "Gesichert: HWB 164 und fGEE 2,15 zeigen keine zeitgemäße energetische Qualität.",
+    "Abgeleitet: Je nach Anspruch ist mit Modernisierung von Küche, Sanitärbereichen, Oberflächen und möglicherweise Fenstern beziehungsweise Gebäudehülle zu rechnen.",
+    "Unsicher: Zustand von Dachaufbau, Dämmung, Fenstern, Elektrik, Wasserleitungen, Kellerabdichtung und Fernwärmeübergabestation ist aus den Bildern nicht sicher beurteilbar.",
+    "Unsicher: Bewilligungs- und Ausführungsstand von Nebengebäude, Garage und allfälligen Umbauten ist nicht belegt.",
+    "Unsicher: Die Bilder zeigen keinen eindeutig dokumentierten Heizraum oder Kellerzustand; Feuchte- und Haustechnikrisiken bleiben offen."
+  ],
+  "estimated_investment_eur": {
+    "low": 40000,
+    "high": 120000,
+    "confidence": "niedrig",
+    "comment": "Grobe Reserve für Innenmodernisierung, Küche, Sanitärbereiche, Oberflächen und mögliche energetische beziehungsweise technische Maßnahmen. Ohne Fachprüfung von Dach, Fenstern, Leitungen, Elektrik, Keller und Fernwärmeübergabe ist die Spanne nicht belastbar."
+  },
+  "address_hints": [
+    {
+      "hint": "Aichberg 8, 8552 Eibiswald",
+      "basis": "listing.json führt die Adresse mit address_status 'exact'.",
+      "confidence": "hoch"
+    },
+    {
+      "hint": "Straßennahe, leicht hang- beziehungsweise waldrandgeprägte Wohnlage",
+      "basis": "Außenbilder zeigen das Haus unmittelbar an einer Straße und bewaldete beziehungsweise ansteigende Flächen im Hintergrund.",
+      "confidence": "mittel"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/01.jpg, images/03.jpg, images/05.jpg, images/06.jpg, images/08.jpg, images/09.jpg",
+      "area": "Außenansichten, Grundstück und Nebengebäude",
+      "condition": "Traditionelles Wohnhaus mit Balkon, gepflegtem Garten und langgestrecktem Nebengebäude beziehungsweise Garage. Fassade und Dach wirken optisch geschlossen und ordentlich, ohne dass verdeckte Bauteile beurteilbar wären.",
+      "positive": ["gepflegter Gesamteindruck", "zusätzliche Nutz- und Stellflächen", "überschaubares Grundstück"],
+      "risks": ["Straßennähe", "Dach-, Fassaden- und Sockelanschlüsse fachlich prüfen", "Hang- und Oberflächenwasser klären"],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/02.jpg",
+      "area": "Stiege und Erschließung",
+      "condition": "Massive, saubere Stiege mit älterem Holzgeländer und Glasbausteinfläche.",
+      "positive": ["gepflegter Zustand", "solide wirkende Ausführung"],
+      "risks": ["Geländerhöhe und Absturzsicherheit prüfen", "gestalterisch älter"],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/04.jpg",
+      "area": "Küche",
+      "condition": "Funktionale, helle Einbauküche mit älterer Front- und Fliesengestaltung.",
+      "positive": ["vollständig nutzbar", "guter Tageslichteinfall"],
+      "risks": ["Modernisierungsbedarf je nach Anspruch", "Alter von Geräten und Installationen unbekannt"],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/07.jpg, images/10.jpg, images/12.jpg, images/17.jpg",
+      "area": "Wohn- und Schlafräume",
+      "condition": "Helle, überwiegend leere Räume mit Parkett beziehungsweise Laminat und einzelnen traditionellen Details wie Kachelofen und Holzdeckenrahmen. Oberflächen wirken gepflegt, aber nicht durchgehend aktuell.",
+      "positive": ["helle Räume", "brauchbare Bodenflächen", "großzügiger Wohnbereich"],
+      "risks": ["Oberflächenmodernisierung", "Funktion und Bewilligung des Kachelofens prüfen"],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/13.jpg, images/14.jpg",
+      "area": "WC und Bad",
+      "condition": "Sauber wirkende, aber deutlich ältere Sanitärbereiche mit älteren Fliesen und Ausstattungen.",
+      "positive": ["Bad mit Wanne und Dusche", "grundsätzlich gebrauchsfähig"],
+      "risks": ["Sanitärmodernisierung", "Abdichtung und Leitungsalter prüfen"],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/15.jpg",
+      "area": "Garage beziehungsweise Technik-/Nebenraum",
+      "condition": "Geflieste, ordentlich wirkende Garage mit Sektionaltor und sichtbaren Installationen.",
+      "positive": ["gut nutzbare Nebenfläche", "sauberer Boden"],
+      "risks": ["Feuchte, Entwässerung, Tor und Leitungen prüfen"],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/11.jpg, images/16.jpg, images/18.jpg, images/19.jpg",
+      "area": "Pläne und Bauunterlagen",
+      "condition": "Vier fotografierte Planunterlagen zu Querschnitt, Dachgeschoss, Erdgeschoss und Kellergeschoss. Sie wurden nur als Dokumente und nicht als Zustandsnachweis gewertet.",
+      "positive": ["Grundrissunterlagen vorhanden"],
+      "risks": ["Planstand, Genehmigungen und Übereinstimmung mit dem Ist-Zustand prüfen"],
+      "confidence": "hoch"
+    }
+  ],
+  "recommendation": "Das Haus ist wegen Größe, grundsätzlich gepflegtem Zustand, Fernwärme und zusätzlicher Nutzflächen eine Besichtigung wert. Der Angebotspreis erscheint nur dann angemessen, wenn Dach, Fenster, Keller, Leitungen und Elektrik technisch ordentlich sind und keine größeren kurzfristigen Maßnahmen anstehen. Vor einer Kaufentscheidung sollte eine unabhängige technische Prüfung erfolgen und der Preis um die konkret ermittelten Modernisierungskosten bereinigt werden.",
+  "next_steps": [
+    "Vollständigen Energieausweis, Fernwärmevertrag, Verbrauchs- und Betriebskosten der letzten drei Jahre anfordern.",
+    "Dach, Fenster, Fassade, Sockel, Keller und Entwässerung durch einen Bausachverständigen prüfen lassen.",
+    "Elektrik, Wasser- und Abwasserleitungen sowie Fernwärmeübergabestation durch Fachbetriebe bewerten lassen.",
+    "Baubescheide und bewilligte Pläne für Wohnhaus, Garage, Nebengebäude und Umbauten mit dem Ist-Zustand abgleichen.",
+    "Küche, Bad und WC samt Installationen kalkulieren und als Verhandlungsbasis verwenden.",
+    "Straßenlärm zu unterschiedlichen Tageszeiten sowie Zufahrt, Parken und Winterdienst vor Ort prüfen."
+  ],
+  "score_reasoning": "Viel Wohnfläche, ein gepflegter sichtbarer Bestand, Fernwärme und gute Nebenflächen sprechen für das Objekt. Der Score bleibt im oberen Prüfbereich, weil Energiekennwerte und Ausstattung nicht zeitgemäß sind und wesentliche technische Bauteile sowie Keller und Leitungen nicht ausreichend dokumentiert sind.",
+  "limitations": [
+    "Es wurden 19 exportierte Bilder aus insgesamt 51 Medien geprüft; die Galerie ist daher nicht vollständig abgebildet.",
+    "Vier Bilder zeigen Pläne und wurden nicht als Zustandsnachweis verwendet.",
+    "Keine belastbaren Detailbilder von Dach, Keller, Fernwärmeübergabe, Elektrik oder Leitungen vorhanden.",
+    "Die Investitions- und Preiseinschätzung ersetzt kein Verkehrswert- oder Baugutachten."
+  ],
+  "price_assessment": {
+    "asking_price_eur": 300000,
+    "fair_value_low_eur": 265000,
+    "fair_value_high_eur": 300000,
+    "suggested_first_offer_eur": 260000,
+    "suggested_target_price_eur": 280000,
+    "maximum_recommended_price_eur": 295000,
+    "confidence": "niedrig",
+    "reasoning": "Die große Wohnfläche und der gepflegte sichtbare Zustand stützen den Preis. Dagegen stehen ältere Ausstattung, mäßige Energiekennwerte und nicht geprüfte technische Risiken. Ohne regionale Vergleichsobjekte und Gutachten ist dies nur eine grobe Verhandlungseinschätzung."
+  },
+  "investment_items": [
+    {
+      "category": "Innenausstattung",
+      "measure": "Modernisierung von Küche, Bad, WC und ausgewählten Oberflächen",
+      "priority": "mittelfristig",
+      "low_eur": 30000,
+      "high_eur": 75000,
+      "confidence": "mittel",
+      "basis": "Sichtbar älterer, aber gebrauchsfähiger Ausstattungsstand auf den Innenbildern."
+    },
+    {
+      "category": "Gebäudehülle und Energie",
+      "measure": "Reserve für Fenster-, Dämm-, Dach- oder Anschlussmaßnahmen nach Fachprüfung",
+      "priority": "unklar",
+      "low_eur": 10000,
+      "high_eur": 45000,
+      "confidence": "niedrig",
+      "basis": "HWB 164 und fGEE 2,15; genaue Bauteilzustände sind nicht dokumentiert."
+    },
+    {
+      "category": "Haustechnik",
+      "measure": "Reserve für Elektrik, Leitungen und Fernwärmeübergabestation",
+      "priority": "unklar",
+      "low_eur": null,
+      "high_eur": null,
+      "confidence": "niedrig",
+      "basis": "Technische Anlagen und Installationsalter sind im Export nicht ausreichend sichtbar oder beschrieben."
+    }
+  ],
+  "estimated_total_cost_eur": {
+    "low": 320000,
+    "high": 400000,
+    "confidence": "niedrig",
+    "includes_purchase_price": true,
+    "includes_acquisition_costs": false,
+    "comment": "Grobe Summe aus Zielkaufpreis von etwa 280.000 € und geschätzter Investitionsreserve von 40.000 bis 120.000 €. Kaufnebenkosten, Finanzierung und Steuern sind nicht enthalten."
+  },
+  "image_coverage": {
+    "exported_images_reviewed": 19,
+    "exterior_images": 6,
+    "interior_images": 8,
+    "technical_or_outbuilding_images": 1,
+    "plans_or_documents": 4,
+    "unclassified_images": 0,
+    "comment": "Alle 19 exportierten Bilder wurden visuell geprüft. Die vier Planbilder wurden ausschließlich als Unterlagen und nicht als Zustandsnachweis verwendet."
+  },
+  "analysis_request_id": "0ef1ddb73b9242c5a37c678dae3a6c2e"
+}
