@@ -1,0 +1,271 @@
+{
+  "house_id": "3f66a103",
+  "analysis_date": "2026-07-20T10:04:39+00:00",
+  "new_score": 61,
+  "confidence": "mittel",
+  "summary": "Gesichert sind ein Kaufpreis von 330.000 €, rund 120 m² Wohnfläche, 4.455 m² Grundfläche, Infrarotheizung, HWB 195 und fGEE 4,19. Die Bilder zeigen ein gepflegt wirkendes, aber energetisch und in wesentlichen Bauteilen älteres Wohnhaus mit hellem Zubau, großem Grundstück und einfachem Nebengebäude. Abgeleitet besteht ein deutlicher energetischer und technischer Prüfbedarf; unsicher bleiben insbesondere Baujahr, Zustand von Dach, Keller, Leitungen, Fenstern, Heizung, Abdichtung sowie die rechtlich und technisch mögliche Teilung beziehungsweise zusätzliche Bebauung des Grundstücks.",
+  "positive_findings": [
+    "Großes, sonnig wirkendes Grundstück mit rund 4.455 m² laut Inserat.",
+    "Wohnbereich im hellen Zubau wirkt gepflegt, freundlich und unmittelbar nutzbar.",
+    "Küche und mehrere Innenräume wirken sauber und funktional.",
+    "Freistehendes Nebengebäude bietet zusätzliche Nutzfläche.",
+    "Keine klaren großflächigen Feuchte- oder Schimmelschäden auf den exportierten Bildern erkennbar."
+  ],
+  "risk_findings": [
+    "HWB 195 und fGEE 4,19 weisen gesichert auf einen energetisch schwachen Gebäudezustand hin.",
+    "Infrarotheizung kann bei diesem Energiestandard hohe laufende Stromkosten verursachen; tatsächlicher Verbrauch ist unsicher.",
+    "Dach, Kellerabdichtung, Leitungen, Elektrik und Fensteralter sind aus den Bildern nicht zuverlässig beurteilbar.",
+    "Innenausstattung, Stiege und Teile der Küche wirken funktional, aber überwiegend älter.",
+    "Teilbarkeit und zusätzliche Bebaubarkeit des Grundstücks sind nur Inseratsangaben und müssen grundbücherlich, widmungsrechtlich und vermessungstechnisch bestätigt werden.",
+    "Genehmigungsstand des hellen Zubaus und des Nebengebäudes ist nicht belegt."
+  ],
+  "estimated_investment_eur": {
+    "low": 45000,
+    "high": 160000,
+    "confidence": "niedrig",
+    "comment": "Die Untergrenze deckt eher punktuelle technische Instandsetzungen und moderate Modernisierung ab. Die Obergrenze berücksichtigt mögliche energetische Sanierung, Heizungsumstellung, Fenster, Dach- oder Kellerarbeiten. Ohne Befund und Verbrauchsdaten bleibt die Bandbreite unsicher."
+  },
+  "address_hints": [
+    {
+      "hint": "Gemeindegebiet 8552 Eibiswald, sonnige offene Wohnlage",
+      "basis": "Inserat nennt 8552 Eibiswald; Außenbilder zeigen offene, leicht erhöhte beziehungsweise weitläufige Lage mit Nachbarbebauung in Distanz.",
+      "confidence": "mittel"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/01.jpg",
+      "area": "Außenansicht Wohnhaus",
+      "condition": "Gepflegt wirkende Fassade und Außenanlage; älteres Hauptgebäude mit angebautem hellen Wohnbereich.",
+      "positive": [
+        "Große Grünfläche",
+        "Haus äußerlich ordentlich"
+      ],
+      "risks": [
+        "Dach- und Fassadendetails aus Distanz nicht sicher beurteilbar"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/02.jpg",
+      "area": "Wohnzimmer im Zubau",
+      "condition": "Hell, gepflegt und zeitgemäß nutzbar; sichtbare Holzdecke und große Fensterflächen.",
+      "positive": [
+        "Sehr gute Belichtung",
+        "Ordentlicher Boden und gepflegte Oberflächen"
+      ],
+      "risks": [
+        "Alter und Wärmeschutz der Fenster nicht erkennbar"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/03.jpg",
+      "area": "Kellergeschossplan",
+      "condition": "Planunterlage, kein Zustandsnachweis.",
+      "positive": [
+        "Kellergrundriss grundsätzlich dokumentiert"
+      ],
+      "risks": [
+        "Aktualität und Bewilligungsstand des Plans unklar"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/04.jpg",
+      "area": "Rückseite und Nebengebäude",
+      "condition": "Großzügige Grünfläche; Nebengebäude wirkt einfach und älter.",
+      "positive": [
+        "Zusätzliche Nutzfläche",
+        "Freie Gartenfläche"
+      ],
+      "risks": [
+        "Baulicher Zustand und Genehmigung des Nebengebäudes unklar"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/05.jpg",
+      "area": "Grundstück und Zufahrt",
+      "condition": "Weitläufig, gepflegt und sonnig wirkend; asphaltierte Fläche vorhanden.",
+      "positive": [
+        "Gute Freiflächen",
+        "Zufahrt beziehungsweise Stellfläche vorhanden"
+      ],
+      "risks": [
+        "Grundstücksgrenzen und Teilbarkeit nicht aus Bild ableitbar"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/06.jpg",
+      "area": "Esszimmer",
+      "condition": "Sauber und gepflegt, aber eher ältere Ausstattung.",
+      "positive": [
+        "Ordentlicher Erhaltungszustand"
+      ],
+      "risks": [
+        "Modernisierungsbedarf je nach Anspruch"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/07.jpg",
+      "area": "Flur und Stiege",
+      "condition": "Funktional und gepflegt, deutlich älterer Ausbau.",
+      "positive": [
+        "Keine offensichtlichen Schäden sichtbar"
+      ],
+      "risks": [
+        "Steile schmale Stiege kann für Kinder oder eingeschränkte Personen unpraktisch sein"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/08.jpg",
+      "area": "Nebengebäude",
+      "condition": "Einfaches älteres Holzgebäude mit Ziegeldach.",
+      "positive": [
+        "Zusätzlicher Lager- oder Werkstattraum"
+      ],
+      "risks": [
+        "Dach, Holztragwerk, Feuchtigkeit und Bewilligung prüfen"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/09.jpg",
+      "area": "Essbereich im Zubau",
+      "condition": "Hell und gepflegt; Holzdecke und große Fensterflächen.",
+      "positive": [
+        "Gute Tageslichtversorgung",
+        "Direkte Verbindung zur Küche"
+      ],
+      "risks": [
+        "Energetische Qualität der großen Fensterflächen unklar"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/10.jpg",
+      "area": "Küche",
+      "condition": "Funktional und ordentlich, gestalterisch älter.",
+      "positive": [
+        "Nutzbarer Zustand",
+        "Ausreichende Arbeitsfläche"
+      ],
+      "risks": [
+        "Alter von Geräten, Installationen und Möbeln nicht dokumentiert"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/11.jpg",
+      "area": "Erdgeschossplan",
+      "condition": "Planunterlage, kein Zustandsnachweis.",
+      "positive": [
+        "Raumaufteilung grundsätzlich dokumentiert"
+      ],
+      "risks": [
+        "Übereinstimmung mit Bestand und Bewilligungsstand unklar"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/12.jpg",
+      "area": "Frontansicht und Zufahrt",
+      "condition": "Haus und Außenbereich wirken ordentlich; ältere Bauform mit dunkler Holzfassade im Oberbereich.",
+      "positive": [
+        "Stell- und Zufahrtsfläche",
+        "Gepflegter Gesamteindruck"
+      ],
+      "risks": [
+        "Zustand von Dach, Holzfassade und Sockel aus Distanz nicht sicher"
+      ],
+      "confidence": "mittel"
+    }
+  ],
+  "recommendation": "Weiterverfolgen nur nach technischer Vorprüfung und schriftlicher Klärung der Grundstücksteilung beziehungsweise Bebaubarkeit. Der große Grund ist attraktiv, aber der energetische Zustand und die Infrarotheizung rechtfertigen einen deutlichen Preisabschlag und eine ausreichende Sanierungsreserve.",
+  "next_steps": [
+    "Aktuellen Grundbuchsauszug, Flächenwidmungsplan, Bebauungsbestimmungen und Teilungsmöglichkeit schriftlich prüfen.",
+    "Alle bewilligten Pläne und Benützungsbewilligungen für Wohnhaus, Zubau und Nebengebäude anfordern und mit dem Bestand abgleichen.",
+    "Stromverbrauch und Heizkosten der letzten drei Jahre anfordern; Heizlast und Alternativen zur Infrarotheizung berechnen lassen.",
+    "Baumeister- oder Sachverständigenbesichtigung mit Fokus auf Kellerfeuchte, Dach, Fenster, Fassade, Elektrik und Leitungen durchführen.",
+    "Grundstück auf Hangwasser, Oberflächenentwässerung, Zufahrtsrechte und Anschlüsse prüfen.",
+    "Kaufpreis erst nach Klärung dieser Punkte verhandeln."
+  ],
+  "score_reasoning": "Der Score liegt im Bereich 'prüfen'. Positiv wirken Grundstücksgröße, sonnige Lage, gepflegte Innenräume und der helle Zubau. Negativ gewichtet werden der gesichert schlechte Energiestandard, die potenziell teure Infrarotheizung, das Alter wesentlicher Bauteile sowie erhebliche Unsicherheit bei Grundstücksteilung, Genehmigungen und technischem Zustand. Der Angebotspreis ist nur dann nachvollziehbar, wenn ein werthaltiger und tatsächlich nutzbarer Baulandanteil gesichert ist.",
+  "limitations": [
+    "Nur 12 exportierte Bilder wurden bereitgestellt, obwohl listing.json 60 Medien nennt; die Galerie ist daher nicht vollständig abgedeckt.",
+    "Keine Originalpläne, Energieausweisdetails, Baubeschreibung, Grundbuchsunterlagen oder Rechnungen enthalten.",
+    "Keine Innenbilder von Bad, Keller, Technik, Schlafzimmern oder Dachraum vorhanden.",
+    "Bildprüfung ersetzt keine Bauzustandsbegutachtung und kein Verkehrswertgutachten."
+  ],
+  "price_assessment": {
+    "asking_price_eur": 330000,
+    "fair_value_low_eur": 270000,
+    "fair_value_high_eur": 305000,
+    "suggested_first_offer_eur": 260000,
+    "suggested_target_price_eur": 280000,
+    "maximum_recommended_price_eur": 300000,
+    "confidence": "niedrig",
+    "reasoning": "Die Einschätzung basiert auf den Inseratsdaten, dem sichtbaren gepflegten, aber älteren Zustand und dem hohen energetischen beziehungsweise technischen Risiko. Ein höherer Wert wäre nur bei gesicherter Teilbarkeit und werthaltiger Bebaubarkeit des Grundstücks vertretbar."
+  },
+  "investment_items": [
+    {
+      "category": "Energie und Heizung",
+      "measure": "Energetisches Gesamtkonzept und mögliche Heizungsumstellung",
+      "priority": "kurzfristig",
+      "low_eur": 20000,
+      "high_eur": 70000,
+      "confidence": "niedrig",
+      "basis": "HWB 195, fGEE 4,19 und Infrarotheizung sind gesichert; Umfang der erforderlichen Maßnahmen ist unklar."
+    },
+    {
+      "category": "Fenster und Gebäudehülle",
+      "measure": "Fenster, Dach, Fassade und Dämmung technisch prüfen und bei Bedarf sanieren",
+      "priority": "unklar",
+      "low_eur": 15000,
+      "high_eur": 70000,
+      "confidence": "niedrig",
+      "basis": "Energetische Kennwerte sind schwach; Alter und Zustand der Bauteile sind aus den Bildern nicht sicher feststellbar."
+    },
+    {
+      "category": "Elektro und Leitungen",
+      "measure": "Elektro-, Wasser- und Abwasserinstallationen prüfen und erforderliche Erneuerungen durchführen",
+      "priority": "unklar",
+      "low_eur": 5000,
+      "high_eur": 30000,
+      "confidence": "niedrig",
+      "basis": "Baujahr und Erneuerungsstand fehlen."
+    },
+    {
+      "category": "Innenausbau",
+      "measure": "Optionale Modernisierung von Küche, Oberflächen und Stiege",
+      "priority": "optional",
+      "low_eur": 5000,
+      "high_eur": 25000,
+      "confidence": "mittel",
+      "basis": "Innenräume wirken gepflegt, aber teilweise deutlich älter."
+    }
+  ],
+  "estimated_total_cost_eur": {
+    "low": 325000,
+    "high": 440000,
+    "confidence": "niedrig",
+    "includes_purchase_price": true,
+    "includes_acquisition_costs": false,
+    "comment": "Grobe Summe aus Zielkaufpreis von rund 280.000 € und Investitionen von etwa 45.000 bis 160.000 €. Kaufnebenkosten und Finanzierung sind nicht enthalten."
+  },
+  "image_coverage": {
+    "exported_images_reviewed": 12,
+    "exterior_images": 5,
+    "interior_images": 5,
+    "technical_or_outbuilding_images": 1,
+    "plans_or_documents": 2,
+    "unclassified_images": 0,
+    "comment": "Alle 12 exportierten Bilder wurden visuell geprüft. Bild 04 zeigt sowohl Außenbereich als auch Nebengebäude; für die Zählung wurde es als Außenbild geführt. Die beiden Pläne wurden nicht als Zustandsnachweis verwendet."
+  },
+  "analysis_request_id": "229ade3909434fdab023e18adf57059b",
+  "source": "manual_chatgpt_upload"
+}
