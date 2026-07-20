@@ -1,0 +1,224 @@
+{
+  "house_id": "89aa52c7",
+  "analysis_date": "2026-07-20T12:04:30+00:00",
+  "new_score": 58,
+  "confidence": "mittel",
+  "summary": "Gesichert sind ein Kaufpreis von 239.000 €, rund 160 m² Wohnfläche, 6,5 Zimmer und laut Inseratstitel ein 2.270 m² großes Grundstück in der Gemeinde Wies. Die 36 geprüften Bilder zeigen ein älteres, bewohntes Einfamilienhaus mit großem, überwiegend ebenem Garten, Terrasse, Garage/Kellerflächen und brauchbaren Wohnräumen. Küche und zumindest ein Bad wirken bereits erneuert, andere Bereiche sind deutlich älter. Kritisch sind der sichtbar rohe und stellenweise feuchte Keller, ältere Haustechnik, ein optisch gealtertes Dach sowie die unmittelbare Nähe zu einer Straße. Das Objekt ist preislich interessant, benötigt aber vor einem Kauf eine gründliche technische und rechtliche Prüfung.",
+  "positive_findings": [
+    "Gesichert: Großes, überwiegend ebenes und nutzbares Grundstück mit Garten, Obstbäumen und Spielbereich.",
+    "Gesichert: Mehrere helle Wohnräume; Parkett- und andere Bodenbeläge wirken in den gezeigten Bereichen überwiegend gebrauchsfähig.",
+    "Gesichert: Küche und ein kleines Bad/Duschbad wirken im Vergleich zum Gebäudealter modernisiert und funktionsfähig.",
+    "Gesichert: Überdachte Terrasse sowie Garage beziehungsweise gut zugängliche Keller-/Abstellflächen vorhanden.",
+    "Abgeleitet: Die Raumanzahl und Grundfläche bieten gute Möglichkeiten für eine Familie, Homeoffice oder teilweise getrennte Nutzung.",
+    "Abgeleitet: Der Angebotspreis pro ausgewiesener Wohnfläche ist für Wies grundsätzlich attraktiv, sofern keine gravierenden Baumängel vorliegen."
+  ],
+  "risk_findings": [
+    "Gesichert: Kellerwände und Gewölbekeller zeigen unverputztes beziehungsweise schadhaftes Mauerwerk, Verfärbungen und Feuchtespuren; Ursache und Ausmaß sind fachlich zu prüfen.",
+    "Gesichert: Leitungen und Installationen im Technikraum wirken teilweise offen, uneinheitlich und älter; der Boiler ist sichtbar, Alter und Zustand sind unbekannt.",
+    "Gesichert: Dachdeckung und Dachflächen wirken deutlich gealtert; Restlebensdauer, Unterdach und Dachstuhl sind aus Bildern nicht beurteilbar.",
+    "Gesichert: Teile des Innenausbaus sind älter, insbesondere Dachgeschossräume, Deckenverkleidungen, Türen und einzelne Bodenbeläge.",
+    "Gesichert: Das Haus liegt unmittelbar neben einer Straße; Lärm, Verkehrshäufigkeit, Winterdienst und sichere Zufahrt müssen vor Ort geprüft werden.",
+    "Abgeleitet: Der große Balkon-/Terrassenaufbau und mehrere Anbauten erhöhen den Prüfbedarf hinsichtlich Abdichtung, Wärmebrücken und baurechtlicher Genehmigung.",
+    "Unsicher: Heizsystem, Energiekennzahlen, Baujahr, Leitungsalter, Elektrostandard, Kanal/Wasser und tatsächliche Grundstücksfläche sind im Datenpaket nicht verlässlich dokumentiert.",
+    "Unsicher: Die im Titel genannten 2.270 m² konnten vom Parser nicht als strukturiertes Feld bestätigt werden; Grundbuch und Vermessungsunterlagen sind maßgeblich."
+  ],
+  "estimated_investment_eur": {
+    "low": 45000,
+    "high": 150000,
+    "confidence": "niedrig",
+    "comment": "Grobe Reserve für Keller-/Feuchtesanierung, Dach, Haustechnik, Elektro, energetische Maßnahmen und Innenmodernisierung. Ohne Energieausweis, Baujahr, Befund und Besichtigung ist keine belastbare Kostenschätzung möglich."
+  },
+  "address_hints": [
+    {
+      "hint": "Gemeindegebiet 8551 Wies, offenbar straßennahe Rand- oder Tallage mit bewaldeter Umgebung.",
+      "basis": "Inseratsangabe 8551 Wies sowie Luft- und Außenaufnahmen mit direkt angrenzender Straße und Wald.",
+      "confidence": "mittel"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "01,05,08,14,15,17,26,29,31",
+      "area": "Grundstück/Garten",
+      "condition": "Großer, weitgehend ebener und gepflegter Garten mit Obstbäumen und Spielbereich.",
+      "positive": [
+        "Gute Nutzbarkeit",
+        "Viel Freifläche"
+      ],
+      "risks": [
+        "Pflegeaufwand des großen Grundstücks"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "04,20,21,24,25,33,34,36",
+      "area": "Gebäudehülle",
+      "condition": "Älteres Haus mit mehreren Baukörpern und großem Balkon-/Terrassenaufbau; Dachdeckung optisch gealtert.",
+      "positive": [
+        "Fassade überwiegend geschlossen und bewohnt wirkend"
+      ],
+      "risks": [
+        "Dachrestlebensdauer unklar",
+        "Anschlüsse und Abdichtungen prüfen"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "22,35",
+      "area": "Lage/Zufahrt",
+      "condition": "Luftbilder zeigen unmittelbare Straßenlage und langes Grundstück hinter dem Haus.",
+      "positive": [
+        "Großzügiger rückwärtiger Garten"
+      ],
+      "risks": [
+        "Mögliche Verkehrs- und Lärmbelastung"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "06,07,10,12,16,19,28,30,32",
+      "area": "Wohnräume",
+      "condition": "Bewohnte, überwiegend gepflegte, aber unterschiedlich modernisierte Räume.",
+      "positive": [
+        "Mehrere helle Räume",
+        "Teilweise Parkett"
+      ],
+      "risks": [
+        "Teilweise älterer Innenausbau"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "11,23",
+      "area": "Bad/Nassräume",
+      "condition": "Kleine, funktionale und vergleichsweise modernisierte Dusch-/Waschbereiche.",
+      "positive": [
+        "Nutzbarer Zustand"
+      ],
+      "risks": [
+        "Raumgröße und Lüftung prüfen"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "02,13,18",
+      "area": "Keller/Technik",
+      "condition": "Altes, teils rohes Mauerwerk mit Verfärbungen, offenen Installationen und sichtbarem Feuchteverdacht.",
+      "positive": [
+        "Technik- und Lagerfläche vorhanden"
+      ],
+      "risks": [
+        "Feuchtigkeit",
+        "Sanierungsbedarf",
+        "Alter der Installationen unklar"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "27",
+      "area": "Garage/Werkstatt",
+      "condition": "Von außen zugängliche Garage oder Werkstatt im Sockelgeschoss.",
+      "positive": [
+        "Zusätzliche Nutzfläche"
+      ],
+      "risks": [
+        "Abdichtung und Genehmigung prüfen"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "alle 36",
+      "area": "Bildauthentizität",
+      "condition": "Keine Aufnahme ist erkennbar als KI-Rendering oder reine Werbegrafik; Makler-Wasserzeichen vorhanden.",
+      "positive": [
+        "Reale Objektaufnahmen"
+      ],
+      "risks": [],
+      "confidence": "mittel"
+    }
+  ],
+  "recommendation": "Weiter prüfen, aber nur mit technischem Vorbehalt. Das Verhältnis aus Preis, Wohnfläche und großem Grundstück ist attraktiv, der sichtbare Keller- und Dachzustand kann den Vorteil jedoch rasch aufzehren. Vor einem Angebot sollten Energieausweis, Bauakt, Grundbuch, Flächenaufstellung und Sanierungsbefunde vorliegen. Ein Kauf ist eher sinnvoll, wenn eine Investitionsreserve von mindestens etwa 80.000 € verfügbar ist und Straßenlage sowie Feuchtigkeit akzeptabel sind.",
+  "next_steps": [
+    "Aktuellen Grundbuchsauszug und Grundstücksplan anfordern; 2.270 m², Grenzen, Dienstbarkeiten und Widmung bestätigen.",
+    "Bauakt mit Genehmigungen für Anbauten, Balkon/Terrasse, Garage und Dachgeschossausbau prüfen.",
+    "Energieausweis, Heizsystem, jährliche Heizkosten und Alter von Boiler, Leitungen und Elektroanlage anfordern.",
+    "Keller mit Bausachverständigem auf aufsteigende beziehungsweise seitlich eindringende Feuchtigkeit, Salzbelastung, Entwässerung und Abdichtung prüfen.",
+    "Dachdeckerbefund zu Deckung, Unterdach, Dachstuhl, Anschlüssen und möglichem kurzfristigem Erneuerungsbedarf einholen.",
+    "Verkehr und Lärm werktags morgens, nachmittags und abends vor Ort beurteilen.",
+    "Vor Kaufangebot eine grobe Sanierungskalkulation erstellen und den Preis anhand nachgewiesener Mängel verhandeln."
+  ],
+  "score_reasoning": "Der Score von 58 liegt im Bereich 'prüfen'. Positiv wirken der niedrige Angebotspreis relativ zu 160 m² Wohnfläche, die 6,5 Zimmer, das laut Titel sehr große Grundstück und die grundsätzlich bewohnbare Innenausstattung. Abzüge entstehen durch den klaren Sanierungs- und Prüfbedarf im Keller, das gealterte Dach, unbekannte Energie- und Heizdaten, ältere Gebäudeteile sowie die direkte Straßenlage. Wegen fehlender technischer Unterlagen bleibt die Bewertung nur mittel sicher.",
+  "limitations": [
+    "Kein Exposé-PDF und kein verwertbarer Dokumententext enthalten.",
+    "Grundstücksfläche ist nur im Inseratstitel genannt und wurde strukturiert nicht sicher erkannt.",
+    "Baujahr, Heizsystem, HWB, fGEE und Sanierungshistorie fehlen.",
+    "Bilder erlauben keine sichere Diagnose von Feuchtigkeit, Statik, Dachzustand oder Installationen.",
+    "Keine exakte Adresse; Lage-, Hochwasser-, Hang- und Immissionsprüfung war daher nicht möglich."
+  ],
+  "price_assessment": {
+    "asking_price_eur": 239000,
+    "fair_value_low_eur": 205000,
+    "fair_value_high_eur": 230000,
+    "suggested_first_offer_eur": 200000,
+    "suggested_target_price_eur": 210000,
+    "maximum_recommended_price_eur": 225000,
+    "confidence": "niedrig",
+    "reasoning": "Vorläufiger Rahmen wegen sichtbarem Keller-, Dach- und Haustechnikrisiko. Ein positiver Fachbefund kann einen höheren Wert rechtfertigen."
+  },
+  "investment_items": [
+    {
+      "category": "Keller/Feuchtigkeit",
+      "measure": "Ursachenprüfung, Abdichtung und Sanierung",
+      "priority": "sofort",
+      "low_eur": 10000,
+      "high_eur": 50000,
+      "confidence": "niedrig",
+      "basis": "Sichtbare Verfärbungen und altes Mauerwerk in Bildern 02, 13 und 18."
+    },
+    {
+      "category": "Dach",
+      "measure": "Reparatur bis Erneuerung inklusive Spenglerarbeiten",
+      "priority": "kurzfristig",
+      "low_eur": 15000,
+      "high_eur": 50000,
+      "confidence": "niedrig",
+      "basis": "Optisch gealterte Dachdeckung; Aufbau nicht einsehbar."
+    },
+    {
+      "category": "Haustechnik",
+      "measure": "Elektro, Heizung, Warmwasser und Leitungen prüfen/teilweise erneuern",
+      "priority": "kurzfristig",
+      "low_eur": 10000,
+      "high_eur": 40000,
+      "confidence": "niedrig",
+      "basis": "Offene und uneinheitliche Installationen, fehlende technische Angaben."
+    },
+    {
+      "category": "Innenausbau/Energie",
+      "measure": "Innenmodernisierung und energetische Verbesserungen nach Energieausweis",
+      "priority": "mittelfristig",
+      "low_eur": 10000,
+      "high_eur": 45000,
+      "confidence": "niedrig",
+      "basis": "Unterschiedlicher Modernisierungsstand und fehlende Energiedaten."
+    }
+  ],
+  "estimated_total_cost_eur": {
+    "low": 284000,
+    "high": 389000,
+    "confidence": "niedrig",
+    "includes_purchase_price": true,
+    "includes_acquisition_costs": false,
+    "comment": "Angebotspreis zuzüglich grober Investitionsreserve; Kaufnebenkosten sind nicht enthalten."
+  },
+  "image_coverage": {
+    "exported_images_reviewed": 36,
+    "exterior_images": 20,
+    "interior_images": 12,
+    "technical_or_outbuilding_images": 4,
+    "plans_or_documents": 0,
+    "unclassified_images": 0,
+    "comment": "Alle 36 exportierten Bilder wurden visuell geprüft. Kategorien wurden jeweils nur einmal gezählt."
+  },
+  "analysis_request_id": "44076737319f4466963ecb9725af1623",
+  "source": "manual_chatgpt_upload"
+}
