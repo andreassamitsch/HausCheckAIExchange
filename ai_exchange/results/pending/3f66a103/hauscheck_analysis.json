@@ -1,0 +1,228 @@
+{
+  "house_id": "3f66a103",
+  "analysis_date": "2026-07-21T09:58:29+00:00",
+  "new_score": 64,
+  "confidence": "mittel",
+  "summary": "Gesichert sind ein Angebotspreis von 290.000 EUR, rund 120 m² Wohnfläche, 4.455 m² Grundfläche, Infrarotheizung, HWB 195 und fGEE 4,19. Die zwölf Bilder zeigen ein bewohntes, grundsätzlich gepflegtes Wohnhaus mit großem, sonnigem Grundstück, Zubau und separatem Nebengebäude. Sichtbar sind jedoch ein überwiegend älterer Ausstattungsstand, energetisch schwache Kennzahlen und ein erheblicher Prüfbedarf bei Dach, Keller, Leitungen, Elektroinstallation, Fenstern sowie den Genehmigungen und der tatsächlichen Teilbarkeit des Grundstücks. Insgesamt interessant wegen Grundstück und Lagepotenzial, aber nur nach technischer und rechtlicher Prüfung sowie mit deutlicher Investitionsreserve.",
+  "positive_findings": [
+    "Gesichert: großes Grundstück mit 4.455 m² laut Inseratsdaten.",
+    "Gesichert: Wohnfläche von rund 120 m² und Angebotspreis von 290.000 EUR.",
+    "Gesichert: die Außenbilder zeigen eine großzügige, sonnige Grünfläche und freistehende Bebauung.",
+    "Gesichert: ein separates Nebengebäude ist vorhanden und auf mehreren Bildern erkennbar.",
+    "Gesichert: der helle Zubau/Wohnbereich wirkt gepflegt und gut belichtet.",
+    "Abgeleitet: das Objekt ist grundsätzlich kurzfristig nutzbar, da Wohnräume, Küche und Essbereich bewohnt und funktionsfähig wirken."
+  ],
+  "risk_findings": [
+    "Gesichert: HWB 195 und fGEE 4,19 weisen auf einen energetisch deutlich schwachen Zustand hin.",
+    "Gesichert: die Infrarotheizung ist als Heizsystem angegeben; die tatsächlichen laufenden Stromkosten sind offen.",
+    "Gesichert: Küche, Innenausbau, Stiege und Teile der Oberflächen wirken überwiegend älter und nur teilweise modernisiert.",
+    "Abgeleitet: Dach, Fenster, Fassade, Kellerabdichtung, Elektro- und Sanitärleitungen können altersbedingt Investitionen erfordern; aus den Bildern ist ihr technischer Zustand nicht sicher beurteilbar.",
+    "Unsicher: die beworbene Teilbarkeit und Bebaubarkeit des Grundstücks ist ohne Widmung, Bebauungsbestimmungen, Zufahrt und Vermessung nicht bestätigt.",
+    "Unsicher: Genehmigungsstand von Zubau und Nebengebäude ist aus dem Paket nicht ersichtlich.",
+    "Unsicher: Feuchte-, Schimmel- oder statische Schäden lassen sich anhand der vorhandenen Bilder nicht zuverlässig ausschließen."
+  ],
+  "estimated_investment_eur": {
+    "low": 45000,
+    "high": 160000,
+    "confidence": "niedrig",
+    "comment": "Grobe Reserve für energetische Sanierung, Heizung, Fenster, Dach/Fassade sowie mögliche Elektro-, Leitungs- und Innenausbauarbeiten. Der tatsächliche Bedarf hängt stark von Baujahr, Wartungszustand, Keller, Dachaufbau und gewünschten Standards ab."
+  },
+  "address_hints": [
+    {
+      "hint": "Gemeindegebiet 8552 Eibiswald, sonnige Wohnlage",
+      "basis": "Inseratsdaten nennen 8552 Eibiswald; Außenbilder zeigen eine offene, leicht erhöhte Wohnlage mit weitem Grünraum.",
+      "confidence": "mittel"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/01.jpg",
+      "area": "Außenansicht Wohnhaus",
+      "condition": "Wohnhaus mit älterer, aber gepflegt wirkender Außenerscheinung; Dach und Fassade nur oberflächlich beurteilbar.",
+      "positive": ["Große Grünfläche", "Freistehende Lage", "Mehrere Belichtungsseiten"],
+      "risks": ["Dach- und Fassadenzustand nicht im Detail erkennbar", "Energetischer Standard wirkt älter"],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/02.jpg",
+      "area": "Wohnbereich im Zubau",
+      "condition": "Heller, gepflegt wirkender Wohnraum mit sichtbarer Holzbalkendecke und großen Fensterflächen.",
+      "positive": ["Sehr gute Belichtung", "Großzügiger Aufenthaltsbereich"],
+      "risks": ["Fensteralter und Dämmstandard nicht erkennbar"],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/03.jpg",
+      "area": "Kellergeschossplan",
+      "condition": "Planunterlage; kein Zustandsnachweis.",
+      "positive": ["Kellergrundriss dokumentiert"],
+      "risks": ["Genehmigungs- und Ausführungsstand nicht verifizierbar"],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/04.jpg",
+      "area": "Haus und Nebengebäude",
+      "condition": "Beide Baukörper sind sichtbar; Grundstück wirkt gepflegt und großzügig.",
+      "positive": ["Separates Nebengebäude", "Große Freifläche"],
+      "risks": ["Bauzustand und Genehmigung des Nebengebäudes offen"],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/05.jpg",
+      "area": "Grundstück und Zufahrt",
+      "condition": "Offene, sonnige Gartenfläche mit befestigter Zufahrt beziehungsweise Stellfläche.",
+      "positive": ["Weite Freifläche", "Gute Besonnung", "Befestigte Zufahrt"],
+      "risks": ["Teilbarkeit und zusätzliche Bebauung nicht aus Bild ableitbar"],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/06.jpg",
+      "area": "Esszimmer",
+      "condition": "Bewohnter, gepflegter Raum mit älterem Innenausbau.",
+      "positive": ["Nutzbarer Zustand", "Fensterbelichtung"],
+      "risks": ["Oberflächen und Ausstattung wirken modernisierungsbedürftig"],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/07.jpg",
+      "area": "Flur und Stiege",
+      "condition": "Ältere Holzstiege und ältere Oberflächen, augenscheinlich funktionsfähig.",
+      "positive": ["Solide wirkende Holzstiege"],
+      "risks": ["Enger Stiegenlauf", "Modernisierungsbedarf bei Oberflächen", "Geländer- und Trittsicherheit vor Ort prüfen"],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/08.jpg",
+      "area": "Nebengebäude",
+      "condition": "Einfaches älteres Nebengebäude mit Satteldach und Holzfassade.",
+      "positive": ["Zusätzliche Lager- oder Nutzfläche"],
+      "risks": ["Dach, Feuchte, Fundament und Genehmigung ungeklärt"],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/09.jpg",
+      "area": "Essbereich im Zubau",
+      "condition": "Heller, gepflegt wirkender Bereich mit Holzbalkendecke und großen Fenstern.",
+      "positive": ["Gute Belichtung", "Offener Zusammenhang mit Küche und Wohnen"],
+      "risks": ["Energetische Qualität der großen Fensterflächen unbekannt"],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/10.jpg",
+      "area": "Küche",
+      "condition": "Funktionsfähige, aber gestalterisch und technisch ältere Einbauküche.",
+      "positive": ["Nutzbar", "Ausreichend Arbeits- und Stauraum"],
+      "risks": ["Mittelfristiger Modernisierungsbedarf", "Alter der Geräte und Installationen unbekannt"],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/11.jpg",
+      "area": "Erdgeschossplan",
+      "condition": "Planunterlage; kein Zustandsnachweis.",
+      "positive": ["Raumaufteilung dokumentiert"],
+      "risks": ["Übereinstimmung mit Bestand und Genehmigungsstand nicht verifiziert"],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/12.jpg",
+      "area": "Straßenseitige Außenansicht",
+      "condition": "Älteres Wohnhaus mit Zufahrt und großem Baumbestand; äußerlich ordentlich wirkend.",
+      "positive": ["Eigenständiger Charakter", "Befestigte Zufahrt", "Großer Baumbestand"],
+      "risks": ["Dach, Holzbauteile, Fenster und Sockel nur aus Distanz sichtbar"],
+      "confidence": "mittel"
+    }
+  ],
+  "recommendation": "Weiterverfolgen, aber nur mit technischem Vorbehalt. Das Grundstück und die grundsätzlich nutzbare Wohnsubstanz sind attraktiv; energetische Kennzahlen, Infrarotheizung und der ungeklärte Zustand wesentlicher Bauteile rechtfertigen jedoch eine große Reserve. Vor einem verbindlichen Angebot sollten Teilbarkeit/Bebaubarkeit, Genehmigungen, laufende Heizkosten und der bauliche Zustand durch Unterlagen und Besichtigung geklärt werden. Ein Zielpreis um 270.000 EUR erscheint unter diesen Unsicherheiten plausibel; oberhalb von etwa 285.000 EUR sollte nur bei nachgewiesen gutem Dach-, Keller- und Installationszustand sowie gesicherter Grundstücksteilbarkeit gekauft werden.",
+  "next_steps": [
+    "Flächenwidmungsplan, Bebauungsbestimmungen, Zufahrtsrecht, Anschlüsse und tatsächliche Teilbarkeit des Grundstücks schriftlich bei Gemeinde beziehungsweise Raumplanung klären.",
+    "Bauakt und bewilligte Pläne für Wohnhaus, Zubau und Nebengebäude einsehen und mit dem Bestand vergleichen.",
+    "Energieausweis vollständig anfordern und reale Stromverbräuche beziehungsweise Heizkosten der letzten drei Jahre prüfen.",
+    "Bautechnische Besichtigung mit Fokus auf Dach, Kellerfeuchte, Sockel, Fenster, Elektroinstallation, Wasser- und Abwasserleitungen durchführen.",
+    "Nebengebäude auf Dachzustand, Holzschäden, Feuchte, Fundament und zulässige Nutzung prüfen.",
+    "Grundbuch, Lasten, Dienstbarkeiten, Grenzverlauf und allfällige Aufschließungskosten prüfen.",
+    "Sanierungsvarianten für Heizung und Gebäudehülle vor Kauf grob kalkulieren lassen."
+  ],
+  "score_reasoning": "Der Score liegt im Bereich 'prüfen'. Positiv wirken die große Grundstücksfläche, die sonnige freistehende Lage, das Nebengebäude und der helle, grundsätzlich gepflegte Wohnbereich. Abzüge entstehen durch HWB 195, fGEE 4,19, die Infrarotheizung, den älteren Ausstattungsstand und den fehlenden Nachweis über Dach, Keller, Installationen, Genehmigungen und Grundstücksteilbarkeit. Der reduzierte Angebotspreis verbessert die Attraktivität, beseitigt die technischen und rechtlichen Unsicherheiten jedoch nicht.",
+  "limitations": [
+    "Es wurden zwölf exportierte Bilder geprüft; sie zeigen nicht alle Räume und keine detaillierten Technik-, Keller- oder Dachaufnahmen.",
+    "Die zwei Planbilder wurden nur als Unterlagen und nicht als Zustandsnachweis gewertet.",
+    "Es lag kein Original-Exposé-PDF mit vollständigem Text, Baujahr, Sanierungshistorie oder verbindlicher Adresse vor.",
+    "Die Investitions- und Kaufpreiseinschätzung ist kein Gutachten und basiert nur auf Inseratsdaten und sichtbarem Zustand.",
+    "Keine Aussage zu Altlasten, Hochwasser, Hangrisiko, Leitungsrechten oder Bodenbeschaffenheit ohne externe Unterlagen."
+  ],
+  "price_assessment": {
+    "asking_price_eur": 290000,
+    "fair_value_low_eur": 255000,
+    "fair_value_high_eur": 285000,
+    "suggested_first_offer_eur": 250000,
+    "suggested_target_price_eur": 270000,
+    "maximum_recommended_price_eur": 285000,
+    "confidence": "niedrig",
+    "reasoning": "Die große Grundstücksfläche schafft Potenzial, doch dessen Wert hängt wesentlich von gesicherter Teilbarkeit und Bebaubarkeit ab. Energetisch schwache Kennzahlen, Infrarotheizung und mögliche Sanierungsmaßnahmen begrenzen den tragbaren Kaufpreis."
+  },
+  "investment_items": [
+    {
+      "category": "Gebäudehülle",
+      "measure": "Energetische Verbesserung von Dach, Fassade und gegebenenfalls Fenstern nach Bestandsprüfung",
+      "priority": "mittelfristig",
+      "low_eur": 25000,
+      "high_eur": 90000,
+      "confidence": "niedrig",
+      "basis": "HWB 195 und fGEE 4,19; Bauzustand im Detail unbekannt."
+    },
+    {
+      "category": "Heizung",
+      "measure": "Prüfung und gegebenenfalls Umstieg von Infrarotheizung auf effizienteres System",
+      "priority": "kurzfristig",
+      "low_eur": 15000,
+      "high_eur": 45000,
+      "confidence": "niedrig",
+      "basis": "Infrarotheizung ist angegeben; tatsächliche Verbrauchskosten und Wärmeverteilung fehlen."
+    },
+    {
+      "category": "Elektro und Leitungen",
+      "measure": "Überprüfung und mögliche Teilerneuerung von Elektro-, Wasser- und Abwasserinstallation",
+      "priority": "unklar",
+      "low_eur": 5000,
+      "high_eur": 30000,
+      "confidence": "niedrig",
+      "basis": "Alter und technischer Zustand sind nicht dokumentiert."
+    },
+    {
+      "category": "Innenausbau",
+      "measure": "Modernisierung von Küche, Oberflächen und einzelnen Räumen nach Wunsch",
+      "priority": "optional",
+      "low_eur": 10000,
+      "high_eur": 30000,
+      "confidence": "mittel",
+      "basis": "Bilder zeigen funktionsfähigen, aber überwiegend älteren Ausstattungsstand."
+    },
+    {
+      "category": "Nebengebäude",
+      "measure": "Instandsetzung je nach Dach-, Holz- und Feuchtezustand",
+      "priority": "unklar",
+      "low_eur": 3000,
+      "high_eur": 20000,
+      "confidence": "niedrig",
+      "basis": "Einfaches älteres Nebengebäude ist sichtbar; Detailzustand fehlt."
+    }
+  ],
+  "estimated_total_cost_eur": {
+    "low": 315000,
+    "high": 430000,
+    "confidence": "niedrig",
+    "includes_purchase_price": true,
+    "includes_acquisition_costs": false,
+    "comment": "Summe aus empfohlenem Zielpreis von rund 270.000 EUR und grober Investitionsreserve von 45.000 bis 160.000 EUR; Kaufnebenkosten, Finanzierung und Steuern sind nicht enthalten."
+  },
+  "image_coverage": {
+    "exported_images_reviewed": 12,
+    "exterior_images": 5,
+    "interior_images": 5,
+    "technical_or_outbuilding_images": 0,
+    "plans_or_documents": 2,
+    "unclassified_images": 0,
+    "comment": "Alle zwölf Bilder wurden visuell geprüft. Bild 08 zeigt zwar das Nebengebäude, wurde wegen seiner Außenansicht der Kategorie Außenbilder zugerechnet. Die Grundrisse 03 und 11 wurden nicht als Zustandsnachweis verwendet."
+  },
+  "analysis_request_id": "7ed384b3fcd64c33977e755b016d3c79"
+}
