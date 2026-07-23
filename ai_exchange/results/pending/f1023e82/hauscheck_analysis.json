@@ -1,0 +1,164 @@
+{
+  "house_id": "f1023e82",
+  "analysis_date": "2026-07-23T11:05:11+00:00",
+  "analysis_request_id": "bc74600163d2410a80d91e43d056d702",
+  "new_score": 66,
+  "confidence": "mittel",
+  "summary": "Gesichert sind ein 1984 errichtetes Wohnhaus mit rund 240 m² Wohnfläche, 1.461 m² Grundstück, acht Zimmern, HWB 176 und fGEE 2,28. Die 31 geprüften Inseratbilder zeigen ein insgesamt ordentlich gepflegtes Haus mit großem Garten, Garage/Carport, mehreren Wohn- und Schlafräumen sowie umfangreichen Keller- und Technikflächen. Der Innenausbau ist überwiegend älter und in Küche, Sanitärbereichen, Bodenbelägen und Oberflächen deutlich modernisierungsbedürftig. Abgeleitet ist die Grundsubstanz plausibel solide; aus Bildern allein sind Dachaufbau, Abdichtung, Leitungen, Elektrik und verborgene Feuchte jedoch nicht sicher beurteilbar.",
+  "positive_findings": [
+    "Gesichert: Großes Platzangebot mit 240 m² Wohnfläche, acht Zimmern und 1.461 m² Grundstück laut Inseratsdaten.",
+    "Gesichert: Gepflegte Außenanlagen mit Garten, Baumbestand, Garage und überdachtem Stellplatz sind auf mehreren Bildern erkennbar.",
+    "Gesichert: Viele Räume wirken sauber, nutzbar und ohne unmittelbar sichtbare massive Schäden.",
+    "Gesichert: Keller- und Technikräume sind gefliest und gut zugänglich; die Haustechnik ist sichtbar dokumentiert.",
+    "Abgeleitet: Die massive Bauweise und der insgesamt ordentliche Pflegezustand sprechen für eine grundsätzlich brauchbare Ausgangssubstanz."
+  ],
+  "risk_findings": [
+    "Gesichert: Küche, mehrere Bäder/WCs, Bodenbeläge, Wandgestaltung und Einbaumöbel entsprechen überwiegend einem älteren Ausstattungsstandard.",
+    "Gesichert: HWB 176 und fGEE 2,28 weisen auf einen erhöhten energetischen Verbesserungsbedarf hin.",
+    "Gesichert: Die Heizungsangaben sind widersprüchlich bzw. kombiniert angegeben; auf den Bildern sind mehrere technische Komponenten erkennbar, die genaue aktive Konfiguration bleibt unklar.",
+    "Abgeleitet: Bei 240 m² Wohnfläche können energetische Sanierung und Innenmodernisierung erhebliche Gesamtkosten verursachen.",
+    "Unsicher: Zustand von Dachdeckung und Dachstuhl, Fenstern im Detail, Elektroinstallation, Wasser- und Abwasserleitungen, Kellerabdichtung sowie mögliche verborgene Feuchte sind aus den Bildern nicht verlässlich feststellbar."
+  ],
+  "estimated_investment_eur": {
+    "low": 45000,
+    "high": 180000,
+    "confidence": "niedrig",
+    "comment": "Grobe Bandbreite für schrittweise Innenmodernisierung, Sanitär/Küche, technische Überprüfung und mögliche energetische Maßnahmen. Der obere Wert setzt größere Arbeiten an Heizung, Fenstern oder Gebäudehülle voraus; deren Notwendigkeit ist nicht gesichert."
+  },
+  "price_assessment": {
+    "asking_price_eur": 395000,
+    "fair_value_low_eur": 340000,
+    "fair_value_high_eur": 375000,
+    "suggested_first_offer_eur": 330000,
+    "suggested_target_price_eur": 345000,
+    "maximum_recommended_price_eur": 365000,
+    "confidence": "niedrig",
+    "reasoning": "Das große Haus und Grundstück sowie der gepflegte Gesamteindruck sind wertstärkend. Dagegen stehen der ältere Ausstattungsstandard, die schwachen Energiekennzahlen und ein potenziell hoher Modernisierungsbedarf. Ohne genaue Mikrolage, Rechtsunterlagen und technische Prüfung ist dies keine Verkehrswertermittlung."
+  },
+  "estimated_total_cost_eur": {
+    "low": 385000,
+    "high": 545000,
+    "includes_purchase_price": true,
+    "includes_acquisition_costs": false,
+    "confidence": "niedrig",
+    "comment": "Bandbreite aus empfohlenem Kaufpreisbereich plus grob geschätztem Investitionsbedarf; Kaufnebenkosten sind nicht eingerechnet."
+  },
+  "investment_items": [
+    {
+      "category": "Innenausbau",
+      "measure": "Oberflächen, Bodenbeläge und ältere Einbaumöbel nach Bedarf modernisieren",
+      "priority": "mittelfristig",
+      "low_eur": 15000,
+      "high_eur": 50000,
+      "confidence": "mittel"
+    },
+    {
+      "category": "Küche",
+      "measure": "Bestehende Küche technisch prüfen und bei gewünschtem Standard erneuern",
+      "priority": "kurzfristig",
+      "low_eur": 10000,
+      "high_eur": 30000,
+      "confidence": "mittel"
+    },
+    {
+      "category": "Sanitär",
+      "measure": "Mehrere ältere Bäder und WCs schrittweise modernisieren",
+      "priority": "mittelfristig",
+      "low_eur": 15000,
+      "high_eur": 50000,
+      "confidence": "mittel"
+    },
+    {
+      "category": "Heizung und Energie",
+      "measure": "Heizsystem, Verbrauch, hydraulische Einbindung und sinnvolle Sanierungsvarianten fachlich prüfen",
+      "priority": "sofort",
+      "low_eur": 5000,
+      "high_eur": 70000,
+      "confidence": "niedrig"
+    },
+    {
+      "category": "Gebäudeprüfung",
+      "measure": "Dach, Kellerabdichtung, Fenster, Elektrik und Leitungen vor Kauf untersuchen",
+      "priority": "sofort",
+      "low_eur": 1000,
+      "high_eur": 5000,
+      "confidence": "mittel"
+    }
+  ],
+  "address_hints": [
+    {
+      "hint": "Gemeindegebiet 8552 Eibiswald",
+      "basis": "Inseratsangabe in listing.json",
+      "confidence": "hoch"
+    },
+    {
+      "hint": "Grüne, locker bebaute und leicht hügelige Umgebung",
+      "basis": "Ausblicke und Außenbilder 01, 06, 07, 12, 18 und 27",
+      "confidence": "mittel"
+    }
+  ],
+  "image_coverage": {
+    "exported_images_reviewed": 31,
+    "interior_images": 19,
+    "exterior_images": 7,
+    "technical_or_outbuilding_images": 5,
+    "plans_or_documents": 0,
+    "unclassified_images": 0,
+    "comment": "Alle 31 exportierten JPG-Dateien wurden visuell geprüft. Es waren keine Grundrisse, KI-Renderings oder reinen Werbegrafiken enthalten. Einige Keller-/Technikbilder zeigen zugleich Innenräume und wurden der technisch aussagekräftigeren Kategorie zugeordnet."
+  },
+  "image_findings": [
+    {
+      "images": ["01.jpg", "06.jpg", "15.jpg", "18.jpg"],
+      "finding": "Mehrgeschossiges Wohnhaus mit Balkonen, Garage und Carport; Fassade und Außenanlagen wirken gepflegt.",
+      "confidence": "hoch"
+    },
+    {
+      "images": ["07.jpg", "12.jpg", "27.jpg"],
+      "finding": "Großer, begrünter Garten und ländlich-grüne Umgebung sind klar erkennbar.",
+      "confidence": "hoch"
+    },
+    {
+      "images": ["09.jpg", "11.jpg", "16.jpg", "22.jpg", "24.jpg", "28.jpg", "30.jpg"],
+      "finding": "Mehrere Wohn- und Schlafräume sind sauber und nutzbar, weisen aber überwiegend älteren Innenausbau auf.",
+      "confidence": "hoch"
+    },
+    {
+      "images": ["17.jpg", "26.jpg"],
+      "finding": "Die Küche ist groß, funktional wirkend, aber gestalterisch und technisch älteren Standards zuzuordnen.",
+      "confidence": "hoch"
+    },
+    {
+      "images": ["02.jpg", "10.jpg", "13.jpg", "19.jpg", "21.jpg"],
+      "finding": "Mehrere WCs und Bäder sind vorhanden; Fliesen und Ausstattung sind großteils älter, sichtbare akute Großschäden sind nicht erkennbar.",
+      "confidence": "hoch"
+    },
+    {
+      "images": ["03.jpg", "04.jpg", "05.jpg", "08.jpg", "14.jpg", "20.jpg", "31.jpg"],
+      "finding": "Umfangreiche Keller-, Wasch- und Technikflächen sind dokumentiert. Die genaue Funktion und der Zustand der kombinierten Heiztechnik müssen fachlich geklärt werden.",
+      "confidence": "mittel"
+    },
+    {
+      "images": ["23.jpg", "25.jpg", "29.jpg"],
+      "finding": "Treppenhaus und Eingang wirken gepflegt, zeigen jedoch ebenfalls einen älteren Ausstattungsstil.",
+      "confidence": "hoch"
+    }
+  ],
+  "recommendation": "Das Objekt bleibt wegen Größe, Grundstück und grundsätzlich gepflegtem Zustand prüfenswert, sollte aber nur nach technischer Besichtigung und bei deutlichem Preisabschlag weiterverfolgt werden. Ein Angebot im Bereich um 330.000 Euro mit Zielkorridor um 345.000 Euro erscheint unter den vorliegenden Unsicherheiten plausibler als der Angebotspreis von 395.000 Euro.",
+  "next_steps": [
+    "Heizsystem, tatsächlichen Energieträger, Alter der Komponenten und reale Jahresverbräuche der letzten drei Jahre anfordern.",
+    "Bausachverständige Prüfung von Dach, Kellerfeuchte/Abdichtung, Fassade, Fenstern und möglichen Wärmebrücken durchführen.",
+    "Elektrik, Wasser- und Abwasserleitungen sowie Sicherungskasten auf Alter und Sanierungsbedarf prüfen.",
+    "Grundrisse, Bauakt, Benützungsbewilligung und Genehmigungen für Garage, Carport und allfällige Umbauten kontrollieren.",
+    "Lärmsituation, Zufahrt, Hochwasser-/Hangwassergefahr und genaue Mikrolage vor Ort prüfen.",
+    "Modernisierungsbudget raumweise priorisieren und vor verbindlichem Angebot mit konkreten Handwerkerpreisen unterlegen."
+  ],
+  "score_reasoning": "Der Score von 66 liegt im oberen Bereich von 'prüfen'. Positiv gewichtet werden das große Raum- und Grundstücksangebot, gepflegte Außenanlagen und der überwiegend saubere, nutzbare Zustand. Abzüge ergeben sich aus Baujahr und älterem Innenausbau, HWB 176, fGEE 2,28, unklarer Heizkonfiguration, potenziell hohen Modernisierungskosten bei 240 m² sowie dem im Verhältnis dazu ambitionierten Angebotspreis.",
+  "limitations": [
+    "Keine exakte Objektadresse; nur Gemeindeangabe 8552 Eibiswald.",
+    "Keine Exposé-PDFs oder extrahierten Dokumenttexte im Paket.",
+    "Bilder erlauben keine verlässliche Aussage zu verdeckten Baumängeln, Feuchtigkeit, Statik oder Schadstoffen.",
+    "Dachflächen sind nur eingeschränkt sichtbar; Dachalter und Dichtheit bleiben unsicher.",
+    "Preisbewertung ohne Grundbuch, Bauakt, Mikrolagenvergleich und aktuelle Vergleichstransaktionen ist nur grob.",
+    "Die Heizungsbeschreibung im Inserat ist nicht eindeutig und muss anhand technischer Unterlagen geklärt werden."
+  ]
+}
