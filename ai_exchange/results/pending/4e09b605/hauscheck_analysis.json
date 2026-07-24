@@ -1,0 +1,191 @@
+{
+  "house_id": "4e09b605",
+  "analysis_date": "2026-07-24T15:04:46+00:00",
+  "new_score": 42,
+  "confidence": "niedrig",
+  "summary": "Gesichert ist hier kein bestehendes, bildlich dokumentiertes Wohnhaus, sondern ein Fertighaus-Angebot für einen Bungalow mit rund 147 m², 4 Zimmern und einem genannten Preis von 241.100 EUR inklusive Fundament. Der Datensatz nennt außerdem ein 1.213-m²-Grundstück in Oberhaag, doch aus den Unterlagen ist nicht eindeutig ableitbar, ob dessen Kaufpreis im Angebot enthalten ist. Die Galerie besteht überwiegend aus Firmen-, Zertifikats-, Leistungsübersichts- und Planunterlagen sowie einem ausdrücklich als Musterbild gekennzeichneten Grundstücksfoto. Die attraktive Hausansicht ist eine Marketingvisualisierung und kein Zustandsnachweis. Daher lassen sich weder Bauzustand noch tatsächliche Grundstückseignung, Ausführungsqualität oder vollständige Projektkosten belastbar beurteilen.",
+  "positive_findings": [
+    "Gesichert: Angegeben sind 147 m² Wohnfläche, 4 Zimmer und 1.213 m² Grundstücksfläche in 8455 Oberhaag.",
+    "Gesichert: Der Angebotstitel nennt ein Fundament als im Preis enthalten.",
+    "Gesichert: Der Grundriss zeigt ein ebenerdiges Raumprogramm mit großem Wohn-/Essbereich, drei Schlafräumen, zwei Dusch-/WC-Bereichen, Technikraum und Büro/Gästezimmer.",
+    "Abgeleitet: Fußbodenheizung und Luftwärmepumpe sind laut Inseratsdaten vorgesehen und wären bei fachgerechter Ausführung zeitgemäß.",
+    "Abgeleitet: Ein Bungalow kann für langfristig barriereärmeres Wohnen vorteilhaft sein; tatsächliche Barrierefreiheit ist jedoch nicht nachgewiesen."
+  ],
+  "risk_findings": [
+    "Gesichert: Die Bilder zeigen kein errichtetes Objekt und erlauben keine Beurteilung von Bauzustand, Materialqualität oder Ausführungsdetails.",
+    "Gesichert: Das Grundstücksbild ist als Musterbild gekennzeichnet und belegt weder Lage noch Topografie oder Erschließung des angebotenen Grundstücks.",
+    "Unsicher: Es ist nicht eindeutig, ob der Grundstückspreis in den 241.100 EUR enthalten ist oder ob nur ein Grundstück verfügbar ist.",
+    "Unsicher: Leistungsumfang, Ausbaustufe und Ausschlüsse sind aus der kleinen Leistungsübersicht nicht zuverlässig lesbar.",
+    "Unsicher: Kosten für Erdarbeiten, Bodengutachten, Anschlüsse, Zufahrt, Außenanlagen, Gebühren, Planung, Genehmigung und mögliche Hang- oder Stützkonstruktionen sind nicht geklärt.",
+    "Unsicher: Energiekennzahlen, Bauzeit, Fixpreisbindung, Zahlungsplan, Gewährleistung und Bonität/Absicherung des Anbieters sind nicht dokumentiert.",
+    "Abgeleitet: Bei Fertighausangeboten kann der beworbene Einstiegspreis deutlich unter den vollständigen bezugsfertigen Gesamtkosten liegen, wenn Nebenleistungen nicht enthalten sind."
+  ],
+  "estimated_investment_eur": {
+    "low": 80000,
+    "high": 180000,
+    "confidence": "niedrig",
+    "comment": "Sehr grobe Reserve zusätzlich zum beworbenen Hauspreis für mögliche Grundstückskosten beziehungsweise Kaufnebenkosten, Erschließung, Erdarbeiten, Anschlüsse, Planung/Gebühren, Außenanlagen und nicht enthaltene Ausbauleistungen. Die tatsächliche Summe kann außerhalb dieser Spanne liegen, weil der Vertrags- und Leistungsumfang fehlt."
+  },
+  "address_hints": [
+    {
+      "hint": "Gemeindegebiet 8455 Oberhaag",
+      "basis": "listing.json und Inseratsquellen nennen nur Postleitzahl und Gemeinde; keine exakte Adresse ist bestätigt.",
+      "confidence": "hoch"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/01.jpg",
+      "area": "Zertifikat/Unterlage",
+      "condition": "Wien-Zert-Logo beziehungsweise Zertifikatsgrafik; kein Objektfoto.",
+      "positive": [],
+      "risks": ["Die konkrete Bedeutung und Gültigkeit für dieses Bauvorhaben ist aus dem Bild allein nicht prüfbar."],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/02.jpg",
+      "area": "Marketingvisualisierung Außenansicht",
+      "condition": "Digital wirkende Visualisierung eines modernen Bungalows mit Pool und gestalteter Außenanlage; kein Zustandsnachweis.",
+      "positive": ["Veranschaulicht einen möglichen architektonischen Stil."],
+      "risks": ["Pool, Außenanlage, Bepflanzung und gezeigte Ausstattung dürfen nicht als Leistungsbestandteil angenommen werden."],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/03.jpg",
+      "area": "Firmenlogo",
+      "condition": "Unternehmens- und Werbegrafik; kein Objektfoto.",
+      "positive": [],
+      "risks": [],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/04.jpg",
+      "area": "Flächenaufstellung",
+      "condition": "Raumliste mit einer ausgewiesenen Nettosumme von 146,89 m².",
+      "positive": ["Raumgrößen sind grundsätzlich nachvollziehbar aufgelistet."],
+      "risks": ["Nutzflächenberechnung, Wandflächen und allfällige Abweichungen zur genehmigten Planung sind nicht geprüft."],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/05.jpg",
+      "area": "Grundstück/Marketingbild",
+      "condition": "Grünfläche, ausdrücklich mit 'Musterbild' gekennzeichnet; kein Nachweis des tatsächlichen Grundstücks.",
+      "positive": [],
+      "risks": ["Topografie, Zufahrt, Bebauung, Leitungen, Bodenverhältnisse und Umgebung bleiben vollständig offen."],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/06.jpg",
+      "area": "Leistungsübersicht",
+      "condition": "Vergleichstabelle mehrerer Ausbaustufen; Details sind in der exportierten Auflösung nur eingeschränkt lesbar.",
+      "positive": ["Es scheint eine strukturierte Abgrenzung verschiedener Leistungsstufen zu geben."],
+      "risks": ["Ohne lesbare Originalunterlage und Vertrag ist nicht feststellbar, welche Spalte und welche Leistungen für 241.100 EUR gelten."],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/07.jpg",
+      "area": "Grundriss",
+      "condition": "L-förmiger Bungalowgrundriss mit offenem Wohn-/Essbereich, drei Schlafzimmern, Büro/Gästezimmer, Technikraum und zwei Dusch-/WC-Bereichen.",
+      "positive": ["Großer zentraler Wohnbereich", "Mehrere Schlaf- beziehungsweise Arbeitsräume", "Ebenerdige Organisation"],
+      "risks": ["Möblierung und Raumwirkung sind planerisch; Genehmigungsfähigkeit und Anpassung an das konkrete Grundstück sind nicht nachgewiesen."],
+      "confidence": "mittel"
+    }
+  ],
+  "recommendation": "Nicht wie ein bestehendes Kaufobjekt bewerten, sondern als Bauprojekt mit offenem Gesamtbudget. Vor jeder Reservierung oder Zahlung ein verbindliches, vollständiges und grundstücksbezogenes Gesamtangebot einholen. Entscheidend sind Grundstückskaufpreis, Baugrund- und Erschließungsrisiken sowie eine lückenlose Definition der Ausbaustufe. Erst wenn alle Kosten bis zur bezugsfertigen Übergabe samt Außenanlagen und Nebenkosten transparent sind, ist ein sinnvoller Preisvergleich möglich.",
+  "next_steps": [
+    "Schriftlich klären, ob das 1.213-m²-Grundstück im Preis von 241.100 EUR enthalten ist; falls nicht, separaten Grundstückspreis und Eigentümernachweis anfordern.",
+    "Exakte Grundstücksadresse, Grundbuchsauszug, Flächenwidmung, Bebauungsbestimmungen, Gefahrenzonen und Leitungsanschlüsse prüfen.",
+    "Bodengutachten beziehungsweise Baugrundrisiko und erforderliche Erd-, Drainage-, Stütz- und Gründungsarbeiten kalkulieren lassen.",
+    "Detaillierte Bau- und Leistungsbeschreibung mit eindeutig markierter Ausbaustufe und sämtlichen Ausschlüssen anfordern.",
+    "Verbindliches Gesamtbudget bis bezugsfertig inklusive Planung, Einreichung, Gebühren, Anschlüsse, Küche, Sanitär, Boden-/Malerarbeiten, Außenanlagen und Zufahrt erstellen lassen.",
+    "Energieausweis beziehungsweise geplante Energiekennzahlen und Auslegung der Luftwärmepumpe anfordern.",
+    "Fixpreisbindung, Preisgleitklauseln, Zahlungsplan, Bauzeit, Vertragsstrafe, Gewährleistung und Absicherung bei Insolvenz juristisch prüfen lassen.",
+    "Referenzhäuser des konkreten Anbieters besichtigen und unabhängige Bauherrenberichte beziehungsweise Firmenbonität prüfen."
+  ],
+  "score_reasoning": "Der niedrige Score entsteht nicht aus einem nachgewiesenen schlechten Gebäudezustand, sondern aus der fehlenden Vergleichbarkeit mit einem realen Bestandsobjekt und den großen offenen Kosten- und Leistungsrisiken. Positiv sind die angegebene Fläche, das funktionale Raumprogramm und die grundsätzlich zeitgemäße Heizungsplanung. Gegen eine höhere Bewertung sprechen, dass sechs der sieben Bilder Unterlagen, Logos, Muster- oder Marketingdarstellungen sind und keinerlei tatsächlichen Bau- oder Grundstückszustand belegen. Auch der beworbene Preis ist ohne klare Grundstücks- und Leistungsabgrenzung nicht als Gesamtpreis interpretierbar.",
+  "limitations": [
+    "Keine Fotos eines bestehenden Hauses oder einer laufenden Baustelle vorhanden.",
+    "Das einzige Grundstücksfoto ist ausdrücklich ein Musterbild.",
+    "Keine exakte Grundstücksadresse bestätigt.",
+    "Keine vollständige, gut lesbare Bau- und Leistungsbeschreibung vorhanden.",
+    "Kein Energieausweis und keine Energiekennzahlen vorhanden.",
+    "Keine Informationen zu Baugrund, Erschließung, Widmung, Gefahrenzonen oder Genehmigungsfähigkeit.",
+    "Keine belastbare Aussage möglich, ob Grundstück und sämtliche Baunebenkosten im Angebotspreis enthalten sind.",
+    "Die Preis- und Investitionsbewertung ist daher nur eine grobe Risikoreserve und kein Verkehrswert- oder Baukostengutachten."
+  ],
+  "price_assessment": {
+    "asking_price_eur": 241100,
+    "fair_value_low_eur": null,
+    "fair_value_high_eur": null,
+    "suggested_first_offer_eur": null,
+    "suggested_target_price_eur": null,
+    "maximum_recommended_price_eur": null,
+    "confidence": "niedrig",
+    "reasoning": "Der Betrag ist offenbar ein beworbener Fertighauspreis inklusive Fundament, aber nicht eindeutig ein vollständiger Kauf- beziehungsweise Gesamtprojektpreis. Ohne klare Einbeziehung des Grundstücks, definierte Ausbaustufe und vollständige Nebenkosten wäre jede Ziel- oder Maximalpreisangabe erfunden."
+  },
+  "investment_items": [
+    {
+      "category": "Grundstück und Erwerb",
+      "measure": "Grundstückspreis und Erwerbsnebenkosten klären",
+      "priority": "sofort",
+      "low_eur": null,
+      "high_eur": null,
+      "confidence": "niedrig",
+      "basis": "Der Titel nennt 'Grundstück vorhanden', aber nicht eindeutig 'Grundstück im Preis enthalten'."
+    },
+    {
+      "category": "Baugrund und Erschließung",
+      "measure": "Bodengutachten, Erdarbeiten, Leitungsanschlüsse, Entwässerung, Zufahrt und gegebenenfalls Stützkonstruktionen",
+      "priority": "sofort",
+      "low_eur": 30000,
+      "high_eur": 100000,
+      "confidence": "niedrig",
+      "basis": "Kein echtes Grundstücksfoto und keine Angaben zu Baugrund, Hanglage oder Erschließungsstand vorhanden."
+    },
+    {
+      "category": "Planung und Behörden",
+      "measure": "Einreichplanung, Statik, Energieausweis, Vermessung, Gebühren und projektbezogene Anpassungen",
+      "priority": "sofort",
+      "low_eur": 10000,
+      "high_eur": 30000,
+      "confidence": "niedrig",
+      "basis": "Im Inserat nicht vollständig ausgewiesen."
+    },
+    {
+      "category": "Ausbau und Ausstattung",
+      "measure": "Nicht enthaltene Innenausbauleistungen, Küche, Beleuchtung und Ausstattung bis bezugsfertig",
+      "priority": "kurzfristig",
+      "low_eur": 25000,
+      "high_eur": 80000,
+      "confidence": "niedrig",
+      "basis": "Die konkrete Ausbaustufe und die zugehörige Spalte der Leistungsübersicht sind nicht eindeutig belegt."
+    },
+    {
+      "category": "Außenanlagen",
+      "measure": "Terrasse, Wege, Einfriedung, Gelände, Garten und gegebenenfalls Carport/Garage",
+      "priority": "mittelfristig",
+      "low_eur": 15000,
+      "high_eur": 60000,
+      "confidence": "niedrig",
+      "basis": "Die Visualisierung zeigt hochwertige Außenanlagen und Pool, ohne Nachweis, dass diese enthalten sind."
+    }
+  ],
+  "estimated_total_cost_eur": {
+    "low": 321100,
+    "high": 421100,
+    "confidence": "niedrig",
+    "includes_purchase_price": true,
+    "includes_acquisition_costs": false,
+    "comment": "Grobe Summe aus dem beworbenen Preis von 241.100 EUR und einer unsicheren Reserve von 80.000 bis 180.000 EUR. Ein allfälliger separater Grundstückspreis, Finanzierung und Erwerbsnebenkosten sind nicht zuverlässig enthalten."
+  },
+  "image_coverage": {
+    "exported_images_reviewed": 7,
+    "exterior_images": 0,
+    "interior_images": 0,
+    "technical_or_outbuilding_images": 0,
+    "plans_or_documents": 5,
+    "unclassified_images": 2,
+    "comment": "Alle sieben Bilder wurden geprüft. 01, 03, 04, 06 und 07 sind Zertifikats-, Firmen-, Flächen-, Leistungs- oder Planunterlagen. 02 ist eine Marketingvisualisierung und 05 ein ausdrücklich gekennzeichnetes Musterbild. Es gibt keine echten Innen-, Außen-, Technik- oder Grundstücksfotos des konkreten Projekts."
+  },
+  "analysis_request_id": "5aab2082324b4aeab73e4ce791196766"
+}
