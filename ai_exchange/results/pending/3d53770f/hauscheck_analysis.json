@@ -1,0 +1,157 @@
+{
+  "house_id": "3d53770f",
+  "analysis_date": "2026-07-28T05:05:35.425605+00:00",
+  "new_score": 38,
+  "confidence": "mittel",
+  "summary": "Gesichert ist ein sehr großes, ehemals gastronomisch bzw. als Mehrparteienobjekt genutztes Gebäude in 8544 Brunn mit einem Inseratspreis von 169.000 EUR und angegebener Wohnfläche von 830 m². Die 40 geprüften Bilder zeigen zahlreiche große Nutz- und Gasträume, mehrere Sanitärbereiche, einen Heiz-/Technikraum sowie Außenflächen. Abgeleitet ist ein umfassender Sanierungs- und Umnutzungsbedarf: Innenausbau, Oberflächen, Sanitär, Elektro, Haustechnik, Fenster und Teile der Gebäudehülle wirken überwiegend alt oder unfertig. Unsicher bleiben Baujahr, Grundstücksfläche, tatsächliche genehmigte Nutz- und Wohnfläche, Anzahl rechtmäßiger Wohneinheiten, Dach- und Tragwerkszustand, Feuchtebelastung, Energiekennzahlen sowie die wirtschaftliche Tragfähigkeit einer Umnutzung.",
+  "positive_findings": [
+    "Gesichert: Sehr große nutzbare Gebäudestruktur mit vielen Räumen und unterschiedlichen Funktionsbereichen.",
+    "Gesichert: Mehrere große Aufenthalts-/Gasträume, Werkstatt- bzw. Nebenräume und zumindest ein Technikraum sind vorhanden.",
+    "Gesichert: Außenbereiche, Zufahrt und überdachte Gebäudeteile sind vorhanden.",
+    "Abgeleitet: Der niedrige Kaufpreis pro angegebener Fläche kann für ein tragfähiges Sanierungs- oder Betreiberkonzept interessant sein.",
+    "Abgeleitet: Ein Teil der Sanitär- und Küchenbereiche ist grundsätzlich nutzbar oder mit überschaubarem Aufwand reaktivierbar."
+  ],
+  "risk_findings": [
+    "Gesichert: Viele Innenbereiche sind stark veraltet, teilweise entkernt, unfertig oder als Lager-/Arbeitsbereich genutzt.",
+    "Gesichert: Mehrere Wand-, Boden- und Deckenoberflächen weisen Abnutzung, Beschädigungen oder unfertige Sanierungsstellen auf.",
+    "Gesichert: Sanitärbereiche, Küche und Gastronomieausbau entsprechen überwiegend nicht heutigem Wohnstandard.",
+    "Gesichert: Im Technikraum sind ältere bzw. nicht näher dokumentierte Speicher-/Heizkomponenten sichtbar.",
+    "Abgeleitet: Für 830 m² ist ein sehr hoher Investitionsbedarf wahrscheinlich, selbst wenn nur Teilflächen saniert werden.",
+    "Abgeleitet: Feuchte- oder Abdichtungsprobleme können in erdnahen und älteren Bereichen nicht ausgeschlossen werden; die Bilder reichen für eine Diagnose nicht aus.",
+    "Unsicher: Die Angabe 830 m² als Wohnfläche kann bei einem Gasthaus/Mehrparteienhaus Nutz-, Betriebs- oder Mischflächen enthalten.",
+    "Unsicher: Genehmigungsstand, Widmung, Brandschutz, Fluchtwege, Stellplätze und zulässige Wohneinheiten sind nicht belegt.",
+    "Unsicher: Der im Titel erwähnte Kredit mit 2,3 % ist rechtlich und wirtschaftlich nicht geprüft."
+  ],
+  "estimated_investment_eur": {
+    "low": 250000,
+    "high": 800000,
+    "confidence": "niedrig",
+    "comment": "Sehr grobe Bandbreite für eine technische Grundsanierung bzw. teilweisen Ausbau eines Gebäudes dieser Größe. Umfang, Zielnutzung, Genehmigungen, Dach, Fassade, Leitungen und Heizung sind unbekannt; bei vollständiger hochwertiger Sanierung kann der Betrag deutlich höher liegen."
+  },
+  "address_hints": [
+    {
+      "hint": "8544 Brunn, Bezirk Deutschlandsberg",
+      "basis": "Gesicherte Ortsangabe in listing.json und Inseratstitel; keine exakte Adresse vorhanden.",
+      "confidence": "hoch"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/01.jpg, images/03.jpg, images/14.jpg",
+      "area": "ehemalige Gastro-/Nebenräume",
+      "condition": "Große geflieste Räume mit Holzverkleidungen, sichtbaren Leitungen und provisorischer Nutzung; deutlich veraltet.",
+      "positive": ["Große zusammenhängende Flächen"],
+      "risks": ["Abgenutzte Oberflächen", "Unklare Leitungsführung", "Sanierungsbedarf"],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/02.jpg, images/25.jpg, images/30.jpg, images/35.jpg",
+      "area": "Bar- und Gasträume",
+      "condition": "Ehemalige Gastronomiebereiche mit Theke, Mobiliar und älteren Boden-/Deckenbelägen.",
+      "positive": ["Große Räume", "Bestandseinrichtung teilweise vorhanden"],
+      "risks": ["Veralteter Ausbau", "Nutzungs- und Brandschutzanforderungen ungeklärt"],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/04.jpg, images/09.jpg, images/32.jpg, images/36.jpg, images/40.jpg",
+      "area": "Sanitärbereiche",
+      "condition": "Mehrere WC-/Badbereiche unterschiedlicher Qualität; überwiegend älter, teils als Handy-Screenshot dokumentiert.",
+      "positive": ["Sanitärausstattung grundsätzlich vorhanden"],
+      "risks": ["Modernisierungsbedarf", "Abdichtung und Leitungszustand unbekannt"],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/05.jpg, images/06.jpg, images/13.jpg, images/15.jpg, images/16.jpg, images/17.jpg, images/19.jpg, images/20.jpg, images/21.jpg, images/24.jpg, images/27.jpg, images/28.jpg",
+      "area": "Innenräume, Flure und Küche",
+      "condition": "Gemischter Zustand von leerstehenden, älteren und teilweise unfertigen Räumen; einfache Küche und viele Holz-/Fliesenoberflächen.",
+      "positive": ["Viele separat erschließbare Räume"],
+      "risks": ["Teilweise unfertiger Ausbau", "Veraltete Küche und Oberflächen", "Tür- und Wandbereiche beschädigt"],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/07.jpg, images/22.jpg, images/34.jpg, images/38.jpg",
+      "area": "entkernte bzw. sanierungsbedürftige Räume",
+      "condition": "Offene oder beschädigte Wandflächen, Rohboden, sichtbare Installationen und Baustellenzustand.",
+      "positive": ["Umbau bereits teilweise begonnen"],
+      "risks": ["Umfangreicher Fertigstellungsbedarf", "Mögliche Altinstallationen", "Bauschäden nicht ausgeschlossen"],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/08.jpg, images/18.jpg, images/26.jpg, images/29.jpg",
+      "area": "Gebäude außen und Zufahrt",
+      "condition": "Großer, heterogener Gebäudekomplex mit Zubauten, Holzfassadenanteilen und älteren Dach-/Entwässerungselementen.",
+      "positive": ["Zufahrt vorhanden", "Mehrere nutzbare Gebäudeteile"],
+      "risks": ["Dach-, Fassaden- und Anschlussdetails fachlich prüfen", "Alter und Genehmigung der Zubauten unklar"],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/12.jpg, images/23.jpg",
+      "area": "Grundstück und Außenbereich",
+      "condition": "Begrünter, teils geneigter Außenbereich mit Baumbestand und Blick auf Nebengebäudeteile.",
+      "positive": ["Grünbereich vorhanden"],
+      "risks": ["Grundstücksgröße und Grenzen unbekannt", "Entwässerung und Hangstabilität nicht beurteilbar"],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/10.jpg, images/11.jpg, images/31.jpg, images/33.jpg, images/37.jpg, images/39.jpg",
+      "area": "Treppen, Werkstatt und Technik",
+      "condition": "Ältere Treppen-/Verkehrsflächen, Werkstatt-/Lagerraum und zwei große Speicherbehälter im Technikraum.",
+      "positive": ["Technik- und Nebenflächen vorhanden"],
+      "risks": ["Heizsystem und Speicherzustand ungeklärt", "Geländer/Treppen und Elektroinstallationen prüfen", "Brandschutz prüfen"],
+      "confidence": "hoch"
+    }
+  ],
+  "recommendation": "Nur für Käufer mit belastbarem Nutzungskonzept, hoher Eigenkapital- und Sanierungsreserve sowie Erfahrung mit Großobjekten weiterverfolgen. Vor einem Angebot müssen Bauakt, Flächenwidmung, genehmigte Nutzung, Brandschutz, Energieausweis und ein technisches Gutachten vorliegen. Für eine normale Eigennutzung als Einfamilienhaus ist das Objekt aufgrund Größe, Komplexität und voraussichtlich hoher Folgekosten derzeit kritisch.",
+  "next_steps": [
+    "Bauakt, Benützungsbewilligungen und genehmigte Nutzflächen für Gasthaus, Wohnungen und alle Zubauten vollständig anfordern.",
+    "Klären, ob 830 m² tatsächlich Wohnfläche, Nutzfläche oder gemischte Betriebsfläche sind.",
+    "Grundbuch, Grundstücksfläche, Grenzen, Dienstbarkeiten, Widmung und Hochwasser-/Gefahrenzonen prüfen.",
+    "Aktuellen Energieausweis, Heizsystem, Brennstoff, Jahresverbrauch und Wartungsnachweise anfordern.",
+    "Baumeister/Sachverständigen für Dach, Tragwerk, Feuchte, Keller, Fassade, Fenster, Elektro, Wasser/Abwasser und Brandschutz beiziehen.",
+    "Sanierungskonzept nach Zielnutzung erstellen und mindestens drei Kostenszenarien kalkulieren: Teilsanierung, Wohnungsumbau, vollständige Revitalisierung.",
+    "Rechtsverbindlich prüfen, ob und zu welchen Bedingungen ein Kredit mit 2,3 % übernommen werden kann."
+  ],
+  "score_reasoning": "Der sehr niedrige Kaufpreis und die außergewöhnlich große Fläche sind positiv. Dem stehen jedoch ein sichtbar hoher Sanierungsgrad, eine komplexe ehemalige Gastro-/Mehrparteiennutzung, fehlende Energie- und Grundstücksdaten sowie erhebliche Genehmigungs-, Brandschutz- und Betriebskostenrisiken gegenüber. Deshalb liegt das Objekt trotz möglichem Entwicklungspotenzial im kritischen Bereich.",
+  "limitations": [
+    "Keine exakte Adresse und keine Grundstücksfläche im Paket.",
+    "Kein Exposé-Text oder Original-PDF mit Baujahr, Bauweise, Genehmigungen und Energiekennzahlen enthalten.",
+    "Bilder zeigen den Zustand nur punktuell; verdeckte Schäden sind nicht beurteilbar.",
+    "Keine belastbaren Vergleichswerte oder Marktwertermittlung; Preisangaben sind nur grobe Orientierung.",
+    "Die Bildgalerie enthält einige Handy-Screenshots; diese wurden nur eingeschränkt als Zustandsnachweis verwendet."
+  ],
+  "price_assessment": {
+    "asking_price_eur": 169000,
+    "fair_value_low_eur": 120000,
+    "fair_value_high_eur": 180000,
+    "suggested_first_offer_eur": 120000,
+    "suggested_target_price_eur": 140000,
+    "maximum_recommended_price_eur": 160000,
+    "confidence": "niedrig",
+    "reasoning": "Der Angebotspreis ist im Verhältnis zur angegebenen Fläche niedrig, aber die Fläche ist möglicherweise keine reine Wohnfläche. Der sichtbare Sanierungsbedarf und die ungeklärte rechtliche Nutzbarkeit rechtfertigen einen deutlichen Risikoabschlag. Grundstückswert und mögliche Erträge sind unbekannt."
+  },
+  "investment_items": [
+    {"category":"Planung und Genehmigung","measure":"Bestandsaufnahme, Nutzungs-/Brandschutzkonzept, Einreichplanung","priority":"sofort","low_eur":15000,"high_eur":60000,"confidence":"niedrig","basis":"Komplexe ehemalige Gastro-/Mehrparteiennutzung und fehlende Genehmigungsunterlagen."},
+    {"category":"Gebäudehülle","measure":"Dach, Entwässerung, Fassade, Anschlüsse und Fenster nach Befund sanieren","priority":"kurzfristig","low_eur":60000,"high_eur":250000,"confidence":"niedrig","basis":"Älterer, heterogener Gebäudekomplex; Zustand nur teilweise sichtbar."},
+    {"category":"Haustechnik","measure":"Heizung, Speicher, Elektro, Wasser und Abwasser prüfen und abschnittsweise erneuern","priority":"kurzfristig","low_eur":80000,"high_eur":250000,"confidence":"niedrig","basis":"Ältere Technik und sichtbare Installationen; keine Dokumentation vorhanden."},
+    {"category":"Innenausbau","measure":"Böden, Wände, Decken, Türen, Küchen und Sanitärbereiche sanieren","priority":"mittelfristig","low_eur":90000,"high_eur":300000,"confidence":"niedrig","basis":"40 Bilder zeigen großflächig alten, abgenutzten oder unfertigen Ausbau."},
+    {"category":"Sicherheit und Brandschutz","measure":"Fluchtwege, Brandabschnitte, Geländer, Türen und technische Anlagen herstellen","priority":"sofort","low_eur":20000,"high_eur":100000,"confidence":"niedrig","basis":"Großobjekt mit früherer Gastronomie- und möglicher Mehrparteiennutzung."}
+  ],
+  "estimated_total_cost_eur": {
+    "low": 390000,
+    "high": 940000,
+    "confidence": "niedrig",
+    "includes_purchase_price": true,
+    "includes_acquisition_costs": false,
+    "comment": "Grobe Summe aus Zielkaufpreis von etwa 140.000 EUR und geschätztem Investitionsrahmen von 250.000 bis 800.000 EUR. Kaufnebenkosten, Finanzierung, laufender Betrieb und mögliche Altlasten sind nicht enthalten."
+  },
+  "image_coverage": {
+    "exported_images_reviewed": 40,
+    "exterior_images": 6,
+    "interior_images": 28,
+    "technical_or_outbuilding_images": 6,
+    "plans_or_documents": 0,
+    "unclassified_images": 0,
+    "comment": "Alle 40 exportierten Bilder wurden visuell geprüft. Mehrere Bilder sind Handy-Screenshots, aber keine erkennbaren KI-Renderings oder reinen Werbegrafiken."
+  },
+  "analysis_request_id": "859cf2305f9d4a9498af0a71bb543b60"
+}
