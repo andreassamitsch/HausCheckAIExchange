@@ -1,0 +1,101 @@
+{
+  "house_id": "4c79ba18",
+  "analysis_date": "2026-07-29T04:03:42.265516+00:00",
+  "new_score": 68,
+  "confidence": "mittel",
+  "summary": "Gesichert sind 160 m² Wohnfläche, 1.355 m² Grundstück, sechs Zimmer, Öl-Zentralheizung, HWB 138,1 und fGEE 1,66 bei 295.000 €. Die 28 Bilder zeigen ein geräumiges, weitgehend gepflegtes Ein-/Zweifamilienhaus mit Garage, Dreifachcarport, Garten und mehreren modernisierten Räumen. Alter von Dach, Fenstern, Leitungen und Ölheizung bleibt offen.",
+  "positive_findings": [
+    "Großzügige Wohnfläche und flexible Raumaufteilung.",
+    "Mehrere Räume wirken modernisiert.",
+    "Garage, Dreifachcarport und gepflegte Außenflächen.",
+    "Technikraum und Heizungsverteilung sind dokumentiert."
+  ],
+  "risk_findings": [
+    "Ölheizung erzeugt mittelfristigen Umstellungsbedarf.",
+    "Küche und einzelne Boden-/Sanitärbereiche wirken älter.",
+    "Hanglage erfordert Prüfung von Entwässerung, Stützung und Feuchte.",
+    "Baujahr und Sanierungsjahre fehlen."
+  ],
+  "estimated_investment_eur": {
+    "low": 45000,
+    "high": 140000,
+    "confidence": "mittel",
+    "comment": "Grobe Bandbreite; kein Sachverständigengutachten."
+  },
+  "address_hints": [
+    {
+      "hint": "8552 Haselbach",
+      "basis": "Inseratsangabe; nur Gemeinde/Ort",
+      "confidence": "mittel"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "alle exportierten Bilder",
+      "area": "Gesamtprüfung",
+      "condition": "Alle JPG-Dateien visuell geprüft; Marketing-, Muster- und Planbilder nicht als Zustandsnachweis gewertet.",
+      "positive": [
+        "Großzügige Wohnfläche und flexible Raumaufteilung.",
+        "Mehrere Räume wirken modernisiert."
+      ],
+      "risks": [
+        "Ölheizung erzeugt mittelfristigen Umstellungsbedarf.",
+        "Küche und einzelne Boden-/Sanitärbereiche wirken älter."
+      ],
+      "confidence": "mittel"
+    }
+  ],
+  "recommendation": "Interessantes Objekt für eine vertiefte Prüfung. Vor Angebot Heizungsalter, Dach, Fenster, Feuchte im Untergeschoss und Genehmigung der Zweifamiliennutzung klären.",
+  "next_steps": [
+    "Besichtigung mit Bausachverständigem.",
+    "Energieausweis, Heizkosten und Heizungsalter prüfen.",
+    "Bauakte, Grundbuch, Widmung und Flächen abgleichen.",
+    "Dach, Fenster, Feuchte, Elektrik, Wasser/Abwasser und Entwässerung prüfen."
+  ],
+  "score_reasoning": "Score 68/100 aus Preis-/Flächenrelation, Zustand, Energiekennzahlen, Bildabdeckung und offenen Risiken. Gesicherte Angaben wurden höher gewichtet als Ableitungen.",
+  "limitations": [
+    "Keine Vor-Ort-Besichtigung.",
+    "Verdeckte Mängel und Genehmigungen nicht prüfbar.",
+    "Preis- und Investitionswerte sind grobe Orientierungen."
+  ],
+  "price_assessment": {
+    "asking_price_eur": 295000,
+    "fair_value_low_eur": 275000,
+    "fair_value_high_eur": 300000,
+    "suggested_first_offer_eur": 260000,
+    "suggested_target_price_eur": 280000,
+    "maximum_recommended_price_eur": 295000,
+    "confidence": "mittel",
+    "reasoning": "Orientierung aus Inseratsdaten, sichtbarem Zustand sowie Energie- und Modernisierungsrisiken; kein Verkehrswertgutachten."
+  },
+  "investment_items": [
+    {
+      "category": "Gebäude/Energie",
+      "measure": "Energetische und technische Modernisierung nach Befund",
+      "priority": "kurzfristig",
+      "low_eur": 45000,
+      "high_eur": 140000,
+      "confidence": "mittel",
+      "basis": "Inseratsdaten, Energiekennzahlen und Bildprüfung."
+    }
+  ],
+  "estimated_total_cost_eur": {
+    "low": 325000,
+    "high": 420000,
+    "confidence": "mittel",
+    "includes_purchase_price": true,
+    "includes_acquisition_costs": false,
+    "comment": "Zielkaufpreis plus Investitionsrahmen; Nebenkosten nicht enthalten."
+  },
+  "image_coverage": {
+    "exported_images_reviewed": 28,
+    "exterior_images": 10,
+    "interior_images": 12,
+    "technical_or_outbuilding_images": 3,
+    "plans_or_documents": 3,
+    "unclassified_images": 0,
+    "comment": "Alle exportierten Bilder einzeln visuell geprüft."
+  },
+  "analysis_request_id": "53a060aaa543485d9aa71dfd3a283371",
+  "source": "manual_chatgpt_upload"
+}
