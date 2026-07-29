@@ -1,0 +1,184 @@
+{
+  "house_id": "174c1208",
+  "analysis_date": "2026-07-29T02:03:36.304069+00:00",
+  "new_score": 57,
+  "confidence": "mittel",
+  "summary": "Gesichert sind ein massiv errichtetes Haus von 1952 mit Ausbau 1972, rund 134,5 m² Nutzfläche, 5.614 m² Grund, zwei Wohnbereichen, zwei Garagen, Pool, Öl- und Festbrennstoffheizung, HWB 362 und fGEE 4,17. Das Exposé nennt Kunststofffenster von 1999 und Ölheizung von 2000. Die Bilder zeigen einen sehr gepflegten Garten und bewohnbare, aber gestalterisch und energetisch ältere Innenräume. Abgeleitet ist das Objekt kurzfristig nutzbar, jedoch mit hohem Energie- und Modernisierungsrisiko; unsicher bleiben Feuchte, Dach, Leitungen, Bewilligungen der Erweiterungen und Pooltechnik.",
+  "positive_findings": [
+    "Sehr großes Grundstück mit Bauland-, Freiland- und Waldanteilen.",
+    "Ruhige Sackgassenlage, gepflegter Garten, Aussicht und überdachter Pool.",
+    "Zwei getrennt nutzbare Wohnbereiche mit zwei Küchen und separatem Zugang zum Dachgeschoss.",
+    "Zwei Garagen, Mechanikergrube und zusätzliche Nebengebäude bieten hohen Nutzwert.",
+    "Haus und Außenanlagen wirken auf den Bildern insgesamt gepflegt und bewohnbar."
+  ],
+  "risk_findings": [
+    "Extrem hoher HWB 362 und fGEE 4,17.",
+    "Ölheizung aus 2000 und Festbrennstoffnutzung bedeuten absehbaren Erneuerungsbedarf.",
+    "Baujahr 1952 sowie mehrere spätere Erweiterungen erhöhen das Risiko unterschiedlicher Bauzustände und Genehmigungsfragen.",
+    "Innenausbau, Küchen, Bäder und Deckenverkleidungen wirken überwiegend älter.",
+    "Exposé bezeichnet den Zustand zugleich als gepflegt und sanierungsbedürftig.",
+    "Pool, Wintergarten, Brunnen und Nebengebäude verursachen zusätzliche Wartungs- und Prüfkosten."
+  ],
+  "estimated_investment_eur": {
+    "low": 90000,
+    "high": 260000,
+    "confidence": "niedrig",
+    "comment": "Reserve für Heizung, thermische Sanierung, Elektro/Sanitär, Bäder/Küchen, Dach-/Feuchtebefunde sowie Pool- und Nebengebäude. Umfang hängt stark von Zielstandard und Befund ab."
+  },
+  "address_hints": [
+    {
+      "hint": "Hörmsdorf 108, 8552 Eibiswald",
+      "basis": "Im mitgelieferten Exposé-Text ausdrücklich als Objektadresse genannt. Der Dokument-Manifest führt jedoch keinen akzeptierten Adressvorschlag; daher nicht als endgültig bestätigt behandelt.",
+      "confidence": "hoch"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/12.jpg",
+      "area": "Außenansicht Haupthaus",
+      "condition": "Gepflegtes älteres Haus mit Terrasse und Garten.",
+      "positive": [
+        "Ordentliche Außenwirkung",
+        "Großzügige Terrasse"
+      ],
+      "risks": [
+        "Dämmstandard nicht erkennbar."
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/03.jpg",
+      "area": "Küche",
+      "condition": "Funktionsfähige, aber ältere Einbauküche.",
+      "positive": [
+        "Großer Essbereich."
+      ],
+      "risks": [
+        "Modernisierung mittelfristig wahrscheinlich."
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/13.jpg",
+      "area": "Bad",
+      "condition": "Sauber und nutzbar, stilistisch älter.",
+      "positive": [
+        "Tageslicht und Dusche."
+      ],
+      "risks": [
+        "Sanitär-/Abdichtungszustand unbekannt."
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/17.jpg",
+      "area": "Garage/Nebengebäude",
+      "condition": "Großes separates Nebengebäude mit Garagen.",
+      "positive": [
+        "Hoher Nutzwert für Werkstatt und Lager."
+      ],
+      "risks": [
+        "Dach, Elektro und Genehmigung prüfen."
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/42.jpg",
+      "area": "Grundriss EG",
+      "condition": "Schematischer Plan, kein Zustandsnachweis.",
+      "positive": [
+        "Raumaufteilung nachvollziehbar."
+      ],
+      "risks": [
+        "Abweichungen laut Exposé möglich."
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/47.jpg",
+      "area": "Lageplan/Luftbild",
+      "condition": "Dokumentarische Darstellung der Grundstückslage.",
+      "positive": [
+        "Großer zusammenhängender Grund erkennbar."
+      ],
+      "risks": [
+        "Grenzen und Widmung grundbücherlich prüfen."
+      ],
+      "confidence": "mittel"
+    }
+  ],
+  "recommendation": "Interessant für Käufer, die großes Grundstück, Werkstatt-/Garagenflächen und zwei Wohnbereiche priorisieren und einen hohen Sanierungsrahmen akzeptieren. Vor Kauf zwingend technische Prüfung und Dokumentenabgleich; Preis nur bei entsprechendem Abschlag attraktiv.",
+  "next_steps": [
+    "Bauakte und Bewilligungen aller Zu- und Ausbauten, Wintergarten, Pool und Nebengebäude prüfen.",
+    "Heizung, Öltank, Kamin und Festbrennstoffanlage fachlich bewerten.",
+    "Dach, Feuchte, Fundamente und unterschiedliche Gebäudeteile prüfen.",
+    "Brunnenwasserqualität, Ortswasseranschluss und Abwasserentsorgung klären.",
+    "Widmung und genaue Flächen der Grundstücksteile sowie Waldpflichten prüfen.",
+    "Pooltechnik und Überdachung prüfen."
+  ],
+  "score_reasoning": "Der sehr große Grund, die ruhige Lage, zwei Wohnbereiche und die umfangreichen Nebenflächen sind starke Pluspunkte. Der extrem schlechte Energiezustand, das hohe Alter, mehrere Bauphasen und der erwartbare Investitionsbedarf verhindern eine höhere Bewertung. Insgesamt prüfenswert, aber nicht ohne große Reserve.",
+  "limitations": [
+    "Keine Vor-Ort-Prüfung.",
+    "Mehrere Bilder sind Duplikate, Logos, schwarze Werbetafeln oder Pläne und wurden nicht als Zustandsnachweis gewertet.",
+    "Grundrisse sind ausdrücklich schematisch und können abweichen.",
+    "Keine belastbare Aussage zu Genehmigungen, Schadstoffen, Statik oder verdeckter Feuchte."
+  ],
+  "price_assessment": {
+    "asking_price_eur": 349000,
+    "fair_value_low_eur": 270000,
+    "fair_value_high_eur": 320000,
+    "suggested_first_offer_eur": 260000,
+    "suggested_target_price_eur": 290000,
+    "maximum_recommended_price_eur": 315000,
+    "confidence": "niedrig",
+    "reasoning": "Grundstück, Wald, Pool und Garagen stützen den Wert. Der sehr schlechte Energiekennwert und die erwartbaren Sanierungsrisiken rechtfertigen jedoch einen deutlichen Abschlag gegenüber dem Angebot."
+  },
+  "investment_items": [
+    {
+      "category": "Heizung/Energie",
+      "measure": "Heizung erneuern und thermische Sanierung planen",
+      "priority": "kurzfristig",
+      "low_eur": 40000,
+      "high_eur": 120000,
+      "confidence": "niedrig",
+      "basis": "HWB 362, fGEE 4,17, Ölheizung Baujahr 2000."
+    },
+    {
+      "category": "Innenausbau",
+      "measure": "Küchen, Bäder und Oberflächen schrittweise modernisieren",
+      "priority": "mittelfristig",
+      "low_eur": 30000,
+      "high_eur": 90000,
+      "confidence": "mittel",
+      "basis": "Bildmaterial zeigt überwiegend älteren Ausbau."
+    },
+    {
+      "category": "Nebenanlagen",
+      "measure": "Pool, Garagen, Wintergarten und Nebengebäude technisch instand halten",
+      "priority": "unklar",
+      "low_eur": 20000,
+      "high_eur": 50000,
+      "confidence": "niedrig",
+      "basis": "Alter und Umfang der Nebenanlagen."
+    }
+  ],
+  "estimated_total_cost_eur": {
+    "low": 380000,
+    "high": 550000,
+    "confidence": "niedrig",
+    "includes_purchase_price": true,
+    "includes_acquisition_costs": false,
+    "comment": "Empfohlener Zielpreis plus grobe Sanierungsreserve; Erwerbsnebenkosten nicht enthalten."
+  },
+  "image_coverage": {
+    "exported_images_reviewed": 48,
+    "exterior_images": 15,
+    "interior_images": 21,
+    "technical_or_outbuilding_images": 3,
+    "plans_or_documents": 9,
+    "unclassified_images": 0,
+    "comment": "Alle 48 Bilder wurden geprüft. Logos, schwarze Werbegrafiken, Texttafeln, Pläne und Luftbild wurden nicht als baulicher Zustandsnachweis verwendet; mehrere Motive sind Duplikate."
+  },
+  "analysis_request_id": "909e35236139494ca8e077412dccb578",
+  "source": "manual_chatgpt_upload"
+}
