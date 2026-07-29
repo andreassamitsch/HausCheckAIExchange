@@ -1,0 +1,123 @@
+{
+  "house_id": "9913cc4c",
+  "analysis_date": "2026-07-29T05:02:58.039174+00:00",
+  "new_score": 65,
+  "confidence": "mittel",
+  "summary": "Gesichert sind 143 m² Wohnfläche, 735 m² Grundstück, 420.000 € Kaufpreis, HWB 47,7 und fGEE 0,62. Die Bilder zeigen einen neuen Bungalow in weit fortgeschrittener, teils belagsfertiger Ausführung sowie beispielhafte schlüsselfertige Räume. Außenhülle, Garage und Terrasse wirken neu. Abgeleitet ist das Objekt energetisch gut und technisch attraktiv, der hohe Preis hängt jedoch wesentlich davon ab, welche Ausbaustufe tatsächlich Vertragsgegenstand ist. Unsicher sind genaue Inklusivleistungen, Fertigstellungsstandard, Gewährleistung und Grundstück-/Außenanlagenkosten.",
+  "positive_findings": [
+    "Sehr gute angegebene Energiekennwerte.",
+    "Neuer, ebenerdiger Bungalow mit großzügigem Grundriss.",
+    "Garage und überdachte Terrasse vorhanden.",
+    "Gebäudehülle und Fenster wirken neuwertig."
+  ],
+  "risk_findings": [
+    "Bilder mischen belagsfertigen Zustand und offenbar fertig ausgestattete Referenz-/Beispielräume.",
+    "Bei 420.000 € muss der genaue Fertigstellungsumfang eindeutig sein.",
+    "Außenanlagen sind nur einfach hergestellt.",
+    "Keine Aussage zu Ausführungsqualität verdeckter Bauteile aus Bildern möglich."
+  ],
+  "estimated_investment_eur": {
+    "low": 20000,
+    "high": 90000,
+    "confidence": "mittel",
+    "comment": "Je nach tatsächlicher Ausbaustufe: Böden, Türen, Sanitär, Küche, Malerarbeiten, Außenanlagen und Restarbeiten."
+  },
+  "address_hints": [
+    {
+      "hint": "8551 Wies",
+      "basis": "Ortsangabe aus listing.json; keine exakte Adresse bestätigt.",
+      "confidence": "hoch"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/01.jpg",
+      "area": "Wohnbereich",
+      "condition": "Belagsfertiger Neubau",
+      "positive": [
+        "Helle, großzügige Fläche"
+      ],
+      "risks": [
+        "Boden, Türen und Endausbau fehlen"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/06.jpg",
+      "area": "Küche",
+      "condition": "Fertig ausgestattete Küche",
+      "positive": [
+        "Moderner Standard"
+      ],
+      "risks": [
+        "Möglicherweise Referenzbild; Vertragsumfang prüfen"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/03.jpg",
+      "area": "Garage",
+      "condition": "Neue Doppelgarage",
+      "positive": [
+        "Guter Nutzwert"
+      ],
+      "risks": [
+        "Endausstattung und Entwässerung prüfen"
+      ],
+      "confidence": "mittel"
+    }
+  ],
+  "recommendation": "Interessant bei tatsächlich schlüsselfertiger Übergabe und sauberer Gewährleistung; bei belagsfertigem Umfang ist der Preis kritisch zu verhandeln.",
+  "next_steps": [
+    "Verbindlich klären, ob 420.000 € belagsfertig oder schlüsselfertig gilt.",
+    "Detaillierte Leistungsbeschreibung und Abnahmeprotokolle anfordern.",
+    "Gewährleistung, Fertigstellungstermin und Haftrücklass prüfen.",
+    "Restkosten für Küche, Böden, Türen, Sanitär und Außenanlagen kalkulieren."
+  ],
+  "score_reasoning": "Score 65/100: Datenlage, sichtbarer Zustand, Energie-/Preisrelation und erkennbare Risiken wurden gemeinsam bewertet. Gesicherte Fakten stammen aus listing/evidence; Bildschlüsse sind als abgeleitet oder unsicher formuliert.",
+  "limitations": [
+    "Keine Vor-Ort-Besichtigung oder bautechnische Prüfung.",
+    "Keine rechtliche Prüfung von Grundbuch, Bauakt, Widmung oder Genehmigungen.",
+    "Verdeckte Bauteile, Leitungen, Statik und Feuchtigkeit sind aus Inseratbildern nicht sicher bewertbar."
+  ],
+  "price_assessment": {
+    "asking_price_eur": 420000,
+    "fair_value_low_eur": 360000,
+    "fair_value_high_eur": 420000,
+    "suggested_first_offer_eur": 350000,
+    "suggested_target_price_eur": 385000,
+    "maximum_recommended_price_eur": 415000,
+    "confidence": "mittel",
+    "reasoning": "Bei vollständiger schlüsselfertiger Ausführung ist der Preis eher plausibel; bei belagsfertiger Übergabe deutlich zu hoch."
+  },
+  "investment_items": [
+    {
+      "category": "Modernisierung/Fertigstellung",
+      "measure": "Je nach tatsächlicher Ausbaustufe: Böden, Türen, Sanitär, Küche, Malerarbeiten, Außenanlagen und Restarbeiten.",
+      "priority": "kurzfristig",
+      "low_eur": 20000,
+      "high_eur": 90000,
+      "confidence": "mittel",
+      "basis": "Inseratsdaten und visuelle Prüfung aller exportierten Bilder; keine Kostenschätzung nach Leistungsverzeichnis."
+    }
+  ],
+  "estimated_total_cost_eur": {
+    "low": 405000,
+    "high": 505000,
+    "confidence": "mittel",
+    "includes_purchase_price": true,
+    "includes_acquisition_costs": false,
+    "comment": "Ziel-/Maximalpreis plus grob geschätzte Investitionen; Kaufnebenkosten und Finanzierung nicht enthalten."
+  },
+  "image_coverage": {
+    "exported_images_reviewed": 14,
+    "exterior_images": 4,
+    "interior_images": 8,
+    "technical_or_outbuilding_images": 1,
+    "plans_or_documents": 1,
+    "unclassified_images": 0,
+    "comment": "Alle 14 Bilder geprüft; Plan nicht als Zustandsnachweis verwendet, fertig eingerichtete Räume nur vorsichtig als mögliche Referenzbilder bewertet."
+  },
+  "analysis_request_id": "7ee1533b55fa4d2da0a9bad8a85ce6a8",
+  "source": "manual_chatgpt_upload"
+}
