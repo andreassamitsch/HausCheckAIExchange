@@ -1,0 +1,165 @@
+{
+  "house_id": "e5a87179",
+  "analysis_date": "2026-07-29T06:04:45+00:00",
+  "new_score": 49,
+  "confidence": "mittel",
+  "summary": "Großes Wohn- und Geschäftshaus in Aussichtslage mit 154,64 m² Wohnfläche, insgesamt rund 531,76 m² Nutzfläche und ehemaliger Gastronomie-/Verkaufsnutzung. Gesichert sind Baujahr 1965, letzte Sanierung 2006, HWB 153 und fGEE 1,63 aus den Unterlagen. Die Bilder zeigen gepflegte Außenflächen und nutzbare Gastrobereiche, aber auch einen teilweise unfertigen Rohbau-/Dachbereich und viele Werbe-/Planbilder.",
+  "positive_findings": [
+    "Großes Flächenangebot für Wohnen, Hobby und Gewerbe.",
+    "Weitläufiges Grundstück und gute Aussicht.",
+    "Gastro-/Verkaufsbereiche wirken grundsätzlich nutzbar.",
+    "Unterlagen nennen letzte Sanierung 2006."
+  ],
+  "risk_findings": [
+    "Komplexe Mischnutzung mit Genehmigungs-, Brandschutz- und Wirtschaftlichkeitsrisiken.",
+    "Teilweise unfertiger Rohbau-/Dachbereich sichtbar.",
+    "HWB 153 ist energetisch mäßig bis schwach.",
+    "Hohe laufende Kosten und Instandhaltung bei über 500 m² Nutzfläche wahrscheinlich.",
+    "Viele Bilder tragen große Werbeeinblendungen; Detailzustand ist teils verdeckt."
+  ],
+  "estimated_investment_eur": {
+    "low": 120000,
+    "high": 350000,
+    "confidence": "niedrig",
+    "comment": "Grobe Reserve für Fertigstellung, Brandschutz/Nutzungsanpassung, Energie, Haustechnik und punktuelle Sanierungen. Gewerbliche Anforderungen können die Kosten stark erhöhen."
+  },
+  "address_hints": [
+    {
+      "hint": "8544 Obergreith",
+      "basis": "Inseratsort und Exposétext; keine exakte Adresse bestätigt.",
+      "confidence": "hoch"
+    },
+    {
+      "hint": "Erhöhte Aussichtslage",
+      "basis": "Mehrere Grundstücks- und Fernblickbilder.",
+      "confidence": "mittel"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/01-03.jpg",
+      "area": "Außen/Terrasse/Gastro",
+      "condition": "Aussicht, überdachte Terrasse und Thekenbereich sichtbar.",
+      "positive": [
+        "Große Nutzflächen"
+      ],
+      "risks": [],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/04-05.jpg",
+      "area": "Plan/Werbung",
+      "condition": "Grundriss und Tippgeberwerbung; kein Zustandsnachweis.",
+      "positive": [],
+      "risks": [],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/06-13.jpg",
+      "area": "Grundstück, Werkstatt, Rohbau, Außen, Saal",
+      "condition": "Gepflegte Außenflächen, große Räume; ein Bereich ist unfertig/roh.",
+      "positive": [
+        "Viel Platz"
+      ],
+      "risks": [
+        "Rohbau/Fertigstellungsbedarf"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/14-20.jpg",
+      "area": "Pläne und Wohnen",
+      "condition": "Mehrere Planunterlagen und ein Wohnraum.",
+      "positive": [
+        "Planunterlagen vorhanden"
+      ],
+      "risks": [],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/21-28.jpg",
+      "area": "Gastro, Außen, Werbung",
+      "condition": "Weitere Gasträume und Außenansichten; Werbebilder nicht als Zustand gewertet.",
+      "positive": [
+        "Gastroausstattung sichtbar"
+      ],
+      "risks": [
+        "Nutzungs- und Brandschutzstatus unklar"
+      ],
+      "confidence": "mittel"
+    }
+  ],
+  "recommendation": "Nur bei klarer Nutzungsidee und belastbarer Wirtschaftlichkeitsrechnung weiterverfolgen. Vor Kauf Genehmigungsbestand, Brandschutz, Flächenwidmung, Betriebskosten und Fertigstellungskosten vollständig prüfen.",
+  "next_steps": [
+    "Bauakt und genehmigte Nutzungen für Wohnen, Gastronomie, Verkauf und Nebengebäude prüfen.",
+    "Brandschutzkonzept, Fluchtwege, Barrierefreiheit und behördliche Auflagen klären.",
+    "Rohbau-/Dachbereich durch Sachverständigen prüfen und Fertigstellung kalkulieren.",
+    "Verbrauchs- und Betriebskosten der letzten Jahre anfordern.",
+    "Sanierungsstand 2006 mit Rechnungen und Bauteilliste belegen lassen."
+  ],
+  "score_reasoning": "Der große Nutzwert und die Lage sind attraktiv, aber das Objekt ist für einen normalen Wohnkauf überkomplex. Mischnutzung, unfertige Bereiche und mögliche gewerbliche Auflagen drücken den Score in den kritischen Grenzbereich.",
+  "limitations": [
+    "Große Wasserzeichen verdecken Bilddetails.",
+    "PDF-Texte enthalten auch reine Werbung.",
+    "Keine vollständige behördliche oder technische Dokumentation.",
+    "Preisangabe im Finanzierungsexposé weicht mit 398.000 € vom aktuellen Inseratspreis 381.000 € ab."
+  ],
+  "price_assessment": {
+    "asking_price_eur": 381000,
+    "fair_value_low_eur": 300000,
+    "fair_value_high_eur": 360000,
+    "suggested_first_offer_eur": 285000,
+    "suggested_target_price_eur": 325000,
+    "maximum_recommended_price_eur": 350000,
+    "confidence": "niedrig",
+    "reasoning": "Der Flächenumfang ist hoch, aber nur bei rechtlich und wirtschaftlich nutzbarer Mischnutzung werthaltig; unfertige Bereiche und Sanierungsreserve erfordern Abschlag."
+  },
+  "investment_items": [
+    {
+      "category": "Rohbau/Fertigstellung",
+      "measure": "Unfertigen Dach-/Nebenbereich fertigstellen oder sichern",
+      "priority": "kurzfristig",
+      "low_eur": 40000,
+      "high_eur": 130000,
+      "confidence": "niedrig",
+      "basis": "Bild 08 und Planunterlagen."
+    },
+    {
+      "category": "Brandschutz/Gewerbe",
+      "measure": "Auflagen für Gastro-/Geschäftsnutzung erfüllen",
+      "priority": "unklar",
+      "low_eur": 25000,
+      "high_eur": 100000,
+      "confidence": "niedrig",
+      "basis": "Mischnutzung und große Veranstaltungs-/Gasträume."
+    },
+    {
+      "category": "Energie/Haustechnik",
+      "measure": "Heizung, Gebäudehülle und technische Anlagen ertüchtigen",
+      "priority": "mittelfristig",
+      "low_eur": 55000,
+      "high_eur": 120000,
+      "confidence": "niedrig",
+      "basis": "HWB 153, Baujahr 1965, Sanierung 2006."
+    }
+  ],
+  "estimated_total_cost_eur": {
+    "low": 445000,
+    "high": 675000,
+    "confidence": "niedrig",
+    "includes_purchase_price": true,
+    "includes_acquisition_costs": false,
+    "comment": "Zielpreis 325.000 € plus Investitionsreserve."
+  },
+  "image_coverage": {
+    "exported_images_reviewed": 28,
+    "exterior_images": 9,
+    "interior_images": 8,
+    "technical_or_outbuilding_images": 2,
+    "plans_or_documents": 8,
+    "unclassified_images": 1,
+    "comment": "Alle 28 Bilder geprüft. Werbe-/Finanzierungsseiten und Pläne wurden nicht als Zustandsnachweis verwendet."
+  },
+  "analysis_request_id": "10b7a69fd92e4fbda861695b2f2e4e58",
+  "source": "manual_chatgpt_upload"
+}
