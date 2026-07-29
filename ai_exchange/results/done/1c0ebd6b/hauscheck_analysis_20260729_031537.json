@@ -1,0 +1,111 @@
+{
+  "house_id": "1c0ebd6b",
+  "analysis_date": "2026-07-29T03:08:45.180740+00:00",
+  "analysis_request_id": "50edd682bbe64e2f9e7f8db04e997e8d",
+  "new_score": 54,
+  "confidence": "niedrig",
+  "summary": "Gesichert: Unbebautes Grundstück mit 1.213 m² und Angebotspreis 59.000 € in 8551 Mitterlimberg. Alle fünf Bilder zeigen eine offene, gemähte Wiesenfläche mit leichter bis mäßiger Neigung, Waldsaum und Fernblick. Abgeleitet: Ruhige, naturnahe Lage mit attraktivem Ausblick. Unsicher: Baulandwidmung, Zufahrt, Anschlüsse, geologische Verhältnisse, Hochwasser-/Rutschungsrisiko und tatsächliche Bebaubarkeit.",
+  "positive_findings": [
+    "Gesichert: freie Wiesenfläche und schöner Fernblick",
+    "Gesichert: naturnahes Umfeld",
+    "Abgeleitet: Grundstücksgröße bietet grundsätzlich Gestaltungsspielraum"
+  ],
+  "risk_findings": [
+    "Unsicher: Erschließung und Anschlusskosten unbekannt",
+    "Unsicher: Hangneigung und Bodenverhältnisse können Baukosten erhöhen",
+    "Unsicher: Widmung, Bebauungsdichte, Baufluchtlinien und Zufahrt nicht belegt",
+    "Gesichert: listing führt living_area_m2 fälschlich ebenfalls mit 1.213 m²; für ein Grundstück nicht als Wohnfläche verwenden"
+  ],
+  "estimated_investment_eur": {
+    "low": 30000,
+    "high": 120000,
+    "confidence": "niedrig",
+    "comment": "Nur mögliche Grundstücksnebenkosten für Erschließung, Zufahrt, Erdarbeiten und Anschlüsse; Hausbau nicht enthalten."
+  },
+  "address_hints": [
+    {
+      "hint": "8551 Mitterlimberg",
+      "basis": "listing.location_text",
+      "confidence": "hoch"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/01.jpg bis images/05.jpg",
+      "area": "Grundstück",
+      "condition": "Gesichert: gemähte Wiesenfläche, leicht bis mäßig geneigt, Waldsaum und Fernsicht.",
+      "positive": [
+        "offene Fläche",
+        "Aussicht",
+        "naturnahe Lage"
+      ],
+      "risks": [
+        "Neigung und Baugrund nicht messbar",
+        "Zufahrt und Anschlüsse nicht sichtbar"
+      ],
+      "confidence": "mittel"
+    }
+  ],
+  "recommendation": "Nur nach schriftlicher Bestätigung der Bebaubarkeit und vollständiger Erschließungskosten weiterverfolgen. Der reine Quadratmeterpreis wirkt günstig, ist ohne Widmung und Anschlussstatus aber nicht bewertbar.",
+  "next_steps": [
+    "Flächenwidmungs- und Bebauungsplan einholen",
+    "Bauamt zur konkreten Bebaubarkeit befragen",
+    "Zufahrtsrecht und Leitungsrechte im Grundbuch prüfen",
+    "Kostenangebote für Wasser, Kanal, Strom, Telekom und Zufahrt einholen",
+    "Bodengutachten bzw. Hang-/Versickerungsprüfung veranlassen"
+  ],
+  "score_reasoning": "Attraktive Lage und niedriger Angebotspreis stehen großen, entscheidenden Unsicherheiten zu Bebaubarkeit und Erschließung gegenüber.",
+  "limitations": [
+    "Nur fünf ähnliche Außenbilder",
+    "Keine Pläne, Widmungsunterlagen oder Anschlussnachweise",
+    "Kein Haus vorhanden; Energie- und Gebäudezustand nicht anwendbar"
+  ],
+  "price_assessment": {
+    "asking_price_eur": 59000,
+    "fair_value_low_eur": null,
+    "fair_value_high_eur": null,
+    "suggested_first_offer_eur": 50000,
+    "suggested_target_price_eur": 55000,
+    "maximum_recommended_price_eur": 59000,
+    "confidence": "niedrig",
+    "reasoning": "Ohne bestätigte Bebaubarkeit und Erschließung keine belastbare Fair-Value-Spanne."
+  },
+  "investment_items": [
+    {
+      "category": "Erschließung",
+      "measure": "Anschlüsse und Zufahrt herstellen",
+      "priority": "unklar",
+      "low_eur": 20000,
+      "high_eur": 70000,
+      "confidence": "niedrig",
+      "basis": "keine Anschlüsse auf Bildern/Unterlagen belegt"
+    },
+    {
+      "category": "Erdarbeiten/Baugrund",
+      "measure": "Geländeanpassung, Entwässerung, mögliche Hangsicherung",
+      "priority": "unklar",
+      "low_eur": 10000,
+      "high_eur": 50000,
+      "confidence": "niedrig",
+      "basis": "sichtbare Neigung, aber kein Bodengutachten"
+    }
+  ],
+  "estimated_total_cost_eur": {
+    "low": 85000,
+    "high": 175000,
+    "confidence": "niedrig",
+    "includes_purchase_price": true,
+    "includes_acquisition_costs": false,
+    "comment": "Zielpreis 55.000 € plus mögliche Erschließungs-/Grundstückskosten; Hausbau ausgeschlossen."
+  },
+  "image_coverage": {
+    "exported_images_reviewed": 5,
+    "exterior_images": 5,
+    "interior_images": 0,
+    "technical_or_outbuilding_images": 0,
+    "plans_or_documents": 0,
+    "unclassified_images": 0,
+    "comment": "Alle fünf Grundstücksbilder visuell geprüft."
+  },
+  "source": "manual_chatgpt_upload"
+}
