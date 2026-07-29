@@ -1,0 +1,107 @@
+{
+  "house_id": "4accfdfe",
+  "analysis_date": "2026-07-29T06:51:22.602593+00:00",
+  "analysis_request_id": "a98f389ff1f54512bd8ee13dcec52a51",
+  "new_score": 55,
+  "confidence": "niedrig",
+  "summary": "Gesichert sind ein Angebotspreis von 350.000 EUR, die Bezeichnung Eichegg 51 beziehungsweise der Lagehinweis Eichegg 51b sowie 19 aktuelle Fotoaufnahmen. Die Bilder zeigen ein bewohntes, in Teilbereichen modernisiertes Wohnhaus mit ausgebautem Dachgeschoss, älteren Erdgeschossräumen, mehreren Sanitärbereichen, Nebengebäuden beziehungsweise überdachten Stellplätzen und einem großen, teilweise geneigten Grundstück. Abgeleitet wirkt die Gebäudehülle überwiegend ordentlich, während Innenausbau, Haustechnik und Außenanlagen einen uneinheitlichen Modernisierungsstand aufweisen. Unsicher bleiben Wohn- und Grundstücksfläche, Baujahr, Rechts- und Genehmigungsstand, Energiekennzahlen, Heizsystem, Kellerzustand und der tatsächliche Umfang allfälliger Sanierungen.",
+  "positive_findings": [
+    "Gesichert: Das Haus ist bewohnt und die gezeigten Räume wirken grundsätzlich nutzbar.",
+    "Gesichert: Mehrere helle Räume im Dachgeschoss mit zeitgemäßen Fenstern beziehungsweise Fenstertüren.",
+    "Gesichert: Zwei Sanitärbereiche sind vorhanden; zumindest einer verfügt über Dusche, ein weiterer über Badewanne.",
+    "Gesichert: Überdachte Stellplätze beziehungsweise offene Garagenflächen und zusätzliche Nebenflächen sind vorhanden.",
+    "Abgeleitet: Dacheindeckung und Fassade wirken auf den Außenfotos ohne offensichtliche großflächige Schäden.",
+    "Abgeleitet: Ruhige, ländliche Lage mit freiem Blick und angrenzenden Grün- beziehungsweise Landwirtschaftsflächen."
+  ],
+  "risk_findings": [
+    "Gesichert: Wohnfläche, Grundstücksgröße, Zimmerzahl, Baujahr, Heizsystem und Energiekennzahlen fehlen vollständig.",
+    "Gesichert: Innenausbau und Ausstattung sind stark gemischt; Erdgeschossräume, Küche und einzelne Sanitärbereiche wirken deutlich älter.",
+    "Gesichert: Teile der Außenanlage wirken unfertig oder provisorisch, unter anderem offene Bodenflächen, Einfassungen und Geländeabstufungen.",
+    "Abgeleitet: Bei einem älteren Bestandsgebäude können Leitungen, Abdichtungen, Dämmung und Heizung zusätzlichen Investitionsbedarf verursachen.",
+    "Unsicher: Ob das zweite sichtbare Gebäude, Nebengebäude und sämtliche Stellplatzkonstruktionen vollständig zum Kaufgegenstand gehören und genehmigt sind.",
+    "Unsicher: Feuchte-, Keller-, Dachstuhl- und Entwässerungszustand sind anhand der Fotos nicht ausreichend prüfbar."
+  ],
+  "estimated_investment_eur": {
+    "low": 50000,
+    "high": 180000,
+    "confidence": "niedrig",
+    "comment": "Sehr grobe Reserve für Modernisierung von Küche und Bädern, Oberflächen, mögliche Elektro-, Heizungs- und Leitungsarbeiten sowie Außenanlagen. Ohne Flächen, Baujahr, Energieausweis, Keller- und Technikfotos ist keine belastbare Kostenschätzung möglich."
+  },
+  "address_hints": [
+    {
+      "hint": "Eichegg 51b, Raum Wies",
+      "basis": "listing.json nennt den Titel Eichegg 51 und location_text Eichegg 51b; die E-Mail-Quelle bezeichnet das Objekt als Haupthaus Eichegg/Wies.",
+      "confidence": "mittel"
+    }
+  ],
+  "image_findings": [
+    {"image":"images/01.jpg","area":"Wohnraum Dachgeschoss","condition":"Bewohnt, hell, einfacher bis mittlerer Standard.","positive":[],"risks":["Oberflächen und Ausstattung nicht neu"],"confidence":"hoch"},
+    {"image":"images/02.jpg","area":"Garten und Nebengebäude","condition":"Große Außenfläche mit kleinem Gartenhaus; Bodenflächen teilweise offen.","positive":["Freifläche"],"risks":["Außenanlage teilweise unfertig","Entwässerung unklar"],"confidence":"hoch"},
+    {"image":"images/03.jpg","area":"Grundstück und Aussicht","condition":"Ländliche offene Lage.","positive":["Freie Aussicht"],"risks":["Grenzen und Flächenumfang nicht erkennbar"],"confidence":"hoch"},
+    {"image":"images/04.jpg","area":"Schlafzimmer Dachgeschoss","condition":"Ordentlich nutzbarer Raum mit Dachschräge.","positive":["Fenster"],"risks":["Dämmstandard unklar"],"confidence":"hoch"},
+    {"image":"images/05.jpg","area":"Duschbad","condition":"Gefliestes Bad älteren bis mittleren Standards.","positive":["Dusche vorhanden"],"risks":["Abdichtung und Lüftung nicht prüfbar"],"confidence":"hoch"},
+    {"image":"images/06.jpg","area":"Zimmer Dachgeschoss","condition":"Bewohnt und funktional.","positive":["Fenstertür","Heizkörper"],"risks":["Modernisierungsstand uneinheitlich"],"confidence":"hoch"},
+    {"image":"images/07.jpg","area":"Garten und Hangbereich","condition":"Großer Garten mit Geländestufen.","positive":["Grünfläche"],"risks":["Geländesicherung und Entwässerung prüfen"],"confidence":"hoch"},
+    {"image":"images/08.jpg","area":"Galerie und Treppe","condition":"Holztreppe und offene Galerie.","positive":["Großzügige Erschließung"],"risks":["Absturzsicherung prüfen"],"confidence":"hoch"},
+    {"image":"images/09.jpg","area":"Elektroverteiler","condition":"Verteiler sichtbar; technische Bewertung nicht möglich.","positive":["Beschriftung teilweise vorhanden"],"risks":["FI-Schutz und Anlagenalter klären"],"confidence":"mittel"},
+    {"image":"images/10.jpg","area":"Schlafzimmer Erdgeschoss","condition":"Großer Raum mit älterem Ausbau.","positive":["Großzügige Raumwirkung"],"risks":["Älterer Innenausbau"],"confidence":"hoch"},
+    {"image":"images/11.jpg","area":"Bad mit Wanne","condition":"Nutzbares, deutlich älteres Bad.","positive":["Badewanne"],"risks":["Sanitärmodernisierung wahrscheinlich"],"confidence":"hoch"},
+    {"image":"images/12.jpg","area":"Wohnküche","condition":"Großer Raum mit älterer Küche.","positive":["Viel Platz"],"risks":["Küche und Oberflächen modernisierungsbedürftig"],"confidence":"hoch"},
+    {"image":"images/13.jpg","area":"Nebenraum oder Waschküche","condition":"Funktionaler einfacher Raum.","positive":["Zusätzliche Nutzfläche"],"risks":["Installationen und Feuchteschutz unklar"],"confidence":"hoch"},
+    {"image":"images/14.jpg","area":"Überdachter Stellplatz","condition":"Offene Holztragkonstruktion mit zwei Stellplätzen.","positive":["Zwei Stellplätze"],"risks":["Genehmigung und Holzschutz prüfen"],"confidence":"hoch"},
+    {"image":"images/15.jpg","area":"Carport und Hof","condition":"Große befestigte Fläche mit Überdachung.","positive":["Viel Stellfläche"],"risks":["Tragwerk und Genehmigung prüfen"],"confidence":"hoch"},
+    {"image":"images/16.jpg","area":"Grundstück mit zwei Gebäuden","condition":"Zwei Gebäudekörper sichtbar.","positive":["Großzügiges Areal plausibel"],"risks":["Kaufumfang klären"],"confidence":"mittel"},
+    {"image":"images/17.jpg","area":"Hauptgebäude außen","condition":"Fassade und Ziegeldach wirken ordentlich.","positive":["Keine offensichtlichen Großschäden"],"risks":["Nur oberflächlich beurteilbar"],"confidence":"mittel"},
+    {"image":"images/18.jpg","area":"Geländeeinfassung","condition":"Betonierte Einfassung oder unfertige Außenanlage.","positive":[],"risks":["Entwässerung und Standsicherheit prüfen"],"confidence":"hoch"},
+    {"image":"images/19.jpg","area":"Hauptgebäude außen","condition":"Mehrgeschossiges Haus; Außenfläche teilweise unbefestigt.","positive":["Grundsätzlich gepflegter Eindruck"],"risks":["Sockel, Drainage und Dachdetails nicht prüfbar"],"confidence":"mittel"}
+  ],
+  "recommendation": "Das Objekt ist aufgrund der ruhigen Lage, des sichtbaren Platzangebots und des grundsätzlich nutzbaren Zustands prüfenswert, aber derzeit nicht belastbar bewertbar. Vor einer Preisentscheidung müssen vollständiges Exposé, Flächen, Grundbuch, Pläne, Energieausweis, Heizungsdaten, Genehmigungen und eine technische Besichtigung vorliegen. Bei 350.000 EUR sollte ohne diese Unterlagen und ohne klare Zuordnung aller Gebäude kein verbindliches Angebot abgegeben werden.",
+  "next_steps": [
+    "Grundbuchsauszug, Katasterplan und genaue Grundstücksfläche anfordern.",
+    "Nutzflächenaufstellung, Einreich- und Bestandspläne sowie Bau- und Benützungsbewilligungen prüfen.",
+    "Klären, welche Gebäude, Nebengebäude, Carports und Grundstücksteile im Kaufpreis enthalten sind.",
+    "Energieausweis, Heizsystem, Alter und Verbrauchskosten der letzten drei Jahre anfordern.",
+    "Elektrobefund sowie Alter von Wasser-, Abwasser- und Heizungsleitungen prüfen lassen.",
+    "Dach, Dachstuhl, Fassade, Sockel, Keller, Feuchte und Geländeentwässerung durch Bausachverständigen prüfen."
+  ],
+  "score_reasoning": "Der Score von 55 liegt im Bereich prüfen. Positiv wirken die ländliche Lage, das sichtbare Platzangebot, die grundsätzlich bewohnbaren Räume und die vorhandenen Neben- und Stellflächen. Abzüge entstehen durch den uneinheitlichen und teilweise älteren Modernisierungsstand, unfertige Außenbereiche und vor allem die außergewöhnlich geringe Datengrundlage. Deshalb ist die Sicherheit niedrig.",
+  "limitations": [
+    "Nur 19 Fotos aus einer weitergeleiteten E-Mail; kein vollständiges Verkaufsinserat oder Exposé.",
+    "Keine Angaben zu Wohnfläche, Grundstück, Baujahr, Zimmern, Heizung oder Energie.",
+    "Keine Keller-, Heizraum-, Dachstuhl- oder Detailaufnahmen kritischer Bauteile.",
+    "Die genaue Zuordnung der sichtbaren Gebäude und Flächen zum Kaufgegenstand ist unklar."
+  ],
+  "price_assessment": {
+    "asking_price_eur": 350000,
+    "fair_value_low_eur": null,
+    "fair_value_high_eur": null,
+    "suggested_first_offer_eur": null,
+    "suggested_target_price_eur": null,
+    "maximum_recommended_price_eur": null,
+    "confidence": "niedrig",
+    "reasoning": "Ohne Wohn- und Grundstücksfläche, Baujahr, rechtlichen Kaufumfang und technische Eckdaten wäre jede konkrete Kaufpreisbandbreite spekulativ."
+  },
+  "investment_items": [
+    {"category":"Sanitär","measure":"Ältere Bäder je nach technischem Zustand modernisieren.","priority":"mittelfristig","low_eur":20000,"high_eur":50000,"confidence":"mittel","basis":"Bilder 05 und 11."},
+    {"category":"Küche und Innenausbau","measure":"Küche, Oberflächen und einzelne Räume modernisieren.","priority":"mittelfristig","low_eur":20000,"high_eur":60000,"confidence":"mittel","basis":"Bilder 10 bis 13."},
+    {"category":"Haustechnik","measure":"Elektro, Heizung sowie Leitungen prüfen und gegebenenfalls erneuern.","priority":"unklar","low_eur":10000,"high_eur":70000,"confidence":"niedrig","basis":"Nur Elektroverteiler sichtbar; übrige Technik fehlt."},
+    {"category":"Außenanlagen","measure":"Gelände, Einfassungen und Entwässerung fertigstellen beziehungsweise sanieren.","priority":"kurzfristig","low_eur":10000,"high_eur":40000,"confidence":"niedrig","basis":"Bilder 02, 07, 18 und 19."}
+  ],
+  "estimated_total_cost_eur": {
+    "low": 400000,
+    "high": 530000,
+    "confidence": "niedrig",
+    "includes_purchase_price": true,
+    "includes_acquisition_costs": false,
+    "comment": "Angebotspreis plus grobe Investitionsreserve; Kaufnebenkosten nicht enthalten."
+  },
+  "image_coverage": {
+    "exported_images_reviewed": 19,
+    "exterior_images": 7,
+    "interior_images": 9,
+    "technical_or_outbuilding_images": 3,
+    "plans_or_documents": 0,
+    "unclassified_images": 0,
+    "comment": "Alle 19 Bilder wurden einzeln visuell geprüft. Keine erkennbaren KI-Renderings, Werbegrafiken oder Planunterlagen."
+  }
+}
