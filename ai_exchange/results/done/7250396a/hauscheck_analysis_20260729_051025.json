@@ -1,0 +1,121 @@
+{
+  "house_id": "7250396a",
+  "analysis_date": "2026-07-29T05:02:58.039174+00:00",
+  "new_score": 54,
+  "confidence": "mittel",
+  "summary": "Gesichert sind 184 m² Wohnfläche, 741 m² Grundstück, 300.000 € Kaufpreis, HWB 164 und fGEE 2,15. Die Bilder zeigen ein gepflegtes, aber deutlich älteres Wohnhaus mit Nebengebäude/Garage, überwiegend brauchbaren Wohnräumen und veralteten Sanitärbereichen. Abgeleitet besteht mittlerer Modernisierungsbedarf, besonders bei Energie, Bädern und Oberflächen. Unsicher bleiben Dach, Leitungen, Heizung, Feuchtigkeit und Umfang bereits erfolgter Sanierungen.",
+  "positive_findings": [
+    "Großzügige Wohnfläche und familiengeeignete Raumstruktur.",
+    "Außenanlagen und Fassade wirken auf den Bildern insgesamt gepflegt.",
+    "Garage/Nebengebäude bietet zusätzlichen Nutzwert.",
+    "Mehrere Wohnräume sind hell und unmittelbar nutzbar."
+  ],
+  "risk_findings": [
+    "HWB 164 und fGEE 2,15 weisen auf schwache Energieeffizienz hin.",
+    "Bäder und WC wirken deutlich veraltet.",
+    "Teilweise ältere Boden-, Decken- und Holzausstattung.",
+    "Technischer Zustand von Heizung, Leitungen, Dach und Fenstern ist bildlich nicht ausreichend beurteilbar."
+  ],
+  "estimated_investment_eur": {
+    "low": 70000,
+    "high": 190000,
+    "confidence": "mittel",
+    "comment": "Energetische Maßnahmen, Bäder, Oberflächen und mögliche Haustechnikmodernisierung; konkrete Spanne erst nach Besichtigung und Befund belastbar."
+  },
+  "address_hints": [
+    {
+      "hint": "8552 Eibiswald",
+      "basis": "Ortsangabe aus listing.json; keine exakte Adresse bestätigt.",
+      "confidence": "hoch"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/01.jpg",
+      "area": "Außenansicht",
+      "condition": "Gepflegter Gesamteindruck",
+      "positive": [
+        "Ordentliche Fassade und Außenanlage"
+      ],
+      "risks": [
+        "Dachdetails nicht prüfbar"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/14.jpg",
+      "area": "Bad",
+      "condition": "Technisch nutzbar, optisch stark veraltet",
+      "positive": [],
+      "risks": [
+        "Sanierungsbedarf bei Oberflächen und Ausstattung"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/15.jpg",
+      "area": "Garage",
+      "condition": "Geräumig und ordentlich",
+      "positive": [
+        "Guter Nutzwert"
+      ],
+      "risks": [
+        "Tor- und Feuchtezustand vor Ort prüfen"
+      ],
+      "confidence": "mittel"
+    }
+  ],
+  "recommendation": "Prüfenswert, wenn Lage und Grundriss passen, aber nur mit technischer Prüfung und Preisabschlag für Energie- und Modernisierungsbedarf.",
+  "next_steps": [
+    "Energieausweis und Heizungsdaten vollständig prüfen.",
+    "Dach, Fenster, Feuchtigkeit und Elektro-/Sanitärleitungen durch Fachleute kontrollieren.",
+    "Sanierungsjahre und Rechnungen anfordern.",
+    "Nebengebäude/Garage baurechtlich und statisch prüfen."
+  ],
+  "score_reasoning": "Score 54/100: Datenlage, sichtbarer Zustand, Energie-/Preisrelation und erkennbare Risiken wurden gemeinsam bewertet. Gesicherte Fakten stammen aus listing/evidence; Bildschlüsse sind als abgeleitet oder unsicher formuliert.",
+  "limitations": [
+    "Keine Vor-Ort-Besichtigung oder bautechnische Prüfung.",
+    "Keine rechtliche Prüfung von Grundbuch, Bauakt, Widmung oder Genehmigungen.",
+    "Verdeckte Bauteile, Leitungen, Statik und Feuchtigkeit sind aus Inseratbildern nicht sicher bewertbar."
+  ],
+  "price_assessment": {
+    "asking_price_eur": 300000,
+    "fair_value_low_eur": 240000,
+    "fair_value_high_eur": 285000,
+    "suggested_first_offer_eur": 235000,
+    "suggested_target_price_eur": 260000,
+    "maximum_recommended_price_eur": 280000,
+    "confidence": "mittel",
+    "reasoning": "Der große Flächenumfang ist positiv, Energiekennwerte und sichtbarer Modernisierungsbedarf begrenzen jedoch den Wert."
+  },
+  "investment_items": [
+    {
+      "category": "Modernisierung/Fertigstellung",
+      "measure": "Energetische Maßnahmen, Bäder, Oberflächen und mögliche Haustechnikmodernisierung; konkrete Spanne erst nach Besichtigung und Befund belastbar.",
+      "priority": "kurzfristig",
+      "low_eur": 70000,
+      "high_eur": 190000,
+      "confidence": "mittel",
+      "basis": "Inseratsdaten und visuelle Prüfung aller exportierten Bilder; keine Kostenschätzung nach Leistungsverzeichnis."
+    }
+  ],
+  "estimated_total_cost_eur": {
+    "low": 330000,
+    "high": 470000,
+    "confidence": "mittel",
+    "includes_purchase_price": true,
+    "includes_acquisition_costs": false,
+    "comment": "Ziel-/Maximalpreis plus grob geschätzte Investitionen; Kaufnebenkosten und Finanzierung nicht enthalten."
+  },
+  "image_coverage": {
+    "exported_images_reviewed": 19,
+    "exterior_images": 5,
+    "interior_images": 8,
+    "technical_or_outbuilding_images": 1,
+    "plans_or_documents": 5,
+    "unclassified_images": 0,
+    "comment": "Alle 19 Bilder geprüft; Pläne wurden nicht als Zustandsnachweis gewertet."
+  },
+  "analysis_request_id": "ae801c2bfe184a86b8d9c67ce4cf9b13",
+  "source": "manual_chatgpt_upload"
+}
