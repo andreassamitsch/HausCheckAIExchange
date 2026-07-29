@@ -14,6 +14,12 @@ permissions:
   contents: write
   actions: read
 
+# Mehrere HausCheck-Exporte kommen oft innerhalb weniger Sekunden. Nur der
+# jüngste Lauf muss das vollständige Pending-Paket und den Zeiger veröffentlichen.
+concurrency:
+  group: hauscheck-pending-artifact
+  cancel-in-progress: true
+
 jobs:
   bundle-pending-zips:
     runs-on: ubuntu-latest
@@ -93,7 +99,6 @@ jobs:
           ARTIFACT_NAME: hauscheck-pending-${{ github.run_id }}
         run: |
           set -euo pipefail
-          mkdir -p ai_exchange/control
 
           python3 - <<'PY'
           import json
@@ -121,16 +126,36 @@ jobs:
               'files': source_manifest['files'],
           }
 
-          with open('ai_exchange/control/latest_artifact.json', 'w', encoding='utf-8') as handle:
+          with open('.artifact/latest_artifact.json', 'w', encoding='utf-8') as handle:
               json.dump(pointer, handle, ensure_ascii=False, indent=2)
           PY
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add ai_exchange/control/latest_artifact.json
-          if git diff --cached --quiet; then
-            echo "Artifact pointer ist unverändert."
-          else
+
+          # Trotz Concurrency kann sich main zwischen Checkout und Push ändern,
+          # etwa durch HausCheck-Import/Cleanup. Deshalb wird der Zeiger bei jedem
+          # Versuch auf den neuesten Remote-Stand aufgesetzt.
+          for attempt in 1 2 3 4 5; do
+            git fetch origin main
+            git reset --hard origin/main
+            mkdir -p ai_exchange/control
+            cp .artifact/latest_artifact.json ai_exchange/control/latest_artifact.json
+            git add ai_exchange/control/latest_artifact.json
+
+            if git diff --cached --quiet; then
+              echo "Artifact pointer ist unverändert."
+              exit 0
+            fi
+
             git commit -m "Publish latest HausCheck artifact pointer [skip ci]"
-            git push
-          fi
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+
+            echo "Pointer-Push Versuch ${attempt} fehlgeschlagen; neuer Remote-Stand wird geladen."
+            sleep $((attempt * 2))
+          done
+
+          echo "Artifact pointer konnte nach fünf Versuchen nicht veröffentlicht werden." >&2
+          exit 1
