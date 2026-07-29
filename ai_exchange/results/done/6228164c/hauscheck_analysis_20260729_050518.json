@@ -1,0 +1,118 @@
+{
+  "house_id": "6228164c",
+  "analysis_date": "2026-07-29T05:02:58.039174+00:00",
+  "new_score": 35,
+  "confidence": "mittel",
+  "summary": "Gesichert ist nur ein Fertighaus-Projektangebot mit 125 m², 5 Zimmern, einem genannten Preis von 178.000 € und einem vorhandenen Grundstück mit 748 m². Die Bilder zeigen überwiegend Grundrisse, Zertifikats-/Firmenunterlagen, eine Muster-Grundstücksaufnahme und eine offensichtlich gerenderte Hausvisualisierung; sie belegen keinen realen Bau- oder Grundstückszustand. Abgeleitet ist der Preis daher sehr wahrscheinlich kein vollständiger bezugsfertiger Gesamtpreis. Unsicher bleiben Grundstückspreis, Ausbaustufe, Erschließung, Baunebenkosten, Energiekennwerte und konkrete Ausführung.",
+  "positive_findings": [
+    "Plausibler Grundriss mit rund 125 m² und fünf Zimmern.",
+    "Fundament wird im Titel ausdrücklich als enthalten genannt.",
+    "Grundstücksgröße von 748 m² ist im Inserat als strukturierter Wert vorhanden."
+  ],
+  "risk_findings": [
+    "Keine echten Fotos des angebotenen Hauses oder des konkreten Grundstücks.",
+    "Hausbild ist eine Marketingvisualisierung; Grundstücksbild ist als Musterbild gekennzeichnet.",
+    "Der Preisumfang bis zur bezugsfertigen Übergabe ist nicht gesichert.",
+    "Keine belastbaren Angaben zu HWB, fGEE, Baugrund, Anschlüssen oder Genehmigungen."
+  ],
+  "estimated_investment_eur": {
+    "low": 90000,
+    "high": 220000,
+    "confidence": "niedrig",
+    "comment": "Zusätzliche Kosten für Grundstück/Anschlüsse, Erdarbeiten, Außenanlagen, Innenausbau und Baunebenkosten sind mangels Leistungsbeschreibung nur grob ableitbar."
+  },
+  "address_hints": [
+    {
+      "hint": "8552 Eibiswald",
+      "basis": "Ortsangabe aus listing.json; keine exakte Adresse bestätigt.",
+      "confidence": "hoch"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/05.jpg",
+      "area": "Grundstück",
+      "condition": "Musterbild, kein Nachweis zum konkreten Grundstück",
+      "positive": [],
+      "risks": [
+        "Nicht als Zustands- oder Lagebeleg verwendbar"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/06.jpg",
+      "area": "Hausvisualisierung",
+      "condition": "Gerenderte Marketingdarstellung",
+      "positive": [],
+      "risks": [
+        "Kein Nachweis der tatsächlichen Ausführung"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/01.jpg",
+      "area": "Grundriss Erdgeschoss",
+      "condition": "Planunterlage",
+      "positive": [
+        "Funktionale Raumaufteilung erkennbar"
+      ],
+      "risks": [
+        "Planmaße und Ausführung vor Vertrag prüfen"
+      ],
+      "confidence": "mittel"
+    }
+  ],
+  "recommendation": "Nur nach vollständiger Festpreis- und Leistungsabgrenzung weiterverfolgen. Der beworbene Einstiegspreis darf nicht als Gesamtbudget verstanden werden.",
+  "next_steps": [
+    "Detaillierte Bau- und Leistungsbeschreibung mit allen Ausschlüssen anfordern.",
+    "Grundstückspreis und Eigentums-/Reservierungsstatus schriftlich klären.",
+    "Baugrundgutachten, Geländehöhen und Erschließungskosten prüfen.",
+    "Gesamtangebot bis schlüsselfertig inklusive Haustechnik, Gebühren, Außenanlagen und Nebenkosten erstellen lassen."
+  ],
+  "score_reasoning": "Score 35/100: Datenlage, sichtbarer Zustand, Energie-/Preisrelation und erkennbare Risiken wurden gemeinsam bewertet. Gesicherte Fakten stammen aus listing/evidence; Bildschlüsse sind als abgeleitet oder unsicher formuliert.",
+  "limitations": [
+    "Keine Vor-Ort-Besichtigung oder bautechnische Prüfung.",
+    "Keine rechtliche Prüfung von Grundbuch, Bauakt, Widmung oder Genehmigungen.",
+    "Verdeckte Bauteile, Leitungen, Statik und Feuchtigkeit sind aus Inseratbildern nicht sicher bewertbar."
+  ],
+  "price_assessment": {
+    "asking_price_eur": 178000,
+    "fair_value_low_eur": null,
+    "fair_value_high_eur": null,
+    "suggested_first_offer_eur": 150000,
+    "suggested_target_price_eur": 170000,
+    "maximum_recommended_price_eur": 190000,
+    "confidence": "niedrig",
+    "reasoning": "Mangels belastbarem Gesamtleistungsumfang ist keine seriöse Verkehrswertspanne möglich; Preisangaben dienen nur als Verhandlungsorientierung für das Paket."
+  },
+  "investment_items": [
+    {
+      "category": "Modernisierung/Fertigstellung",
+      "measure": "Zusätzliche Kosten für Grundstück/Anschlüsse, Erdarbeiten, Außenanlagen, Innenausbau und Baunebenkosten sind mangels Leistungsbeschreibung nur grob ableitbar.",
+      "priority": "kurzfristig",
+      "low_eur": 90000,
+      "high_eur": 220000,
+      "confidence": "niedrig",
+      "basis": "Inseratsdaten und visuelle Prüfung aller exportierten Bilder; keine Kostenschätzung nach Leistungsverzeichnis."
+    }
+  ],
+  "estimated_total_cost_eur": {
+    "low": 260000,
+    "high": 410000,
+    "confidence": "niedrig",
+    "includes_purchase_price": true,
+    "includes_acquisition_costs": false,
+    "comment": "Ziel-/Maximalpreis plus grob geschätzte Investitionen; Kaufnebenkosten und Finanzierung nicht enthalten."
+  },
+  "image_coverage": {
+    "exported_images_reviewed": 9,
+    "exterior_images": 0,
+    "interior_images": 0,
+    "technical_or_outbuilding_images": 0,
+    "plans_or_documents": 9,
+    "unclassified_images": 0,
+    "comment": "Alle neun Bilder geprüft; ausschließlich Pläne, Dokumente, Logo/Zertifikat, Musterbild und Rendering."
+  },
+  "analysis_request_id": "48d7a40d17a042debf4d0360401d8bac",
+  "source": "manual_chatgpt_upload"
+}
