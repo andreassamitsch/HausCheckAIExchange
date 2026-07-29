@@ -1,0 +1,193 @@
+{
+  "house_id": "4accfdfe",
+  "analysis_date": "2026-07-29T07:25:00+00:00",
+  "new_score": 57,
+  "confidence": "mittel",
+  "summary": "Großes Wohnhaus mit rund 220 m² Wohnfläche und 4.065 m² Grundstück in ländlicher Lage. Die 19 Objektfotos zeigen ein insgesamt bewohntes und ordentlich erhaltenes Haus mit großzügigen Räumen, Garage/Carport und großem Garten. Energetisch ist das Objekt mit HWB 168 schwach; die ältere Sole/Wasser-Wärmepumpe ist laut Notiz wegen fehlender Ersatzteilversorgung ein wesentliches Kostenrisiko. Dokumente und Adressangaben widersprechen sich teilweise (Eichegg 51, 51a und 51b; Preis 300.000 bzw. 360.000 Euro).",
+  "positive_findings": [
+    "Gesichert: 220 m² Wohnfläche und 4.065 m² Grundstück laut listing.json.",
+    "Gesichert: Sole/Wasser-Wärmepumpe sowie HWB 168 laut Unterlagen.",
+    "Gesichert: 19 echte Objektfotos zeigen bewohnte, überwiegend ordentliche Innenräume, Küche, Bad, Garage/Carport und große Freiflächen.",
+    "Abgeleitet: Ruhige, ländliche Aussichtslage mit viel Garten- und Nutzfläche.",
+    "Abgeleitet: Dachdeckung und Fassade wirken ohne offensichtliche großflächige Schäden."
+  ],
+  "risk_findings": [
+    "Gesichert: Ältere Wärmepumpe mit laut Notiz problematischer Ersatzteilversorgung.",
+    "Gesichert: HWB 168 weist auf erhöhten Energiebedarf hin.",
+    "Gesichert: Widersprüchliche Adress- und Preisangaben.",
+    "Abgeleitet: Küche, Bäder und Teile des Innenausbaus sind teilweise älter.",
+    "Unsicher: Keller, Feuchteabdichtung, Leitungen, Fenster, Dachstuhl und Entwässerung sind nicht ausreichend beurteilbar.",
+    "Unsicher: Exakter Kaufumfang, Grundstücksteile, Dienstbarkeiten und Zufahrtsrechte."
+  ],
+  "estimated_investment_eur": {
+    "low": 50000,
+    "high": 190000,
+    "confidence": "niedrig",
+    "comment": "Grobe Reserve für Heizungsersatz, energetische Maßnahmen, Modernisierung und mögliche technische Instandsetzungen."
+  },
+  "address_hints": [
+    {
+      "hint": "Eichegg 51b",
+      "basis": "listing.json mit address_status exact",
+      "confidence": "hoch"
+    },
+    {
+      "hint": "Eichegg 51",
+      "basis": "Energieausweis-Unterlagen",
+      "confidence": "mittel"
+    },
+    {
+      "hint": "Eichegg 51a / KG 61128 Mitterlimberg, EZ 505, Gst. 423/1",
+      "basis": "Grundbuchtext",
+      "confidence": "mittel"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/01.jpg, 04.jpg, 06.jpg, 08.jpg, 10.jpg, 13.jpg",
+      "area": "Wohn- und Schlafräume",
+      "condition": "Bewohnt und überwiegend ordentlich; gemischter Modernisierungsstand.",
+      "positive": [
+        "Großzügige Räume",
+        "Keine klaren großflächigen Feuchteschäden sichtbar"
+      ],
+      "risks": [
+        "Teilweise ältere Oberflächen"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/05.jpg, 11.jpg, 12.jpg",
+      "area": "Bäder und Küche",
+      "condition": "Funktional, aber teilweise älter.",
+      "positive": [
+        "Nutzbar und gepflegt wirkend"
+      ],
+      "risks": [
+        "Modernisierungsbedarf möglich"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/02.jpg, 03.jpg, 07.jpg, 16.jpg, 17.jpg, 18.jpg, 19.jpg",
+      "area": "Außenbereich, Grundstück, Fassade und Dach",
+      "condition": "Großes Grundstück; Fassade und Dach wirken aus Distanz ordentlich.",
+      "positive": [
+        "Große Freiflächen",
+        "Weite Aussicht"
+      ],
+      "risks": [
+        "Entwässerung und Grundstücksgrenzen ungeklärt"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/09.jpg, 14.jpg, 15.jpg",
+      "area": "Elektro, Garage und Nebengebäude",
+      "condition": "Elektroverteiler und überdachte Stellplätze sichtbar.",
+      "positive": [
+        "Mehrere Stellplätze"
+      ],
+      "risks": [
+        "Prüfbefund der Elektroanlage und baurechtlicher Status unbekannt"
+      ],
+      "confidence": "niedrig"
+    },
+    {
+      "image": "images/20.jpg bis images/45.jpg",
+      "area": "Dokumentseiten, Energieausweis, Karten und Grundbuch",
+      "condition": "Nicht als baulicher Zustandsnachweis verwendet.",
+      "positive": [
+        "Energie- und Lageunterlagen dokumentiert"
+      ],
+      "risks": [
+        "Widersprüchliche Objekt- und Preiszuordnung"
+      ],
+      "confidence": "hoch"
+    }
+  ],
+  "recommendation": "Nur nach vollständiger Klärung von Kaufumfang, korrekter Adresse, Grundstückszuordnung, Dienstbarkeiten und verbindlichem Kaufpreis weiterverfolgen. Wärmepumpe, Elektroanlage, Feuchte/Keller, Dach und Leitungen fachlich prüfen.",
+  "next_steps": [
+    "Aktuellen Gesamtpreis von 300.000 oder 360.000 Euro schriftlich bestätigen lassen.",
+    "Grundbuch, Gst. 423/1, Gebäudeadressen 51/51a/51b und Kaufumfang abgleichen.",
+    "Wärmepumpe samt Alter, Modell, Wartung und Ersatzkonzept prüfen.",
+    "Energieausweis und fGEE-Widerspruch klären.",
+    "Bautechnische Besichtigung mit Fokus auf Keller, Dach, Fenster, Elektro, Leitungen und Entwässerung.",
+    "Flächenwidmung, Zufahrt und Dienstbarkeiten prüfen."
+  ],
+  "score_reasoning": "Großer Grund, hohe Wohnfläche und bewohnbarer Zustand sprechen für das Objekt. Deutliche Abzüge durch hohen HWB, älteren Innenausbau, das erhebliche Wärmepumpenrisiko und widersprüchliche Preis-, Adress- und Grundbuchangaben.",
+  "limitations": [
+    "Keine Vor-Ort-Besichtigung oder Funktionsprüfung.",
+    "Keller, Technikraum und Dachstuhl nicht ausreichend dokumentiert.",
+    "Widersprüchliche Adress-, Preis- und fGEE-Angaben.",
+    "Investitionskosten nur grobe Bandbreiten.",
+    "Keine rechtliche Prüfung."
+  ],
+  "price_assessment": {
+    "asking_price_eur": 360000,
+    "fair_value_low_eur": null,
+    "fair_value_high_eur": null,
+    "suggested_first_offer_eur": null,
+    "suggested_target_price_eur": null,
+    "maximum_recommended_price_eur": null,
+    "confidence": "niedrig",
+    "reasoning": "Wegen Preiswiderspruch, unklarer Zuordnung von 51/51a/51b und ungeklärtem Kaufumfang wäre eine faire Kaufpreisbandbreite spekulativ."
+  },
+  "investment_items": [
+    {
+      "category": "Heizung",
+      "measure": "Ersatz oder grundlegende Sanierung der Sole/Wasser-Wärmepumpe",
+      "priority": "kurzfristig",
+      "low_eur": 25000,
+      "high_eur": 55000,
+      "confidence": "niedrig",
+      "basis": "Notiz zu insolventem Hersteller und fehlenden Ersatzteilen"
+    },
+    {
+      "category": "Energie/Gebäudehülle",
+      "measure": "Energetische Verbesserungen nach Energieberatung",
+      "priority": "mittelfristig",
+      "low_eur": 15000,
+      "high_eur": 80000,
+      "confidence": "niedrig",
+      "basis": "HWB 168"
+    },
+    {
+      "category": "Innenausbau",
+      "measure": "Modernisierung von Küche, Bädern und Oberflächen",
+      "priority": "optional",
+      "low_eur": 10000,
+      "high_eur": 45000,
+      "confidence": "mittel",
+      "basis": "sichtbar älterer Ausstattungsstandard"
+    },
+    {
+      "category": "Technik/Instandhaltung",
+      "measure": "Reserve für Elektro, Leitungen, Feuchte, Dach oder Entwässerung",
+      "priority": "unklar",
+      "low_eur": 0,
+      "high_eur": 30000,
+      "confidence": "niedrig",
+      "basis": "nicht ausreichend einsehbare Bauteile"
+    }
+  ],
+  "estimated_total_cost_eur": {
+    "low": 410000,
+    "high": 550000,
+    "confidence": "niedrig",
+    "includes_purchase_price": true,
+    "includes_acquisition_costs": false,
+    "comment": "360.000 Euro Angebotspreis plus grobe Investitionsreserve; bei tatsächlichem Preis von 300.000 Euro entsprechend 60.000 Euro niedriger."
+  },
+  "image_coverage": {
+    "exported_images_reviewed": 45,
+    "exterior_images": 8,
+    "interior_images": 10,
+    "technical_or_outbuilding_images": 3,
+    "plans_or_documents": 24,
+    "unclassified_images": 0,
+    "comment": "Alle 45 Bilder geprüft; Dokumentseiten nicht als baulicher Zustandsnachweis verwendet."
+  },
+  "analysis_request_id": "ca5dea34ede04d72b02f9cfcaea8f0cd",
+  "source": "manual_chatgpt_upload"
+}
