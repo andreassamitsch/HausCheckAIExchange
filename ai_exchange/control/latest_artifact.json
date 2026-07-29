@@ -2,14 +2,14 @@
   "kind": "hauscheck_pending_artifact_pointer",
   "version": 2,
   "status": "ready",
-  "created_at": "2026-07-29T06:20:11.925592+00:00",
-  "run_id": 30427831977,
+  "created_at": "2026-07-29T06:21:20.066917+00:00",
+  "run_id": 30427887428,
   "run_attempt": 1,
-  "source_commit": "57913f546789c263c552909585021035d42a5c04",
-  "artifact_id": 8714277466,
-  "artifact_name": "hauscheck-pending-30427831977",
-  "artifact_url": "https://github.com/andreassamitsch/HausCheckAIExchange/actions/runs/30427831977/artifacts/8714277466",
-  "artifact_digest": "7d43305d2ae186f06a91c69224057ca8dfd44a4c50f57d2cce17c17896ace368",
+  "source_commit": "c766332a11286cacbbc30c732191f138c07f0f7b",
+  "artifact_id": 8714300233,
+  "artifact_name": "hauscheck-pending-30427887428",
+  "artifact_url": "https://github.com/andreassamitsch/HausCheckAIExchange/actions/runs/30427887428/artifacts/8714300233",
+  "artifact_digest": "257f73ac2d20a3065e5545e3a09acf7438603d5ccb78202694ab11292fb26dcf",
   "expires_after_days": 3,
   "files": [
     {
@@ -17,30 +17,6 @@
       "source_path": "ai_exchange/exports/pending/4accfdfe.zip",
       "size_bytes": 1323786,
       "sha256": "fd1c62bbc8ddc78f3405c6f3a184e8b3408297e5959a87716f894e97747b023d"
-    },
-    {
-      "name": "b738952d.zip",
-      "source_path": "ai_exchange/exports/pending/b738952d.zip",
-      "size_bytes": 8873831,
-      "sha256": "407b8ea76b046d2fa6fb3075d122f492814e6e1f2bfe5518c5c5ae3914b85fac"
-    },
-    {
-      "name": "e5a87179.zip",
-      "source_path": "ai_exchange/exports/pending/e5a87179.zip",
-      "size_bytes": 10531757,
-      "sha256": "92a701acc91ded6b4bb6d6756639b6d0399001c0d65be9daff6bbb23fa1c5ffc"
-    },
-    {
-      "name": "e625f61f.zip",
-      "source_path": "ai_exchange/exports/pending/e625f61f.zip",
-      "size_bytes": 3496860,
-      "sha256": "4a2df93bda468098b76d5618e043ad6613fcf86222171af83f03ccd4e05fc740"
-    },
-    {
-      "name": "f1023e82.zip",
-      "source_path": "ai_exchange/exports/pending/f1023e82.zip",
-      "size_bytes": 4012291,
-      "sha256": "320898ee065632eed57a8376c6784cbd00835845500402d349b75d5318144ad2"
     }
   ]
 }
