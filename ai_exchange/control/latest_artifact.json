@@ -1,15 +1,46 @@
 {
   "kind": "hauscheck_pending_artifact_pointer",
   "version": 2,
-  "status": "empty",
-  "created_at": "2026-07-29T03:15:58.692413+00:00",
-  "run_id": 30419103668,
+  "status": "ready",
+  "created_at": "2026-07-29T03:20:23.397355+00:00",
+  "run_id": 30419302434,
   "run_attempt": 1,
-  "source_commit": "327be7550b796a83f8a745604757060c8f71f02d",
-  "artifact_id": null,
-  "artifact_name": null,
-  "artifact_url": null,
-  "artifact_digest": null,
-  "expires_after_days": null,
-  "files": []
+  "source_commit": "281a5e0699c892a3c2dfd5e7fa376a1166cf6262",
+  "artifact_id": 8711307112,
+  "artifact_name": "hauscheck-pending-30419302434",
+  "artifact_url": "https://github.com/andreassamitsch/HausCheckAIExchange/actions/runs/30419302434/artifacts/8711307112",
+  "artifact_digest": "18fc9697d002bb96e6ffa9362e775df9c9d94863e50148548aee79bdd1b97781",
+  "expires_after_days": 3,
+  "files": [
+    {
+      "name": "3f66a103.zip",
+      "source_path": "ai_exchange/exports/pending/3f66a103.zip",
+      "size_bytes": 1801077,
+      "sha256": "63e1bc719380fb0b09c293a92c9d50395ca32adf88ccaacc9d6f03d689d96f55"
+    },
+    {
+      "name": "4c79ba18.zip",
+      "source_path": "ai_exchange/exports/pending/4c79ba18.zip",
+      "size_bytes": 3550881,
+      "sha256": "d6a1115b2d685dfc68fe45b961e438e8c7d7844b7001c3c7cc28ef69744806bc"
+    },
+    {
+      "name": "4e09b605.zip",
+      "source_path": "ai_exchange/exports/pending/4e09b605.zip",
+      "size_bytes": 849182,
+      "sha256": "c79b0dd73e24be3a2f1fd2070819304ba6db8579e5bfd1348261442d04970697"
+    },
+    {
+      "name": "5a0b49ad.zip",
+      "source_path": "ai_exchange/exports/pending/5a0b49ad.zip",
+      "size_bytes": 943135,
+      "sha256": "ec857992b37fb8c35bbd03e41a9908f344c3be99b083c82a026904b3d74f1172"
+    },
+    {
+      "name": "5fbc4694.zip",
+      "source_path": "ai_exchange/exports/pending/5fbc4694.zip",
+      "size_bytes": 1508768,
+      "sha256": "0c20e2682a6b28ccde46c5532f2f9edec96206b56697903bef285c9e306e58e9"
+    }
+  ]
 }
