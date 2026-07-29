@@ -1,0 +1,175 @@
+{
+  "house_id": "a24cfb92",
+  "analysis_date": "2026-07-29T06:04:45+00:00",
+  "new_score": 40,
+  "confidence": "mittel",
+  "summary": "Gesichert ist nur ein beworbenes Fertighausprojekt mit 125 m², 5 Zimmern und einem Angebotspreis von 201.300 € inklusive Fundament; die konkrete Grundstücks- und Leistungsabgrenzung bleibt offen. Die Bilder zeigen überwiegend Pläne, Zertifikate, Tabellen, ein ausdrücklich als Musterbild bezeichnetes Grundstück und eine Rendering-Visualisierung, nicht den realen Bauzustand.",
+  "positive_findings": [
+    "Kompakter Grundriss mit rund 125 m² und fünf Zimmern ist dargestellt.",
+    "Fundament wird im Titel als enthalten beworben.",
+    "Grundstücksgröße von 1.024 m² ist im Inserat angegeben."
+  ],
+  "risk_findings": [
+    "Kein einziges echtes Foto des konkreten Hauses oder Bauzustands.",
+    "Grundstücksbild ist ausdrücklich ein Musterbild; konkrete Lage, Hang, Boden und Erschließung sind nicht nachgewiesen.",
+    "Der Preis dürfte nicht alle Kosten bis zur bezugsfertigen Übergabe umfassen; Ausbaustufe und Nebenkosten sind unklar.",
+    "Keine belastbaren Energiekennzahlen vorhanden."
+  ],
+  "estimated_investment_eur": {
+    "low": 90000,
+    "high": 200000,
+    "confidence": "niedrig",
+    "comment": "Grobe Reserve für Grundstück/Mehrkosten, Erdarbeiten, Anschlüsse, Außenanlagen, Haustechnik- und Ausstattungsaufpreise. Nicht als Kostenvoranschlag verstehen; der tatsächliche Leistungsumfang ist ungeklärt."
+  },
+  "address_hints": [
+    {
+      "hint": "8455 Oberhaag",
+      "basis": "Inseratsort und Postleitzahl; keine exakte Adresse bestätigt.",
+      "confidence": "hoch"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/01.jpg",
+      "area": "Dokument",
+      "condition": "Wien-Zert-Siegel; kein Zustandsnachweis.",
+      "positive": [],
+      "risks": [],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/02.jpg",
+      "area": "Werbegrafik",
+      "condition": "Firmenlogo; kein Zustandsnachweis.",
+      "positive": [],
+      "risks": [],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/03.jpg",
+      "area": "Flächenaufstellung",
+      "condition": "Textgrafik zum Erdgeschoss; plausibilisiert Raumprogramm.",
+      "positive": [],
+      "risks": [],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/04.jpg",
+      "area": "Grundriss Obergeschoss",
+      "condition": "Plan, kein gebauter Zustand.",
+      "positive": [],
+      "risks": [],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/05.jpg",
+      "area": "Grundstück",
+      "condition": "Ausdrücklich als Musterbild gekennzeichnet.",
+      "positive": [],
+      "risks": [
+        "Nicht das konkrete Grundstück."
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/06.jpg",
+      "area": "Flächenaufstellung",
+      "condition": "Textgrafik zum Obergeschoss.",
+      "positive": [],
+      "risks": [],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/07.jpg",
+      "area": "Hausvisualisierung",
+      "condition": "Rendering/Marketingbild.",
+      "positive": [],
+      "risks": [
+        "Nicht als Nachweis für tatsächliche Ausführung oder Außenanlagen verwendbar."
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/08.jpg",
+      "area": "Leistungstabelle",
+      "condition": "Kleine tabellarische Übersicht; Details aus Bild nicht sicher lesbar.",
+      "positive": [],
+      "risks": [
+        "Leistungsumfang muss schriftlich geprüft werden."
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/09.jpg",
+      "area": "Grundriss Erdgeschoss",
+      "condition": "Plan, kein gebauter Zustand.",
+      "positive": [],
+      "risks": [],
+      "confidence": "hoch"
+    }
+  ],
+  "recommendation": "Nur weiterverfolgen, wenn ein verbindliches, detailliertes Angebot bis bezugsfertig sowie konkrete Grundstücksdaten vorgelegt werden. Der Lockpreis allein ist nicht kaufentscheidungsfähig.",
+  "next_steps": [
+    "Vollständige Bau- und Leistungsbeschreibung inklusive Ausbaustufe, Haustechnik und Marken anfordern.",
+    "Klären, ob Grundstückspreis, Aufschließung, Anschlüsse, Erdarbeiten, Außenanlagen, Gebühren und Nebenkosten enthalten sind.",
+    "Bodengutachten, Widmung, Bebauungsbestimmungen und konkrete Parzelle prüfen.",
+    "Fixpreisbindung, Preisgleitklauseln, Bauzeit, Gewährleistung und Zahlungsplan juristisch prüfen.",
+    "Energieausweis und belastbare Gesamtkostenrechnung verlangen."
+  ],
+  "score_reasoning": "Der niedrige Score folgt aus der sehr dünnen Beweislage und dem hohen Risiko erheblicher Zusatzkosten. Positiv sind das dargestellte Raumprogramm und der niedrige Einstiegspreis; ohne konkretes Grundstück und belastbare Leistungsabgrenzung ist das Angebot jedoch nicht seriös vergleichbar.",
+  "limitations": [
+    "Keine reale Baustelle und kein konkretes Grundstück sichtbar.",
+    "Keine Energiekennzahlen.",
+    "Tabelleninhalte auf dem kleinen Exportbild nur eingeschränkt lesbar.",
+    "Keine Prüfung von Vertrag, Statik, Boden, Genehmigungen oder tatsächlichen Angeboten."
+  ],
+  "price_assessment": {
+    "asking_price_eur": 201300,
+    "fair_value_low_eur": null,
+    "fair_value_high_eur": null,
+    "suggested_first_offer_eur": null,
+    "suggested_target_price_eur": null,
+    "maximum_recommended_price_eur": null,
+    "confidence": "niedrig",
+    "reasoning": "Mangels konkreter Parzelle, verbindlicher Ausbaustufe und vollständiger Gesamtkosten ist keine seriöse Kaufpreisbandbreite ableitbar."
+  },
+  "investment_items": [
+    {
+      "category": "Baunebenkosten",
+      "measure": "Erdarbeiten, Anschlüsse, Gebühren und Außenanlagen",
+      "priority": "unklar",
+      "low_eur": 50000,
+      "high_eur": 120000,
+      "confidence": "niedrig",
+      "basis": "Typische, im Paket nicht klar enthaltene Projektkosten."
+    },
+    {
+      "category": "Ausbau/Ausstattung",
+      "measure": "Aufpreise bis bezugsfertiger Standard",
+      "priority": "unklar",
+      "low_eur": 40000,
+      "high_eur": 80000,
+      "confidence": "niedrig",
+      "basis": "Ausbaustufe ist nicht eindeutig dokumentiert."
+    }
+  ],
+  "estimated_total_cost_eur": {
+    "low": 291300,
+    "high": 401300,
+    "confidence": "niedrig",
+    "includes_purchase_price": true,
+    "includes_acquisition_costs": false,
+    "comment": "Rechnerische Summe aus beworbenem Preis und grober Reserve; Grundstückspreis kann zusätzlich oder anders abgegrenzt sein."
+  },
+  "image_coverage": {
+    "exported_images_reviewed": 9,
+    "exterior_images": 1,
+    "interior_images": 0,
+    "technical_or_outbuilding_images": 0,
+    "plans_or_documents": 8,
+    "unclassified_images": 0,
+    "comment": "Alle 9 Bilder geprüft. Das einzige Grundstücksbild ist ein Musterbild; die Hausansicht ist ein Rendering."
+  },
+  "analysis_request_id": "f4134d47b2834aff95d891d4b153205f",
+  "source": "manual_chatgpt_upload"
+}
