@@ -1,0 +1,229 @@
+{
+  "house_id": "2f197093",
+  "analysis_date": "2026-08-02T17:01:56+00:00",
+  "new_score": 63,
+  "confidence": "mittel",
+  "summary": "Gesichert sind ein Angebotspreis von 379.000 EUR, rund 182 m² Wohnfläche, 3.867 m² Grundfläche, vier Zimmer sowie HWB 85 kWh/m²a und fGEE 1,17. Die 22 geprüften Bilder zeigen ein bewohntes, überwiegend modernisiertes Einfamilienhaus mit zeitgemäßer Küche, mehreren erneuerten Sanitärbereichen, gepflegten Wohnräumen, Carport, Nebengebäude und großem Hanggrundstück. Abgeleitet wirkt das Objekt grundsätzlich bezugsfähig. Unsicher bleiben Baujahr, Umfang und Qualität der Sanierung, Heizung und Haustechnik, Keller- und Feuchtezustand, Dachalter, Leitungen, Elektrik sowie Hangsicherung und Entwässerung.",
+  "positive_findings": [
+    "Gesichert: Wohnfläche, Grundstücksgröße und Energiekennzahlen sind im Inserat strukturiert angegeben.",
+    "Gesichert aus Bildern: Küche, Bäder und mehrere Wohnräume wirken modernisiert und unmittelbar nutzbar.",
+    "Gesichert aus Bildern: Fassade und geneigte Ziegeldächer erscheinen aus der Distanz geschlossen; keine großflächigen Schäden sind sichtbar.",
+    "Gesichert aus Bildern: Carport, überdachter Außenbereich und ein separates Nebengebäude erweitern die Nutzbarkeit.",
+    "Abgeleitet: Der Innenausbau ist insgesamt gepflegt und reduziert den kurzfristigen kosmetischen Sanierungsdruck."
+  ],
+  "risk_findings": [
+    "Gesichert: Das Grundstück liegt deutlich am Hang; Zufahrt, Oberflächenwasser, Stützungen und Böschungsstabilität sind vor Ort zu prüfen.",
+    "Gesichert: HWB 85 und fGEE 1,17 sind nur mittelmäßig und sprechen trotz beworbener Sanierung nicht für einen energetischen Neubauzustand.",
+    "Abgeleitet: Dachflächen und einzelne Außenbauteile wirken nicht durchgehend neuwertig; Alter, Unterdach und Dichtheit sind unklar.",
+    "Abgeleitet: Das Nebengebäude und der Carport wirken funktional, aber konstruktiv einfacher und teils älter; Genehmigung und Zustand sind zu klären.",
+    "Unsicher: Keine Bilder von Heizraum, Elektroverteilung, Keller, Fundamenten oder Leitungsinstallationen; wesentliche Kostenrisiken bleiben offen.",
+    "Unsicher: Das Baujahr fehlt; der fehlerhafte Ortstext '1951 Anzahl WC' darf nicht als Baujahr übernommen werden."
+  ],
+  "estimated_investment_eur": {
+    "low": 35000,
+    "high": 130000,
+    "confidence": "niedrig",
+    "comment": "Grobe Reserve für technische Nachprüfungen, mögliche Heizungs-/Elektro-/Dachmaßnahmen, energetische Verbesserungen, Hangentwässerung und Außenanlagen. Der sichtbare Innenausbau ist bereits weitgehend modernisiert; ohne technische Unterlagen und Besichtigung ist die Bandbreite unsicher."
+  },
+  "address_hints": [
+    {
+      "hint": "Gemeindegebiet 8551 Wies, Südweststeiermark",
+      "basis": "Inseratstitel und Quellenangabe nennen Wies; eine exakte Adresse ist nicht bestätigt.",
+      "confidence": "hoch"
+    },
+    {
+      "hint": "Ausgeprägte Hanglage in ländlich bewaldetem Umfeld",
+      "basis": "Mehrere Außenbilder zeigen ein stark geneigtes Grundstück mit Baumbestand und Blick in hügelige Landschaft.",
+      "confidence": "hoch"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/01.jpg, images/11.jpg, images/16.jpg",
+      "area": "Erschließung, Stiegenhaus und Eingangsbereich",
+      "condition": "Gepflegt und funktional, mit teils älteren Holzelementen.",
+      "positive": [
+        "Saubere Oberflächen",
+        "Nutzbare Erschließung",
+        "Keine sichtbaren massiven Schäden"
+      ],
+      "risks": [
+        "Treppengeländer und Holzbauteile altersbedingt prüfen",
+        "Keine Aussage zu Tragwerk oder Abdichtung"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/02.jpg, images/07.jpg, images/20.jpg",
+      "area": "Wohn- und Essbereiche",
+      "condition": "Bewohnt, gepflegt und überwiegend modernisiert.",
+      "positive": [
+        "Ordentliche Böden und Wände",
+        "Kaminofen als Zusatzwärmequelle sichtbar",
+        "Gute natürliche Belichtung"
+      ],
+      "risks": [
+        "Technischer Zustand des Ofens und Kamins nicht beurteilbar"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/06.jpg, images/08.jpg, images/18.jpg",
+      "area": "Schlaf- und Arbeitsräume",
+      "condition": "Einfach bis zeitgemäß ausgebaut und gepflegt.",
+      "positive": [
+        "Nutzbare Raumgrößen",
+        "Keine klaren Feuchte- oder Schimmelspuren sichtbar"
+      ],
+      "risks": [
+        "Dachschrägen und Anschlüsse nur oberflächlich sichtbar",
+        "Keine Aussage zu Dämmung"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/15.jpg",
+      "area": "Küche",
+      "condition": "Zeitgemäße Einbauküche in gepflegtem Zustand.",
+      "positive": [
+        "Modernisierte Möblierung",
+        "Ordentliche Arbeitsflächen und Fliesen"
+      ],
+      "risks": [
+        "Alter und Funktion der Geräte nicht überprüfbar"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/12.jpg, images/17.jpg, images/21.jpg, images/22.jpg",
+      "area": "Sanitärräume",
+      "condition": "Mehrere modernisierte Bäder und WCs mit zeitgemäßen Fliesen und Sanitärobjekten.",
+      "positive": [
+        "Modernisierter Gesamteindruck",
+        "Bodengleiche Dusche in einem Bad",
+        "Mehrere Sanitärbereiche"
+      ],
+      "risks": [
+        "Abdichtung, Leitungsalter und Lüftung nicht sichtbar",
+        "Teilweise enge Raumaufteilung"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/03.jpg, images/04.jpg, images/05.jpg, images/10.jpg, images/14.jpg, images/19.jpg",
+      "area": "Fassade, Dach, Terrasse und Hanggrundstück",
+      "condition": "Außen optisch gepflegt; Haus liegt deutlich am Hang, Dachflächen wirken intakt, aber nicht eindeutig neu.",
+      "positive": [
+        "Großes grünes Grundstück",
+        "Überdachter Außenbereich",
+        "Keine großflächigen Fassadenabplatzungen sichtbar"
+      ],
+      "risks": [
+        "Hangwasser und Entwässerung",
+        "Dachalter und Unterdach unbekannt",
+        "Pflegeaufwand des steilen Grundstücks"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/09.jpg, images/13.jpg",
+      "area": "Nebengebäude und Carport",
+      "condition": "Funktional nutzbar, teilweise ältere bzw. einfache Konstruktionen.",
+      "positive": [
+        "Zusätzlicher Stauraum",
+        "Überdachter Stellplatz"
+      ],
+      "risks": [
+        "Baurechtlicher Konsens unbekannt",
+        "Holz- und Dachkonstruktionen vor Ort prüfen"
+      ],
+      "confidence": "mittel"
+    }
+  ],
+  "recommendation": "Das Objekt ist wegen Größe, Grundstück und modernisiertem Innenausbau grundsätzlich prüfenswert, aber nicht ohne technische und rechtliche Due Diligence. Vor einem Angebot sollten insbesondere Heizung, Elektro, Leitungen, Dach, Feuchte/Keller, Hangentwässerung, Zufahrt sowie Genehmigungen von Carport und Nebengebäude geprüft werden. Bei bestätigtem gutem Technikzustand ist das Haus interessant; bei größerem Sanierungsstau ist der Angebotspreis zu hoch.",
+  "next_steps": [
+    "Vollständiges Exposé, Bauakt, Einreichpläne, Benützungsbewilligungen und Sanierungsrechnungen anfordern.",
+    "Heizsystem, Alter, Verbrauch, Wartungen und Energieausweis vollständig prüfen.",
+    "Bausachverständige Besichtigung mit Feuchtemessung in Keller/Sockel und Prüfung von Dach, Fassade, Fenstern und Tragwerk durchführen.",
+    "Elektroverteilung, Schutzschalter, Leitungen, Wasser- und Abwasserinstallationen durch Fachleute prüfen lassen.",
+    "Hangentwässerung, Stützmauern, Böschungen, Zufahrt und Oberflächenwasser bei Starkregen bewerten.",
+    "Widmung, Grundstücksgrenzen, Dienstbarkeiten sowie Konsens von Carport, Terrasse und Nebengebäude klären.",
+    "Erst nach Kostenschätzung und Grundbuchprüfung ein belastbares Kaufangebot festlegen."
+  ],
+  "score_reasoning": "Der Score von 63 liegt im Bereich 'prüfen'. Positiv wirken 182 m² Wohnfläche, das große Grundstück, der gepflegte und modernisierte Innenausbau sowie brauchbare Energiekennzahlen. Abzüge ergeben sich aus dem hohen Angebotspreis, der ausgeprägten Hanglage, fehlenden technischen Unterlagen, unbekanntem Baujahr und Sanierungsumfang sowie fehlenden Bildern von Keller und Haustechnik. Die Bildbasis ist deutlich besser als bei einer reinen Außenanalyse, reicht aber nicht für eine hohe Sicherheit.",
+  "limitations": [
+    "Keine Exposé-Texte oder Original-PDFs mit technischen Details enthalten.",
+    "Keine exakte Adresse bestätigt.",
+    "Keine Innenansichten von Keller, Heizraum oder Elektroverteilung.",
+    "Fotos erlauben keine sichere Beurteilung von Feuchte, Statik, Abdichtung, Leitungen oder energetischem Aufbau.",
+    "Keine regionalen Vergleichspreise oder Grundbuchdaten im Paket; daher keine belastbare Verkehrswertermittlung.",
+    "Inserat nennt eine Sanierung, dokumentiert aber weder Zeitpunkt noch Umfang."
+  ],
+  "price_assessment": {
+    "asking_price_eur": 379000,
+    "fair_value_low_eur": null,
+    "fair_value_high_eur": null,
+    "suggested_first_offer_eur": null,
+    "suggested_target_price_eur": null,
+    "maximum_recommended_price_eur": null,
+    "confidence": "niedrig",
+    "reasoning": "Ohne exakte Lage, Baujahr, technische Zustandsdaten, Sanierungsnachweise, Grundbuch und belastbare Vergleichsobjekte wäre eine konkrete Kaufpreisbandbreite spekulativ. Der Preis kann nur nach Besichtigung und Kostenschätzung bewertet werden."
+  },
+  "investment_items": [
+    {
+      "category": "Technische Gebäudeausrüstung",
+      "measure": "Reserve für Heizung, Elektro und Leitungen nach Befund",
+      "priority": "unklar",
+      "low_eur": 10000,
+      "high_eur": 60000,
+      "confidence": "niedrig",
+      "basis": "Keine Technikbilder oder Angaben zu Alter und Zustand vorhanden."
+    },
+    {
+      "category": "Dach und Gebäudehülle",
+      "measure": "Wartung oder Teilmaßnahmen an Dach, Anschlüssen, Fenstern und Fassade",
+      "priority": "mittelfristig",
+      "low_eur": 5000,
+      "high_eur": 35000,
+      "confidence": "niedrig",
+      "basis": "Außenbilder zeigen geschlossene, aber nicht eindeutig neue Bauteile."
+    },
+    {
+      "category": "Hang und Entwässerung",
+      "measure": "Prüfung und mögliche Verbesserung von Oberflächenwasserführung, Drainage und Böschungssicherung",
+      "priority": "kurzfristig",
+      "low_eur": 5000,
+      "high_eur": 25000,
+      "confidence": "niedrig",
+      "basis": "Deutlich geneigtes Grundstück direkt am Gebäude."
+    },
+    {
+      "category": "Nebengebäude und Außenanlagen",
+      "measure": "Instandhaltung von Carport, Nebengebäude, Terrasse und Zufahrt",
+      "priority": "mittelfristig",
+      "low_eur": 5000,
+      "high_eur": 20000,
+      "confidence": "niedrig",
+      "basis": "Sichtbare ältere bzw. einfache Außenkonstruktionen und große Außenfläche."
+    }
+  ],
+  "estimated_total_cost_eur": {
+    "low": 414000,
+    "high": 509000,
+    "confidence": "niedrig",
+    "includes_purchase_price": true,
+    "includes_acquisition_costs": false,
+    "comment": "Reine Addition des Angebotspreises von 379.000 EUR und der groben Investitionsreserve von 35.000 bis 130.000 EUR. Kaufnebenkosten, Finanzierung, Steuern und unentdeckte Schäden sind nicht enthalten."
+  },
+  "image_coverage": {
+    "exported_images_reviewed": 22,
+    "exterior_images": 6,
+    "interior_images": 14,
+    "technical_or_outbuilding_images": 2,
+    "plans_or_documents": 0,
+    "unclassified_images": 0,
+    "comment": "Alle 22 exportierten JPGs wurden visuell geprüft. Es waren keine erkennbaren KI-Renderings, Werbegrafiken oder Planseiten enthalten. Technikraum und Keller fehlen."
+  },
+  "analysis_request_id": "f3926c4f65f74b34bf3a6209904fee73",
+  "source": "manual_chatgpt_upload"
+}
