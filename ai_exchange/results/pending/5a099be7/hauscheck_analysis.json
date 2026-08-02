@@ -1,0 +1,180 @@
+{
+  "house_id": "5a099be7",
+  "analysis_date": "2026-08-02T12:04:02+00:00",
+  "new_score": 52,
+  "confidence": "mittel",
+  "summary": "Gesichert sind ein Einfamilienhaus in 8544 Brunn mit 140 m² Wohnfläche, 1.239 m² Grundstück, 5 Zimmern, einem Angebotspreis von 295.000 Euro sowie sehr schwachen Energiekennzahlen (HWB 217,4 kWh/m²a, fGEE 2,56). Die 11 geprüften Bilder zeigen ein äußerlich gepflegtes, aber in Ausstattung und Technik überwiegend älteres Haus mit großem, eben wirkendem Garten und freier Aussicht. Abgeleitet ist ein erheblicher energetischer und mittelfristiger Modernisierungsbedarf. Unsicher bleiben Baujahr, genaue Heizungsausführung, Dach-, Leitungs-, Keller- und Feuchtezustand sowie der Umfang früherer Sanierungen.",
+  "positive_findings": [
+    "Gesichert: großes Grundstück mit 1.239 m² und augenscheinlich gut nutzbarer Gartenfläche.",
+    "Gesichert: ruhige, offene Lage mit freiem Blick über angrenzende Grünflächen ist auf mehreren Außenbildern erkennbar.",
+    "Gesichert: Fassade und Außenanlagen wirken auf den vorliegenden Bildern grundsätzlich gepflegt; keine großflächigen sichtbaren Fassadenrisse.",
+    "Gesichert: Wohnräume, Küche und Bad sind nutzbar und wirken ordentlich erhalten.",
+    "Abgeleitet: der Grundriss dürfte für eine Familie grundsätzlich brauchbar sein, da 140 m² und 5 Zimmer angegeben sind."
+  ],
+  "risk_findings": [
+    "Gesichert: HWB 217,4 und fGEE 2,56 weisen auf einen energetisch sehr schlechten Bestand hin.",
+    "Gesichert: Küche, Bad, Wand- und Deckenverkleidungen sowie ein Teil der Innenausstattung sind deutlich älteren Datums.",
+    "Abgeleitet: Fenster, Heizverteilung, Gebäudehülle und Dach sollten wegen der Energiekennzahlen umfassend geprüft werden.",
+    "Abgeleitet: auf Teilen der Dachdeckung ist eine altersbedingte Verschmutzung beziehungsweise Bewuchs erkennbar; daraus kann ohne Vor-Ort-Prüfung kein technischer Schaden abgeleitet werden.",
+    "Unsicher: Keller, Fundament, Abdichtung, Elektroinstallation, Wasserleitungen und tatsächlicher Feuchtezustand sind nicht dokumentiert.",
+    "Unsicher: die konkrete Ausführung und das Alter der laut Datengrundlage vorhandenen Fernwärmeheizung fehlen."
+  ],
+  "estimated_investment_eur": {
+    "low": 90000,
+    "high": 220000,
+    "confidence": "niedrig",
+    "comment": "Grobe Bandbreite für energetische Verbesserung, mögliche Fenster-/Dachmaßnahmen, Innenmodernisierung von Küche und Bad sowie Reserve für unbekannte Haustechnik. Ohne Baujahr, Sanierungsnachweise, Keller- und Technikfotos ist die Spanne bewusst breit."
+  },
+  "address_hints": [
+    {
+      "hint": "Gemeindegebiet 8544 Brunn / Pölfing-Brunn, ruhige Siedlungsrand- oder Sackgassenlage",
+      "basis": "Inseratstitel und location_text nennen 8544 Brunn; Außenbilder zeigen angrenzende Grünflächen und lockere Bebauung.",
+      "confidence": "mittel"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/01.jpg",
+      "area": "Straßenseitige Außenansicht und Eingang",
+      "condition": "Gepflegt wirkende Fassade eines älteren Bestandsgebäudes; Eingangsvorbau und Einfriedung sichtbar.",
+      "positive": ["Keine großflächigen sichtbaren Fassadenschäden", "Ordentlicher Außenbereich"],
+      "risks": ["Fenster- und Fassadenalter nicht bestimmbar"],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/02.jpg",
+      "area": "Garten und rückwärtige Gebäudeansicht",
+      "condition": "Großer, grüner Garten; rückwärtiger eingeschossiger Gebäudeteil beziehungsweise Anbau sichtbar.",
+      "positive": ["Große nutzbare Freifläche", "Ruhiger Gesamteindruck"],
+      "risks": ["Baulicher Zustand und Genehmigung des Anbaus nicht beurteilbar"],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/03.jpg",
+      "area": "Essbereich",
+      "condition": "Ordentlich, aber gestalterisch deutlich älter; Holzboden und Eckbank vorhanden.",
+      "positive": ["Nutzbarer, gepflegter Raum", "Holzboden wirkt erhalten"],
+      "risks": ["Modernisierungsbedarf bei Oberflächen und Ausstattung"],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/04.jpg",
+      "area": "Dach und Seitenfassade",
+      "condition": "Ziegeldach mit sichtbarer Alterung beziehungsweise Verschmutzung; Fassade ohne auffällige großflächige Risse.",
+      "positive": ["Dachfläche wirkt geschlossen"],
+      "risks": ["Restlebensdauer, Unterdach und Dämmung nicht beurteilbar"],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/05.jpg",
+      "area": "Ausblick und Grundstücksumfeld",
+      "condition": "Freier Blick über Felder und lockere Bebauung.",
+      "positive": ["Offene Aussicht", "Geringe sichtbare Bebauungsdichte"],
+      "risks": [],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/06.jpg",
+      "area": "Bad/Dusche",
+      "condition": "Kleines, funktionales Bad mit älteren Fliesen und einfacher Ausstattung.",
+      "positive": ["Nutzbarer Zustand", "Fenster vorhanden"],
+      "risks": ["Sanitär- und Abdichtungszustand unbekannt", "Gestalterisch und technisch älter"],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/07.jpg",
+      "area": "Wohnzimmer",
+      "condition": "Gepflegt, jedoch ältere Wandverkleidung, Heizkörper und Ausstattung.",
+      "positive": ["Ordentlich erhaltener Raum", "Großes Fenster"],
+      "risks": ["Modernisierungsbedarf", "Fensterqualität nicht erkennbar"],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/08.jpg",
+      "area": "Flur/Eingangsbereich",
+      "condition": "Ältere Holzdecken- und Wandgestaltung, ansonsten sauberer Eindruck.",
+      "positive": ["Gepflegter Erhaltungszustand"],
+      "risks": ["Oberflächenmodernisierung wahrscheinlich"],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/09.jpg",
+      "area": "Küche",
+      "condition": "Voll ausgestattete, aber ältere Einbauküche mit älteren Fronten und Fliesenspiegel.",
+      "positive": ["Sofort nutzbar"],
+      "risks": ["Mittelfristiger Erneuerungsbedarf bei Küche und Geräten"],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/10.jpg",
+      "area": "Seitliche Außenansicht",
+      "condition": "Gepflegte Fassade und Garten; kleiner Balkon sichtbar.",
+      "positive": ["Ordentlicher äußerer Gesamteindruck", "Große Gartenfläche"],
+      "risks": ["Balkonabdichtung und Fensterzustand nicht beurteilbar"],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/11.jpg",
+      "area": "Garten und rückwärtige Grundstücksfläche",
+      "condition": "Große ebene Rasenfläche mit Bäumen und Hecken; Gebäude im Hintergrund.",
+      "positive": ["Sehr gut nutzbarer Garten", "Sichtschutz durch Bewuchs"],
+      "risks": ["Grundstücksgrenzen aus dem Bild nicht ableitbar"],
+      "confidence": "hoch"
+    }
+  ],
+  "recommendation": "Objekt weiterprüfen, aber den Angebotspreis nur unter Vorbehalt betrachten. Die Lage, Grundstücksgröße und Wohnfläche sind attraktiv; die sehr schlechten Energiekennzahlen und die ältere Ausstattung sprechen jedoch für eine technische Besichtigung mit belastbarer Sanierungskostenschätzung vor jedem Angebot.",
+  "next_steps": [
+    "Energieausweis vollständig anfordern und Baujahr, Bauteilaufbauten sowie bisherige Sanierungen klären.",
+    "Heizsystem genau dokumentieren lassen: Fernwärmeanschluss, Übergabestation, Alter, jährliche Kosten und Heizkörpernetz.",
+    "Dach inklusive Unterdach, Dämmung, Kaminanschlüsse und Dachentwässerung durch Fachperson prüfen.",
+    "Fensteralter, Verglasung und Dichtheit erfassen.",
+    "Keller/Fundament auf Feuchte, Salzausblühungen und Geruch prüfen.",
+    "Elektroinstallation, Wasserleitungen und Kanalzustand prüfen lassen.",
+    "Flächenwidmung, Zufahrt, Grundstücksgrenzen und allfällige Dienstbarkeiten aus Grundbuch und Plänen prüfen.",
+    "Vor Kaufangebot mindestens zwei Sanierungsszenarien kalkulieren: notwendige Basissanierung und umfassende energetische Sanierung."
+  ],
+  "score_reasoning": "Der Score liegt im Bereich 'prüfen'. Positiv wirken Grundstück, ruhige Lage, brauchbare Größe und ein insgesamt gepflegter sichtbarer Zustand. Deutlich negativ wirken HWB 217,4, fGEE 2,56, die ältere Innenausstattung und die vielen technisch nicht dokumentierten Bereiche. Das Preisniveau kann ohne Baujahr, Heizungskosten, Sanierungsnachweise und Vor-Ort-Befund nicht als günstig bestätigt werden.",
+  "limitations": [
+    "Nur 11 von laut listing.json insgesamt 33 Medien wurden exportiert; die Analyse bezieht sich ausschließlich auf diese Dateien.",
+    "Keine Keller-, Technikraum-, Elektro-, Leitungs- oder Detailbilder vorhanden.",
+    "Kein vollständiger Exposétext und keine Originalunterlagen enthalten.",
+    "Baujahr und Sanierungshistorie fehlen.",
+    "Bildanalyse ersetzt keine Bauwerksdiagnostik und keine rechtliche Prüfung."
+  ],
+  "price_assessment": {
+    "asking_price_eur": 295000,
+    "fair_value_low_eur": 240000,
+    "fair_value_high_eur": 275000,
+    "suggested_first_offer_eur": 235000,
+    "suggested_target_price_eur": 255000,
+    "maximum_recommended_price_eur": 275000,
+    "confidence": "niedrig",
+    "reasoning": "Die Einschätzung berücksichtigt 140 m² Wohnfläche, 1.239 m² Grundstück, den gepflegten sichtbaren Zustand und die ruhige Lage, zieht aber einen deutlichen Abschlag für die sehr schlechten Energiekennzahlen, ältere Ausstattung und unbekannte technische Risiken ab. Ohne genaue Adresse, Baujahr, Vergleichsobjekte und Vor-Ort-Befund ist dies keine belastbare Verkehrswertermittlung."
+  },
+  "investment_items": [
+    {"category":"Energie/Gebäudehülle","measure":"Energetisches Gesamtkonzept inklusive Dämmung, Fenster und Wärmebrückenprüfung","priority":"kurzfristig","low_eur":45000,"high_eur":120000,"confidence":"niedrig","basis":"Gesicherter HWB 217,4 und fGEE 2,56; konkrete Bauteilzustände unbekannt."},
+    {"category":"Dach","measure":"Dachprüfung und je nach Befund Reparatur, Dämmung oder Erneuerung","priority":"unklar","low_eur":5000,"high_eur":50000,"confidence":"niedrig","basis":"Ältere Dachdeckung sichtbar; technischer Zustand und Unterdach nicht dokumentiert."},
+    {"category":"Bad","measure":"Modernisierung inklusive Abdichtung und Sanitär","priority":"mittelfristig","low_eur":15000,"high_eur":30000,"confidence":"mittel","basis":"Bad ist sichtbar älter, aber aktuell nutzbar."},
+    {"category":"Küche","measure":"Erneuerung der Küche und gegebenenfalls Geräte","priority":"mittelfristig","low_eur":12000,"high_eur":25000,"confidence":"mittel","basis":"Vorhandene Einbauküche ist sichtbar älter."},
+    {"category":"Innenausbau","measure":"Oberflächen, Holzverkleidungen, Malerarbeiten und Böden nach Wunsch","priority":"optional","low_eur":10000,"high_eur":30000,"confidence":"niedrig","basis":"Mehrere Räume zeigen ältere Oberflächen und Verkleidungen."},
+    {"category":"Haustechnikreserve","measure":"Reserve für Elektro, Wasserleitungen, Heizverteilung und unerwartete Mängel","priority":"unklar","low_eur":10000,"high_eur":40000,"confidence":"niedrig","basis":"Keine technischen Fotos oder Altersangaben vorhanden."}
+  ],
+  "estimated_total_cost_eur": {
+    "low": 345000,
+    "high": 495000,
+    "confidence": "niedrig",
+    "includes_purchase_price": true,
+    "includes_acquisition_costs": false,
+    "comment": "Grobe Summe aus einem Zielkaufpreis um 255.000 Euro und etwa 90.000 bis 240.000 Euro für Modernisierung und Risikoreserve. Kaufnebenkosten, Finanzierung und Steuern sind nicht enthalten."
+  },
+  "image_coverage": {
+    "exported_images_reviewed": 11,
+    "exterior_images": 5,
+    "interior_images": 6,
+    "technical_or_outbuilding_images": 0,
+    "plans_or_documents": 0,
+    "unclassified_images": 0,
+    "comment": "Alle 11 exportierten JPG-Dateien wurden visuell geprüft. Es waren keine erkennbaren KI-Renderings, Werbegrafiken oder Pläne enthalten."
+  },
+  "analysis_request_id": "10706c7ecff24e30a24c8501de4a5d03"
+}
