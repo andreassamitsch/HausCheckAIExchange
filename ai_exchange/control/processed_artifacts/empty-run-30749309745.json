@@ -1,0 +1,10 @@
+{
+  "kind": "hauscheck_processed_artifact_marker",
+  "status": "empty",
+  "artifact_id": null,
+  "artifact_name": null,
+  "run_id": 30749309745,
+  "processed_house_ids": [],
+  "errors": [],
+  "processed_at": "2026-08-02T15:01:58Z"
+}
