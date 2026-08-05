@@ -1,0 +1,16 @@
+{
+  "kind": "hauscheck_processed_artifact",
+  "version": 1,
+  "artifact_id": 8927854163,
+  "artifact_name": "hauscheck-pending-31000088409",
+  "run_id": 31000088409,
+  "processed_at": "2026-08-05T12:08:15+00:00",
+  "status": "completed",
+  "processed_house_ids": [
+    "5a099be7"
+  ],
+  "successful_house_ids": [
+    "5a099be7"
+  ],
+  "errors": []
+}
