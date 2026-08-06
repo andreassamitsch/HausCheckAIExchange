@@ -1,0 +1,169 @@
+{
+  "house_id": "b21943da",
+  "analysis_date": "2026-08-06T07:02:08+00:00",
+  "new_score": 47,
+  "confidence": "mittel",
+  "summary": "Gesichert ist ein Einfamilienhaus Baujahr 1954 mit rund 135 m² Wohnfläche, 1.395 m² Grundstück, Öl-Zentralheizung, einem Angebotspreis von 195.000 EUR und einem sehr hohen HWB von 306,9 kWh/m²a. Die drei realen Außenaufnahmen zeigen ein traditionelles, äußerlich grundsätzlich stehendes und gepflegtes Gebäude mit älterem Dach, älteren Fenstern und deutlichem energetischem Modernisierungsbedarf. Zwei weitere Bilder stellen erkennbar eine digital modernisierte Zieloptik dar und sind kein Nachweis des Ist-Zustands. Innenräume, Keller, Haustechnik und Bauschäden sind nicht dokumentiert. Das Objekt ist wegen Lage und Grundstück grundsätzlich prüfenswert, aber nur mit umfassender technischer Prüfung und ausreichend großer Sanierungsreserve.",
+  "positive_findings": [
+    "Gesichert: Angebotspreis 195.000 EUR bei 135 m² Wohnfläche und 1.395 m² Grundstück.",
+    "Gesichert: ruhige, grüne Lage im Gemeindegebiet Eibiswald; die Außenbilder zeigen ein großzügiges, weitgehend eben wirkendes Gartengrundstück.",
+    "Gesichert: Fassade und Dachflächen wirken auf den realen Fernaufnahmen geschlossen; keine eindeutigen großflächigen Einsturz- oder Sturmschäden sichtbar.",
+    "Abgeleitet: traditionelle Gebäudeform mit Keller-/Sockelgeschoss kann grundsätzlich Sanierungs- und Nutzungspotenzial bieten."
+  ],
+  "risk_findings": [
+    "Gesichert: HWB 306,9 kWh/m²a weist auf einen sehr hohen Heizwärmebedarf hin.",
+    "Gesichert: Öl-Zentralheizung; Alter, Funktion und Tankzustand sind nicht angegeben.",
+    "Gesichert: Baujahr 1954 und äußerlich ältere Bauteile, insbesondere Dachdeckung, Fenster und Balkon, sprechen für erheblichen Prüf- und Modernisierungsbedarf.",
+    "Gesichert: keine realen Innenraum-, Keller-, Technik-, Bad- oder Küchenbilder vorhanden.",
+    "Gesichert: Bilder 04 und 05 sind digital beziehungsweise KI-bearbeitete Modernisierungsdarstellungen und dürfen nicht als Zustandsnachweis verwendet werden.",
+    "Unsicher: Feuchtigkeit, Abdichtung, Elektroinstallation, Wasserleitungen, Kanal, Tragwerk und Schadstoffe sind nicht beurteilbar.",
+    "Unsicher: Dachalter, Dämmstandard und Sanierungshistorie fehlen."
+  ],
+  "estimated_investment_eur": {
+    "low": 140000,
+    "high": 300000,
+    "confidence": "niedrig",
+    "comment": "Sehr grober Rahmen für eine umfassende energetische und technische Modernisierung eines Hauses von 1954. Enthalten sein können Heizung, Fenster, Dämmung, Dacharbeiten, Elektro/Installationen und Innenausbau. Ohne Innenbesichtigung, Flächenaufteilung, Bauteilöffnungen und Angebote ist die Spanne unsicher; bei gut erhaltenen oder bereits sanierten Bauteilen kann sie niedriger, bei Feuchte-, Statik- oder Schadstoffproblemen höher ausfallen."
+  },
+  "address_hints": [
+    {
+      "hint": "Hörmsdorf bei Eibiswald, 8552 Eibiswald",
+      "basis": "Inseratbeschreibung nennt Hörmsdorf bei Eibiswald; listing.json enthält nur den Gemeindestatus und keine exakte Adresse.",
+      "confidence": "mittel"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/01.jpg",
+      "area": "Außenansicht Vorder- und Längsseite",
+      "condition": "Reales Objektfoto. Traditionelles Haus, Baujahr 1954 an der Fassade bezeichnet. Ältere Dachdeckung, Holzfenster/Fensterläden und Holzbalkon sichtbar; Fassade wirkt aus Distanz weitgehend geschlossen.",
+      "positive": ["Großzügiger Garten", "Keine groben Dachfehlstellen aus dieser Perspektive erkennbar"],
+      "risks": ["Ältere Fenster", "Alterungs- und Wartungsbedarf an Dach und Balkon möglich", "Keller-/Sockelzustand nur eingeschränkt sichtbar"],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/02.jpg",
+      "area": "Außenansicht Rückseite und Grundstück",
+      "condition": "Reales Objektfoto. Rückseite mit älterer Fassade, Dachdeckung und Garten; Brunnen oder Wasserstelle im Grundstück sichtbar.",
+      "positive": ["Freie Gartenfläche", "Ruhiges, grünes Umfeld"],
+      "risks": ["Dach und Fenster wirken älter", "Funktion und Rechtmäßigkeit der Wasserstelle ungeklärt", "Entwässerung und Grundstücksgefälle nicht sicher beurteilbar"],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/03.jpg",
+      "area": "Außenansicht Haus und Garten",
+      "condition": "Reales Objektfoto. Dachfläche, Fassade, Sockel und Garten aus größerer Distanz sichtbar; keine eindeutigen akuten Großschäden erkennbar.",
+      "positive": ["Große nutzbare Außenfläche", "Gebäude wirkt äußerlich vollständig"],
+      "risks": ["Alter Dachdeckung und Fenster", "Keine Detailaussage zu Feuchte, Rissen oder Dachundichtigkeiten möglich"],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/04.jpg",
+      "area": "Digitale Modernisierungsdarstellung seitlicher Eingang",
+      "condition": "Erkennbar digital beziehungsweise KI-bearbeitet. Moderne Fenster, Fassade, Eingang, Beleuchtung und Balkon zeigen eine mögliche Zielgestaltung, nicht den Ist-Zustand.",
+      "positive": ["Veranschaulicht mögliches Gestaltungspotenzial"],
+      "risks": ["Nicht als Nachweis für vorhandene Sanierungen, Bauteile oder Ausführungsqualität verwendbar"],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/05.jpg",
+      "area": "Digitale Modernisierungsdarstellung Hauptfassade",
+      "condition": "Erkennbar digital beziehungsweise KI-bearbeitete Zielansicht mit neuer Fassade, Fenstern, Türen, Balkon und Dachoptik; kein Ist-Zustand.",
+      "positive": ["Zeigt mögliches architektonisches Potenzial"],
+      "risks": ["Nicht als Zustands- oder Leistungsnachweis verwenden", "Kosten und technische Machbarkeit der dargestellten Sanierung sind unbekannt"],
+      "confidence": "hoch"
+    }
+  ],
+  "recommendation": "Nur als Sanierungsobjekt weiterverfolgen. Vor einem Angebot sind eine ausführliche Besichtigung mit Bausachverständigem, Feuchteprüfung im Keller/Sockel, Dach- und Tragwerksprüfung, Kontrolle von Öl-Heizung und Tank sowie eine belastbare Kostenschätzung erforderlich. Bei bestätigtem umfassendem Sanierungsbedarf sollte der Kaufpreis genügend Abstand zum Angebotspreis lassen, damit Gesamtbudget und Risiken tragbar bleiben.",
+  "next_steps": [
+    "Vollständiges Exposé, Grundrisse, Energieausweis und Sanierungsnachweise anfordern.",
+    "Innenräume, Keller, Dachboden, Technikraum und Öltank besichtigen und fotografisch dokumentieren.",
+    "Bausachverständigen für Feuchte, Risse, Dach, Tragwerk und mögliche Schadstoffe beiziehen.",
+    "Alter und Zustand von Heizung, Tank, Fenstern, Elektro-, Wasser- und Abwasserinstallationen klären.",
+    "Sanierungsvarianten mit Förderfähigkeit und mindestens zwei Kostenschätzungen rechnen.",
+    "Zufahrt, Leitungsrechte, Widmung, Hochwasser-/Rutschungsrisiko und tatsächliche Grundstücksgrenzen prüfen."
+  ],
+  "score_reasoning": "Der relativ niedrige Kaufpreis, die Wohn- und Grundstücksgröße sowie die ruhige Lage sind positiv. Stark negativ wirken der extrem hohe HWB, die Ölheizung, das Baujahr 1954, der sichtbar ältere Außenbestand und vor allem die vollständig fehlende Dokumentation von Innenräumen und Technik. Da zwei von fünf Bildern nur digitale Zielbilder sind, ist die Zustandsbasis schwach. Daraus ergibt sich ein kritischer bis knapp prüfenswerter Score von 47.",
+  "limitations": [
+    "Nur fünf Bilder vorhanden; davon drei reale Außenbilder und zwei digitale/KI-bearbeitete Modernisierungsdarstellungen.",
+    "Keine Innenraum-, Keller-, Dachboden-, Technik-, Küchen-, Bad- oder Grundrissbilder.",
+    "Kein Exposé-PDF oder extrahierter Exposé-Text im Paket enthalten.",
+    "Keine exakte Adresse bestätigt.",
+    "Keine belastbare Aussage zu Marktwert, Statik, Feuchtigkeit, Schadstoffen oder Sanierungskosten ohne Vor-Ort-Prüfung."
+  ],
+  "price_assessment": {
+    "asking_price_eur": 195000,
+    "fair_value_low_eur": null,
+    "fair_value_high_eur": null,
+    "suggested_first_offer_eur": 145000,
+    "suggested_target_price_eur": 165000,
+    "maximum_recommended_price_eur": 180000,
+    "confidence": "niedrig",
+    "reasoning": "Die genannten Angebotswerte sind keine Verkehrswertermittlung. Wegen des HWB von 306,9, der Ölheizung, des Baujahrs und des sehr lückenhaft dokumentierten Zustands ist ein deutlicher Risikoabschlag gegenüber 195.000 EUR sinnvoll. Eine faire Wertspanne wird ohne genaue Lage, Innenzustand, Grundriss, Rechte/Lasten und Vergleichsobjekte bewusst nicht behauptet. Das Maximum gilt nur, falls Besichtigung und Gutachten keine gravierenden Feuchte-, Dach-, Statik- oder Schadstoffprobleme zeigen."
+  },
+  "investment_items": [
+    {
+      "category": "Heizung",
+      "measure": "Ölheizung und Tank prüfen; voraussichtlich Umstieg auf zeitgemäßes Heizsystem planen",
+      "priority": "kurzfristig",
+      "low_eur": 25000,
+      "high_eur": 55000,
+      "confidence": "niedrig",
+      "basis": "Inserat nennt Öl-Zentralheizung; Alter und Zustand unbekannt."
+    },
+    {
+      "category": "Gebäudehülle",
+      "measure": "Fenster, Fassade und Dämmung energetisch sanieren",
+      "priority": "kurzfristig",
+      "low_eur": 45000,
+      "high_eur": 100000,
+      "confidence": "niedrig",
+      "basis": "Sehr hoher HWB und auf realen Bildern ältere Fenster/Fassade."
+    },
+    {
+      "category": "Dach",
+      "measure": "Dachdeckung, Unterdach, Holztragwerk und Dämmung prüfen; Sanierung bei Bedarf",
+      "priority": "unklar",
+      "low_eur": 30000,
+      "high_eur": 80000,
+      "confidence": "niedrig",
+      "basis": "Dach wirkt älter; Detailzustand und Aufbau unbekannt."
+    },
+    {
+      "category": "Haustechnik und Innenausbau",
+      "measure": "Elektro, Wasser/Abwasser, Bad, Küche, Oberflächen und Grundriss nach Befund erneuern",
+      "priority": "unklar",
+      "low_eur": 40000,
+      "high_eur": 120000,
+      "confidence": "niedrig",
+      "basis": "Baujahr 1954; keine Innen- oder Technikbilder und keine Sanierungsnachweise."
+    },
+    {
+      "category": "Feuchte und Abdichtung",
+      "measure": "Keller/Sockel auf Feuchte prüfen und nur bei bestätigtem Befund sanieren",
+      "priority": "unklar",
+      "low_eur": null,
+      "high_eur": null,
+      "confidence": "niedrig",
+      "basis": "Keller-/Sockelgeschoss vorhanden, Zustand jedoch visuell nicht ausreichend beurteilbar."
+    }
+  ],
+  "estimated_total_cost_eur": {
+    "low": 305000,
+    "high": 480000,
+    "confidence": "niedrig",
+    "includes_purchase_price": true,
+    "includes_acquisition_costs": false,
+    "comment": "Grobe Summe aus Zielkaufpreis von etwa 165.000 bis maximal 180.000 EUR und geschätztem Investitionsrahmen von 140.000 bis 300.000 EUR. Kaufnebenkosten, Finanzierung, Eigenleistung und unentdeckte Schäden sind nicht enthalten."
+  },
+  "image_coverage": {
+    "exported_images_reviewed": 5,
+    "exterior_images": 3,
+    "interior_images": 0,
+    "technical_or_outbuilding_images": 0,
+    "plans_or_documents": 0,
+    "unclassified_images": 2,
+    "comment": "Alle fünf Bilder wurden geprüft. Bilder 01 bis 03 sind reale Außenaufnahmen. Bilder 04 und 05 sind digital beziehungsweise KI-bearbeitete Modernisierungsdarstellungen und wurden nicht als Zustandsnachweis verwendet."
+  },
+  "analysis_request_id": "acb2f50f579f485aaaa7adbdd535f4a6"
+}
