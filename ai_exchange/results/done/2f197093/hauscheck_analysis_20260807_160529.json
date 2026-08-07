@@ -1,0 +1,327 @@
+{
+  "house_id": "2f197093",
+  "analysis_date": "2026-08-07T15:59:32+00:00",
+  "new_score": 64,
+  "confidence": "mittel",
+  "summary": "Gesichert sind 182 m² Wohnfläche, 3.867 m² Grundstück, Baujahr 1951, Kaufpreis 379.000 €, Pellet-Zentralheizung, HWB 85 und fGEE 1,17. Die 23 geprüften Bilder zeigen einen überwiegend gepflegten und teilweise modernisierten Innenzustand mit moderner Küche und mehreren erneuerten Sanitärbereichen. Gleichzeitig ist die starke Hanglage klar sichtbar; Keller, Haustechnik, Leitungen, Elektrik, Dachaufbau und Hangentwässerung sind nicht ausreichend dokumentiert. Insgesamt interessant, aber nur nach technischer Prüfung und Klärung der Sanierungsmaßnahmen.",
+  "positive_findings": [
+    "Gesichert: großzügige Wohnfläche von 182 m² und Grundstücksfläche von 3.867 m².",
+    "Gesichert: HWB 85 kWh/m²a und fGEE 1,17 laut Inseratsdaten.",
+    "Gesichert: Pellet-Zentralheizung laut Inseratsdaten.",
+    "Gesichert aus Bildern: Küche wirkt modernisiert und gepflegt.",
+    "Gesichert aus Bildern: mehrere Bäder/Sanitärbereiche wirken erneuert und nutzbar.",
+    "Gesichert aus Bildern: Wohn- und Schlafräume wirken insgesamt gepflegt; keine offensichtlichen großflächigen Schäden erkennbar."
+  ],
+  "risk_findings": [
+    "Gesichert aus Bildern: deutliche Hanglage unmittelbar am Gebäude; Entwässerung, Böschungssicherung und Oberflächenwasser sind prüfbedürftig.",
+    "Unsicher: Zustand von Keller, Fundamentabdichtung und möglicher Feuchtebelastung ist nicht beurteilbar.",
+    "Unsicher: Alter/Zustand der Pelletanlage, Verteilung, Warmwasserbereitung und Wartung sind nicht dokumentiert.",
+    "Unsicher: Elektrik, Wasser-/Abwasserleitungen und Dachaufbau sind nicht ausreichend dokumentiert.",
+    "Abgeleitet: einzelne Außen- und Nebenbereiche wirken älter als die modernisierten Innenräume; Sanierungsumfang könnte uneinheitlich sein."
+  ],
+  "estimated_investment_eur": {
+    "low": 35000,
+    "high": 140000,
+    "confidence": "niedrig",
+    "comment": "Grobe Reserve für technisch nicht dokumentierte Bereiche, Hang-/Entwässerungsthemen, Haustechnik und mögliche Nacharbeiten. Kein Zustands- oder Verkehrswertgutachten."
+  },
+  "address_hints": [
+    {
+      "hint": "8551 Wies",
+      "basis": "listing.json nennt nur Gemeinde/PLZ; keine exakte Adresse bestätigt.",
+      "confidence": "hoch"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/01.jpg",
+      "area": "Innenraum/Treppe",
+      "condition": "gepflegt/wohnfertig wirkend",
+      "positive": [],
+      "risks": [],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/02.jpg",
+      "area": "Wohnraum",
+      "condition": "gepflegt/wohnfertig wirkend",
+      "positive": [],
+      "risks": [],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/03.jpg",
+      "area": "Außenansicht/Zufahrt",
+      "condition": "Außen-/Nebenbereich, aus Bild nur grob beurteilbar",
+      "positive": [],
+      "risks": [
+        "Hanglage/Entwässerung prüfen"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/04.jpg",
+      "area": "Außenansicht/Hang",
+      "condition": "Außen-/Nebenbereich, aus Bild nur grob beurteilbar",
+      "positive": [],
+      "risks": [
+        "Hanglage/Entwässerung prüfen"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/05.jpg",
+      "area": "Außenansicht/Hang",
+      "condition": "Außen-/Nebenbereich, aus Bild nur grob beurteilbar",
+      "positive": [],
+      "risks": [
+        "Hanglage/Entwässerung prüfen"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/06.jpg",
+      "area": "Zimmer",
+      "condition": "gepflegt/wohnfertig wirkend",
+      "positive": [],
+      "risks": [],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/07.jpg",
+      "area": "Essbereich",
+      "condition": "gepflegt/wohnfertig wirkend",
+      "positive": [],
+      "risks": [],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/08.jpg",
+      "area": "Dachgeschosszimmer",
+      "condition": "gepflegt/wohnfertig wirkend",
+      "positive": [],
+      "risks": [],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/09.jpg",
+      "area": "Außenbereich/Nebengebäude",
+      "condition": "Außen-/Nebenbereich, aus Bild nur grob beurteilbar",
+      "positive": [],
+      "risks": [
+        "Nebengebäude nur äußerlich beurteilbar"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/10.jpg",
+      "area": "Terrasse",
+      "condition": "Außen-/Nebenbereich, aus Bild nur grob beurteilbar",
+      "positive": [],
+      "risks": [],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/11.jpg",
+      "area": "Flur/Treppe",
+      "condition": "gepflegt/wohnfertig wirkend",
+      "positive": [],
+      "risks": [],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/12.jpg",
+      "area": "WC",
+      "condition": "gepflegt/wohnfertig wirkend",
+      "positive": [
+        "modernisiert wirkender Sanitärbereich"
+      ],
+      "risks": [],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/13.jpg",
+      "area": "Carport",
+      "condition": "Außen-/Nebenbereich, aus Bild nur grob beurteilbar",
+      "positive": [],
+      "risks": [
+        "Holzkonstruktion statisch nicht geprüft"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/14.jpg",
+      "area": "Außenansicht",
+      "condition": "Außen-/Nebenbereich, aus Bild nur grob beurteilbar",
+      "positive": [],
+      "risks": [
+        "Hanglage/Entwässerung prüfen"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/15.jpg",
+      "area": "Küche",
+      "condition": "gepflegt/wohnfertig wirkend",
+      "positive": [
+        "moderne, gepflegt wirkende Einbauküche"
+      ],
+      "risks": [],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/16.jpg",
+      "area": "Eingang",
+      "condition": "gepflegt/wohnfertig wirkend",
+      "positive": [],
+      "risks": [],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/17.jpg",
+      "area": "Bad",
+      "condition": "gepflegt/wohnfertig wirkend",
+      "positive": [
+        "modernisiert wirkender Sanitärbereich"
+      ],
+      "risks": [],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/18.jpg",
+      "area": "Schlafzimmer",
+      "condition": "gepflegt/wohnfertig wirkend",
+      "positive": [],
+      "risks": [],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/19.jpg",
+      "area": "überdachter Außenbereich",
+      "condition": "Außen-/Nebenbereich, aus Bild nur grob beurteilbar",
+      "positive": [],
+      "risks": [],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/20.jpg",
+      "area": "Wohnzimmer",
+      "condition": "gepflegt/wohnfertig wirkend",
+      "positive": [],
+      "risks": [],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/21.jpg",
+      "area": "Bad/Dusche",
+      "condition": "gepflegt/wohnfertig wirkend",
+      "positive": [
+        "modernisiert wirkender Sanitärbereich"
+      ],
+      "risks": [],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/22.jpg",
+      "area": "Bad",
+      "condition": "gepflegt/wohnfertig wirkend",
+      "positive": [
+        "modernisiert wirkender Sanitärbereich"
+      ],
+      "risks": [],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/23.jpg",
+      "area": "Außenansicht",
+      "condition": "Außen-/Nebenbereich, aus Bild nur grob beurteilbar",
+      "positive": [],
+      "risks": [
+        "Hanglage/Entwässerung prüfen"
+      ],
+      "confidence": "mittel"
+    }
+  ],
+  "recommendation": "Besichtigung sinnvoll, aber Kaufentscheidung erst nach technischer Prüfung von Keller/Feuchte, Hangentwässerung, Dach und Haustechnik. Die modernisierten Innenräume sind positiv, ersetzen aber keine Prüfung der älteren Gebäudesubstanz.",
+  "next_steps": [
+    "Sanierungsnachweise mit Jahresangaben und Rechnungen anfordern.",
+    "Keller/Fundamentabdichtung und Feuchte mit Bausachverständigem prüfen.",
+    "Hangentwässerung, Oberflächenwasser und Stützkonstruktionen prüfen.",
+    "Pelletanlage inklusive Alter, Wartung und Ersatzteilversorgung dokumentieren lassen.",
+    "Dach, Elektrik sowie Wasser-/Abwasserleitungen prüfen."
+  ],
+  "score_reasoning": "Der Score liegt im oberen Bereich von „prüfen“: gute Flächen, brauchbare Energiekennzahlen und sichtbar modernisierte Innenräume wirken positiv. Abzüge entstehen durch Baujahr 1951, starke Hanglage und fehlende technische Dokumentation wesentlicher Bauteile sowie den hohen Kaufpreis in Verbindung mit möglichen Folgekosten.",
+  "limitations": [
+    "Keine exakte Objektadresse bestätigt.",
+    "Keine Innenansicht von Keller oder Technikraum im Export.",
+    "Bilder erlauben keine Aussage zu verdeckten Feuchte-, Statik-, Leitungs- oder Abdichtungsschäden.",
+    "Keine vollständigen Sanierungsnachweise im Paket."
+  ],
+  "price_assessment": {
+    "asking_price_eur": 379000,
+    "fair_value_low_eur": 330000,
+    "fair_value_high_eur": 370000,
+    "suggested_first_offer_eur": 325000,
+    "suggested_target_price_eur": 350000,
+    "maximum_recommended_price_eur": 370000,
+    "confidence": "niedrig",
+    "reasoning": "Nur grobe Einschätzung aus Inseratsdaten, sichtbarem Zustand und Risikoreserve. Ohne Mikrolage, Grundbuch, Sanierungsbelege und technische Prüfung ist keine belastbare Verkehrswertermittlung möglich."
+  },
+  "investment_items": [
+    {
+      "category": "Hang/Entwässerung",
+      "measure": "Entwässerung, Drainage, Böschung/Stützung prüfen und ggf. verbessern",
+      "priority": "kurzfristig",
+      "low_eur": 5000,
+      "high_eur": 40000,
+      "confidence": "niedrig",
+      "basis": "starke Hanglage auf mehreren Außenbildern"
+    },
+    {
+      "category": "Haustechnik",
+      "measure": "Reserve für Pelletanlage/Verteilung/Warmwasser",
+      "priority": "mittelfristig",
+      "low_eur": 5000,
+      "high_eur": 30000,
+      "confidence": "niedrig",
+      "basis": "Anlage nicht bildlich oder technisch dokumentiert"
+    },
+    {
+      "category": "Gebäudehülle/Keller",
+      "measure": "Reserve für Abdichtung, Dach- oder Anschlussarbeiten",
+      "priority": "unklar",
+      "low_eur": 15000,
+      "high_eur": 70000,
+      "confidence": "niedrig",
+      "basis": "älteres Baujahr, verdeckte Bauteile nicht dokumentiert"
+    },
+    {
+      "category": "Elektro/Leitungen",
+      "measure": "Prüfung und mögliche Teilmodernisierung",
+      "priority": "unklar",
+      "low_eur": 10000,
+      "high_eur": 30000,
+      "confidence": "niedrig",
+      "basis": "keine technische Dokumentation"
+    }
+  ],
+  "estimated_total_cost_eur": {
+    "low": 385000,
+    "high": 490000,
+    "confidence": "niedrig",
+    "includes_purchase_price": true,
+    "includes_acquisition_costs": false,
+    "comment": "Grob aus Zielkaufpreis ca. 350.000 € plus Investitionsreserve 35.000–140.000 €; Nebenkosten/Finanzierung nicht enthalten."
+  },
+  "image_coverage": {
+    "exported_images_reviewed": 23,
+    "exterior_images": 7,
+    "interior_images": 14,
+    "technical_or_outbuilding_images": 2,
+    "plans_or_documents": 0,
+    "unclassified_images": 0,
+    "comment": "Alle 23 exportierten Bilder wurden tatsächlich visuell geprüft."
+  },
+  "analysis_request_id": "da01accc47644bf989bb5eaf533ded52",
+  "source": "manual_chatgpt_upload"
+}
