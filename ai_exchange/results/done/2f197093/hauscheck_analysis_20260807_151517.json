@@ -1,0 +1,392 @@
+{
+  "house_id": "2f197093",
+  "analysis_date": "2026-08-07T15:05:19+00:00",
+  "new_score": 64,
+  "confidence": "mittel",
+  "summary": "[gesichert] Inseratdaten nennen 379.000 €, 182 m² Wohnfläche, 3.867 m² Grundstück, Baujahr 1951, Pellet-Zentralheizung, HWB 85 und fGEE 1,17. Die 23 geprüften Bilder zeigen überwiegend gepflegte bzw. modernisierte Innenräume mit moderner Küche und mehreren erneuerten Bädern sowie ein großes, deutlich geneigtes Grundstück. [abgeleitet] Der optische Modernisierungsgrad ist für ein Haus dieses Baujahrs gut, die Hanglage und der Bestand können aber relevante Kosten für Entwässerung, Abdichtung und Instandhaltung verursachen. [unsicher] Zustand von Kellerabdichtung, Tragwerk, Leitungen, Elektrik, Pelletanlage und Dachaufbau ist aus dem Paket nicht ausreichend beurteilbar.",
+  "positive_findings": [
+    "[gesichert] Küche wirkt modernisiert und in gutem sichtbaren Zustand.",
+    "[gesichert] Mehrere Sanitärbereiche wirken erneuert; großformatige Fliesen und moderne Armaturen sind sichtbar.",
+    "[gesichert] Wohn- und Schlafräume wirken überwiegend gepflegt; keine großflächigen sichtbaren Feuchte- oder Schimmelschäden auf den exportierten Innenbildern.",
+    "[gesichert] Dachdeckung wirkt auf den Fernaufnahmen geschlossen; Fassade macht insgesamt einen gepflegten Eindruck.",
+    "[gesichert] Sehr großes Grundstück mit 3.867 m² laut Inserat.",
+    "[abgeleitet] Der Innenausbau dürfte einen wesentlichen Teil einer früheren Sanierung bereits abdecken."
+  ],
+  "risk_findings": [
+    "[gesichert] Grundstück liegt deutlich am Hang; Höhenunterschiede unmittelbar am Gebäude sind sichtbar.",
+    "[gesichert] Teilweise ältere/uneinheitliche Außen- und Nebenbauteile, etwa Holz-Nebengebäude, Carport und überdachte Terrasse.",
+    "[abgeleitet] Hangwasser, Oberflächenentwässerung und erdberührte Bauteile sind zentrale Prüfpunkte; aus Bildern allein ist keine Dichtheit ableitbar.",
+    "[unsicher] Alter und technischer Zustand der Pelletheizung sind nicht dokumentiert.",
+    "[unsicher] Elektrik, Wasser-/Abwasserleitungen, Keller, Fundament, Dachaufbau und Dämmstandard sind nicht direkt dokumentiert.",
+    "[unsicher] Der Umfang und das Jahr der beworbenen Sanierung sind im Paket nicht belegt."
+  ],
+  "estimated_investment_eur": {
+    "low": 35000,
+    "high": 140000,
+    "confidence": "niedrig",
+    "comment": "Grobe Reserve für altersbedingte Technik-/Gebäudeinstandhaltung, mögliche Arbeiten an Hangentwässerung/Abdichtung, Außenbauteilen und Nebenanlagen. Keine festgestellten Pflichtmaßnahmen; ohne technische Unterlagen und Besichtigung große Bandbreite."
+  },
+  "address_hints": [
+    {
+      "hint": "8551 Wies",
+      "basis": "listing.json und Quellen nennen nur Gemeinde/PLZ; keine exakte Adresse bestätigt.",
+      "confidence": "hoch"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/01.jpg",
+      "area": "Innenraum/Treppe",
+      "condition": "[gesichert] Gepflegte Holztreppe und heller Wand-/Deckenbereich; keine groben Schäden sichtbar.",
+      "positive": [
+        "Holztreppe wirkt gepflegt."
+      ],
+      "risks": [
+        "Technischer Aufbau nicht beurteilbar."
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/02.jpg",
+      "area": "Wohnraum/Kamin",
+      "condition": "[gesichert] Wohnraum mit massiv wirkender Kaminverkleidung und großformatigem Bodenbelag.",
+      "positive": [
+        "Innenraum wirkt gepflegt."
+      ],
+      "risks": [
+        "Zulassung/Zustand von Feuerstätte und Kaminzug unsicher."
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/03.jpg",
+      "area": "Außenansicht/Zufahrt",
+      "condition": "[gesichert] Haus an steiler Geländekante; Zufahrt und Garten sichtbar.",
+      "positive": [
+        "Fassade wirkt geschlossen."
+      ],
+      "risks": [
+        "Starke Hanglage; Entwässerung und Böschungssicherung prüfen."
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/04.jpg",
+      "area": "Außenansicht/Dach/Hang",
+      "condition": "[gesichert] Dachflächen und direkt angrenzender Hang sichtbar.",
+      "positive": [
+        "Dachdeckung wirkt aus Distanz weitgehend gleichmäßig."
+      ],
+      "risks": [
+        "Wasserführung am Hang unklar."
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/05.jpg",
+      "area": "Außenansicht/Dach",
+      "condition": "[gesichert] Hauptdach mit Ziegeldeckung und Anbau/Überdachung sichtbar.",
+      "positive": [
+        "Keine offensichtlich fehlenden Dachziegel erkennbar."
+      ],
+      "risks": [
+        "Alter, Unterdach und Anschlüsse nicht beurteilbar."
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/06.jpg",
+      "area": "Schlaf-/Kinderzimmer",
+      "condition": "[gesichert] Gepflegter ausgebauter Innenraum mit Heizkörper und Balkontür/Fenster.",
+      "positive": [
+        "Ordentlicher sichtbarer Ausbau."
+      ],
+      "risks": [
+        "Fensteralter und Anschlussdetails nicht feststellbar."
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/07.jpg",
+      "area": "Essbereich",
+      "condition": "[gesichert] Gepflegter Essbereich mit großformatigem Boden.",
+      "positive": [
+        "Modernisierter Gesamteindruck."
+      ],
+      "risks": [],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/08.jpg",
+      "area": "Dachgeschosszimmer",
+      "condition": "[gesichert] Ausgebauter Raum unter Dachschräge.",
+      "positive": [
+        "Nutzbarer ausgebauter Dachraum."
+      ],
+      "risks": [
+        "Dachdämmung und Feuchteschutz hinter Verkleidung unsicher."
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/09.jpg",
+      "area": "Außenbereich/Nebengebäude",
+      "condition": "[gesichert] Älteres Holz-Nebengebäude neben dem Wohnhaus.",
+      "positive": [
+        "Zusätzliche Nutzfläche vorhanden."
+      ],
+      "risks": [
+        "Tragwerk/Dach des Nebengebäudes prüfen."
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/10.jpg",
+      "area": "Außenbereich/Terrasse",
+      "condition": "[gesichert] Gepflasterte Terrasse direkt am Hang mit Stützelementen.",
+      "positive": [
+        "Nutzbare befestigte Freifläche."
+      ],
+      "risks": [
+        "Entwässerung und Standsicherheit hangseitig prüfen."
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/11.jpg",
+      "area": "Flur",
+      "condition": "[gesichert] Flur und Holztreppe wirken gepflegt.",
+      "positive": [
+        "Ordentlicher Innenzustand."
+      ],
+      "risks": [],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/12.jpg",
+      "area": "WC",
+      "condition": "[gesichert] Modernisiertes separates WC mit wandhängender Keramik und Unterputzspülung.",
+      "positive": [
+        "Zeitgemäßer sichtbarer Sanitärstandard."
+      ],
+      "risks": [
+        "Installationen hinter der Verkleidung nicht beurteilbar."
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/13.jpg",
+      "area": "Carport/Nebengebäude",
+      "condition": "[gesichert] Holz-Carport mit geneigtem Dach; Mauer-/Hanganschluss sichtbar.",
+      "positive": [
+        "Überdachter Stellplatz."
+      ],
+      "risks": [
+        "Holz- und Dachzustand sowie Stützkonstruktion prüfen."
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/14.jpg",
+      "area": "Außenansicht/Hangseite",
+      "condition": "[gesichert] Wohnhaus liegt in deutlich geneigtem Gelände.",
+      "positive": [
+        "Fassade wirkt gepflegt."
+      ],
+      "risks": [
+        "Hangwasser und Geländestabilität sind Prüfpunkte."
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/15.jpg",
+      "area": "Küche",
+      "condition": "[gesichert] Moderne Einbauküche mit gepflegten Fronten.",
+      "positive": [
+        "Küche wirkt relativ neu und gebrauchsfertig."
+      ],
+      "risks": [
+        "Gerätealter/Funktion nicht beurteilbar."
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/16.jpg",
+      "area": "Eingangsbereich",
+      "condition": "[gesichert] Gepflegter Eingangsbereich mit Fliesen und älter wirkender Holztür.",
+      "positive": [
+        "Ordentliche Oberflächen."
+      ],
+      "risks": [
+        "Wärmeschutz/Sicherheit der Eingangstür unklar."
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/17.jpg",
+      "area": "Bad",
+      "condition": "[gesichert] Modernisiertes Bad mit freistehender Wanne und großformatigen Fliesen.",
+      "positive": [
+        "Modernisierter Sanitärbereich."
+      ],
+      "risks": [
+        "Abdichtung und Leitungszustand unsichtbar."
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/18.jpg",
+      "area": "Schlafzimmer",
+      "condition": "[gesichert] Gepflegter Raum mit Holz-/Laminatboden und Fenster.",
+      "positive": [
+        "Keine auffälligen Oberflächenschäden sichtbar."
+      ],
+      "risks": [
+        "Fenster und Dämmung technisch nicht beurteilbar."
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/19.jpg",
+      "area": "Überdachte Terrasse",
+      "condition": "[gesichert] Ältere überdachte Terrasse mit Kunst-/Teppichbelag und Holzkonstruktion.",
+      "positive": [
+        "Große geschützte Außenfläche."
+      ],
+      "risks": [
+        "Belag und Holzkonstruktion wirken wartungsbedürftig."
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/20.jpg",
+      "area": "Wohnzimmer",
+      "condition": "[gesichert] Gepflegter Wohnraum mit Zugang zur Terrasse.",
+      "positive": [
+        "Ordentlicher Ausbau."
+      ],
+      "risks": [],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/21.jpg",
+      "area": "Dusche/Bad",
+      "condition": "[gesichert] Geflieste bodennahe Dusche und moderne Armaturen.",
+      "positive": [
+        "Modernisierter Sanitärbereich."
+      ],
+      "risks": [
+        "Gefälle/Abdichtung technisch nicht beurteilbar."
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/22.jpg",
+      "area": "Bad",
+      "condition": "[gesichert] Bad mit Wanne, WC und Bidet; Oberflächen wirken gepflegt.",
+      "positive": [
+        "Vollwertige Sanitärausstattung."
+      ],
+      "risks": [
+        "Leitungs- und Abdichtungszustand unsichtbar."
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/23.jpg",
+      "area": "Außenansicht/Hang",
+      "condition": "[gesichert] Weitere Hang-/Hausansicht; keine neuen sichtbaren Schäden.",
+      "positive": [
+        "Gepflegter Gesamteindruck aus Distanz."
+      ],
+      "risks": [
+        "Hang- und Entwässerungsthema bestätigt sich."
+      ],
+      "confidence": "hoch"
+    }
+  ],
+  "recommendation": "Objekt bleibt für eine technische Besichtigung interessant, sollte aber nicht allein wegen der optisch guten Innenräume bewertet werden. Vor Preisentscheidung Hangentwässerung, Keller/erdberührte Bauteile, Dach, Elektro-/Leitungsbestand und Pelletanlage fachlich prüfen und Sanierungsnachweise anfordern.",
+  "next_steps": [
+    "Sanierungsjahr und Rechnungen/Nachweise zu Dach, Fenstern, Fassade, Elektrik, Leitungen, Bädern und Heizung anfordern.",
+    "Pelletkessel: Hersteller, Baujahr, Wartungsprotokolle, Lagerraum und Abgasweg prüfen.",
+    "Hangseite und Oberflächenentwässerung mit Sachverständigem prüfen; Drainagen und Stützelemente dokumentieren lassen.",
+    "Keller/erdberührte Bauteile auf Feuchte, Geruch, Ausblühungen und Abdichtung prüfen.",
+    "Dachboden/Dachaufbau einschließlich Unterdach und Dämmstärke besichtigen.",
+    "Grundbuch, Zufahrt, Grundstücksgrenzen und mögliche Dienstbarkeiten prüfen."
+  ],
+  "score_reasoning": "64/100: Positiv sind große Wohn-/Grundstücksfläche, moderater HWB für einen Altbau, Pelletheizung und sichtbar modernisierter Innenzustand. Abzüge durch Baujahr 1951, starken Hang, unbekannten technischen Sanierungsumfang und fehlende Nachweise zu zentralen Bauteilen. Der Angebotspreis ist ohne Marktvergleich und technische Prüfung nicht belastbar bewertbar.",
+  "limitations": [
+    "Keine Exposé-Dokumente/PDFs im Paket.",
+    "Keine Technikraum-/Kellerbilder.",
+    "Bildprüfung ersetzt keine Feuchte-, Elektro-, Heizungs- oder Tragwerksprüfung.",
+    "Exakte Adresse ist nicht bestätigt.",
+    "Investitionsschätzung ist eine grobe Reserve, kein Kostenvoranschlag."
+  ],
+  "price_assessment": {
+    "asking_price_eur": 379000,
+    "fair_value_low_eur": null,
+    "fair_value_high_eur": null,
+    "suggested_first_offer_eur": null,
+    "suggested_target_price_eur": null,
+    "maximum_recommended_price_eur": null,
+    "confidence": "niedrig",
+    "reasoning": "Ohne exakte Lage, Vergleichsobjekte, Sanierungsnachweise und technische Prüfung wäre eine konkrete Fair-Value- oder Angebotszahl spekulativ."
+  },
+  "investment_items": [
+    {
+      "category": "Hang/Entwässerung",
+      "measure": "Drainage, Oberflächenwasserführung, Stützungen und erdberührte Abdichtung prüfen; Maßnahmen nur bei Befund.",
+      "priority": "unklar",
+      "low_eur": 5000,
+      "high_eur": 50000,
+      "confidence": "niedrig",
+      "basis": "Deutliche Hanglage auf mehreren Außenbildern."
+    },
+    {
+      "category": "Dach/Gebäudehülle",
+      "measure": "Dach, Anschlüsse, Unterdach und Dämmung prüfen; Reparatur-/Reserveansatz.",
+      "priority": "unklar",
+      "low_eur": 5000,
+      "high_eur": 40000,
+      "confidence": "niedrig",
+      "basis": "Dach nur aus Distanz sichtbar; Baujahr 1951, Sanierungsumfang unbekannt."
+    },
+    {
+      "category": "Haustechnik",
+      "measure": "Pelletheizung, Elektrik und Leitungen prüfen; Reserve für altersbedingte Erneuerungen.",
+      "priority": "unklar",
+      "low_eur": 10000,
+      "high_eur": 40000,
+      "confidence": "niedrig",
+      "basis": "Technik nicht abgebildet und Erneuerungsjahre fehlen."
+    },
+    {
+      "category": "Außen-/Nebenanlagen",
+      "measure": "Carport, Holz-Nebengebäude und überdachte Terrasse instandhalten/teilweise erneuern.",
+      "priority": "mittelfristig",
+      "low_eur": 5000,
+      "high_eur": 20000,
+      "confidence": "niedrig",
+      "basis": "Auf Bildern sichtbar ältere Nebenbauteile."
+    }
+  ],
+  "estimated_total_cost_eur": {
+    "low": null,
+    "high": null,
+    "confidence": "niedrig",
+    "includes_purchase_price": false,
+    "includes_acquisition_costs": false,
+    "comment": "Kein belastbarer Zielkaufpreis ermittelt; daher keine Gesamtsumme gebildet."
+  },
+  "image_coverage": {
+    "exported_images_reviewed": 23,
+    "exterior_images": 7,
+    "interior_images": 14,
+    "technical_or_outbuilding_images": 2,
+    "plans_or_documents": 0,
+    "unclassified_images": 0,
+    "comment": "Alle 23 exportierten JPGs visuell geprüft. Keine erkennbaren Werbegrafiken oder KI-Renderings; zwei Bilder zeigen Nebenbauten/Carport."
+  },
+  "analysis_request_id": "639a0178e6ac406ea9a7c96de250f207",
+  "source": "manual_chatgpt_upload"
+}
