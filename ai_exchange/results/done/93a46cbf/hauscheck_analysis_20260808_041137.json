@@ -1,0 +1,316 @@
+{
+  "house_id": "93a46cbf",
+  "analysis_date": "2026-08-08T04:05:58Z",
+  "new_score": 69,
+  "confidence": "mittel",
+  "summary": "Gesichert sind 349.000 EUR Kaufpreis, 121 m² Wohnfläche, 698 m² Grundstück, 4 Zimmer, HWB 42,9 kWh/m²a und fGEE 0,57. Die realen Bilder zeigen einen modernen, weit fortgeschrittenen Neubau mit montierten Fenstern, fertiger Fassade, Wärmepumpen-/Haustechnik, teilweise fertiggestellten Außenbelägen und bereits verfliesten Nassräumen. Gleichzeitig sind mehrere Innenräume noch ohne fertige Bodenbeläge bzw. Einbauten, Sanitärgegenstände fehlen teilweise, eine reale Küche ist nicht dokumentiert und die Außenanlagen sind nur teilweise fertig. Bilder 03, 06 und 12 sind erkennbar digital inszeniert/virtuell möbliert und wurden nicht als Nachweis für den tatsächlichen Ausbauzustand gewertet. Abgeleitet ergibt sich ein insgesamt interessantes Objekt, dessen Attraktivität stark davon abhängt, welche Fertigstellungsleistungen im Kaufpreis enthalten sind.",
+  "positive_findings": [
+    "Gesichert: sehr gute Energiekennzahlen mit HWB 42,9 kWh/m²a und fGEE 0,57.",
+    "Gesichert aus Bildern: moderne Gebäudehülle, neue Fenster und optisch intakte Fassade ohne erkennbare größere Schäden.",
+    "Gesichert aus Bild 13 und 15: Wärmepumpen-/Haustechnik ist sichtbar installiert; Leitungsverteilung und Außengerät sind vorhanden.",
+    "Gesichert aus Bildern 08 und 14: Nassräume sind bereits großflächig verfliest.",
+    "Gesichert aus Bildern 05, 07, 10, 11 und 15: Terrasse/Wege sind zumindest teilweise hergestellt; Grundstück und Böschung sind bereits strukturiert.",
+    "Gesichert aus den Plänen: funktionale Aufteilung mit großem Wohn-/Kochbereich im EG und drei Zimmern im OG."
+  ],
+  "risk_findings": [
+    "Gesichert aus Bildern: mehrere Räume sind noch nicht bezugsfertig; Bodenbeläge, Leuchten und/oder Endmontagen fehlen.",
+    "Gesichert: eine tatsächlich eingebaute Küche ist auf keinem realen Bild dokumentiert; Bild 06 ist virtuell eingerichtet.",
+    "Gesichert aus Bildern 08 und 14: Sanitärbereiche sind noch nicht vollständig endmontiert.",
+    "Gesichert aus Außenbildern: Gartenflächen sind großteils Rohboden/Rasenansatz; vollständige Außenanlage ist nicht hergestellt.",
+    "Abgeleitet: bei einem Hanggrundstück sind Entwässerung, Stützelemente und Ausführung der Böschung vor Kauf technisch zu prüfen.",
+    "Unsicher: genauer Leistungsumfang des Kaufpreises, Fertigstellungsgrad bei Übergabe, Gewährleistungsstatus und behördliche Fertigstellung sind aus den vorliegenden Daten nicht vollständig beurteilbar."
+  ],
+  "estimated_investment_eur": {
+    "low": 35000,
+    "high": 90000,
+    "confidence": "niedrig",
+    "comment": "Abgeleitete grobe Reserve für noch erkennbare bzw. nicht dokumentierte Fertigstellungen wie Bodenbeläge, Küche, Sanitärausstattung, Elektro-Endmontage, Maler-/Restarbeiten und Außenanlage. Die tatsächliche Summe hängt wesentlich davon ab, welche Leistungen der Verkäufer noch im Kaufpreis fertigstellt."
+  },
+  "address_hints": [
+    {
+      "hint": "8551 Wies",
+      "basis": "listing.json führt nur Gemeinde/PLZ; kein bestätigter Straßenname im Paket.",
+      "confidence": "hoch"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/01.jpg",
+      "area": "Grundriss EG",
+      "condition": "Plan-/Werbegrafik, kein Zustandsnachweis",
+      "positive": [
+        "Großer Wohn-/Kochbereich und überdachter Stellplatz dargestellt"
+      ],
+      "risks": [
+        "Planmaße und tatsächliche Ausführung vor Ort abgleichen"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/02.jpg",
+      "area": "Innenraum",
+      "condition": "real, weitgehend fertig verputzt/gestrichen, Boden und Endmontagen fehlen",
+      "positive": [
+        "helle Oberflächen",
+        "neue Fenster"
+      ],
+      "risks": [
+        "Bodenbelag und Elektro-Endmontage fehlen sichtbar"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/03.jpg",
+      "area": "Schlafzimmer",
+      "condition": "digital/virtuell möbliert; nicht als Ausbauzustand gewertet",
+      "positive": [],
+      "risks": [
+        "Möbel, Boden und Ausstattungswirkung sind kein gesicherter Ist-Zustand"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/04.jpg",
+      "area": "Wohn-/Kochbereich",
+      "condition": "realer Roh-Fertigstellungszustand",
+      "positive": [
+        "große Fensterflächen",
+        "direkter Terrassenzugang"
+      ],
+      "risks": [
+        "Bodenbelag, Küche, Beleuchtung und Endmontagen fehlen sichtbar"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/05.jpg",
+      "area": "Terrasse/Garten",
+      "condition": "real; Terrasse teilweise fertig, Garten noch unfertig",
+      "positive": [
+        "Terrassenbelag vorhanden",
+        "Stützböschung angelegt"
+      ],
+      "risks": [
+        "Außenanlage und Begrünung noch nicht fertig",
+        "Entwässerung/Stützausführung nicht beurteilbar"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/06.jpg",
+      "area": "Wohn-/Kochbereich",
+      "condition": "digital/virtuell fertiggestellt und möbliert; kein Zustandsnachweis",
+      "positive": [],
+      "risks": [
+        "Küche, Boden, Möbel und Beleuchtung dürfen nicht als vorhanden angenommen werden"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/07.jpg",
+      "area": "Außenweg/Seitenseite",
+      "condition": "real, Wegbelag hergestellt",
+      "positive": [
+        "sauberer neuer Fassaden- und Wegzustand"
+      ],
+      "risks": [
+        "angrenzende Grünfläche noch nicht fertiggestellt"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/08.jpg",
+      "area": "Bad/Nassraum",
+      "condition": "real, Fliesen weitgehend fertig; Sanitär-Endmontage fehlt",
+      "positive": [
+        "großformatige Wand- und Bodenfliesen"
+      ],
+      "risks": [
+        "Armaturen, Sanitärobjekte und Endmontagen nicht vollständig"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/09.jpg",
+      "area": "Zimmer OG",
+      "condition": "real, Ausbau fortgeschritten aber Boden/Endmontagen fehlen",
+      "positive": [
+        "helle Fensterflächen",
+        "Terrassen-/Balkonzugang"
+      ],
+      "risks": [
+        "Bodenbelag und Elektro-Endmontage fehlen"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/10.jpg",
+      "area": "Außenansicht",
+      "condition": "real, moderner Neubau; Außenanlage teilweise unfertig",
+      "positive": [
+        "Fassade und Fenster wirken neu und intakt",
+        "überdachter Stellplatz"
+      ],
+      "risks": [
+        "Freiflächen noch nicht vollständig hergestellt"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/11.jpg",
+      "area": "Außenansicht",
+      "condition": "real, Gebäudehülle optisch fertig",
+      "positive": [
+        "klare moderne Bauform",
+        "Fassade ohne sichtbare größere Mängel"
+      ],
+      "risks": [
+        "Außenanlage noch unfertig"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/12.jpg",
+      "area": "Terrasse/Garten",
+      "condition": "digital/virtuell inszeniert; kein Nachweis der tatsächlichen Gartengestaltung",
+      "positive": [],
+      "risks": [
+        "Möblierung, fertiger Rasen und Bepflanzung sind nicht als vorhanden anzunehmen"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/13.jpg",
+      "area": "Technikraum",
+      "condition": "real, Haustechnik installiert",
+      "positive": [
+        "Wärmepumpen-/Hydraulikeinheit und Verteilleitungen sichtbar"
+      ],
+      "risks": [
+        "Inbetriebnahme, Dimensionierung, Dokumentation und Gewährleistung aus Bild nicht prüfbar"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/14.jpg",
+      "area": "Bad/Nassraum",
+      "condition": "real, Fliesen weitgehend fertig; Sanitärausstattung fehlt",
+      "positive": [
+        "großformatige Verfliesung"
+      ],
+      "risks": [
+        "Sanitär-Endmontage und Dusch-/Wannenausstattung nicht fertig sichtbar"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/15.jpg",
+      "area": "Außenbereich/Haustechnik",
+      "condition": "real; Wärmepumpen-Außengerät vorhanden, Garten unfertig",
+      "positive": [
+        "Außengerät sichtbar montiert"
+      ],
+      "risks": [
+        "Gelände/Begrünung noch nicht fertig",
+        "Schall- und Entwässerungssituation der Wärmepumpe vor Ort prüfen"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/16.jpg",
+      "area": "Grundriss OG",
+      "condition": "Plan-/Werbegrafik, kein Zustandsnachweis",
+      "positive": [
+        "drei Zimmer und Bad/WC dargestellt"
+      ],
+      "risks": [
+        "Planmaße und tatsächliche Ausführung vor Ort abgleichen"
+      ],
+      "confidence": "hoch"
+    }
+  ],
+  "recommendation": "Interessant, sofern der Kaufpreis einen klar definierten und wirtschaftlich sinnvollen Fertigstellungsumfang enthält. Vor einer Preiszusage unbedingt eine schriftliche Bau- und Leistungsbeschreibung mit Restleistungen, Fertigstellungstermin, Gewährleistung, Energie-/Haustechnikunterlagen und behördlichem Status verlangen. Falls 349.000 EUR für den aktuell sichtbaren Zustand gelten, die offenen Gewerke detailliert bepreisen und in die Verhandlung einrechnen.",
+  "next_steps": [
+    "Schriftlich klären, ob 349.000 EUR für den aktuellen, belags-/teilfertigen Zustand oder für eine schlüsselfertige Übergabe gelten.",
+    "Bau- und Leistungsbeschreibung inklusive Küche, Böden, Sanitärobjekte, Elektro-Endmontage, Malerarbeiten und Außenanlagen anfordern.",
+    "Fertigstellungsanzeige/Benützungsbewilligung bzw. einschlägigen behördlichen Status und Energieausweis prüfen.",
+    "Wärmepumpenmodell, Inbetriebnahmeprotokoll, hydraulischen Abgleich, Garantien und erwartete Betriebskosten anfordern.",
+    "Böschung, Stützelemente und Oberflächenentwässerung bei Besichtigung technisch prüfen.",
+    "Offene Restarbeiten mit konkreten Handwerkerangeboten kalkulieren, bevor ein verbindliches Angebot abgegeben wird."
+  ],
+  "score_reasoning": "Der Score liegt im Bereich 'interessant': sehr gute Energiekennzahlen, moderner Neubau und weit fortgeschrittener Ausbau sind klare Pluspunkte. Abzüge entstehen durch den sichtbar unvollständigen Innenausbau, unfertige Außenanlagen und den nicht klar dokumentierten Liefer-/Fertigstellungsumfang. Die virtuelle Inszenierung mehrerer Bilder wird nicht als positiver Zustandsnachweis gewertet.",
+  "limitations": [
+    "Keine bestätigte genaue Adresse, nur 8551 Wies.",
+    "Keine vollständige Bau- und Leistungsbeschreibung im ausgewerteten Kernpaket.",
+    "Virtuell inszenierte Bilder 03, 06 und 12 zeigen keinen gesicherten Ist-Zustand.",
+    "Dachabdichtung, Bauwerksabdichtung, Leitungs-/Elektroabnahmen und tatsächliche Inbetriebnahme der Haustechnik sind visuell nicht verifizierbar.",
+    "Investitionswerte sind grobe Ableitungen und keine Angebote von Fachfirmen."
+  ],
+  "price_assessment": {
+    "asking_price_eur": 349000,
+    "fair_value_low_eur": null,
+    "fair_value_high_eur": null,
+    "suggested_first_offer_eur": null,
+    "suggested_target_price_eur": null,
+    "maximum_recommended_price_eur": null,
+    "confidence": "niedrig",
+    "reasoning": "Ohne bestätigten Übergabe-/Fertigstellungsumfang und ohne belastbare Vergleichswerte wäre eine konkrete faire Kaufpreisspanne erfunden. Der Angebotspreis ist gesichert; eine Preisempfehlung sollte erst nach Kostenfeststellung der Restarbeiten erfolgen."
+  },
+  "investment_items": [
+    {
+      "category": "Innenausbau",
+      "measure": "Fehlende Bodenbeläge, Sockelleisten, Rest-Maler- und Endmontagearbeiten",
+      "priority": "kurzfristig",
+      "low_eur": 10000,
+      "high_eur": 25000,
+      "confidence": "mittel",
+      "basis": "Mehrere reale Innenbilder zeigen fehlende Bodenbeläge und Endmontagen."
+    },
+    {
+      "category": "Küche",
+      "measure": "Küche inklusive Geräte, falls nicht im Kaufpreis enthalten",
+      "priority": "kurzfristig",
+      "low_eur": 12000,
+      "high_eur": 30000,
+      "confidence": "niedrig",
+      "basis": "Keine reale eingebaute Küche dokumentiert; einzig Bild 06 zeigt eine virtuelle Küche."
+    },
+    {
+      "category": "Sanitär",
+      "measure": "Sanitärgegenstände, Armaturen und Endmontage in den Nassräumen",
+      "priority": "kurzfristig",
+      "low_eur": 5000,
+      "high_eur": 15000,
+      "confidence": "mittel",
+      "basis": "Bilder 08 und 14 zeigen fertige Fliesen, aber fehlende Endausstattung."
+    },
+    {
+      "category": "Außenanlage",
+      "measure": "Begrünung, Restwege/Terrasse, Geländefertigstellung und gegebenenfalls Entwässerungsdetails",
+      "priority": "mittelfristig",
+      "low_eur": 8000,
+      "high_eur": 25000,
+      "confidence": "niedrig",
+      "basis": "Reale Außenbilder zeigen nur teilweise fertige Freiflächen."
+    }
+  ],
+  "estimated_total_cost_eur": {
+    "low": 384000,
+    "high": 439000,
+    "confidence": "niedrig",
+    "includes_purchase_price": true,
+    "includes_acquisition_costs": false,
+    "comment": "Reine Rechengröße aus Angebotspreis 349.000 EUR plus grober Investitionsreserve 35.000-90.000 EUR; Kaufnebenkosten und Finanzierung nicht enthalten. Sinkt deutlich, falls Restleistungen im Kaufpreis enthalten sind."
+  },
+  "image_coverage": {
+    "exported_images_reviewed": 16,
+    "exterior_images": 6,
+    "interior_images": 6,
+    "technical_or_outbuilding_images": 2,
+    "plans_or_documents": 2,
+    "unclassified_images": 0,
+    "comment": "Alle 16 exportierten Bilder wurden visuell geprüft. Bilder 03, 06 und 12 sind digital/virtuell inszeniert und wurden nicht als Zustandsnachweis gewertet. Die Zählung ordnet Bild 15 dem Technik-/Außenbereich und die beiden Grundrisse den Planbildern zu."
+  },
+  "analysis_request_id": "14cd4aa024f7434586517fe2c6eeefe5",
+  "source": "manual_chatgpt_upload"
+}
