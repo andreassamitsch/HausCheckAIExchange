@@ -1,0 +1,180 @@
+{
+  "house_id": "b21943da",
+  "analysis_date": "2026-08-11T13:02:06+00:00",
+  "new_score": 47,
+  "confidence": "niedrig",
+  "summary": "Gesichert: Einfamilienhaus Baujahr 1954 in 8552 Eibiswald mit 135 m² Wohnfläche, 1.395 m² Grundstück, Öl-Zentralheizung und sehr hohem HWB von 306,9 kWh/m²a. Die drei realen Fotos zeigen ein älteres, traditionelles Gebäude mit großem Grundstück; grobe Außenmängel sind aus der Distanz nicht eindeutig erkennbar. Bilder 04 und 05 sind digital modernisierte Visualisierungen und wurden nicht als Zustandsnachweis verwendet. Abgeleitet: Aufgrund Baujahr, Energiekennzahl und Ölheizung ist ein erheblicher energetischer/technischer Investitionsbedarf plausibel. Unsicher: Innenzustand, Keller, Feuchte, Elektro, Leitungen, Fenster, Dachaufbau und Heizungszustand sind mangels Realbildern nicht bewertbar.",
+  "positive_findings": [
+    "Gesichert: großes Grundstück mit 1.395 m².",
+    "Gesichert: 135 m² Wohnfläche.",
+    "Gesichert: Drei reale Außenansichten zeigen ein freistehendes Haus mit großzügiger Grünfläche.",
+    "Abgeleitet: Das Gebäude wirkt auf den Außenfotos grundsätzlich erhalten; akute massive Fassaden- oder Dachschäden sind aus der gezeigten Distanz nicht klar sichtbar."
+  ],
+  "risk_findings": [
+    "Gesichert: HWB 306,9 kWh/m²a ist energetisch sehr ungünstig.",
+    "Gesichert: Öl-Zentralheizung; mittelfristiger Heizsystemwechsel ist als Investition zu prüfen.",
+    "Gesichert: Baujahr 1954 erhöht das Risiko alter Bauteile und Installationen, sofern keine nachgewiesenen Sanierungen vorliegen.",
+    "Gesichert: Es fehlen vollständig reale Innen-, Keller- und Technikaufnahmen.",
+    "Gesichert: Bilder 04 und 05 sind digital/virtuell modernisierte Darstellungen und kein Nachweis des Ist-Zustands.",
+    "Unsicher: Zustand von Dach, Fenstern, Fassade, Kellerabdichtung, Elektrik, Wasser-/Abwasserleitungen und Heizanlage kann nicht belastbar beurteilt werden."
+  ],
+  "estimated_investment_eur": {
+    "low": 140000,
+    "high": 300000,
+    "confidence": "niedrig",
+    "comment": "Sehr grobe abgeleitete Sanierungsreserve für energetische Sanierung, Heizung und mögliche altersbedingte Innen-/Technikerneuerungen. Wegen fehlender Innen- und Technikdokumentation ist die Unsicherheit besonders hoch; tatsächliche Kosten können deutlich abweichen."
+  },
+  "address_hints": [
+    {
+      "hint": "8552 Eibiswald / laut Inseratsbeschreibung Raum Hörmsdorf",
+      "basis": "listing.json nennt 8552 Eibiswald; Quellenbeschreibung erwähnt Hörmsdorf. Keine exakte Adresse bestätigt.",
+      "confidence": "mittel"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/01.jpg",
+      "area": "Außenansicht",
+      "condition": "Reales Foto der historischen Hauptfassade; traditionelles Dach und ältere Fassadengestaltung.",
+      "positive": [
+        "Gebäude steht frei auf großer Grünfläche."
+      ],
+      "risks": [
+        "Alter der Bauteile aus Baujahr plausibel; Detailzustand von Dach/Fassade nicht aus Distanz prüfbar."
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/02.jpg",
+      "area": "Außenansicht/Garten",
+      "condition": "Reale Rück-/Seitenansicht mit großem Garten.",
+      "positive": [
+        "Großzügige Freifläche."
+      ],
+      "risks": [
+        "Keine Aussage zu Abdichtung, Keller oder Haustechnik möglich."
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/03.jpg",
+      "area": "Außenansicht",
+      "condition": "Reale Gesamtansicht mit Grundstück.",
+      "positive": [
+        "Keine offensichtliche grobe Gebäudeschieflage erkennbar."
+      ],
+      "risks": [
+        "Dach, Fassade und Fenster nur oberflächlich aus Distanz beurteilbar."
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/04.jpg",
+      "area": "Außenansicht modernisiert",
+      "condition": "Digital/virtuell modernisierte Darstellung; nicht als Zustandsnachweis verwendet.",
+      "positive": [],
+      "risks": [
+        "Modernisierte Fassade, Fenster, Balkon und Eingang dürfen nicht als vorhandener Zustand gewertet werden."
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/05.jpg",
+      "area": "Außenansicht modernisiert",
+      "condition": "Digital/virtuell modernisierte Darstellung; nicht als Zustandsnachweis verwendet.",
+      "positive": [],
+      "risks": [
+        "Gezeigte neue Oberflächen/Fenster/Balkon sind kein Bestandsnachweis."
+      ],
+      "confidence": "hoch"
+    }
+  ],
+  "recommendation": "Nur nach technischer Besichtigung und belastbarer Sanierungskostenermittlung weiterverfolgen. Der günstige Einstiegspreis und das große Grundstück können attraktiv sein, aber Energiekennzahl, Ölheizung, Baujahr und die fehlende Innen-/Technikdokumentation machen das Kostenrisiko hoch.",
+  "next_steps": [
+    "Vollständige reale Innen-, Keller-, Dachboden- und Technikfotos sowie Sanierungsnachweise anfordern.",
+    "Bausachverständigen zur Besichtigung mit Feuchte-/Keller-, Dach-, Fenster- und Fassadenprüfung mitnehmen.",
+    "Elektrik, Wasser-/Abwasserleitungen, Öltank, Kesselalter und Rauchfang prüfen lassen.",
+    "Energieberatung mit Varianten für Gebäudehülle, Fenster und Heizungswechsel erstellen lassen.",
+    "Grundbuch, Widmung, Zufahrt, Leitungsrechte und allfällige Altlasten/Öltankthemen prüfen."
+  ],
+  "score_reasoning": "47/100: Grundstücksgröße und Wohnfläche sind positiv, der Angebotspreis ist vergleichsweise niedrig. Dem stehen der extrem hohe HWB, die Ölheizung, das Baujahr 1954 und vor allem die fast vollständige fehlende Zustandsdokumentation gegenüber. Da zwei von fünf Bildern nur Modernisierungsvisualisierungen sind, bleibt das technische und finanzielle Risiko hoch.",
+  "limitations": [
+    "Keine bestätigte exakte Adresse.",
+    "Keine realen Innen-, Keller- oder Technikbilder.",
+    "Bilder 04 und 05 sind digital/virtuell bearbeitet und wurden nicht als Zustandsnachweis verwendet.",
+    "Keine Dokumente mit nachgewiesenen Sanierungen vorhanden.",
+    "Kostenangaben sind nur grobe Reserven und kein Gutachten."
+  ],
+  "price_assessment": {
+    "asking_price_eur": 195000,
+    "fair_value_low_eur": null,
+    "fair_value_high_eur": null,
+    "suggested_first_offer_eur": null,
+    "suggested_target_price_eur": null,
+    "maximum_recommended_price_eur": null,
+    "confidence": "niedrig",
+    "reasoning": "Ohne Innenzustand, Sanierungsnachweise, exakte Mikrolage und Vergleichswerte ist keine seriöse faire Kaufpreisspanne ableitbar. Der Angebotspreis ist gesichert; darüber hinaus werden keine Preiswerte erfunden."
+  },
+  "investment_items": [
+    {
+      "category": "Heizung",
+      "measure": "Ersatz/Umstellung der Öl-Zentralheizung inklusive erforderlicher Nebenarbeiten",
+      "priority": "mittelfristig",
+      "low_eur": 25000,
+      "high_eur": 50000,
+      "confidence": "niedrig",
+      "basis": "Öl-Zentralheizung ist gesichert; Alter/Zustand unbekannt."
+    },
+    {
+      "category": "Energetische Sanierung",
+      "measure": "Gebäudehülle/Fenster je nach Bestand und Energieberatung",
+      "priority": "mittelfristig",
+      "low_eur": 50000,
+      "high_eur": 130000,
+      "confidence": "niedrig",
+      "basis": "HWB 306,9 und Baujahr 1954 sprechen für erhebliches energetisches Verbesserungspotenzial; konkrete Bauteilzustände fehlen."
+    },
+    {
+      "category": "Innen/Technik",
+      "measure": "Mögliche Erneuerung von Elektrik, Leitungen, Oberflächen, Sanitär und Innenausbau",
+      "priority": "unklar",
+      "low_eur": 50000,
+      "high_eur": 120000,
+      "confidence": "niedrig",
+      "basis": "Keine Innen- oder Technikbilder und keine Sanierungsnachweise vorhanden."
+    },
+    {
+      "category": "Dach/Keller/Fassade",
+      "measure": "Reserve für altersbedingte Reparaturen oder Abdichtung nach Befund",
+      "priority": "unklar",
+      "low_eur": 15000,
+      "high_eur": 60000,
+      "confidence": "niedrig",
+      "basis": "Baujahr 1954; Detailzustand dieser Bauteile ist nicht dokumentiert."
+    }
+  ],
+  "estimated_total_cost_eur": {
+    "low": null,
+    "high": null,
+    "confidence": "niedrig",
+    "includes_purchase_price": true,
+    "includes_acquisition_costs": false,
+    "comment": "Da keine belastbare Zielkaufpreisspanne und kein technischer Befund vorliegen, wird bewusst keine vermeintlich genaue Gesamtsumme ausgewiesen."
+  },
+  "image_coverage": {
+    "exported_images_reviewed": 5,
+    "exterior_images": 5,
+    "interior_images": 0,
+    "technical_or_outbuilding_images": 0,
+    "plans_or_documents": 0,
+    "unclassified_images": 0,
+    "comment": "Alle 5 exportierten Bilder visuell geprüft. Bilder 01-03 sind reale Außenfotos; 04-05 sind digital/virtuell modernisierte Darstellungen und kein Zustandsnachweis."
+  },
+  "analysis_request_id": "acb2f50f579f485aaaa7adbdd535f4a6",
+  "hauscheck_archive": {
+    "category": "stale",
+    "reason": "Auftragskennung gehört zu einem anderen Export (acb2f50f579f statt 3e22aec0d20c)",
+    "source_path": "ai_exchange/results/pending/b21943da/hauscheck_analysis.json",
+    "archived_at": "2026-08-11T13:08:35.253805+00:00"
+  }
+}
