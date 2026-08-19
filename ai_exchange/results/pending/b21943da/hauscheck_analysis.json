@@ -1,0 +1,66 @@
+{
+  "house_id": "b21943da",
+  "analysis_date": "2026-08-19T15:02:45+00:00",
+  "new_score": 43,
+  "confidence": "niedrig",
+  "summary": "Gesichert sind 195.000 € Kaufpreis, rund 135 m² Wohnfläche, 1.395 m² Grundstück, Baujahr 1954, Öl-Zentralheizung und ein sehr hoher HWB von 306,9. Von fünf Bildern zeigen nur 01–03 den realen Außenbestand; 04–05 sind modernisierte Visualisierungen und wurden nicht als Zustandsnachweis gewertet. Abgeleitet ist mit umfassendem energetischem und technischem Sanierungsbedarf zu rechnen. Unsicher bleiben Innenzustand, Keller/Feuchte, Dachaufbau, Leitungen und Heizungsalter vollständig.",
+  "positive_findings": [
+    "Gesichert: 1.395 m² Grundstück und 135 m² Wohnfläche bei 195.000 € Angebotspreis.",
+    "Gesichert aus Bildern: große freie Gartenfläche und freistehendes Gebäude.",
+    "Gesichert laut Inseratsbeschreibung: ruhige Lage im Raum Eibiswald/Hörmsdorf."
+  ],
+  "risk_findings": [
+    "Gesichert: HWB 306,9 ist sehr hoch.",
+    "Gesichert: Öl-Zentralheizung; Alter/Zustand unbekannt.",
+    "Gesichert aus realen Außenbildern: älterer, nicht umfassend modernisierter Außenbestand.",
+    "Unsicher: keine realen Innen-, Keller- oder Technikbilder vorhanden.",
+    "Abgeleitet: energetische Sanierung und Erneuerung mehrerer Gewerke können wirtschaftlich relevant werden."
+  ],
+  "estimated_investment_eur": {
+    "low": 140000,
+    "high": 300000,
+    "confidence": "niedrig",
+    "comment": "Nur grobe Bandbreite für potenziell umfassende energetische und technische Sanierung bei einem Haus Baujahr 1954 mit HWB 306,9 und fehlender Innendokumentation. Tatsächlicher Bedarf kann deutlich abweichen."
+  },
+  "address_hints": [
+    {
+      "hint": "Raum 8552 Eibiswald, Inserat nennt Hörmsdorf bei Eibiswald",
+      "basis": "listing.json und Quellenbeschreibung; keine exakte Adresse bestätigt.",
+      "confidence": "mittel"
+    }
+  ],
+  "image_findings": [
+    {"image":"images/01.jpg","area":"Außenansicht","condition":"Reale Bestandsaufnahme eines älteren Hauses mit gealterter Fassade/Fenstern.","positive":["große freie Gartenfläche"],"risks":["deutlich älterer Modernisierungsstand außen"],"confidence":"hoch"},
+    {"image":"images/02.jpg","area":"Außenansicht/Rückseite","condition":"Reale Bestandsaufnahme mit großem Grundstück.","positive":["ruhige, offene Lage"],"risks":["Fassade und Bauteile wirken sanierungsbedürftig"],"confidence":"hoch"},
+    {"image":"images/03.jpg","area":"Außenansicht","condition":"Reale Bestandsaufnahme; älteres Dach/Fassade sichtbar.","positive":["freistehendes Haus","großzügiges Grundstück"],"risks":["energetischer und baulicher Sanierungsbedarf plausibel"],"confidence":"hoch"},
+    {"image":"images/04.jpg","area":"Visualisierung Modernisierung","condition":"Offensichtlich modernisierte/digital bearbeitete Darstellung; nicht als Zustandsnachweis verwendet.","positive":["zeigt nur Gestaltungsidee"],"risks":["kein Nachweis des Ist-Zustands"],"confidence":"hoch"},
+    {"image":"images/05.jpg","area":"Visualisierung Modernisierung","condition":"Offensichtlich modernisierte/digital bearbeitete Frontansicht; nicht als Zustandsnachweis verwendet.","positive":["zeigt nur Gestaltungsidee"],"risks":["kein Nachweis des Ist-Zustands"],"confidence":"hoch"}
+  ],
+  "recommendation": "Kritisch bzw. nur für Käufer mit hoher Sanierungsreserve interessant. Vor Preisverhandlung ist eine umfassende technische Besichtigung mit Fokus auf Feuchte/Keller, Dach, Tragwerk, Heizung, Elektro, Fenster und Gebäudehülle notwendig.",
+  "next_steps": [
+    "Innenräume, Keller und Technik vollständig besichtigen und fotografisch dokumentieren.",
+    "Bausachverständigen für Feuchte, Dach, Tragwerk und Gebäudehülle beiziehen.",
+    "Alter und Zustand von Ölkessel, Tank und Kamin prüfen; Umstiegsszenario kalkulieren.",
+    "Elektro-, Wasser- und Abwasserinstallationen sowie Fensteralter erheben.",
+    "Energieausweis vollständig prüfen und Sanierungsvarianten samt Fördermöglichkeiten kalkulieren.",
+    "Visualisierungen 04/05 ausdrücklich nicht mit dem Ist-Zustand verwechseln."
+  ],
+  "score_reasoning": "Der günstige Einstiegspreis und das Grundstück sind positiv, werden aber durch den sehr hohen HWB, die Ölheizung, das Baujahr und die praktisch fehlende Zustandsdokumentation innen deutlich relativiert. Da zwei von fünf Bildern nur Modernisierungsvisualisierungen sind, ist die Datenbasis für den realen Gebäudezustand schwach.",
+  "limitations": [
+    "Nur drei reale Außenfotos als Zustandsnachweis.",
+    "Bilder 04 und 05 sind digital/virtuell modernisierte Darstellungen und wurden ausgeschlossen.",
+    "Keine Innen-, Keller-, Technik-, Plan- oder Dokumentbilder.",
+    "Keine Exposé-PDFs im Paket.",
+    "Keine exakte Adresse bestätigt."
+  ],
+  "price_assessment": {"asking_price_eur":195000,"fair_value_low_eur":null,"fair_value_high_eur":null,"suggested_first_offer_eur":null,"suggested_target_price_eur":null,"maximum_recommended_price_eur":null,"confidence":"niedrig","reasoning":"Mangels realer Innenansichten, technischer Dokumentation, exakter Lage und Vergleichsdaten wird kein belastbarer Marktwert oder Verhandlungspreis erfunden."},
+  "investment_items": [
+    {"category":"Energie/Gebäudehülle","measure":"Dämmung, Fenster und Gebäudehülle fachlich bewerten und Sanierungskonzept erstellen.","priority":"kurzfristig","low_eur":null,"high_eur":null,"confidence":"niedrig","basis":"HWB 306,9 gesichert; konkrete Bauteilzustände innen fehlen."},
+    {"category":"Heizung","measure":"Ölheizung/Tank/Kamin prüfen und mögliche Systemerneuerung kalkulieren.","priority":"kurzfristig","low_eur":null,"high_eur":null,"confidence":"niedrig","basis":"Öl-Zentralheizung laut Inserat, Alter unbekannt."},
+    {"category":"Dach","measure":"Dachaufbau, Deckung und Tragwerk prüfen.","priority":"kurzfristig","low_eur":null,"high_eur":null,"confidence":"niedrig","basis":"Nur Außenansichten; technischer Zustand nicht feststellbar."},
+    {"category":"Innen/Installationen","measure":"Elektro, Sanitär, Oberflächen und Feuchte erst nach Innenbesichtigung bewerten.","priority":"unklar","low_eur":null,"high_eur":null,"confidence":"niedrig","basis":"Keine realen Innenbilder vorhanden."}
+  ],
+  "estimated_total_cost_eur": {"low":null,"high":null,"confidence":"niedrig","includes_purchase_price":true,"includes_acquisition_costs":false,"comment":"Ohne belastbaren Zielkaufpreis und technische Bestandsaufnahme keine Gesamtsumme."},
+  "image_coverage": {"exported_images_reviewed":5,"exterior_images":3,"interior_images":0,"technical_or_outbuilding_images":0,"plans_or_documents":0,"unclassified_images":2,"comment":"Alle 5 Bilder geprüft. 01–03 reale Außenbilder; 04–05 modernisierte digitale/virtuelle Darstellungen und nicht als Zustandsnachweis gewertet."},
+  "analysis_request_id": "acb2f50f579f485aaaa7adbdd535f4a6"
+}
