@@ -1,0 +1,10 @@
+{
+  "artifact_id": 9365254774,
+  "artifact_name": "hauscheck-pending-32253269719",
+  "run_id": 32253269719,
+  "status": "complete",
+  "processed_house_ids": ["2f197093", "b21943da"],
+  "pending_zips": ["2f197093.zip", "b21943da.zip"],
+  "errors": [],
+  "processed_at": "2026-08-19T13:03:24+00:00"
+}
