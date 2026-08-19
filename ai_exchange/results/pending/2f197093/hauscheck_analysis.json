@@ -1,0 +1,88 @@
+{
+  "house_id": "2f197093",
+  "analysis_date": "2026-08-19T13:03:24+00:00",
+  "new_score": 72,
+  "confidence": "mittel",
+  "summary": "Gesichert: Baujahr 1951, 182 m² Wohnfläche, 3.867 m² Grundstück, Pellet-Zentralheizung, HWB 85 kWh/m²a und fGEE 1,17. Alle 23 Bilder wurden visuell geprüft; sie zeigen überwiegend gepflegte, modernisierte Innenräume, moderne Küche und Bäder sowie ein äußerlich ordentlich wirkendes Haus. Abgeleitet: Der unmittelbare Innenausbau-Bedarf erscheint begrenzt. Die ausgeprägte Hanglage macht Entwässerung, Stützungen, Zufahrt und laufende Pflege besonders relevant. Unsicher: Keller, Pelletanlage, Elektroinstallation, Leitungen, Dämmaufbau, Dachunterkonstruktion und der genaue Sanierungsumfang sind nicht ausreichend dokumentiert.",
+  "positive_findings": [
+    "Gesichert: Küche, Bäder, Wohn- und Schlafräume wirken überwiegend modernisiert und gebrauchsfertig.",
+    "Gesichert: HWB 85 und fGEE 1,17 sind dokumentiert; Pellet-Zentralheizung ist angegeben.",
+    "Gesichert: 3.867 m² Grundstück, Terrasse, Carport und Nebengebäude bieten viel Nutzwert.",
+    "Abgeleitet: Die sichtbare Dachdeckung wirkt geschlossen, ohne offensichtliche großflächige Schäden."
+  ],
+  "risk_findings": [
+    "Gesichert: Mehrere Außenbilder zeigen eine starke Hanglage und eine teils steile Zufahrt.",
+    "Abgeleitet: Oberflächenwasser, Drainage, Stützmauern und Hangstabilität sind besonders prüfenswert.",
+    "Gesichert: Ein älteres hölzernes Nebengebäude ist vorhanden; Zustand und Genehmigungsstatus sind unbekannt.",
+    "Unsicher: Keine aussagekräftigen Bilder von Pelletkessel, Lager, Elektroverteilung, Leitungen oder Kellerabdichtung.",
+    "Unsicher: Quellen enthalten 299.000 € und 379.000 €; verwendet wird der aktuelle Wert aus listing.json von 299.000 €."
+  ],
+  "estimated_investment_eur": {
+    "low": 30000,
+    "high": 90000,
+    "confidence": "niedrig",
+    "comment": "Reserve für Haustechnik, Dach/Instandhaltung, Hangentwässerung, Nebengebäude und nicht sichtbare Altbaurisiken; kein sichtbarer Vollsanierungsbedarf innen."
+  },
+  "address_hints": [
+    {"hint":"Gemeindegebiet 8551 Wies","basis":"listing.json und Inseratsquellen; keine exakte Anschrift bestätigt.","confidence":"hoch"},
+    {"hint":"deutliche Hang-/Hügellage","basis":"Außenbilder 03, 04, 05, 09, 14 und 23.","confidence":"hoch"}
+  ],
+  "image_findings": [
+    {"image":"images/01-02.jpg","area":"Innen/Treppe und Wohnen","condition":"Gesichert: gepflegte Innenräume; Kaminbereich sichtbar.","positive":["modernisierter Eindruck"],"risks":["Kamin/Feuerstätte technisch nicht geprüft"],"confidence":"mittel"},
+    {"image":"images/03-05.jpg","area":"Außen/Zufahrt, Dach, Hang","condition":"Gesichert: reale Außenaufnahmen; starke Hanglage und Dachflächen klar sichtbar.","positive":["Dachdeckung optisch geschlossen"],"risks":["steile Zufahrt","Hangwasser/Entwässerung"],"confidence":"hoch"},
+    {"image":"images/06-08.jpg","area":"Innen/Schlafen, Essen, Arbeiten","condition":"Gesichert: gepflegte, ausgebaute Wohnräume mit modernen Böden.","positive":["gebrauchsfertig"],"risks":["Dachdämmung/Fensteralter unbekannt"],"confidence":"mittel"},
+    {"image":"images/09-10.jpg","area":"Außen/Nebengebäude und Terrasse","condition":"Gesichert: älteres Holz-Nebengebäude und befestigte Terrasse am Hang.","positive":["zusätzliche Nutzfläche"],"risks":["Holzzustand","Entwässerung an Stützwand"],"confidence":"hoch"},
+    {"image":"images/11-12.jpg","area":"Innen/Flur und WC","condition":"Gesichert: gepflegter Flur und modernisiertes WC.","positive":["ordentlicher Ausbau"],"risks":[],"confidence":"mittel"},
+    {"image":"images/13-14.jpg","area":"Außen/Carport und Haus","condition":"Gesichert: Carport vorhanden; Hanglage erneut deutlich sichtbar.","positive":["überdachter Stellplatz"],"risks":["Holz-/Dachzustand Carport","Hangentwässerung"],"confidence":"hoch"},
+    {"image":"images/15-18.jpg","area":"Innen/Küche, Eingang, Bad, Schlafzimmer","condition":"Gesichert: moderne Einbauküche, modernisiertes Bad und gepflegte Wohnbereiche.","positive":["weitgehend wohnfertig"],"risks":["Installationen hinter Oberflächen nicht prüfbar"],"confidence":"hoch"},
+    {"image":"images/19-20.jpg","area":"Terrasse und Wohnzimmer","condition":"Gesichert: große überdachte Terrasse und gepflegter Wohnraum.","positive":["guter Nutzwert"],"risks":["Dachanschlüsse der Terrasse prüfen"],"confidence":"hoch"},
+    {"image":"images/21-22.jpg","area":"Bäder","condition":"Gesichert: modernisierte Dusche/Bad mit zeitgemäßer Sanitärausstattung.","positive":["modernisiert"],"risks":["Abdichtungsaufbau verdeckt"],"confidence":"hoch"},
+    {"image":"images/23.jpg","area":"Außen/Haus und Hang","condition":"Gesichert: reale Außenansicht bestätigt Hanglage und grünes Umfeld.","positive":["privates Umfeld"],"risks":["Pflegeaufwand/Oberflächenwasser"],"confidence":"hoch"}
+  ],
+  "recommendation": "Interessant, sofern Hang- und Technikthemen bei der Besichtigung sauber geklärt werden. Vor Kauf insbesondere Keller/Feuchte, Dach, Pelletanlage, Elektrik, Leitungen, Entwässerung und Stützkonstruktionen fachlich prüfen.",
+  "next_steps": [
+    "Sanierungsaufstellung mit Jahren und Rechnungen anfordern.",
+    "Keller/Sockel gezielt auf Feuchte prüfen.",
+    "Pelletkessel, Lager, Kamin und Wartungsprotokolle prüfen.",
+    "Dachaufbau und Eindeckungsalter klären.",
+    "Hangentwässerung, Drainage, Stützmauern und Starkregen-Wasserführung prüfen.",
+    "Elektrik sowie Wasser-/Abwasserleitungen prüfen.",
+    "Preisabweichung zwischen Quellen klären."
+  ],
+  "score_reasoning": "72/100: Gute dokumentierte Energiekennzahlen für das Baujahr, Pelletheizung, große Fläche und sichtbar modernisierter Innenzustand. Abzüge für Altbaualter, starke Hanglage und fehlende technische/kellerbezogene Nachweise.",
+  "limitations": [
+    "Keine bautechnische Untersuchung; verdeckte Bauteile nicht beurteilbar.",
+    "Keine aussagekräftigen Technik-, Heizraum- oder Elektroverteilerbilder.",
+    "Keine bestätigte exakte Adresse.",
+    "Keine Exposé-PDFs im Paket.",
+    "Unterschiedliche Angebotspreise in den Quellen."
+  ],
+  "price_assessment": {
+    "asking_price_eur": 299000,
+    "fair_value_low_eur": 270000,
+    "fair_value_high_eur": 315000,
+    "suggested_first_offer_eur": 260000,
+    "suggested_target_price_eur": 280000,
+    "maximum_recommended_price_eur": 300000,
+    "confidence": "niedrig",
+    "reasoning": "Grobe Einordnung aus Inseratsdaten und sichtbarem Zustand; kein Marktwertgutachten."
+  },
+  "estimated_total_cost_eur": {
+    "low": 310000,
+    "high": 370000,
+    "confidence": "niedrig",
+    "includes_purchase_price": true,
+    "includes_acquisition_costs": false,
+    "comment": "Zielkaufpreis um 280.000 € plus 30.000–90.000 € Reserve; ohne Kaufnebenkosten/Finanzierung."
+  },
+  "image_coverage": {
+    "exported_images_reviewed": 23,
+    "exterior_images": 9,
+    "interior_images": 14,
+    "technical_or_outbuilding_images": 2,
+    "plans_or_documents": 0,
+    "unclassified_images": 0,
+    "comment": "Alle 23 exportierten JPGs wurden tatsächlich visuell geprüft. Nebengebäude/Carport überschneiden sich mit Außenbildern. Keine Bilder wurden als eindeutig KI-bearbeitet oder reine Werbegrafik erkannt."
+  },
+  "analysis_request_id": "7e9f6372feaf474ca1d4c1cd865ab4e7"
+}
