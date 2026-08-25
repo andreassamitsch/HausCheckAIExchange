@@ -1,0 +1,137 @@
+{
+  "house_id": "b21943da",
+  "analysis_date": "2026-08-25T14:03:56+00:00",
+  "new_score": 43,
+  "confidence": "niedrig",
+  "summary": "Gesichert sind 195.000 € Kaufpreis, 135 m² Wohnfläche, 1.395 m² Grundstück, Baujahr 1954, Öl-Zentralheizung und HWB 306,9. Von fünf Bildern zeigen nur 01–03 den realen Außenbestand; 04–05 sind deutlich modernisierte digitale/virtuelle Darstellungen und wurden nicht als Zustandsnachweis verwendet. Der reale Bestand wirkt äußerlich alt, aber nicht offensichtlich ruinös. Innen-, Keller- und Technikzustand sind vollständig unsicher.",
+  "positive_findings": [
+    "Gesichert: großes Grundstück mit 1.395 m² bei 135 m² Wohnfläche.",
+    "Gesichert aus realen Außenbildern: ruhige, grüne Lage und großzügige Freiflächen.",
+    "Gesichert aus realen Außenbildern: Gebäude steht und wirkt äußerlich grundsätzlich instandhaltbar; keine eindeutige akute Einsturz-/Totalschaden-Situation sichtbar."
+  ],
+  "risk_findings": [
+    "Gesichert: HWB 306,9 ist sehr hoch und spricht für einen energetisch schwachen Bestand.",
+    "Gesichert: Baujahr 1954 und Öl-Zentralheizung erhöhen das Risiko umfangreicher technischer und energetischer Erneuerungen.",
+    "Gesichert: keine realen Innen-, Keller- oder Technikbilder vorhanden.",
+    "Unsicher: Dach, Fenster, Fassade, Feuchte, Elektro, Leitungen, Sanitär, Heizung/Tank und Tragstruktur können nicht zuverlässig bewertet werden.",
+    "Gesichert: Bilder 04 und 05 sind modernisierte Visualisierungen und nicht der reale Ist-Zustand."
+  ],
+  "estimated_investment_eur": {
+    "low": 140000,
+    "high": 300000,
+    "confidence": "niedrig",
+    "comment": "Breite Sanierungsreserve für energetische Hülle, Heizung, Innenausbau und technische Gewerke. Mangels Innen-/Technikbildern bewusst nur grob."
+  },
+  "address_hints": [
+    {
+      "hint": "8552 Eibiswald, laut Quellenbeschreibung Hörmsdorf bei Eibiswald",
+      "basis": "listing.json nennt 8552 Eibiswald; Quellbeschreibung nennt Hörmsdorf bei Eibiswald. Keine exakte Adresse bestätigt.",
+      "confidence": "hoch"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/01.jpg, 02.jpg, 03.jpg",
+      "area": "Außenbereich und realer Gebäudebestand",
+      "condition": "Älterer, einfacher Bestand mit großzügigem Garten; aus Distanz keine eindeutige akute Großschadstelle sichtbar.",
+      "positive": [
+        "Große Freifläche",
+        "Ruhige grüne Lage"
+      ],
+      "risks": [
+        "Alter Dach-/Fassaden-/Fensterzustand nur grob erkennbar",
+        "Sockel/Keller und Feuchte nicht prüfbar"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/04.jpg, 05.jpg",
+      "area": "digitale Modernisierungsvisualisierung",
+      "condition": "Fassade, Fenster, Balkon und Eingang erscheinen gegenüber dem realen Bestand modernisiert; nicht als Ist-Zustand gewertet.",
+      "positive": [],
+      "risks": [
+        "Darf nicht als Nachweis einer tatsächlich erfolgten Sanierung verwendet werden"
+      ],
+      "confidence": "hoch"
+    }
+  ],
+  "recommendation": "Nur als Sanierungsobjekt mit hoher Budgetreserve weiterverfolgen. Vor Preisverhandlung ist eine vollständige Besichtigung mit realen Innen-, Keller- und Technikbereichen sowie ein fachlicher Gebäudetechnik-/Feuchtecheck zwingend. Ohne positive Überraschungen beim Innen- und Technikzustand bleibt das Objekt kritisch.",
+  "next_steps": [
+    "Reale Innen-, Keller-, Dachraum- und Technikfotos bzw. vollständige Besichtigung verlangen.",
+    "Heizungsanlage, Öltank, Kamin und Wärmeverteilung samt Bau-/Wartungsjahren prüfen.",
+    "Dach, Fenster, Fassade/Dämmung, Kellerfeuchte, Elektro, Wasser/Abwasser und Statik fachlich prüfen.",
+    "Vollständigen Energieausweis und Heizkosten anfordern.",
+    "Sanierungsbudget vor Kauf mit Gewerken/Planer konkretisieren."
+  ],
+  "score_reasoning": "43/100: Grundstück und Wohnfläche sind positiv, aber HWB 306,9, Baujahr 1954, Ölheizung und die extrem geringe reale Zustandsdokumentation wiegen schwer. Zwei von fünf Bildern sind nur Modernisierungsvisualisierungen. Daher kritische Bewertung und niedrige Sicherheit.",
+  "limitations": [
+    "Nur drei reale Außenbilder verfügbar.",
+    "Keine realen Innen-, Keller- oder Technikbilder.",
+    "Bilder 04 und 05 sind digitale/virtuelle Modernisierungsdarstellungen und wurden ausgeschlossen.",
+    "Keine Exposé-Dokumente im Paket.",
+    "Keine exakte Adresse bestätigt."
+  ],
+  "price_assessment": {
+    "asking_price_eur": 195000,
+    "fair_value_low_eur": null,
+    "fair_value_high_eur": null,
+    "suggested_first_offer_eur": null,
+    "suggested_target_price_eur": null,
+    "maximum_recommended_price_eur": null,
+    "confidence": "niedrig",
+    "reasoning": "Mangels realem Innen-/Technikzustand und lokaler Vergleichswerte wäre eine konkrete Verkehrswert- oder Angebotsableitung spekulativ."
+  },
+  "investment_items": [
+    {
+      "category": "Energie/Heizung",
+      "measure": "Heizsystem und energetische Gebäudehülle umfassend prüfen bzw. erneuern",
+      "priority": "kurzfristig",
+      "low_eur": 60000,
+      "high_eur": 150000,
+      "confidence": "niedrig",
+      "basis": "HWB 306,9, Baujahr 1954 und Öl-Zentralheizung."
+    },
+    {
+      "category": "Innenausbau/Technik",
+      "measure": "Reserve für Elektro, Sanitär, Leitungen, Bad/Küche und Oberflächen",
+      "priority": "unklar",
+      "low_eur": 50000,
+      "high_eur": 100000,
+      "confidence": "niedrig",
+      "basis": "Innenräume sind nicht dokumentiert."
+    },
+    {
+      "category": "Gebäudehülle/Feuchte",
+      "measure": "Reserve für Dach, Fenster, Fassade, Keller-/Sockelabdichtung nach Fachprüfung",
+      "priority": "unklar",
+      "low_eur": 30000,
+      "high_eur": 80000,
+      "confidence": "niedrig",
+      "basis": "Reale Außenbilder zeigen Altbestand; Detailzustand ist nicht verifizierbar."
+    }
+  ],
+  "estimated_total_cost_eur": {
+    "low": 335000,
+    "high": 495000,
+    "confidence": "niedrig",
+    "includes_purchase_price": true,
+    "includes_acquisition_costs": false,
+    "comment": "Listenpreis 195.000 € plus grobe Sanierungsreserve 140.000–300.000 €. Kaufnebenkosten und Finanzierung nicht enthalten."
+  },
+  "image_coverage": {
+    "exported_images_reviewed": 5,
+    "exterior_images": 3,
+    "interior_images": 0,
+    "technical_or_outbuilding_images": 0,
+    "plans_or_documents": 0,
+    "unclassified_images": 2,
+    "comment": "Alle fünf Bilder wurden visuell geprüft. 01–03 sind reale Außenaufnahmen; 04–05 sind digitale/virtuelle Modernisierungsdarstellungen und wurden nicht als Zustandsnachweis verwendet."
+  },
+  "analysis_request_id": "acb2f50f579f485aaaa7adbdd535f4a6",
+  "hauscheck_archive": {
+    "category": "stale",
+    "reason": "Auftragskennung gehört zu einem anderen Export (acb2f50f579f statt 3e22aec0d20c)",
+    "source_path": "ai_exchange/results/pending/b21943da/hauscheck_analysis.json",
+    "archived_at": "2026-08-25T14:08:14.229120+00:00"
+  }
+}
