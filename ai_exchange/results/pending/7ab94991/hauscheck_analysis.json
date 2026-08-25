@@ -1,0 +1,82 @@
+{
+  "house_id": "7ab94991",
+  "analysis_date": "2026-08-25T12:59:00+00:00",
+  "new_score": 54,
+  "confidence": "mittel",
+  "summary": "Gesichert: großes Einfamilienhaus in 8552 Eibiswald mit 220 m² Wohnfläche, 1.198 m² Grundstück, Baujahr 1997, Kaufpreis 369.000 €, HWB 247 kWh/(m²a) und fGEE 3,03. Die 18 geprüften Bilder zeigen einen grundsätzlich gepflegten, aber in Küche, Bad, Oberflächen und Haustechnik deutlich älteren Ausstattungsstand. Abgeleitet: Das Objekt ist räumlich attraktiv und sofort grundsätzlich nutzbar, energetisch und technisch aber klar modernisierungsbedürftig. Unsicher: tatsächlicher Zustand von Abdichtungen, Leitungen, Elektrik, Fenstern, Dachaufbau, Keller und Heizsystem kann aus Inserat und Bildern nicht belastbar festgestellt werden.",
+  "positive_findings": [
+    "Gesichert: 220 m² Wohnfläche und 1.198 m² Grundstück bieten viel Platz.",
+    "Gesichert: erhöhte Aussichtslage in Stammeregg bei Eibiswald wird in der Quelle beschrieben und ist auf einem Außenbild nachvollziehbar.",
+    "Gesichert: Außenhülle, Dachdeckung und Innenräume wirken auf den Bildern insgesamt gepflegt; keine klaren großflächigen Schadstellen sind sichtbar.",
+    "Gesichert: Garage bzw. Nebengebäude ist vorhanden.",
+    "Abgeleitet: Grundriss und Raumvolumen wirken für eine Familie gut nutzbar; mehrere großzügige Räume und Galerie-/Treppenbereich sind erkennbar."
+  ],
+  "risk_findings": [
+    "Gesichert: HWB 247 kWh/(m²a) ist sehr hoch und weist auf erheblichen energetischen Verbesserungsbedarf hin.",
+    "Gesichert: fGEE 3,03 ist ungünstig.",
+    "Gesichert: Küche und mindestens ein Bad entsprechen sichtbar einem älteren Ausstattungsstand.",
+    "Gesichert: auf Bild 12 ist eine ältere Heiz-/Kesselanlage mit Rohrleitungen sichtbar; Alter, Brennstoff und Restlebensdauer sind aus den Daten nicht gesichert.",
+    "Abgeleitet: bei Baujahr 1997 und den Energiekennzahlen sind mittelfristig größere Maßnahmen an Heizung, Gebäudehülle oder Fenstern plausibel.",
+    "Unsicher: Feuchte, Abdichtung des Vollkellers, Elektroinstallation, Leitungszustand und Dachaufbau sind bildlich nicht ausreichend prüfbar."
+  ],
+  "estimated_investment_eur": {
+    "low": 80000,
+    "high": 190000,
+    "confidence": "niedrig",
+    "comment": "Abgeleitete grobe Reserve für energetische Sanierung, Heizung/Haustechnik und Modernisierung von Küche/Bad/Oberflächen. Keine Kostenschätzung aus Aufmaß oder Fachbefund; tatsächlicher Bedarf kann deutlich abweichen."
+  },
+  "address_hints": [
+    {
+      "hint": "Stammeregg bei Eibiswald, 8552 Eibiswald",
+      "basis": "Quellbeschreibung nennt eine erhöhte und sonnige Aussichtslage in Stammeregg bei Eibiswald; listing.json bestätigt nur die Gemeinde 8552 Eibiswald.",
+      "confidence": "mittel"
+    }
+  ],
+  "image_findings": [
+    {"image":"images/01.jpg","area":"Küche","condition":"Gesichert: funktionsfähig wirkende, aber optisch ältere Küche mit Holzfronten und Fliesenspiegel.","positive":["ordentlicher Gesamteindruck"],"risks":["Modernisierungsbedarf bei Ausstattung und Oberflächen"],"confidence":"hoch"},
+    {"image":"images/02.jpg","area":"Technik","condition":"Gesichert: großer Speicher/Behälter und Rohrinstallation sichtbar; genaue Funktion und Alter nicht sicher ablesbar.","positive":[],"risks":["Alter und technischer Zustand unsicher"],"confidence":"mittel"},
+    {"image":"images/03.jpg","area":"Außenansicht","condition":"Gesichert: mehrgeschossiges Wohnhaus mit Garage/Nebengebäude; Fassade und Dach wirken aus Distanz ordentlich.","positive":["großzügiges Gebäude","Garage/Nebengebäude"],"risks":["Detailzustand von Dach, Fassade und Anschlüssen aus Distanz nicht prüfbar"],"confidence":"hoch"},
+    {"image":"images/04.jpg","area":"Innenraum Dachgeschoss","condition":"Gesichert: einfacher, gepflegt wirkender Raum mit Holzverkleidung an der Dachschräge.","positive":["keine offensichtlichen Feuchtespuren erkennbar"],"risks":["Dämmstandard der Dachschräge unsicher"],"confidence":"mittel"},
+    {"image":"images/05.jpg","area":"Außenansicht","condition":"Gesichert: weitere reale Außenaufnahme des Wohnhauses und Nebengebäudes.","positive":["gepflegter optischer Gesamteindruck"],"risks":[],"confidence":"hoch"},
+    {"image":"images/06.jpg","area":"Bad","condition":"Gesichert: älteres Bad mit braunen Fliesen und älteren Sanitärobjekten.","positive":["Fenster vorhanden"],"risks":["deutlicher Modernisierungsbedarf","Abdichtung hinter Fliesen nicht beurteilbar"],"confidence":"hoch"},
+    {"image":"images/07.jpg","area":"Bad","condition":"Gesichert: Bad mit eingelassener Badewanne und älterer Fliesengestaltung.","positive":[],"risks":["Modernisierungsbedarf","Feuchteschutz technisch nicht beurteilbar"],"confidence":"hoch"},
+    {"image":"images/08.jpg","area":"Grundstück","condition":"Gesichert: Garten-/Grundstücksbereich mit Grünflächen und Bepflanzung.","positive":["nutzbare Gartenfläche"],"risks":["Entwässerung und Geländeverhältnisse nicht vollständig beurteilbar"],"confidence":"mittel"},
+    {"image":"images/09.jpg","area":"Treppen-/Galeriebereich","condition":"Gesichert: gepflegt wirkender Innenbereich mit Holzdecke und Fenster.","positive":["helle Belichtung"],"risks":[],"confidence":"hoch"},
+    {"image":"images/10.jpg","area":"Treppenhaus/Kellerzugang","condition":"Gesichert: gefliester Treppenlauf; keine eindeutigen Schadstellen sichtbar.","positive":["ordentlicher Zustand"],"risks":["Kellerfeuchte außerhalb des Bildausschnitts nicht beurteilbar"],"confidence":"mittel"},
+    {"image":"images/11.jpg","area":"Außenansicht/Grundstück","condition":"Gesichert: reale Außenansicht mit Garten und Wohnhaus.","positive":["großzügige Grünfläche"],"risks":[],"confidence":"hoch"},
+    {"image":"images/12.jpg","area":"Heizraum/Technik","condition":"Gesichert: ältere Kessel-/Heizanlage und Rohrleitungen sichtbar; Typ und Alter sind nicht sicher aus dem Bild ableitbar.","positive":["Technikraum ist dokumentiert"],"risks":["möglicher kurzfristiger bis mittelfristiger Erneuerungsbedarf"],"confidence":"hoch"},
+    {"image":"images/13.jpg","area":"Wohnraum","condition":"Gesichert: Wohnraum mit sichtbarer Holzbalken-/Holzdeckenoptik und älteren Oberflächen.","positive":["großzügiger Raum"],"risks":["optischer Modernisierungsbedarf je nach Anspruch"],"confidence":"hoch"},
+    {"image":"images/14.jpg","area":"Nebengebäude","condition":"Gesichert: massives bzw. gemauert wirkendes Nebengebäude mit Dachdeckung und mehreren Öffnungen.","positive":["zusätzliche Nutzfläche"],"risks":["Innenzustand und baurechtlicher Status nicht beurteilbar"],"confidence":"mittel"},
+    {"image":"images/15.jpg","area":"Wohnraum","condition":"Gesichert: weiterer gepflegt wirkender Raum mit Holzschrank und Fenster.","positive":["ordentlicher Zustand"],"risks":["älterer Ausstattungsstand"],"confidence":"hoch"},
+    {"image":"images/16.jpg","area":"Aussicht/Lage","condition":"Gesichert: weite Sicht über hügelige Landschaft.","positive":["attraktive Aussichtslage"],"risks":[],"confidence":"hoch"},
+    {"image":"images/17.jpg","area":"Galerie/Innenraum","condition":"Gesichert: heller Innenbereich mit Holzdecke und Brüstung.","positive":["großzügige Raumwirkung"],"risks":[],"confidence":"hoch"},
+    {"image":"images/18.jpg","area":"Dach/Außenansicht","condition":"Gesichert: Dachdeckung und zwei Dachflächenfenster sichtbar; aus Distanz kein klarer Schaden erkennbar.","positive":["Dach optisch geschlossen"],"risks":["Alter, Unterdach, Dämmung und Anschlüsse nicht prüfbar"],"confidence":"mittel"}
+  ],
+  "recommendation": "Prüfen, aber nur mit technischer Vorprüfung und deutlicher Investitionsreserve. Das Haus bietet viel Fläche und eine attraktive Lage, die sehr schlechten Energiekennzahlen und die sichtbar ältere Ausstattung/Technik verhindern jedoch eine Einstufung als unmittelbar sorgenfreier Kauf.",
+  "next_steps": [
+    "Heizsystem, Baujahr der Anlage, Brennstoff, Wartungsunterlagen und Jahresverbrauch schriftlich klären.",
+    "Energieausweis vollständig prüfen und Sanierungsvarianten für Dach/Fassade/Fenster/Heizung kalkulieren lassen.",
+    "Vollkeller bei Besichtigung auf Feuchte, Geruch, Salz-/Putzschäden und Abdichtung prüfen.",
+    "Elektrik, Wasser-/Abwasserleitungen und Warmwasserbereitung durch Fachperson prüfen lassen.",
+    "Dach inklusive Dachflächenfenster und Anschlüsse aus der Nähe begutachten.",
+    "Baurechtlichen Status und Nutzbarkeit des Nebengebäudes/Garage klären.",
+    "Vor Kauf eine belastbare Gesamtkostenschätzung für energetische Sanierung und Innenmodernisierung erstellen."
+  ],
+  "score_reasoning": "Gesichert sprechen die große Wohn- und Grundstücksfläche, Aussicht und der insgesamt gepflegte optische Bestand für das Objekt. Gegen eine höhere Bewertung sprechen der sehr hohe HWB 247, fGEE 3,03, der ältere Ausstattungsstand und die sichtbar ältere Technik. Abgeleitet ist ein relevanter Investitionsbedarf wahrscheinlich. Wegen fehlender technischer Detaildaten bleibt die Sicherheit mittel und die Kostenspanne niedrig abgesichert.",
+  "limitations": [
+    "Keine Exposé-PDFs oder extrahierten Exposé-Texte im Paket enthalten.",
+    "Die listing.json-Heizungsangabe ist offensichtlich fehlgeparst ('Garage und Doppelcarport Nebengebäude') und wurde nicht als Heizungsfakt verwendet.",
+    "Bilder erlauben keine sichere Aussage zu Statik, Abdichtung, Leitungen, Elektrik, Schadstoffen oder verdeckten Feuchteschäden.",
+    "Keine exakte Objektadresse bestätigt; nur Gemeinde und Lagehinweis Stammeregg.",
+    "Investitionskosten sind grobe Bandbreiten ohne Aufmaß und Fachangebote."
+  ],
+  "price_assessment": {"asking_price_eur":369000,"fair_value_low_eur":null,"fair_value_high_eur":null,"suggested_first_offer_eur":null,"suggested_target_price_eur":null,"maximum_recommended_price_eur":null,"confidence":"niedrig","reasoning":"Ohne lokale Vergleichsobjekte, genaue Mikrolage, technische Prüfung und belastbare Sanierungskosten wäre eine konkrete Fair-Value- oder Angebotszahl spekulativ. Der hohe energetische Investitionsbedarf sollte in einer Preisverhandlung jedoch wesentlich berücksichtigt werden."},
+  "investment_items": [
+    {"category":"Energie/Heizung","measure":"Heizsystem technisch bewerten und je nach Alter/Zustand erneuern bzw. Gesamtsystem optimieren","priority":"kurzfristig","low_eur":20000,"high_eur":50000,"confidence":"niedrig","basis":"HWB 247, fGEE 3,03 und ältere sichtbare Heiztechnik; konkreter Anlagentyp nicht gesichert."},
+    {"category":"Gebäudehülle","measure":"Energetische Maßnahmen an Dach/Fassade/Fenstern nach Energieberatung","priority":"mittelfristig","low_eur":30000,"high_eur":90000,"confidence":"niedrig","basis":"Sehr schlechte Energiekennzahlen; Umfang der vorhandenen Dämmung und Fensterqualität unbekannt."},
+    {"category":"Innenausbau","measure":"Modernisierung Küche, Bad und Oberflächen","priority":"mittelfristig","low_eur":30000,"high_eur":50000,"confidence":"mittel","basis":"Älterer Ausstattungsstand auf mehreren Innenbildern klar sichtbar."}
+  ],
+  "estimated_total_cost_eur": {"low":null,"high":null,"confidence":"niedrig","includes_purchase_price":true,"includes_acquisition_costs":false,"comment":"Keine belastbare Gesamtsumme ausgewiesen, da kein fundierter Zielkaufpreis bestimmt werden kann. Kaufpreis und grobe Investitionsreserve sollten getrennt betrachtet werden."},
+  "image_coverage": {"exported_images_reviewed":18,"exterior_images":5,"interior_images":10,"technical_or_outbuilding_images":3,"plans_or_documents":0,"unclassified_images":0,"comment":"Alle 18 exportierten Bilder wurden visuell geprüft. Es wurden keine eindeutig KI-bearbeiteten Bilder oder reinen Werbegrafiken erkannt."},
+  "analysis_request_id": "9accbf987d944cafb567c18ab9d24bd1"
+}
