@@ -1,0 +1,313 @@
+{
+  "house_id": "174c1208",
+  "analysis_date": "2026-08-26T13:00:44+00:00",
+  "new_score": 54,
+  "confidence": "mittel",
+  "summary": "Gesichert: Das Exposé nennt ein 1952 massiv in Ziegelbauweise errichtetes, laufend erweitertes Ein-/Zweifamilienhaus mit rund 134,5 m² auf 5.614 m² Grund, davon etwa 3.041 m² Bauland, 521 m² Freiland und 2.052 m² Wald. Ölheizung Baujahr 2000, Kunststofffenster mit Zweifachverglasung von 1999, Dachgeschossausbau 1972, Wintergarten 1995, HWB 362 und fGEE 4,17. Die realen Fotos zeigen einen sehr gepflegten, aber überwiegend älteren Ausbauzustand. Abgeleitet: Optisch ist das Haus gut erhalten und sofort nutzbar, energetisch und technisch besteht jedoch ein erheblicher Modernisierungsbedarf. Unsicher bleiben insbesondere Dachaufbau, Leitungen, Elektroinstallation, Feuchte-/Abdichtungssituation, Zustand von Pool und Nebengebäuden sowie tatsächliche Sanierungskosten.",
+  "positive_findings": [
+    "Gesichert: sehr großes Grundstück mit 5.614 m²; Exposé nennt ca. 3.041 m² Bauland, 521 m² Freiland und 2.052 m² Wald.",
+    "Gesichert: flexible Nutzung als Ein- oder Zweifamilienhaus mit separatem Zugang zum Dachgeschoss.",
+    "Gesichert: zwei Garagen/Nebengebäude, mehrere Stellplätze, überdachte Terrasse, Wintergarten und überdachter Pool.",
+    "Gesichert: Kunststofffenster mit Zweifachverglasung wurden laut Exposé 1999 eingebaut; Ölheizung 2000.",
+    "Gesichert: reale Innen- und Außenfotos zeigen einen auffallend gepflegten und bewohnbaren Zustand ohne klar sichtbare akute Großschäden.",
+    "Abgeleitet: die ruhige Sackgassenlage, Aussicht und der große Garten/Waldanteil erhöhen den Nutzwert deutlich."
+  ],
+  "risk_findings": [
+    "Gesichert: HWB 362 kWh/m²a und fGEE 4,17 sind sehr schwache Energiekennzahlen und sprechen für hohen energetischen Sanierungsbedarf.",
+    "Gesichert: das Exposé bezeichnet den Zustand zugleich als gepflegt und sanierungsbedürftig.",
+    "Gesichert: Ölheizung von 2000; altersbedingt ist eine Heizungsmodernisierung mittelfristig einzuplanen.",
+    "Gesichert: Fenster von 1999 sind inzwischen rund 27 Jahre alt; energetisch entsprechen sie nicht heutigem Standard.",
+    "Abgeleitet: bei Baujahr 1952 und Erweiterungen aus mehreren Jahrzehnten besteht erhöhtes Risiko für heterogene Bauteilaufbauten und altersbedingten Sanierungsbedarf an Dach, Leitungen, Elektro, Abdichtung und Haustechnik.",
+    "Unsicher: kein belastbarer Zustandsnachweis für Dachaufbau, Feuchteschutz, Elektroverteiler, Wasser-/Abwasserleitungen, Öltank, Pooltechnik oder Fundament-/Kellerbereich.",
+    "Unsicher: Grundstücks- und Nebengebäudesituation sollte hinsichtlich Widmung, Bewilligungen und Erhaltungskosten geprüft werden."
+  ],
+  "estimated_investment_eur": {
+    "low": 110000,
+    "high": 230000,
+    "confidence": "niedrig",
+    "comment": "Grobe Reserve für energetische und technische Modernisierung eines gepflegten, aber alten Bestands. Enthält mögliche Heizungsumstellung, Teile der Gebäudehülle/Fenster, Dach-/Haustechnikreserve, Elektro/Sanitär sowie Pool/Nebengebäude. Ohne Vor-Ort-Prüfung und Angebote nicht belastbar."
+  },
+  "address_hints": [
+    {
+      "hint": "Hörmsdorf bei 8552 Eibiswald",
+      "basis": "Exposé-Text nennt Hörmsdorf/Eibiswald; listing.json bestätigt nur die Gemeinde 8552 Eibiswald. Eine exakte Adresse ist im Manifest nicht als accepted geführt.",
+      "confidence": "hoch"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/01.jpg",
+      "area": "Garten",
+      "condition": "Reales Foto; aufwendig gepflegter Garten mit Teich/Steingestaltung.",
+      "positive": [
+        "sehr gepflegte Außenanlage"
+      ],
+      "risks": [
+        "Pflegeaufwand der großen Anlage"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/02.jpg",
+      "area": "Küche",
+      "condition": "Reales Innenfoto; ältere, aber ordentlich erhaltene Einbauküche.",
+      "positive": [
+        "sauber und nutzbar"
+      ],
+      "risks": [
+        "gestalterisch/technisch älterer Standard"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/03.jpg",
+      "area": "Schlafzimmer",
+      "condition": "Reales Innenfoto; gepflegter älterer Ausbau.",
+      "positive": [
+        "ordentlicher Zustand"
+      ],
+      "risks": [
+        "ältere Oberflächen/Deckenverkleidung"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/05.jpg",
+      "area": "Wohn-/Essbereich",
+      "condition": "Reales Innenfoto; gepflegt, ältere Ausstattung.",
+      "positive": [
+        "hell und bewohnbar"
+      ],
+      "risks": [
+        "Modernisierungsbedarf überwiegend optisch"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/07.jpg",
+      "area": "Wintergarten",
+      "condition": "Reales Foto; Wintergarten mit guter Aussicht.",
+      "positive": [
+        "zusätzlicher Nutzwert"
+      ],
+      "risks": [
+        "Alter/energetische Qualität des Wintergartens nicht beurteilbar"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/10.jpg",
+      "area": "Außenansicht",
+      "condition": "Reales Foto; Fassade und Dach wirken aus Distanz gepflegt.",
+      "positive": [
+        "kein offensichtlicher akuter Fassadenschaden"
+      ],
+      "risks": [
+        "Dach-/Fassadenaufbau nicht technisch beurteilbar"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/11.jpg",
+      "area": "Bad",
+      "condition": "Reales Foto; Bad sauber und nutzbar, aber nicht neu.",
+      "positive": [
+        "gepflegt"
+      ],
+      "risks": [
+        "mittelfristiger Modernisierungsbedarf möglich"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/14.jpg",
+      "area": "Garage/Nebengebäude",
+      "condition": "Reales Foto eines größeren Nebengebäudes mit Garage.",
+      "positive": [
+        "viel Nutz-/Werkstattpotenzial"
+      ],
+      "risks": [
+        "Dach und Bauzustand nur oberflächlich sichtbar"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/16.jpg",
+      "area": "Bad/Dusche",
+      "condition": "Reales Foto; funktional, älterer Standard.",
+      "positive": [
+        "nutzbar"
+      ],
+      "risks": [
+        "Sanitär-/Abdichtungsalter unbekannt"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/39.jpg",
+      "area": "Nebengebäude",
+      "condition": "Reales Foto; älteres Nebengebäude mit Wellplatten-Dach.",
+      "positive": [
+        "zusätzlicher Stauraum"
+      ],
+      "risks": [
+        "Dachmaterial und Sanierungsbedarf fachlich prüfen; Materialart aus Foto nicht sicher bestimmbar"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/42.jpg",
+      "area": "Grundriss",
+      "condition": "Plan/Unterlage; kein Zustandsnachweis.",
+      "positive": [
+        "Raumaufteilung nachvollziehbar"
+      ],
+      "risks": [
+        "schematische Darstellung; Abweichungen möglich"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/43.jpg",
+      "area": "Grundriss",
+      "condition": "Plan/Unterlage; kein Zustandsnachweis.",
+      "positive": [
+        "Dachgeschossaufteilung nachvollziehbar"
+      ],
+      "risks": [
+        "laut Exposé sind beim Dachgeschoss Abweichungen möglich"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/47.jpg",
+      "area": "Lageplan",
+      "condition": "Kartendarstellung; kein baulicher Zustandsnachweis.",
+      "positive": [
+        "große zusammenhängende Liegenschaft erkennbar"
+      ],
+      "risks": [
+        "Grenzen/Widmung müssen amtlich verifiziert werden"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/04.jpg",
+      "area": "Werbegrafik",
+      "condition": "Maklerlogo; ausdrücklich nicht als Zustandsnachweis verwendet.",
+      "positive": [],
+      "risks": [],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/20.jpg",
+      "area": "Werbegrafik",
+      "condition": "Außenfoto mit Verkaufs-Overlay; nur das reale Motiv, nicht der Text, ist als Bildinformation verwertbar.",
+      "positive": [],
+      "risks": [],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/44.jpg",
+      "area": "Werbegrafik",
+      "condition": "Maklerlogo; nicht als Zustandsnachweis verwendet.",
+      "positive": [],
+      "risks": [],
+      "confidence": "hoch"
+    }
+  ],
+  "recommendation": "Prüfen, aber nur mit klarer Sanierungsreserve. Der gepflegte Eindruck, das große Grundstück und die flexible Nutzung sind attraktiv; energetisch ist das Objekt mit HWB 362/fGEE 4,17 jedoch deutlich unter heutigem Standard. Vor einem Kauf sind eine technische Besichtigung und belastbare Angebote für Heizung, Gebäudehülle und Haustechnik entscheidend.",
+  "next_steps": [
+    "Bautechnische Besichtigung mit Schwerpunkt Dach, Feuchte/Abdichtung, Fundament/Kellerersatzraum und Anbauten durchführen.",
+    "Ölheizung inkl. Kessel, Tank, Abgasweg und Genehmigungen prüfen und Angebot für Heizungsumstellung einholen.",
+    "Energieberatung für Gebäudehülle, Fenster und Dach inklusive Fördermöglichkeiten erstellen lassen.",
+    "Elektroinstallation, Verteiler, Erdung sowie Wasser-/Abwasserleitungen fachlich prüfen lassen.",
+    "Pool, Überdachung, Brunnen, Ortswasseranschluss und Nebengebäude samt Bewilligungen und Technik prüfen.",
+    "Widmung und genaue Flächen von Bauland/Freiland/Wald sowie Grundstücksgrenzen amtlich verifizieren.",
+    "Vor Kaufentscheidung einen Sanierungsbudget-Puffer zusätzlich zur groben Schätzung vorsehen."
+  ],
+  "score_reasoning": "54/100: Deutliche Pluspunkte durch gepflegten sichtbaren Zustand, sehr großes Grundstück, Nebengebäude, Pool und flexible Zweifamiliennutzung. Gegen einen höheren Score sprechen vor allem HWB 362, fGEE 4,17, die 26 Jahre alte Ölheizung, Fenster von 1999, Baujahr 1952 und der im Exposé ausdrücklich genannte Sanierungsbedarf. Die umfangreiche Fotodokumentation erhöht die Beurteilungssicherheit für Oberflächen, nicht aber für technische oder verdeckte Bauteile.",
+  "limitations": [
+    "Fotos erlauben keine sichere Beurteilung verdeckter Bauteile, Feuchte, Statik, Dachaufbau oder Haustechnik.",
+    "Werbe-/Textgrafiken, Logos und Pläne wurden nicht als Zustandsnachweis verwendet.",
+    "Die exakte Objektadresse wurde nicht als bestätigt übernommen, da listing.json nur Gemeindeebene führt und document_manifest keinen accepted-Adressvorschlag enthält.",
+    "Investitionskosten sind grobe Orientierungswerte ohne Ausschreibung, regionale Angebote oder Vor-Ort-Aufmaß.",
+    "Keine rechtliche Prüfung von Widmung, Bewilligungen, Servituten oder Grundbuch."
+  ],
+  "price_assessment": {
+    "asking_price_eur": 349000,
+    "fair_value_low_eur": null,
+    "fair_value_high_eur": null,
+    "suggested_first_offer_eur": null,
+    "suggested_target_price_eur": null,
+    "maximum_recommended_price_eur": null,
+    "confidence": "niedrig",
+    "reasoning": "Ohne aktuelle lokale Vergleichsverkäufe und ohne technische Vor-Ort-Prüfung ist eine belastbare Fair-Value-Spanne nicht seriös. Der Angebotspreis muss im Zusammenhang mit dem großen Grundstück und dem erheblichen energetisch-technischen Investitionsbedarf bewertet werden."
+  },
+  "investment_items": [
+    {
+      "category": "Heizung",
+      "measure": "Ölheizung von 2000 prüfen und mittelfristig auf zeitgemäßes System umstellen",
+      "priority": "kurzfristig",
+      "low_eur": 25000,
+      "high_eur": 45000,
+      "confidence": "mittel",
+      "basis": "Exposé: Ölheizung 2000; HWB/fGEE sehr schwach."
+    },
+    {
+      "category": "Gebäudehülle",
+      "measure": "Energetische Sanierung von Fassade/Dämmung sowie Prüfung bzw. teilweise Erneuerung der Fenster",
+      "priority": "mittelfristig",
+      "low_eur": 40000,
+      "high_eur": 90000,
+      "confidence": "niedrig",
+      "basis": "HWB 362, fGEE 4,17; Fenster laut Exposé von 1999."
+    },
+    {
+      "category": "Dach",
+      "measure": "Dach und Dämmung prüfen; Sanierungsreserve vorsehen",
+      "priority": "unklar",
+      "low_eur": 15000,
+      "high_eur": 45000,
+      "confidence": "niedrig",
+      "basis": "Baujahr/Erweiterungshistorie; Fotos zeigen keine technische Dachdetailprüfung."
+    },
+    {
+      "category": "Haustechnik",
+      "measure": "Elektro-, Wasser- und Abwasserinstallation prüfen und teilweise modernisieren",
+      "priority": "unklar",
+      "low_eur": 15000,
+      "high_eur": 35000,
+      "confidence": "niedrig",
+      "basis": "Alter des Gebäudes; keine belastbaren Sanierungsjahre für Leitungen/Elektro genannt."
+    },
+    {
+      "category": "Pool/Nebengebäude",
+      "measure": "Pooltechnik, Überdachung und Nebengebäude prüfen und Instandhaltungsreserve vorsehen",
+      "priority": "unklar",
+      "low_eur": 5000,
+      "high_eur": 15000,
+      "confidence": "niedrig",
+      "basis": "Pool und Nebengebäude sind vorhanden, technischer Zustand nicht dokumentiert."
+    }
+  ],
+  "estimated_total_cost_eur": {
+    "low": 459000,
+    "high": 579000,
+    "confidence": "niedrig",
+    "includes_purchase_price": true,
+    "includes_acquisition_costs": false,
+    "comment": "Angebotspreis 349.000 € plus grobe Investitionsreserve 110.000–230.000 €; Kaufnebenkosten, Finanzierung und Steuern nicht enthalten."
+  },
+  "image_coverage": {
+    "exported_images_reviewed": 48,
+    "exterior_images": 10,
+    "interior_images": 24,
+    "technical_or_outbuilding_images": 3,
+    "plans_or_documents": 11,
+    "unclassified_images": 0,
+    "comment": "Alle 48 exportierten JPGs wurden visuell geprüft. Werbegrafiken/Logos/Textfolien und Pläne wurden nicht als Zustandsnachweis verwendet. Mehrere Motive sind Duplikate aus unterschiedlichen Quellen."
+  },
+  "analysis_request_id": "31f7ec9a8d4f44fe8ec44dc80aa83cca",
+  "source": "manual_chatgpt_upload"
+}
