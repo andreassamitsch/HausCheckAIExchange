@@ -2,8 +2,11 @@ name: Cleanup Actions artifacts
 
 on:
   workflow_dispatch:
+  workflow_run:
+    workflows: ["HausCheck pending ZIP artifact"]
+    types: [completed]
   schedule:
-    - cron: "47 */4 * * *"
+    - cron: "47 3 * * *"
   push:
     branches: [main]
     paths:
