@@ -1,0 +1,205 @@
+{
+  "house_id": "cf8b9c61",
+  "analysis_date": "2026-09-07T13:06:25.677283+00:00",
+  "new_score": 60,
+  "confidence": "mittel",
+  "summary": "Gesichert sind 359.000 € Kaufpreis, ca. 154 m² Wohnfläche, 4.200 m² Grundfläche und 6 Zimmer in 8551 Wies. Alle 29 exportierten Bilder wurden visuell geprüft. Sie zeigen ein Ensemble aus einem äußerlich überwiegend ordentlich wirkenden grünen Wohnhaus, einem deutlich älteren zweiten Gebäude/Ausgedingehaus, großem Grundstück, Carport/Nebenflächen sowie unterschiedlich modernisierten Innenräumen. Mehrere Räume sind nutzbar, gleichzeitig zeigen besonders Bilder 04 und 12 klar unfertige bzw. entkernte Sanierungsbereiche. Energiekennwerte, Baujahr und Heizsystem fehlen, daher bleibt das technische und finanzielle Risiko erheblich. Keine der 29 Aufnahmen wurde als eindeutige KI-Modernisierungsvisualisierung oder reine Werbegrafik gewertet.",
+  "positive_findings": [
+    "Gesichert: 4.200 m² Grundfläche und 154 m² Wohnfläche laut Inserat.",
+    "Gesichert: zahlreiche reale Innen- und Außenbilder ermöglichen eine brauchbare sichtbare Zustandsabschätzung.",
+    "Gesichert: Hauptgebäude wirkt außen überwiegend gepflegt; großer gepflasterter Hof sowie Carport/Abstellbereich vorhanden.",
+    "Gesichert: mehrere Wohn-/Schlafräume und Bäder wirken aktuell nutzbar.",
+    "Abgeleitet: Hauptgebäude plus weiteres Gebäude eröffnen flexible Nutzungsmöglichkeiten, rechtliche Zulässigkeit noch zu klären."
+  ],
+  "risk_findings": [
+    "Gesichert: Bilder 04 und 12 zeigen deutlich unfertige bzw. entkernte Innenbereiche mit offenen Wand-/Bodenbereichen.",
+    "Gesichert: das zweite graue Gebäude wirkt deutlich älter als das grüne Hauptgebäude und sollte separat technisch bewertet werden.",
+    "Unsicher: keine belastbaren Angaben zu Baujahr, Heizsystem, HWB/fGEE, Elektro, Sanitär, Wasser/Abwasser oder Sanierungsjahren.",
+    "Abgeleitet: bei einem Bauernhaus-Ensemble mit mehreren Baukörpern können Dach-, Feuchte-, Leitungs- und Nebengebäudethemen den Investitionsbedarf stark erhöhen.",
+    "Unsicher: Ursache der Sockelfreilegung in Bild 12 ist nicht bekannt; Feuchtigkeit wird nicht unterstellt und muss vor Ort geprüft werden."
+  ],
+  "estimated_investment_eur": {
+    "low": 70000,
+    "high": 180000,
+    "confidence": "niedrig",
+    "comment": "Grobe Reserve für Fertigstellung sichtbarer Sanierungsbereiche, mögliche Küche-/Badmodernisierung sowie technisch unbekannte Gewerke und das ältere Zweitgebäude. Ohne Heiz-/Energie-/Baujahrsdaten besonders unsicher."
+  },
+  "address_hints": [
+    {
+      "hint": "8551 Wies, ländliche Aussichtslage",
+      "basis": "listing.json nennt 8551 Wies; Inseratstitel nennt Allein- und Aussichtslage. Bilder zeigen offene Wiesen-/Gartenflächen, aber keine exakte Adresse.",
+      "confidence": "mittel"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/01-03.jpg",
+      "area": "Bäder und Grundstück",
+      "condition": "01 und 03 zeigen bestehende, eher ältere Bäder; 02 zeigt weitläufige Grünfläche und Aussicht.",
+      "positive": [
+        "Sanitärausstattung vorhanden.",
+        "Große Freifläche."
+      ],
+      "risks": [
+        "Abdichtung/Leitungsalter unklar.",
+        "Geländeentwässerung und Widmung nicht aus Bildern ableitbar."
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/04-06.jpg",
+      "area": "Sanierungsbereich, Hauptgebäude außen, Bad",
+      "condition": "04 zeigt einen deutlich unfertigen/entkernten Treppen- und Wandbereich; 05 Hauptgebäude außen insgesamt ordentlich; 06 älteres großes Bad.",
+      "positive": [
+        "Hauptgebäude außen gepflegt wirkend.",
+        "Bad nutzbar wirkend."
+      ],
+      "risks": [
+        "Klarer Fertigstellungs-/Sanierungsbedarf in 04.",
+        "Dach/Fassade technisch nicht beurteilbar."
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/07-12.jpg",
+      "area": "Wohnräume, Grundstück, Küche und Sanierungsraum",
+      "condition": "07, 11 sind nutzbare/teilmodernisierte Räume, 08 Garten, 09 Küche älter, 10 Außenansicht, 12 deutlich freigelegter Sockel- und Bodenbereich.",
+      "positive": [
+        "Mehrere nutzbare Innenräume.",
+        "Große Freifläche."
+      ],
+      "risks": [
+        "Küche eher älter.",
+        "Bild 12 zeigt erheblichen Sanierungsbedarf; Ursache der Freilegung unklar."
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/13-18.jpg",
+      "area": "Zweitgebäude, Küche, Grundstück, Dach, Carport, Schlafzimmer",
+      "condition": "13 zeigt älteres graues Zweitgebäude; 14 ältere Küche/Essen; 15 Grundstück; 16 Dachansicht Hauptgebäude; 17 großer überdachter Abstellbereich; 18 nutzbares Schlafzimmer.",
+      "positive": [
+        "Zusätzlicher Gebäudebestand und viel Nutzfläche.",
+        "Carport/Abstellbereich vorhanden.",
+        "Dach Hauptgebäude wirkt aus Distanz geschlossen."
+      ],
+      "risks": [
+        "Zweitgebäude deutlich älter; Dach/Fassade/Sockel prüfen.",
+        "Dachaufbau und Anschlüsse unbekannt."
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/19-24.jpg",
+      "area": "Obergeschoss, Lage, Neben-/Schlafräume, Außenansicht",
+      "condition": "19 und 21 ausgebaute Flur-/Treppenbereiche; 20 Lageblick; 22 Nebenraum; 23 Schlafzimmer; 24 Außen-/Hofansicht.",
+      "positive": [
+        "Mehrere nutzbare Innenräume.",
+        "Großer befestigter Hof und offene Lage."
+      ],
+      "risks": [
+        "Installationen und energetischer Zustand nicht dokumentiert."
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/25-29.jpg",
+      "area": "Treppenhaus, Grundstück, Zweitgebäude und Außenansichten",
+      "condition": "25 Treppenhaus, 26 und 29 große Wiesen-/Gartenflächen, 27 älteres graues Zweitgebäude, 28 gepflegt wirkende Hauptfassade.",
+      "positive": [
+        "Großzügige Freifläche und Aussicht.",
+        "Hauptgebäude äußerlich ordentlich wirkend."
+      ],
+      "risks": [
+        "Zweitgebäude technisch prüfen.",
+        "Grundstücksgrenzen/Widmung nicht aus Bildern ableitbar.",
+        "Nachbargebäude sind in Distanz sichtbar; Alleinlage daher nur relativ beurteilbar."
+      ],
+      "confidence": "mittel"
+    }
+  ],
+  "recommendation": "Interessant nur nach technischer und rechtlicher Klärung. Grundstück, Platz und überwiegend nutzbarer Hauptbestand sind attraktiv, aber sichtbare unfertige Bereiche und das ältere zweite Gebäude verlangen einen strukturierten Gebäudecheck. Vor einem Kaufpreisurteil müssen Heizsystem/Energie, Feuchte, Dach, Elektro/Sanitär, Wasser/Abwasser und der rechtliche Status beider Gebäude geklärt werden.",
+  "next_steps": [
+    "Vollständigen Energieausweis, Baujahr sowie Heizsystem und Heizkosten anfordern.",
+    "Beide Gebäude getrennt durch Bausachverständigen prüfen: Dach, Fassade, Sockel/Keller, Feuchte, Tragwerk.",
+    "Bei Bild 12 Ursache der freigelegten Sockelzone und des entfernten Bodenaufbaus dokumentieren lassen.",
+    "Elektro-, Wasser-, Abwasser-/Kanal- bzw. Brunnen-/Senkgruben-Situation und Sanierungsjahre klären.",
+    "Baubewilligungen, Nutzungsbewilligungen, Flächenwidmung und rechtlichen Status von Zubau/Ausgedingehaus prüfen.",
+    "Kostenvoranschläge für Fertigstellungsarbeiten und gewünschte Küchen-/Badmodernisierung einholen."
+  ],
+  "score_reasoning": "60 Punkte: viel Grundstück, gute Aussicht, großzügiger Hof und äußerlich ordentlich wirkender Hauptbestand sprechen für das Objekt. Gegen eine höhere Bewertung sprechen der hohe Angebotspreis, zwei Baukörper mit unterschiedlichem Zustand, klar sichtbare unfertige Sanierungsbereiche und vor allem komplett fehlende Energie-/Heizungs-/Baujahrsangaben. Die 29 realen Bilder erhöhen die Zustandskonfidenz auf mittel, nicht aber die technische Sicherheit.",
+  "limitations": [
+    "Keine Angaben zu Baujahr, HWB/fGEE oder Heizsystem.",
+    "Keine technischen Unterlagen zu Dach, Feuchte, Elektro, Sanitär oder Wasser/Abwasser.",
+    "Bilder erlauben keine Prüfung verdeckter Bauteile oder Ursachen offener Sanierungsstellen.",
+    "Keine Grundrisse oder Pläne im Bildsatz.",
+    "Keine belastbaren lokalen Vergleichspreise im Paket; daher kein Fair-Value-Wert erfunden."
+  ],
+  "price_assessment": {
+    "asking_price_eur": 359000,
+    "fair_value_low_eur": null,
+    "fair_value_high_eur": null,
+    "suggested_first_offer_eur": null,
+    "suggested_target_price_eur": null,
+    "maximum_recommended_price_eur": null,
+    "confidence": "niedrig",
+    "reasoning": "Der Angebotspreis ist bekannt, aber ohne Baujahr, Energie-/Heizungsdaten, technischen Zustand und lokale Vergleichsfälle wäre eine konkrete Fair-Value- oder Gebotsschätzung spekulativ."
+  },
+  "investment_items": [
+    {
+      "category": "Innenausbau",
+      "measure": "Sichtbar unfertige/entkernte Bereiche fertigstellen, insbesondere aus Bildern 04 und 12.",
+      "priority": "kurzfristig",
+      "low_eur": 20000,
+      "high_eur": 50000,
+      "confidence": "mittel",
+      "basis": "Offene Wand-/Bodenbereiche und unfertiger Ausbau klar sichtbar."
+    },
+    {
+      "category": "Küche/Bäder",
+      "measure": "Reserve für Modernisierung nach technischem Befund und persönlichem Anspruch.",
+      "priority": "mittelfristig",
+      "low_eur": 20000,
+      "high_eur": 45000,
+      "confidence": "niedrig",
+      "basis": "Mehrere Bäder und Küchen vorhanden, überwiegend älter wirkend."
+    },
+    {
+      "category": "Zweitgebäude/Gebäudehülle",
+      "measure": "Dach, Fassade, Sockel und Konstruktion des älteren Gebäudes prüfen und erforderliche Sanierung reservieren.",
+      "priority": "unklar",
+      "low_eur": 20000,
+      "high_eur": 60000,
+      "confidence": "niedrig",
+      "basis": "Graues Zweitgebäude wirkt sichtbar älter; technischer Befund fehlt."
+    },
+    {
+      "category": "Haustechnik/Energie",
+      "measure": "Reserve für unbekannte Heizungs-, Elektro-, Sanitär- oder energetische Maßnahmen nach Befund.",
+      "priority": "unklar",
+      "low_eur": 10000,
+      "high_eur": 25000,
+      "confidence": "niedrig",
+      "basis": "Heizung, Energiekennwerte und Sanierungsjahre fehlen vollständig."
+    }
+  ],
+  "estimated_total_cost_eur": {
+    "low": 429000,
+    "high": 539000,
+    "confidence": "niedrig",
+    "includes_purchase_price": true,
+    "includes_acquisition_costs": false,
+    "comment": "Angebotspreis 359.000 € plus grobe Investitionsreserve; Kaufnebenkosten, Finanzierung und Steuern nicht enthalten."
+  },
+  "image_coverage": {
+    "exported_images_reviewed": 29,
+    "exterior_images": 13,
+    "interior_images": 14,
+    "technical_or_outbuilding_images": 2,
+    "plans_or_documents": 0,
+    "unclassified_images": 0,
+    "comment": "Alle 29 exportierten Bilder wurden visuell geprüft. Keine eindeutigen KI-Modernisierungsvisualisierungen oder reine Werbegrafiken erkannt."
+  },
+  "analysis_request_id": "2aa52596d9944faf84479b588df94063",
+  "source": "manual_chatgpt_upload"
+}
