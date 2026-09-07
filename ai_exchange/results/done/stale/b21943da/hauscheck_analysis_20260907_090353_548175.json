@@ -1,0 +1,167 @@
+{
+  "house_id": "b21943da",
+  "analysis_date": "2026-09-07T08:58:10+00:00",
+  "new_score": 43,
+  "confidence": "niedrig",
+  "summary": "Gesichert: Einfamilienhaus Baujahr 1954 mit 135 m² Wohnfläche, 1.395 m² Grundstück, Öl-Zentralheizung und HWB 306,9 kWh/m²a in 8552 Eibiswald. Von fünf Bildern zeigen nur 01–03 den realen Außenbestand; 04–05 sind klar modernisierte Visualisierungen und wurden nicht als Zustandsnachweis verwendet. Abgeleitet: umfassender energetischer und technischer Modernisierungsbedarf ist wahrscheinlich. Unsicher bleiben Innenräume, Keller, Haustechnik, Dachaufbau, Leitungen und tatsächlicher Sanierungsumfang.",
+  "positive_findings": [
+    "Großes Grundstück mit 1.395 m².",
+    "Ruhige, grüne Lage und freistehender Baukörper sind auf den realen Bildern erkennbar.",
+    "135 m² Wohnfläche bietet grundsätzlich familientaugliche Größe."
+  ],
+  "risk_findings": [
+    "HWB 306,9 kWh/m²a ist gesichert sehr schlecht.",
+    "Baujahr 1954 und Öl-Zentralheizung sprechen für erhöhten Modernisierungsbedarf.",
+    "Keine realen Innen-, Keller- oder Technikbilder; zentrale Zustandsfragen bleiben offen.",
+    "Zwei von fünf Bildern sind digitale Modernisierungsvisualisierungen und dürfen nicht mit dem Ist-Zustand verwechselt werden."
+  ],
+  "estimated_investment_eur": {
+    "low": 140000,
+    "high": 300000,
+    "confidence": "niedrig",
+    "comment": "Sehr grobe Sanierungsreserve für Gebäudehülle, Heizung, mögliche Elektro-/Sanitärarbeiten sowie Innenausbau. Wegen fehlender Innen- und Technikbilder ist die Bandbreite bewusst groß."
+  },
+  "address_hints": [
+    {
+      "hint": "Hörmsdorf bei Eibiswald, 8552",
+      "basis": "Inseratsbeschreibung nennt Hörmsdorf bei Eibiswald; listing.json bestätigt nur 8552 Eibiswald auf Gemeindeebene.",
+      "confidence": "mittel"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/01.jpg",
+      "area": "Außenansicht",
+      "condition": "Reale Bestandsaufnahme eines älteren Wohnhauses.",
+      "positive": [
+        "großes Grundstück sichtbar"
+      ],
+      "risks": [
+        "Fassade/Fenster wirken älter; technischer Zustand nicht beurteilbar"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/02.jpg",
+      "area": "Außenansicht/Grundstück",
+      "condition": "Reale Rück-/Seitenansicht mit großer Freifläche.",
+      "positive": [
+        "ruhige Grünlage"
+      ],
+      "risks": [
+        "Dach und Gebäudehülle wirken alt; Details nicht prüfbar"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/03.jpg",
+      "area": "Außenansicht",
+      "condition": "Weitere reale Bestandsaufnahme.",
+      "positive": [
+        "freistehender Baukörper und große Grünfläche"
+      ],
+      "risks": [
+        "Sanierungsbedarf an Gebäudehülle plausibel, aber nicht quantifizierbar"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/04.jpg",
+      "area": "Visualisierung",
+      "condition": "Digital/virtuell modernisierte Darstellung; nicht als Ist-Zustandsnachweis verwendet.",
+      "positive": [],
+      "risks": [
+        "Werbe-/Visualisierungscharakter; zeigt keinen gesicherten Bestand"
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/05.jpg",
+      "area": "Visualisierung",
+      "condition": "Digital/virtuell modernisierte Frontansicht; nicht als Ist-Zustandsnachweis verwendet.",
+      "positive": [],
+      "risks": [
+        "Werbe-/Visualisierungscharakter; zeigt keinen gesicherten Bestand"
+      ],
+      "confidence": "hoch"
+    }
+  ],
+  "recommendation": "Nur mit umfassender technischer Vorprüfung weiterverfolgen. Vor einem Angebot Innenbesichtigung, Keller-/Feuchteprüfung, Dach- und Leitungscheck sowie ein Sanierungskonzept mit Kostenschätzung erstellen lassen. Die Visualisierungen nicht als Hinweis auf vorhandene Modernisierungen werten.",
+  "next_steps": [
+    "Reale Innenräume, Keller und Heizraum vollständig besichtigen und dokumentieren.",
+    "Ölheizung: Baujahr, Tankzustand, Wartungen und Verbrauchsdaten anfordern.",
+    "Dach, Fassade, Fenster und Dämmstandard fachlich prüfen.",
+    "Elektro-, Wasser- und Abwasserleitungen auf Alter und Erneuerungsbedarf prüfen.",
+    "Energieausweis vollständig auswerten und Sanierungsfahrplan erstellen."
+  ],
+  "score_reasoning": "43/100: Grundstück und Lage sind Pluspunkte, aber Baujahr 1954, Öl-Zentralheizung und HWB 306,9 ergeben ein hohes Sanierungsrisiko. Die sehr eingeschränkte reale Bilddokumentation senkt die Sicherheit zusätzlich.",
+  "limitations": [
+    "Nur drei reale Außenbilder vorhanden; keine Innen-, Keller- oder Technikaufnahmen.",
+    "Bilder 04 und 05 sind digitale/virtuelle Modernisierungen und wurden ausgeschlossen.",
+    "Keine exakte Adresse bestätigt.",
+    "Keine Marktvergleichsdaten; daher keine konkreten Fair-Value- oder Angebotswerte erfunden."
+  ],
+  "price_assessment": {
+    "asking_price_eur": 195000,
+    "fair_value_low_eur": null,
+    "fair_value_high_eur": null,
+    "suggested_first_offer_eur": null,
+    "suggested_target_price_eur": null,
+    "maximum_recommended_price_eur": null,
+    "confidence": "niedrig",
+    "reasoning": "Der aktuelle Angebotspreis ist laut listing.json 195.000 €. Ohne Innenzustand, Technikbefund und Vergleichsobjekte wäre eine belastbare Preisbandbreite spekulativ."
+  },
+  "investment_items": [
+    {
+      "category": "Gebäudehülle/Energie",
+      "measure": "Dach, Fassade, Fenster und Dämmung prüfen und voraussichtlich umfassend energetisch sanieren.",
+      "priority": "kurzfristig",
+      "low_eur": 60000,
+      "high_eur": 140000,
+      "confidence": "niedrig",
+      "basis": "HWB 306,9 und Baujahr 1954; Detailzustand unbekannt."
+    },
+    {
+      "category": "Heizung",
+      "measure": "Öl-Zentralheizung samt Tank prüfen und voraussichtlichen Systemwechsel kalkulieren.",
+      "priority": "kurzfristig",
+      "low_eur": 25000,
+      "high_eur": 50000,
+      "confidence": "niedrig",
+      "basis": "Öl-Zentralheizung ist in listing/evidence angegeben."
+    },
+    {
+      "category": "Innen/Haustechnik",
+      "measure": "Reserve für Elektro, Sanitär, Böden, Wände, Küche und Bäder einplanen.",
+      "priority": "unklar",
+      "low_eur": 55000,
+      "high_eur": 110000,
+      "confidence": "niedrig",
+      "basis": "Keine Innenbilder; Baujahr erhöht das Risiko veralteter Installationen."
+    }
+  ],
+  "estimated_total_cost_eur": {
+    "low": 335000,
+    "high": 495000,
+    "confidence": "niedrig",
+    "includes_purchase_price": true,
+    "includes_acquisition_costs": false,
+    "comment": "Angebotspreis 195.000 € plus grobe Investitionsreserve 140.000–300.000 €; Kaufnebenkosten/Finanzierung nicht enthalten."
+  },
+  "image_coverage": {
+    "exported_images_reviewed": 5,
+    "exterior_images": 3,
+    "interior_images": 0,
+    "technical_or_outbuilding_images": 0,
+    "plans_or_documents": 0,
+    "unclassified_images": 2,
+    "comment": "Alle 5 exportierten JPGs wurden visuell geprüft. 01–03 sind reale Außenfotos. 04–05 sind digital/virtuell modernisierte Visualisierungen und wurden nicht als Zustandsnachweis verwendet."
+  },
+  "analysis_request_id": "acb2f50f579f485aaaa7adbdd535f4a6",
+  "hauscheck_archive": {
+    "category": "stale",
+    "reason": "Auftragskennung gehört zu einem anderen Export (acb2f50f579f statt 3e22aec0d20c)",
+    "source_path": "ai_exchange/results/pending/b21943da/hauscheck_analysis.json",
+    "archived_at": "2026-09-07T09:03:53.548164+00:00"
+  }
+}
