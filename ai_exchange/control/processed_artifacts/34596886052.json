@@ -1,0 +1,9 @@
+{
+  "artifact_id": null,
+  "run_id": 34596886052,
+  "status": "complete",
+  "processed_house_ids": [],
+  "errors": [],
+  "processed_at": "2026-09-11T19:57:35Z",
+  "note": "latest_artifact status was empty; no artifact_id and no pending ZIPs. Marker filename uses run_id because artifact_id is null."
+}
