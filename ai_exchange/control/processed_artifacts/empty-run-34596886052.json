@@ -1,0 +1,10 @@
+{
+  "artifact_id": null,
+  "artifact_name": null,
+  "run_id": 34596886052,
+  "status": "complete",
+  "processed_house_ids": [],
+  "errors": [],
+  "processed_at": "2026-09-11T17:57:16Z",
+  "note": "latest_artifact status=empty; no GitHub Actions artifact and no pending house ZIPs"
+}
