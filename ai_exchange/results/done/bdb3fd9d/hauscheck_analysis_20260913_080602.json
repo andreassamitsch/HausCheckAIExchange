@@ -1,0 +1,177 @@
+{
+  "house_id": "bdb3fd9d",
+  "analysis_date": "2026-09-13T08:00:00+00:00",
+  "new_score": 55,
+  "confidence": "mittel",
+  "summary": "Große Liegenschaft in 8544 Kopreinigg mit 123 m² Wohnfläche, 4.578 m² Grund und einem Angebotspreis von 199.000 €. Gesichert sind ein sehr hoher HWB von 293,2 kWh/m²a und fGEE 3,72; als Heizung nennt die Evidenz Holzofen und Pellets. Die 33 geprüften Bilder zeigen einen überwiegend älteren, aber großteils nutzbar wirkenden Innenbestand, mehrere Neben-/Garagenflächen sowie ein großes, ruhiges Grundstück. Der energetische Zustand und der sichtbare Modernisierungsrückstand sprechen für erheblichen Investitionsbedarf. Dach, Leitungen, Feuchtigkeit, Tragwerk und genaue Bau-/Sanierungsjahre sind aus dem Paket nicht sicher beurteilbar.",
+  "positive_findings": [
+    "Gesichert: 4.578 m² Grundstück bei 123 m² Wohnfläche bieten viel Außen- und Nutzfläche.",
+    "Gesichert: Angebotspreis 199.000 €.",
+    "Gesichert aus den Bildern: mehrere Neben-/Garagenbereiche und zusätzliche befestigte bzw. überdachte Nutzflächen sind vorhanden.",
+    "Gesichert aus den Bildern: Wohnräume, Küche und Bäder sind grundsätzlich vorhanden und wirken überwiegend nutzbar, wenn auch deutlich älter.",
+    "Abgeleitet: Die Lage wirkt ruhig und ländlich mit großzügigem Grundstück und angrenzenden Grün-/Waldflächen."
+  ],
+  "risk_findings": [
+    "Gesichert: HWB 293,2 kWh/m²a und fGEE 3,72 weisen auf einen sehr schlechten energetischen Standard hin.",
+    "Gesichert aus den Bildern: Küche, Bäder, Bodenbeläge, Holzdecken und ein Großteil der Innenausstattung sind sichtbar älteren Datums.",
+    "Gesichert aus den Bildern: Neben-/Garagenbereiche sind teilweise einfach ausgeführt; bei einzelnen Decken-/Wandflächen ist der Zustand technisch näher zu prüfen.",
+    "Abgeleitet: Für energetische Sanierung, Haustechnik und Innenmodernisierung ist ein erheblicher Investitionsbedarf plausibel.",
+    "Unsicher: Baujahr, Dachaufbau und Dachalter, Fensteralter, Elektro-/Wasserleitungen, Keller-/Feuchtezustand und konkrete Heizungsanlage sind nicht ausreichend dokumentiert."
+  ],
+  "estimated_investment_eur": {
+    "low": 90000,
+    "high": 190000,
+    "confidence": "niedrig",
+    "comment": "Grobe Reserve für energetische Maßnahmen, Haustechnik und Innenmodernisierung. Ohne technische Besichtigung und ohne gesicherte Angaben zu Dach, Fenstern, Leitungen und Heizungsanlage ist die Spanne bewusst breit; größere konstruktive Schäden sind nicht eingerechnet."
+  },
+  "address_hints": [
+    {
+      "hint": "8544 Kopreinigg",
+      "basis": "listing.json führt nur den Ort/PLZ-Bereich; address_status ist municipality_only.",
+      "confidence": "hoch"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/01.jpg, images/04.jpg, images/06.jpg, images/08.jpg, images/11.jpg, images/13.jpg, images/16.jpg, images/24.jpg, images/27.jpg, images/28.jpg, images/29.jpg, images/31.jpg, images/32.jpg, images/33.jpg",
+      "area": "Wohn-/Schlaf-/Küchenbereiche",
+      "condition": "Überwiegend älterer Ausstattungsstandard; grundsätzlich nutzbar wirkend, aber deutlich modernisierungsbedürftig.",
+      "positive": [
+        "Mehrere Wohn- und Schlafräume vollständig vorhanden",
+        "Keine großflächigen akuten Schäden auf diesen Bildern eindeutig erkennbar"
+      ],
+      "risks": [
+        "Deutlich ältere Küchen, Böden, Holzdecken und Oberflächen",
+        "Technischer Zustand von Leitungen und Elektroinstallation nicht aus Bildern ableitbar"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/14.jpg, images/17.jpg, images/23.jpg",
+      "area": "Bäder/Sanitär",
+      "condition": "Funktionsfähig wirkender, jedoch älterer Sanitärstandard.",
+      "positive": [
+        "Mehrere Sanitärbereiche vorhanden"
+      ],
+      "risks": [
+        "Modernisierungsbedarf bei Fliesen, Sanitärobjekten und Installationen plausibel"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/02.jpg, images/07.jpg, images/10.jpg, images/12.jpg, images/18.jpg, images/20.jpg, images/22.jpg, images/25.jpg, images/26.jpg",
+      "area": "Außenbereich/Grundstück",
+      "condition": "Großzügiges, ländliches Grundstück mit Hang-/Geländeteilen und mehreren Nutzbereichen.",
+      "positive": [
+        "Große Freiflächen",
+        "Ruhig wirkende Lage",
+        "Mehrere zusätzliche Außen-/Nutzbereiche"
+      ],
+      "risks": [
+        "Entwässerung, Stützungen und Zufahrt bei Hang-/Geländeteilen vor Ort prüfen"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/03.jpg, images/09.jpg, images/15.jpg, images/21.jpg",
+      "area": "Garage/Nebengebäude/Nutzflächen",
+      "condition": "Einfache bis ältere Ausführung, teilweise roh bzw. funktional gehalten.",
+      "positive": [
+        "Zusätzliche Lager-/Garagenfläche vorhanden"
+      ],
+      "risks": [
+        "Dach, Abdichtung, Decken und Genehmigungsstatus der Nebenflächen prüfen"
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/05.jpg, images/19.jpg, images/30.jpg",
+      "area": "Pläne/Lageplan",
+      "condition": "Grundriss- und Lageunterlagen; nicht als Zustandsnachweis gewertet.",
+      "positive": [
+        "Grundriss- und Grundstücksstruktur nachvollziehbarer"
+      ],
+      "risks": [
+        "Maße, Widmung, Grenzen und baurechtlicher Bestand müssen mit offiziellen Unterlagen abgeglichen werden"
+      ],
+      "confidence": "mittel"
+    }
+  ],
+  "recommendation": "Das Objekt ist wegen Preis, Grundstücksgröße und Nutzflächen grundsätzlich prüfenswert, sollte aber nur nach technischer Besichtigung und mit großer Sanierungsreserve weiterverfolgt werden. Der sehr schlechte Energiekennwert und der sichtbare ältere Ausstattungsstand sind zentrale Kostentreiber. Vor einem Angebot sollten Heizung, Dach, Fenster, Elektrik, Leitungen, Feuchte/Entwässerung sowie der rechtliche Bestand der Nebenflächen geklärt werden.",
+  "next_steps": [
+    "Energieausweis vollständig anfordern und Alter/Aufbau von Fassade, Dach und Fenstern klären.",
+    "Heizungsanlage vor Ort identifizieren: Pelletanlage, Holzofen, Baujahr, Lager, Wartungen und Verbrauchsnachweise prüfen.",
+    "Elektrik, Wasser-/Abwasserleitungen und Warmwasserbereitung durch Fachkundige prüfen lassen.",
+    "Feuchteprüfung insbesondere an erdberührten Bauteilen, Nebenräumen und hangnahen Bereichen durchführen.",
+    "Baubewilligungen, Benützungsbewilligungen und genehmigten Bestand der Garagen/Nebengebäude abgleichen.",
+    "Grundstücksgrenzen, Widmung, Zufahrt und allfällige Dienstbarkeiten anhand Grundbuch/GIS prüfen.",
+    "Vor Kaufpreisverhandlung belastbare Angebote für die wichtigsten Sanierungspakete einholen."
+  ],
+  "score_reasoning": "Der Score 55/100 entspricht 'prüfen'. Positiv wirken der vergleichsweise niedrige Angebotspreis, das sehr große Grundstück und die zusätzlichen Nutzflächen. Deutlich negativ wirken HWB 293,2, fGEE 3,72, der sichtbar ältere Innenstandard und zahlreiche technisch nicht dokumentierte Bauteile. Da keine eindeutigen akuten Großschäden aus den Bildern gesichert sind, wird das Objekt nicht als rein kritisch eingestuft; wegen des voraussichtlich hohen Sanierungsbedarfs reicht es aber nicht in den Bereich 'interessant'.",
+  "limitations": [
+    "Kein Exposé-PDF mit zusätzlichem technischen Detailtext im Paket; documents enthält nur README.",
+    "Baujahr und wesentliche Sanierungsjahre fehlen.",
+    "Keine sichere Beurteilung von Dachabdichtung, Tragwerk, Leitungen, Elektroinstallation oder verdeckter Feuchte anhand der Inseratbilder.",
+    "Die Bildanalyse kann keine bautechnische Begutachtung vor Ort ersetzen.",
+    "Keine exakte Adresse bestätigt; nur 8544 Kopreinigg ist gesichert.",
+    "Keine Bilder wurden als eindeutig KI-bearbeitet oder reine Werbegrafik erkannt; Grundrisse und Lageplan wurden jedoch nicht als Zustandsnachweis verwendet."
+  ],
+  "price_assessment": {
+    "asking_price_eur": 199000,
+    "fair_value_low_eur": null,
+    "fair_value_high_eur": null,
+    "suggested_first_offer_eur": null,
+    "suggested_target_price_eur": null,
+    "maximum_recommended_price_eur": null,
+    "confidence": "niedrig",
+    "reasoning": "Ohne genaue Adresse, Widmung, Baujahr, rechtlichen Bestandsnachweis und lokale Vergleichsobjekte wäre eine belastbare Fair-Value- oder Angebotszahl spekulativ. Der Angebotspreis ist gesichert, sollte aber gegen den hohen Sanierungsbedarf verhandelt werden."
+  },
+  "investment_items": [
+    {
+      "category": "Energie/Gebäudehülle",
+      "measure": "Energetisches Sanierungskonzept für Fassade, Dach/oberste Geschossdecke und Fenster nach Bestandsprüfung",
+      "priority": "kurzfristig",
+      "low_eur": 40000,
+      "high_eur": 100000,
+      "confidence": "niedrig",
+      "basis": "HWB 293,2 und fGEE 3,72 sind gesichert; konkrete Bauteilaufbauten und Sanierungsjahre fehlen."
+    },
+    {
+      "category": "Innenräume/Sanitär",
+      "measure": "Modernisierung von Küche, Bädern, Oberflächen und Bodenbelägen nach gewünschtem Standard",
+      "priority": "mittelfristig",
+      "low_eur": 30000,
+      "high_eur": 60000,
+      "confidence": "mittel",
+      "basis": "Mehrere Innenbilder zeigen einen deutlich älteren Ausstattungsstandard."
+    },
+    {
+      "category": "Haustechnik",
+      "measure": "Reserve für Heizung, Elektro, Wasser/Abwasser nach technischer Prüfung",
+      "priority": "unklar",
+      "low_eur": 20000,
+      "high_eur": 50000,
+      "confidence": "niedrig",
+      "basis": "Heizart Holzofen/Pellets ist aus Evidenz abgeleitet/angegeben, Alter und Zustand der Anlagen sowie Leitungen fehlen."
+    }
+  ],
+  "estimated_total_cost_eur": {
+    "low": 289000,
+    "high": 389000,
+    "confidence": "niedrig",
+    "includes_purchase_price": true,
+    "includes_acquisition_costs": false,
+    "comment": "Rechnerisch Angebotspreis 199.000 € plus grobe Investitionsreserve 90.000–190.000 €. Kaufnebenkosten, Finanzierung, Steuern und nicht erkennbare konstruktive Schäden sind nicht enthalten."
+  },
+  "image_coverage": {
+    "exported_images_reviewed": 33,
+    "exterior_images": 9,
+    "interior_images": 17,
+    "technical_or_outbuilding_images": 4,
+    "plans_or_documents": 3,
+    "unclassified_images": 0,
+    "comment": "Alle 33 exportierten JPGs wurden visuell geprüft. Grundrisse/Lageplan wurden nur zur Orientierung verwendet und nicht als Zustandsnachweis. Keine eindeutigen KI-Modernisierungsbilder oder reinen Werbegrafiken erkannt."
+  },
+  "analysis_request_id": "0c330adc907a4e97b57359fa22bfbbab",
+  "source": "manual_chatgpt_upload"
+}
