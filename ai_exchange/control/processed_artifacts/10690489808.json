@@ -1,0 +1,9 @@
+{
+  "artifact_id": 10690489808,
+  "artifact_name": "hauscheck-pending-35720004530",
+  "run_id": 35720004530,
+  "status": "complete",
+  "processed_house_ids": ["89aa52c7"],
+  "errors": [],
+  "processed_at": "2026-09-22T12:02:10+00:00"
+}
