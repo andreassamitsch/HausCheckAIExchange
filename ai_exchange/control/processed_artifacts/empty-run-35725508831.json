@@ -1,0 +1,10 @@
+{
+  "artifact_id": null,
+  "run_id": 35725508831,
+  "artifact_name": null,
+  "status": "complete",
+  "processed_house_ids": [],
+  "errors": [],
+  "processed_at": "2026-09-23T18:02:32Z",
+  "note": "latest_artifact status was empty; no pending HausCheck ZIPs were present."
+}
