@@ -1,0 +1,12 @@
+{
+  "kind": "hauscheck_processed_artifact_marker",
+  "version": 1,
+  "status": "complete",
+  "artifact_id": null,
+  "artifact_name": null,
+  "run_id": 35725508831,
+  "processed_house_ids": [],
+  "errors": [],
+  "processed_at": "2026-09-24T08:00:25Z",
+  "note": "latest_artifact pointer status was empty; no pending ZIPs were present"
+}
