@@ -2,13 +2,8 @@
   "artifact_id": 10857605432,
   "run_id": 36120389176,
   "artifact_name": "hauscheck-pending-36120389176",
-  "status": "partial",
-  "processed_house_ids": [],
-  "errors": [
-    {
-      "house_id": "d8de0dc6",
-      "error": "Analysis completed and schema-ready, but repository write was blocked by connector safety checks."
-    }
-  ],
-  "timestamp": "2026-09-25T10:57:50+00:00"
+  "status": "complete",
+  "processed_house_ids": ["d8de0dc6"],
+  "errors": [],
+  "timestamp": "2026-09-25T12:02:05+00:00"
 }
