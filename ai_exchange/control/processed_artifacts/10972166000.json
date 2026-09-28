@@ -1,0 +1,14 @@
+{
+  "artifact_id": 10972166000,
+  "artifact_name": "hauscheck-pending-36427519668",
+  "run_id": 36427519668,
+  "status": "partial",
+  "processed_house_ids": [],
+  "errors": [
+    {
+      "house_id": "7250396a",
+      "error": "hauscheck_analysis.json was generated and schema-validated after reviewing all 19 images, but GitHub write was blocked by connector safety checks."
+    }
+  ],
+  "timestamp": "2026-09-28T14:04:35+00:00"
+}
