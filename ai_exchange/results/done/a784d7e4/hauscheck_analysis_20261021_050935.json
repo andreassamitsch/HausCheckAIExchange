@@ -1,0 +1,35 @@
+{
+  "house_id": "a784d7e4",
+  "analysis_request_id": "b1ae2857f889479eb9e60555111d6c2e",
+  "analysis_date": "2026-10-21T05:06:57.244Z",
+  "new_score": 19,
+  "confidence": "mittel",
+  "summary": "Ehemaliges Gasthaus/Mehrparteienhaus in Obergreith, Inserat nennt 830 m² und 159.000 €. Zahlreiche Fotos zeigen erhebliche Sanierungs- und Umnutzungsrisiken.",
+  "positive_findings": [
+    "Gesichert: Eckdaten stammen aus dem Inserat; sichtbare Merkmale nur insoweit auf Bildern erkennbar."
+  ],
+  "risk_findings": [
+    "Abgeleitet: Modernisierungs- oder Prüfungskosten können anfallen.",
+    "Unsicher: Verdeckte Mängel, technische Funktion, rechtliche und bauliche Vollständigkeit."
+  ],
+  "estimated_investment_eur": {
+    "low": null,
+    "high": null,
+    "confidence": "niedrig",
+    "comment": "Ohne Besichtigung und Angebote nicht belastbar quantifizierbar."
+  },
+  "address_hints": [],
+  "image_findings": [],
+  "recommendation": "Für normales Familienwohnen ohne Großsanierung nicht geeignet.",
+  "next_steps": [
+    "Objektbesichtigung",
+    "Energieausweis und Unterlagen anfordern",
+    "Bauteile und Haustechnik fachlich prüfen"
+  ],
+  "score_reasoning": "Bewertung berücksichtigt Inseratsangaben, zuvor visuell geprüfte Bilder, Modernisierungsbedarf und Unsicherheiten.",
+  "limitations": [
+    "Fotos sind kein Nachweis für verdeckte Bauteile.",
+    "Keine Vor-Ort-Prüfung erfolgt."
+  ],
+  "source": "manual_chatgpt_upload"
+}
