@@ -1,0 +1,35 @@
+{
+  "house_id": "843485cf",
+  "analysis_request_id": "4cd5c2fc4a9e4627a61ef1db305bf915",
+  "analysis_date": "2026-10-21T05:06:50.655Z",
+  "new_score": 54,
+  "confidence": "mittel",
+  "summary": "Einfamilienhaus in Aichberg bei Eibiswald, 130 m², 1.924 m² Grund, 298.000 €. Alle 22 Bilder geprüft: ältere Küche und Innenausstattung, Heizungsanlage, Garage und stark bewaldete Hanglage. Inserat: HWB 242,9 und fGEE 2,39.",
+  "positive_findings": [
+    "Gesichert: Eckdaten stammen aus dem Inserat; sichtbare Merkmale nur insoweit auf Bildern erkennbar."
+  ],
+  "risk_findings": [
+    "Abgeleitet: Modernisierungs- oder Prüfungskosten können anfallen.",
+    "Unsicher: Verdeckte Mängel, technische Funktion, rechtliche und bauliche Vollständigkeit."
+  ],
+  "estimated_investment_eur": {
+    "low": null,
+    "high": null,
+    "confidence": "niedrig",
+    "comment": "Ohne Besichtigung und Angebote nicht belastbar quantifizierbar."
+  },
+  "address_hints": [],
+  "image_findings": [],
+  "recommendation": "Energie- und Heizungssanierung sowie Hang, Feuchte und Zufahrt prüfen.",
+  "next_steps": [
+    "Objektbesichtigung",
+    "Energieausweis und Unterlagen anfordern",
+    "Bauteile und Haustechnik fachlich prüfen"
+  ],
+  "score_reasoning": "Bewertung berücksichtigt Inseratsangaben, zuvor visuell geprüfte Bilder, Modernisierungsbedarf und Unsicherheiten.",
+  "limitations": [
+    "Fotos sind kein Nachweis für verdeckte Bauteile.",
+    "Keine Vor-Ort-Prüfung erfolgt."
+  ],
+  "source": "manual_chatgpt_upload"
+}
