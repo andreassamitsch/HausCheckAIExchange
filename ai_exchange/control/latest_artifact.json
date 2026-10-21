@@ -2,40 +2,16 @@
   "kind": "hauscheck_pending_artifact_pointer",
   "version": 2,
   "status": "ready",
-  "created_at": "2026-10-21T05:09:10.547755+00:00",
-  "run_id": 39547925243,
+  "created_at": "2026-10-21T05:09:39.007972+00:00",
+  "run_id": 39547963766,
   "run_attempt": 1,
-  "source_commit": "14ac8d27cc8a05d5cce522bba5e039dcbaae6a48",
-  "artifact_id": 12322416505,
-  "artifact_name": "hauscheck-pending-39547925243",
-  "artifact_url": "https://github.com/andreassamitsch/HausCheckAIExchange/actions/runs/39547925243/artifacts/12322416505",
-  "artifact_digest": "b499cae4db1ddf7aa8d6c63faac04c1fd748c65d4cac5ccfd282ca6e228dc153",
+  "source_commit": "f2a73ab99b09286a13bbdbceffdce126f95a8a44",
+  "artifact_id": 12322391619,
+  "artifact_name": "hauscheck-pending-39547963766",
+  "artifact_url": "https://github.com/andreassamitsch/HausCheckAIExchange/actions/runs/39547963766/artifacts/12322391619",
+  "artifact_digest": "0e054d1fc350d9fe347eb97c54460a41af84ecb374b70f7a63c709a0a8010c74",
   "expires_after_days": 3,
   "files": [
-    {
-      "name": "3fe3c40d.zip",
-      "source_path": "ai_exchange/exports/pending/3fe3c40d.zip",
-      "size_bytes": 8304717,
-      "sha256": "596f41a533cf84c1e6c314665393ff03845aafd5c8efc37d8bff66c41a2e7af0"
-    },
-    {
-      "name": "4c79ba18.zip",
-      "source_path": "ai_exchange/exports/pending/4c79ba18.zip",
-      "size_bytes": 7326266,
-      "sha256": "222dfda1c26d8183c3fe9b3ab55be2b5939bb46e85fea5bd859028cb0415f71b"
-    },
-    {
-      "name": "5a099be7.zip",
-      "source_path": "ai_exchange/exports/pending/5a099be7.zip",
-      "size_bytes": 2283124,
-      "sha256": "41e0b2c70cf25fd9c557d533184bf408481817bb6f37c13a1aa85faafde431cb"
-    },
-    {
-      "name": "7250396a.zip",
-      "source_path": "ai_exchange/exports/pending/7250396a.zip",
-      "size_bytes": 2843783,
-      "sha256": "3c30671ef42385acf0601d4f1f8b3ba0286fe5b9fad3824820f771b6358be1a4"
-    },
     {
       "name": "843485cf.zip",
       "source_path": "ai_exchange/exports/pending/843485cf.zip",
