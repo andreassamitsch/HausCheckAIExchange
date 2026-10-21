@@ -1,0 +1,34 @@
+{
+  "house_id": "5a099be7",
+  "analysis_request_id": "aa868d524f5943939437fd798b4cd541",
+  "analysis_date": "2026-10-21T05:06:44.900Z",
+  "new_score": 52,
+  "confidence": "mittel",
+  "summary": "Einfamilienhaus Pölfing-Brunn, 140 m² für 295.000 €. Bilder zeigen ältere Innenausstattung. Inserat nennt HWB 217,4; energetische Ertüchtigung prüfen.",
+  "positive_findings": [
+    "Gesichert: Eckdaten stammen aus dem Inserat; sichtbare Merkmale nur insoweit auf Bildern erkennbar."
+  ],
+  "risk_findings": [
+    "Abgeleitet: Modernisierungs- oder Prüfungskosten können anfallen.",
+    "Unsicher: Verdeckte Mängel, technische Funktion, rechtliche und bauliche Vollständigkeit."
+  ],
+  "estimated_investment_eur": {
+    "low": null,
+    "high": null,
+    "confidence": "niedrig",
+    "comment": "Ohne Besichtigung und Angebote nicht belastbar quantifizierbar."
+  },
+  "address_hints": [],
+  "image_findings": [],
+  "recommendation": "Sanierungs- und Heizkosten vor Preisentscheidung prüfen.",
+  "next_steps": [
+    "Objektbesichtigung",
+    "Energieausweis und Unterlagen anfordern",
+    "Bauteile und Haustechnik fachlich prüfen"
+  ],
+  "score_reasoning": "Bewertung berücksichtigt Inseratsangaben, zuvor visuell geprüfte Bilder, Modernisierungsbedarf und Unsicherheiten.",
+  "limitations": [
+    "Fotos sind kein Nachweis für verdeckte Bauteile.",
+    "Keine Vor-Ort-Prüfung erfolgt."
+  ]
+}
