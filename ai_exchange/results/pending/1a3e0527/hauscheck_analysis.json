@@ -1,0 +1,34 @@
+{
+  "house_id": "1a3e0527",
+  "analysis_request_id": "34c8afd6fc054e2ea38bcd2fd6c819e7",
+  "analysis_date": "2026-10-21T05:06:36.460Z",
+  "new_score": 18,
+  "confidence": "niedrig",
+  "summary": "Nur ein 1/10-Miteigentumsanteil an einem Mietshaus in Altenmarkt, kein frei verfügbares Einfamilienhaus. Flächenangaben betreffen offenbar Gesamtobjekt.",
+  "positive_findings": [
+    "Gesichert: Eckdaten stammen aus dem Inserat; sichtbare Merkmale nur insoweit auf Bildern erkennbar."
+  ],
+  "risk_findings": [
+    "Abgeleitet: Modernisierungs- oder Prüfungskosten können anfallen.",
+    "Unsicher: Verdeckte Mängel, technische Funktion, rechtliche und bauliche Vollständigkeit."
+  ],
+  "estimated_investment_eur": {
+    "low": null,
+    "high": null,
+    "confidence": "niedrig",
+    "comment": "Ohne Besichtigung und Angebote nicht belastbar quantifizierbar."
+  },
+  "address_hints": [],
+  "image_findings": [],
+  "recommendation": "Eigentums- und Nutzungsrechte vor jeder weiteren Prüfung klären.",
+  "next_steps": [
+    "Objektbesichtigung",
+    "Energieausweis und Unterlagen anfordern",
+    "Bauteile und Haustechnik fachlich prüfen"
+  ],
+  "score_reasoning": "Bewertung berücksichtigt Inseratsangaben, zuvor visuell geprüfte Bilder, Modernisierungsbedarf und Unsicherheiten.",
+  "limitations": [
+    "Fotos sind kein Nachweis für verdeckte Bauteile.",
+    "Keine Vor-Ort-Prüfung erfolgt."
+  ]
+}
