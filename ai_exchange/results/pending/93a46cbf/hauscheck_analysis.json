@@ -1,0 +1,34 @@
+{
+  "house_id": "93a46cbf",
+  "analysis_request_id": "2ff1c1112aa24dd983aed1d29c7dac3b",
+  "analysis_date": "2026-10-21T05:06:54.302Z",
+  "new_score": 77,
+  "confidence": "mittel",
+  "summary": "Modernes Haus in Wies, 121 m² für 339.000 €. Inserat nennt HWB 42,9 und fGEE 0,57. Auf Bildern erscheinen einige Bereiche noch nicht vollständig fertiggestellt.",
+  "positive_findings": [
+    "Gesichert: Eckdaten stammen aus dem Inserat; sichtbare Merkmale nur insoweit auf Bildern erkennbar."
+  ],
+  "risk_findings": [
+    "Abgeleitet: Modernisierungs- oder Prüfungskosten können anfallen.",
+    "Unsicher: Verdeckte Mängel, technische Funktion, rechtliche und bauliche Vollständigkeit."
+  ],
+  "estimated_investment_eur": {
+    "low": null,
+    "high": null,
+    "confidence": "niedrig",
+    "comment": "Ohne Besichtigung und Angebote nicht belastbar quantifizierbar."
+  },
+  "address_hints": [],
+  "image_findings": [],
+  "recommendation": "Fertigstellungsgrad, Baubewilligung und Gesamtkosten prüfen.",
+  "next_steps": [
+    "Objektbesichtigung",
+    "Energieausweis und Unterlagen anfordern",
+    "Bauteile und Haustechnik fachlich prüfen"
+  ],
+  "score_reasoning": "Bewertung berücksichtigt Inseratsangaben, zuvor visuell geprüfte Bilder, Modernisierungsbedarf und Unsicherheiten.",
+  "limitations": [
+    "Fotos sind kein Nachweis für verdeckte Bauteile.",
+    "Keine Vor-Ort-Prüfung erfolgt."
+  ]
+}
