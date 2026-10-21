@@ -1,0 +1,34 @@
+{
+  "house_id": "7250396a",
+  "analysis_request_id": "80f7f39463b4446988b69a8586123129",
+  "analysis_date": "2026-10-21T05:06:47.736Z",
+  "new_score": 64,
+  "confidence": "mittel",
+  "summary": "Anwesen in Eibiswald, 184 m² und 741 m² Grund für 280.000 €. 19 Bilder zeigen nutzbaren Zustand mit teilweise älterer Ausstattung; verdeckte Mängel bleiben offen.",
+  "positive_findings": [
+    "Gesichert: Eckdaten stammen aus dem Inserat; sichtbare Merkmale nur insoweit auf Bildern erkennbar."
+  ],
+  "risk_findings": [
+    "Abgeleitet: Modernisierungs- oder Prüfungskosten können anfallen.",
+    "Unsicher: Verdeckte Mängel, technische Funktion, rechtliche und bauliche Vollständigkeit."
+  ],
+  "estimated_investment_eur": {
+    "low": null,
+    "high": null,
+    "confidence": "niedrig",
+    "comment": "Ohne Besichtigung und Angebote nicht belastbar quantifizierbar."
+  },
+  "address_hints": [],
+  "image_findings": [],
+  "recommendation": "Besichtigen, Energieausweis und Investitionsbedarf prüfen.",
+  "next_steps": [
+    "Objektbesichtigung",
+    "Energieausweis und Unterlagen anfordern",
+    "Bauteile und Haustechnik fachlich prüfen"
+  ],
+  "score_reasoning": "Bewertung berücksichtigt Inseratsangaben, zuvor visuell geprüfte Bilder, Modernisierungsbedarf und Unsicherheiten.",
+  "limitations": [
+    "Fotos sind kein Nachweis für verdeckte Bauteile.",
+    "Keine Vor-Ort-Prüfung erfolgt."
+  ]
+}
