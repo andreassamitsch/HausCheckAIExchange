@@ -1,0 +1,34 @@
+{
+  "house_id": "d7cfd525",
+  "analysis_request_id": "a5e9e3184bab415e86441877d907688d",
+  "analysis_date": "2026-10-21T05:06:59.927Z",
+  "new_score": 67,
+  "confidence": "mittel",
+  "summary": "Haus in Haselbach bei Eibiswald, 160 m² und 1.300 m² Grund, 275.000 €. Mögliche Dublette zu 4c79ba18 anhand übereinstimmender Eckdaten und Fotos.",
+  "positive_findings": [
+    "Gesichert: Eckdaten stammen aus dem Inserat; sichtbare Merkmale nur insoweit auf Bildern erkennbar."
+  ],
+  "risk_findings": [
+    "Abgeleitet: Modernisierungs- oder Prüfungskosten können anfallen.",
+    "Unsicher: Verdeckte Mängel, technische Funktion, rechtliche und bauliche Vollständigkeit."
+  ],
+  "estimated_investment_eur": {
+    "low": null,
+    "high": null,
+    "confidence": "niedrig",
+    "comment": "Ohne Besichtigung und Angebote nicht belastbar quantifizierbar."
+  },
+  "address_hints": [],
+  "image_findings": [],
+  "recommendation": "Dublette und aktuellen Inseratsstand prüfen, danach besichtigen.",
+  "next_steps": [
+    "Objektbesichtigung",
+    "Energieausweis und Unterlagen anfordern",
+    "Bauteile und Haustechnik fachlich prüfen"
+  ],
+  "score_reasoning": "Bewertung berücksichtigt Inseratsangaben, zuvor visuell geprüfte Bilder, Modernisierungsbedarf und Unsicherheiten.",
+  "limitations": [
+    "Fotos sind kein Nachweis für verdeckte Bauteile.",
+    "Keine Vor-Ort-Prüfung erfolgt."
+  ]
+}
