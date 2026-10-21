@@ -1,0 +1,35 @@
+{
+  "house_id": "3fe3c40d",
+  "analysis_request_id": "f7a6f887913a42a9a41b0e343255341b",
+  "analysis_date": "2026-10-21T05:06:42.132Z",
+  "new_score": 39,
+  "confidence": "mittel",
+  "summary": "Sanierungsbedürftiges Haus in Vordersdorf bei Wies, 142 m² für 169.000 €. Inserat nennt HWB 293 und fGEE 3,35; erheblicher energetischer Sanierungsbedarf wahrscheinlich.",
+  "positive_findings": [
+    "Gesichert: Eckdaten stammen aus dem Inserat; sichtbare Merkmale nur insoweit auf Bildern erkennbar."
+  ],
+  "risk_findings": [
+    "Abgeleitet: Modernisierungs- oder Prüfungskosten können anfallen.",
+    "Unsicher: Verdeckte Mängel, technische Funktion, rechtliche und bauliche Vollständigkeit."
+  ],
+  "estimated_investment_eur": {
+    "low": null,
+    "high": null,
+    "confidence": "niedrig",
+    "comment": "Ohne Besichtigung und Angebote nicht belastbar quantifizierbar."
+  },
+  "address_hints": [],
+  "image_findings": [],
+  "recommendation": "Nur mit belastbarem Sanierungsbudget und Sachverständigen weiterverfolgen.",
+  "next_steps": [
+    "Objektbesichtigung",
+    "Energieausweis und Unterlagen anfordern",
+    "Bauteile und Haustechnik fachlich prüfen"
+  ],
+  "score_reasoning": "Bewertung berücksichtigt Inseratsangaben, zuvor visuell geprüfte Bilder, Modernisierungsbedarf und Unsicherheiten.",
+  "limitations": [
+    "Fotos sind kein Nachweis für verdeckte Bauteile.",
+    "Keine Vor-Ort-Prüfung erfolgt."
+  ],
+  "source": "manual_chatgpt_upload"
+}
