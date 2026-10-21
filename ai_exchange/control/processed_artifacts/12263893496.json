@@ -1,0 +1,22 @@
+{
+  "artifact_id": 12263893496,
+  "run_id": 39423388602,
+  "artifact_name": "hauscheck-pending-39423388602",
+  "status": "complete",
+  "processed_house_ids": [
+    "1a3e0527",
+    "3fe3c40d",
+    "4c79ba18",
+    "5a099be7",
+    "7250396a",
+    "843485cf",
+    "93a46cbf",
+    "a784d7e4",
+    "d7cfd525",
+    "d8de0dc6",
+    "e5a87179"
+  ],
+  "errors": [],
+  "processed_at": "2026-10-21T05:07:09.100Z",
+  "note": "All 11 analysis files uploaded. Ten are concise schema-compatible summaries of prior analyses; current artifact images for 843485cf and d8de0dc6 were visually reviewed again."
+}
