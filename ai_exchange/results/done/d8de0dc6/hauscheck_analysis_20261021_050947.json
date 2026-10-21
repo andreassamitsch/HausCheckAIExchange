@@ -1,0 +1,172 @@
+{
+  "house_id": "d8de0dc6",
+  "analysis_date": "2026-10-21T05:06:03.465Z",
+  "analysis_request_id": "8922c74624b445e3bbd42ef252323689",
+  "new_score": 42,
+  "confidence": "niedrig",
+  "summary": "Inserat: Hanghaus in Steyeregg/Wies, 420.000 EUR, laut Inserat Baujahr 2008. Alle 13 exportierten Bilder wurden visuell geprüft: überwiegend ausdrücklich als Musterfoto gekennzeichnete Fremdobjekte oder Werbemotive; keines liefert einen belastbaren Zustandsnachweis des angebotenen Hauses. Gesichert sind nur Inseratsangaben, nicht die tatsächliche bauliche Beschaffenheit.",
+  "positive_findings": [
+    "Gesichert laut Inserat: große Wohnfläche und Doppelgarage angegeben."
+  ],
+  "risk_findings": [
+    "Gesichert: Die Bilder sind Musterfotos oder Werbemotive und belegen den Zustand nicht.",
+    "Unsicher: Feuchte, Hangabdichtung, Heizung, Energiekennzahlen, tatsächlicher Ausbauzustand.",
+    "Abgeleitet: Ohne Objektfotos ist eine seriöse Einschätzung der Investitionen nicht möglich."
+  ],
+  "estimated_investment_eur": {
+    "low": null,
+    "high": null,
+    "confidence": "niedrig",
+    "comment": "Nicht aus den verfügbaren Unterlagen belastbar bezifferbar."
+  },
+  "address_hints": [
+    {
+      "hint": "Steyeregg, Wies",
+      "basis": "Inseratsangabe, keine genaue Adresse nachgewiesen",
+      "confidence": "mittel"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/01.jpg",
+      "area": "Musterfoto/Werbegrafik",
+      "condition": "Kein belegbarer Zustandsnachweis für dieses Objekt",
+      "positive": [],
+      "risks": [
+        "Nicht als Beleg des Gebäudezustands verwenden"
+      ],
+      "confidence": "niedrig"
+    },
+    {
+      "image": "images/02.jpg",
+      "area": "Musterfoto/Werbegrafik",
+      "condition": "Kein belegbarer Zustandsnachweis für dieses Objekt",
+      "positive": [],
+      "risks": [
+        "Nicht als Beleg des Gebäudezustands verwenden"
+      ],
+      "confidence": "niedrig"
+    },
+    {
+      "image": "images/03.jpg",
+      "area": "Musterfoto/Werbegrafik",
+      "condition": "Kein belegbarer Zustandsnachweis für dieses Objekt",
+      "positive": [],
+      "risks": [
+        "Nicht als Beleg des Gebäudezustands verwenden"
+      ],
+      "confidence": "niedrig"
+    },
+    {
+      "image": "images/04.jpg",
+      "area": "Musterfoto/Werbegrafik",
+      "condition": "Kein belegbarer Zustandsnachweis für dieses Objekt",
+      "positive": [],
+      "risks": [
+        "Nicht als Beleg des Gebäudezustands verwenden"
+      ],
+      "confidence": "niedrig"
+    },
+    {
+      "image": "images/05.jpg",
+      "area": "Musterfoto/Werbegrafik",
+      "condition": "Kein belegbarer Zustandsnachweis für dieses Objekt",
+      "positive": [],
+      "risks": [
+        "Nicht als Beleg des Gebäudezustands verwenden"
+      ],
+      "confidence": "niedrig"
+    },
+    {
+      "image": "images/06.jpg",
+      "area": "Musterfoto/Werbegrafik",
+      "condition": "Kein belegbarer Zustandsnachweis für dieses Objekt",
+      "positive": [],
+      "risks": [
+        "Nicht als Beleg des Gebäudezustands verwenden"
+      ],
+      "confidence": "niedrig"
+    },
+    {
+      "image": "images/07.jpg",
+      "area": "Musterfoto/Werbegrafik",
+      "condition": "Kein belegbarer Zustandsnachweis für dieses Objekt",
+      "positive": [],
+      "risks": [
+        "Nicht als Beleg des Gebäudezustands verwenden"
+      ],
+      "confidence": "niedrig"
+    },
+    {
+      "image": "images/08.jpg",
+      "area": "Musterfoto/Werbegrafik",
+      "condition": "Kein belegbarer Zustandsnachweis für dieses Objekt",
+      "positive": [],
+      "risks": [
+        "Nicht als Beleg des Gebäudezustands verwenden"
+      ],
+      "confidence": "niedrig"
+    },
+    {
+      "image": "images/09.jpg",
+      "area": "Musterfoto/Werbegrafik",
+      "condition": "Kein belegbarer Zustandsnachweis für dieses Objekt",
+      "positive": [],
+      "risks": [
+        "Nicht als Beleg des Gebäudezustands verwenden"
+      ],
+      "confidence": "niedrig"
+    },
+    {
+      "image": "images/10.jpg",
+      "area": "Musterfoto/Werbegrafik",
+      "condition": "Kein belegbarer Zustandsnachweis für dieses Objekt",
+      "positive": [],
+      "risks": [
+        "Nicht als Beleg des Gebäudezustands verwenden"
+      ],
+      "confidence": "niedrig"
+    },
+    {
+      "image": "images/11.jpg",
+      "area": "Musterfoto/Werbegrafik",
+      "condition": "Kein belegbarer Zustandsnachweis für dieses Objekt",
+      "positive": [],
+      "risks": [
+        "Nicht als Beleg des Gebäudezustands verwenden"
+      ],
+      "confidence": "niedrig"
+    },
+    {
+      "image": "images/12.jpg",
+      "area": "Musterfoto/Werbegrafik",
+      "condition": "Kein belegbarer Zustandsnachweis für dieses Objekt",
+      "positive": [],
+      "risks": [
+        "Nicht als Beleg des Gebäudezustands verwenden"
+      ],
+      "confidence": "niedrig"
+    },
+    {
+      "image": "images/13.jpg",
+      "area": "Musterfoto/Werbegrafik",
+      "condition": "Kein belegbarer Zustandsnachweis für dieses Objekt",
+      "positive": [],
+      "risks": [
+        "Nicht als Beleg des Gebäudezustands verwenden"
+      ],
+      "confidence": "niedrig"
+    }
+  ],
+  "recommendation": "Nur weiter prüfen, wenn echte Objektfotos, Energieausweis und Besichtigung möglich sind.",
+  "next_steps": [
+    "Echte Innen- und Außenaufnahmen verlangen",
+    "Energieausweis und Baubescheide prüfen",
+    "Hanglage, Feuchtigkeit und Technik besichtigen"
+  ],
+  "score_reasoning": "42/100 wegen hoher Unsicherheit über den tatsächlichen Zustand trotz attraktiver Flächenangaben.",
+  "limitations": [
+    "Keines der 13 Bilder belegt sicher das angebotene Objekt."
+  ],
+  "source": "manual_chatgpt_upload"
+}
