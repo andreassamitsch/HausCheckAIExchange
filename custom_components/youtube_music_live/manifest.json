@@ -1,0 +1,14 @@
+{
+  "domain": "youtube_music_live",
+  "name": "YouTube Music Live",
+  "version": "0.1.0",
+  "documentation": "https://github.com/andreassamitsch/HausCheckAIExchange/tree/main/custom_components/youtube_music_live",
+  "issue_tracker": "https://github.com/andreassamitsch/HausCheckAIExchange/issues",
+  "codeowners": [
+    "@andreassamitsch"
+  ],
+  "config_flow": true,
+  "integration_type": "service",
+  "iot_class": "local_polling",
+  "requirements": []
+}

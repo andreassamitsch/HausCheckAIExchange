@@ -1,0 +1,70 @@
+play_query:
+  name: Song starten
+  description: Startet einen Song per Titel oder Künstler und setzt die Wiedergabeliste neu.
+  fields:
+    query:
+      name: Suchbegriff
+      required: true
+      selector:
+        text: {}
+    radio:
+      name: Automatische Folgetitel
+      selector:
+        boolean: {}
+enqueue:
+  name: Song zur Warteschlange hinzufügen
+  fields:
+    query:
+      name: Suchbegriff
+      required: true
+      selector:
+        text: {}
+play_video:
+  name: Exakte YouTube Music ID abspielen
+  fields:
+    video_id:
+      name: Video-ID
+      required: true
+      selector:
+        text: {}
+play_playlist:
+  name: Playlist starten
+  fields:
+    playlist_id:
+      name: Playlist-ID
+      required: true
+      selector:
+        text: {}
+queue_remove:
+  name: Titel aus Warteschlange entfernen
+  fields:
+    index:
+      name: Index ab null
+      required: true
+      selector:
+        number:
+          min: 0
+          max: 199
+          mode: box
+queue_move:
+  name: Titel in Warteschlange verschieben
+  fields:
+    from_index:
+      name: Von Index
+      required: true
+      selector:
+        number:
+          min: 0
+          max: 199
+          mode: box
+    to_index:
+      name: Nach Index
+      required: true
+      selector:
+        number:
+          min: 0
+          max: 199
+          mode: box
+queue_clear:
+  name: Warteschlange leeren
+  description: Entfernt nur kommende Titel, ohne die aktuelle Wiedergabe zu stoppen.

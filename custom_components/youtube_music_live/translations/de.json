@@ -1,0 +1,23 @@
+{
+  "title": "YouTube Music Live",
+  "config": {
+    "step": {
+      "user": {
+        "title": "YouTube Music Live verbinden",
+        "description": "Adresse der lokalen Musik-App und ihren API-Schlüssel eingeben.",
+        "data": {
+          "url": "App-Adresse",
+          "api_key": "API-Schlüssel"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "Ungültige Adresse",
+      "invalid_auth": "API-Schlüssel abgelehnt",
+      "cannot_connect": "App nicht erreichbar"
+    },
+    "abort": {
+      "already_configured": "Bereits eingerichtet"
+    }
+  }
+}
