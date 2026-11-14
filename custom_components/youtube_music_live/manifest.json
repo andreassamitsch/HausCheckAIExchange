@@ -1,7 +1,7 @@
 {
   "domain": "youtube_music_live",
   "name": "YouTube Music Live",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "documentation": "https://github.com/andreassamitsch/HausCheckAIExchange/tree/main/custom_components/youtube_music_live",
   "issue_tracker": "https://github.com/andreassamitsch/HausCheckAIExchange/issues",
   "codeowners": [
