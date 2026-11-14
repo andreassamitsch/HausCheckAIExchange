@@ -6,11 +6,13 @@ does not take over Cast or set the Soundbar's volume.
 from __future__ import annotations
 
 from datetime import timedelta
+from pathlib import Path
 import logging
 
 import voluptuous as vol
 
 from homeassistant.core import HomeAssistant, ServiceCall
+from homeassistant.components.http import StaticPathConfig
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.helpers.update_coordinator import DataUpdateCoordinator, UpdateFailed
 from homeassistant.exceptions import HomeAssistantError
@@ -82,6 +84,13 @@ async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
     coordinator = MusicCoordinator(hass, client)
     await coordinator.async_config_entry_first_refresh()
     if DOMAIN not in hass.data or not hass.data[DOMAIN]:
+        await hass.http.async_register_static_paths([
+            StaticPathConfig(
+                "/youtube_music_live/ytmusic-live-card.js",
+                str(Path(__file__).parent / "ytmusic-live-card.js"),
+                False
+            )
+        ])
         _register_services(hass)
     hass.data.setdefault(DOMAIN, {})[entry.entry_id] = coordinator
     await hass.config_entries.async_forward_entry_setups(entry, PLATFORMS)
