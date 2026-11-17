@@ -1,63 +1,77 @@
-/* Minimal wrapper around Home Assistant's native media-control card.
- * Keeps the stock artwork, transport, seek, volume and responsive styling.
- * Only changes where the Media icon opens and closes after selection.
+/* Native Home Assistant media-control card with smarter YouTube Music popup.
+ * Uses the standard dashboard card rendered by HA's own card helper.
+ * No music is started by mounting the card or opening the media browser.
  */
 class SmartYouTubeMusicMediaControlCard extends HTMLElement {
   constructor() {
     super();
     this.attachShadow({mode:"open"});
-    this._card=document.createElement("hui-media-control-card");
-    this.shadowRoot.appendChild(this._card);
-    this._card.addEventListener("show-dialog", e=>this._prepareBrowseDialog(e));
+    this._card=null;
+    this._hass=null;
+    this._config=null;
+    this._loading=null;
   }
 
-  static getStubConfig(){
-    return {
-      type:"custom:smart-youtube-music-media-control-card",
-      entity:"media_player.youtube_music_live_youtube_music_live",
-      name:"Ultra Slim Soundbar"
-    };
+  static getStubConfig() {
+    return {type:"custom:smart-youtube-music-media-control-card",
+      entity:"media_player.youtube_music_live_youtube_music_live",name:"Ultra Slim Soundbar"};
   }
 
-  setConfig(config){
+  setConfig(config) {
     if(!config.entity || !config.entity.startsWith("media_player.")){
       throw new Error("Ein media_player ist erforderlich");
     }
     this._config={...config};
-    this._card.setConfig({type:"media-control",entity:config.entity,...(config.name?{name:config.name}:{})});
+    this._initialize();
   }
+
+  connectedCallback(){this._initialize();}
 
   set hass(hass){
     this._hass=hass;
-    // The native card uses HA contexts. Forward state as well for compatibility.
-    this._card.hass=hass;
+    if(this._card)this._card.hass=hass;
+  }
+  getCardSize(){return this._card?.getCardSize?.()||3;}
+  getLayoutOptions(){return this._card?.getLayoutOptions?.()||{grid_columns:12,grid_rows:"auto"};}
+
+  async _initialize() {
+    if(!this._config || this._card || this._loading)return this._loading;
+    this._loading=(async()=>{
+      // loadCardHelpers triggers Home Assistant's native card loader. Constructing
+      // a bare <hui-media-control-card> before it is registered causes a
+      // Lovelace configuration error; the helper avoids that race.
+      const load=window.loadCardHelpers;
+      if(typeof load!=="function")throw new Error("Home Assistant card helpers unavailable");
+      const helpers=await load();
+      const card=helpers.createCardElement({
+        type:"media-control",
+        entity:this._config.entity,
+        ...(this._config.name?{name:this._config.name}:{})
+      });
+      card.addEventListener("show-dialog",ev=>this._prepareBrowseDialog(ev));
+      this._card=card;
+      if(this._hass)card.hass=this._hass;
+      this.shadowRoot.replaceChildren(card);
+    })().catch(error=>{
+      const fallback=document.createElement("ha-card");
+      fallback.textContent="Medienkarte konnte nicht geladen werden: "+String(error?.message||error);
+      this.shadowRoot.replaceChildren(fallback);
+    }).finally(()=>{this._loading=null;});
+    return this._loading;
   }
 
-  getCardSize(){return this._card.getCardSize?.()||3;}
-  getLayoutOptions(){return this._card.getLayoutOptions?.()||{grid_columns:12,grid_rows:"auto"};}
-
   _prepareBrowseDialog(event){
-    const details=event.detail;
-    const params=details?.dialogParams;
-    if(details?.dialogTag!=="dialog-media-player-browse" ||
+    const detail=event.detail,params=detail?.dialogParams;
+    if(detail?.dialogTag!=="dialog-media-player-browse" ||
        params?.entityId!==this._config?.entity)return;
-
-    const state=this._hass?.states?.[this._config.entity];
-    const count=Number(state?.attributes?.queue_length||0);
-    const destination=count>0?"queue":"search";
-
-    // The browser only shows its search input below the root level. Beginning
-    // at a real subdirectory both skips the empty landing page and preserves
-    // the back arrow to search/history when browsing the queue.
+    const queue=Number(this._hass?.states?.[this._config.entity]?.attributes?.queue_length||0);
     params.navigateIds=[
       {media_content_id:undefined,media_content_type:undefined},
-      {media_content_id:destination,media_content_type:"music"}
+      {media_content_id:queue>0?"queue":"search",media_content_type:"music"}
     ];
-
-    // Native HA action 'play' intentionally leaves the dialog open.
-    // Action 'select' calls the same mediaPickedCallback (play_media), but
-    // the standard dialog then automatically closes after a song is picked.
-    // No soundbar commands are issued here: the existing callback owns playback.
+    // The standard dialog closes on 'select' but deliberately stays open on
+    // 'play'. Keep the native card's original mediaPickedCallback so it still
+    // calls media_player.play_media with the selected song.
     params.action="select";
   }
 }
@@ -66,9 +80,7 @@ if(!customElements.get("smart-youtube-music-media-control-card")){
 }
 window.customCards=window.customCards||[];
 if(!window.customCards.some(item=>item.type==="smart-youtube-music-media-control-card")){
-  window.customCards.push({
-    type:"smart-youtube-music-media-control-card",
+  window.customCards.push({type:"smart-youtube-music-media-control-card",
     name:"YouTube Music – native Medienkarte",
-    description:"Original Media Control, mit Warteschlange/Suche und Auto-Schließen im Medienpopup."
-  });
+    description:"Home Assistant Media Control mit automatischer Warteschlange/Suche und schließendem Popup."});
 }
