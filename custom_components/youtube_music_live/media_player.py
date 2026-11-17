@@ -75,7 +75,11 @@ class MusicPlayer(CoordinatorEntity, MediaPlayerEntity):
             case "paused":
                 return MediaPlayerState.PAUSED
             case "starting":
-                return MediaPlayerState.BUFFERING
+                # Home Assistant's native media-control hides all transport
+                # buttons while buffering. A track already exists and is
+                # starting (or seeking), so keep its Pause/Previous/Next
+                # buttons present instead of flickering on every Cast restart.
+                return MediaPlayerState.PLAYING
             case _:
                 return MediaPlayerState.IDLE
 
