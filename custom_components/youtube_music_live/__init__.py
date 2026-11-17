@@ -12,6 +12,7 @@ import logging
 import voluptuous as vol
 
 from homeassistant.core import HomeAssistant, ServiceCall
+from homeassistant.const import EVENT_CALL_SERVICE
 from homeassistant.components.http import StaticPathConfig
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.helpers.update_coordinator import DataUpdateCoordinator, UpdateFailed
@@ -94,6 +95,31 @@ async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
         _register_services(hass)
     hass.data.setdefault(DOMAIN, {})[entry.entry_id] = coordinator
     await hass.config_entries.async_forward_entry_setups(entry, PLATFORMS)
+
+    def _is_soundbar_stop(event) -> bool:
+        data = event.data
+        if data.get("domain") != "media_player" or data.get("service") not in ("media_stop", "turn_off"):
+            return False
+        soundbar_id = (coordinator.data or {}).get("player_entity")
+        if not soundbar_id or not (coordinator.data or {}).get("current"):
+            return False
+        targets = []
+        for source in (data.get("service_data"), data.get("target")):
+            if isinstance(source, dict):
+                value = source.get("entity_id", [])
+                targets.extend([value] if isinstance(value, str) else value if isinstance(value, list) else [])
+        return soundbar_id in targets
+
+    def on_soundbar_stop(event) -> None:
+        """A Home Assistant stop on the actual Cast player stops app radio too.
+
+        This only updates the app queue. The native stop command itself
+        controls the Cast receiver, preventing recursive media_stop calls.
+        """
+        if _is_soundbar_stop(event):
+            hass.async_create_task(coordinator.command("/api/external_stop"))
+
+    entry.async_on_unload(hass.bus.async_listen(EVENT_CALL_SERVICE, on_soundbar_stop))
     return True
 
 
