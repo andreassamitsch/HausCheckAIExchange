@@ -34,9 +34,9 @@ async def async_setup_entry(hass, entry, async_add_entities):
 
 
 class MusicPlayer(CoordinatorEntity, MediaPlayerEntity):
-    _attr_name = "YouTube Music Live"
+    _attr_name = "Ultra Slim Soundbar"
     _attr_icon = "mdi:music-circle"
-    _attr_has_entity_name = True
+    _attr_has_entity_name = False
     _attr_should_poll = False
     _attr_supported_features = (
         MediaPlayerEntityFeature.PLAY
@@ -245,26 +245,29 @@ class MusicPlayer(CoordinatorEntity, MediaPlayerEntity):
             )
         if media_content_id not in (None, ""):
             raise BrowseError("Unknown YouTube Music browse location")
+        # As with Toniebox chapter browsing, open directly into the track list.
+        # Keep previous tracks in a separate folder below upcoming songs.
+        children = [
+            self._item(track, f"{QUEUE_PREFIX}{i}:{track['video_id']}")
+            for i, track in enumerate(queue) if isinstance(track, dict)
+        ]
+        if history:
+            children.append(BrowseMedia(
+                media_class=MediaClass.DIRECTORY,
+                media_content_type=MediaType.MUSIC,
+                media_content_id=HISTORY,
+                title=f"Zuletzt gespielt ({len(history)})",
+                can_play=False, can_expand=True,
+                children_media_class=MediaClass.TRACK,
+            ))
         return BrowseMedia(
             media_class=MediaClass.DIRECTORY, media_content_type=MediaType.MUSIC,
-            media_content_id="", title="YouTube Music Live",
+            media_content_id="", title=f"Warteschlange ({data.get('queue_length', 0)})",
             can_play=False, can_expand=True, can_search=True,
             search_media_classes=[MediaClass.TRACK],
-            children_media_class=MediaClass.DIRECTORY,
-            children=[
-                BrowseMedia(
-                    media_class=MediaClass.DIRECTORY, media_content_type=MediaType.MUSIC,
-                    media_content_id=QUEUE, title=f"Warteschlange ({data.get('queue_length', 0)})",
-                    can_play=False, can_expand=True,
-                    children_media_class=MediaClass.TRACK
-                ),
-                BrowseMedia(
-                    media_class=MediaClass.DIRECTORY, media_content_type=MediaType.MUSIC,
-                    media_content_id=HISTORY, title=f"Zuletzt gespielt ({len(history)})",
-                    can_play=False, can_expand=True,
-                    children_media_class=MediaClass.TRACK
-                ),
-            ],
+            children_media_class=MediaClass.TRACK,
+            children=children,
+            not_shown=max(0, int(data.get("queue_length", 0)) - len(queue)),
         )
 
     async def async_search_media(self, query: SearchMediaQuery) -> SearchMedia:
