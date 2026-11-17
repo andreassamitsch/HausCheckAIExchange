@@ -1,5 +1,6 @@
 """Player entity for YouTube Music Live, separate from the actual Cast soundbar."""
 from __future__ import annotations
+from datetime import datetime, timezone
 
 from homeassistant.components.media_player import (
     MediaPlayerEntity, MediaPlayerEntityFeature, MediaPlayerState
@@ -25,6 +26,7 @@ class MusicPlayer(CoordinatorEntity, MediaPlayerEntity):
         | MediaPlayerEntityFeature.STOP
         | MediaPlayerEntityFeature.NEXT_TRACK
         | MediaPlayerEntityFeature.PLAY_MEDIA
+        | MediaPlayerEntityFeature.SEEK
     )
 
     def __init__(self, coordinator, entry):
@@ -60,7 +62,43 @@ class MusicPlayer(CoordinatorEntity, MediaPlayerEntity):
 
     @property
     def media_duration(self):
-        return (self.coordinator.data or {}).get("current", {}).get("duration_seconds") if (self.coordinator.data or {}).get("current") else None
+        data = self.coordinator.data or {}
+        track = data.get("current") or {}
+        return track.get("duration_seconds")
+
+    @property
+    def media_position(self):
+        data = self.coordinator.data or {}
+        return data.get("media_position") if data.get("current") else None
+
+    @property
+    def media_position_updated_at(self):
+        data = self.coordinator.data or {}
+        timestamp = data.get("media_position_updated_at")
+        if timestamp and data.get("current"):
+            try:
+                return datetime.fromtimestamp(float(timestamp), tz=timezone.utc)
+            except (TypeError, ValueError, OverflowError):
+                return None
+        return None
+
+    @property
+    def media_image_url(self):
+        track = (self.coordinator.data or {}).get("current") or {}
+        return track.get("thumbnail")
+
+    @property
+    def media_image_remotely_accessible(self):
+        return True
+
+    @property
+    def media_content_id(self):
+        track = (self.coordinator.data or {}).get("current") or {}
+        return track.get("video_id")
+
+    @property
+    def media_content_type(self):
+        return "music" if (self.coordinator.data or {}).get("current") else None
 
     @property
     def extra_state_attributes(self):
@@ -70,6 +108,7 @@ class MusicPlayer(CoordinatorEntity, MediaPlayerEntity):
             "radio_enabled": d.get("radio_enabled", False),
             "soundbar_entity_id": d.get("player_entity"),
             "last_error": d.get("last_error"),
+            "cover_url": (d.get("current") or {}).get("thumbnail"),
         }
 
     async def async_media_play(self):
@@ -83,6 +122,9 @@ class MusicPlayer(CoordinatorEntity, MediaPlayerEntity):
 
     async def async_media_next_track(self):
         await self.coordinator.command("/api/next")
+
+    async def async_media_seek(self, position: float) -> None:
+        await self.coordinator.command("/api/seek", {"position": int(position)})
 
     async def async_play_media(self, media_type, media_id, **kwargs):
         if media_type == "playlist":
