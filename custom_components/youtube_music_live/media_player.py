@@ -1,14 +1,32 @@
-"""Player entity for YouTube Music Live, separate from the actual Cast soundbar."""
+"""Home Assistant-native YouTube Music player with browsable queue and Cast volume."""
 from __future__ import annotations
+
 from datetime import datetime, timezone
+from urllib.parse import quote
 
 from homeassistant.components.media_player import (
-    MediaPlayerEntity, MediaPlayerEntityFeature, MediaPlayerState
+    BrowseError,
+    MediaClass,
+    MediaPlayerEntity,
+    MediaPlayerEntityFeature,
+    MediaPlayerState,
+    MediaType,
 )
-from homeassistant.helpers.update_coordinator import CoordinatorEntity
+from homeassistant.components.media_player.browse_media import (
+    BrowseMedia,
+    SearchMedia,
+    SearchMediaQuery,
+)
 from homeassistant.helpers.entity import DeviceInfo
+from homeassistant.helpers.update_coordinator import CoordinatorEntity
 
 from .const import DOMAIN
+
+QUEUE = "queue"
+HISTORY = "history"
+MEDIA_PREFIX = "song:"
+QUEUE_PREFIX = "queue:"
+HISTORY_PREFIX = "history:"
 
 
 async def async_setup_entry(hass, entry, async_add_entities):
@@ -24,9 +42,15 @@ class MusicPlayer(CoordinatorEntity, MediaPlayerEntity):
         MediaPlayerEntityFeature.PLAY
         | MediaPlayerEntityFeature.PAUSE
         | MediaPlayerEntityFeature.STOP
+        | MediaPlayerEntityFeature.PREVIOUS_TRACK
         | MediaPlayerEntityFeature.NEXT_TRACK
         | MediaPlayerEntityFeature.PLAY_MEDIA
         | MediaPlayerEntityFeature.SEEK
+        | MediaPlayerEntityFeature.BROWSE_MEDIA
+        | MediaPlayerEntityFeature.SEARCH_MEDIA
+        | MediaPlayerEntityFeature.VOLUME_SET
+        | MediaPlayerEntityFeature.VOLUME_STEP
+        | MediaPlayerEntityFeature.VOLUME_MUTE
     )
 
     def __init__(self, coordinator, entry):
@@ -37,34 +61,34 @@ class MusicPlayer(CoordinatorEntity, MediaPlayerEntity):
             name="YouTube Music Live", manufacturer="Home Assistant DIY",
             model="YouTube Music Live API"
         )
+        self._search_cache: dict[str, dict] = {}
 
     @property
     def state(self):
         data = self.coordinator.data or {}
         if not data.get("current"):
             return MediaPlayerState.IDLE
-        status = data.get("cast_state")
-        if status == "playing":
-            return MediaPlayerState.PLAYING
-        if status == "paused":
-            return MediaPlayerState.PAUSED
-        if status == "starting":
-            return MediaPlayerState.BUFFERING
-        return MediaPlayerState.IDLE
+        match data.get("cast_state"):
+            case "playing":
+                return MediaPlayerState.PLAYING
+            case "paused":
+                return MediaPlayerState.PAUSED
+            case "starting":
+                return MediaPlayerState.BUFFERING
+            case _:
+                return MediaPlayerState.IDLE
 
     @property
     def media_title(self):
-        return (self.coordinator.data or {}).get("current", {}).get("title") if (self.coordinator.data or {}).get("current") else None
+        return ((self.coordinator.data or {}).get("current") or {}).get("title")
 
     @property
     def media_artist(self):
-        return (self.coordinator.data or {}).get("current", {}).get("artist") if (self.coordinator.data or {}).get("current") else None
+        return ((self.coordinator.data or {}).get("current") or {}).get("artist")
 
     @property
     def media_duration(self):
-        data = self.coordinator.data or {}
-        track = data.get("current") or {}
-        return track.get("duration_seconds")
+        return ((self.coordinator.data or {}).get("current") or {}).get("duration_seconds")
 
     @property
     def media_position(self):
@@ -74,42 +98,81 @@ class MusicPlayer(CoordinatorEntity, MediaPlayerEntity):
     @property
     def media_position_updated_at(self):
         data = self.coordinator.data or {}
-        timestamp = data.get("media_position_updated_at")
-        if timestamp and data.get("current"):
+        stamp = data.get("media_position_updated_at")
+        if stamp and data.get("current"):
             try:
-                return datetime.fromtimestamp(float(timestamp), tz=timezone.utc)
+                return datetime.fromtimestamp(float(stamp), tz=timezone.utc)
             except (TypeError, ValueError, OverflowError):
-                return None
+                pass
         return None
 
     @property
+    def media_content_id(self):
+        return ((self.coordinator.data or {}).get("current") or {}).get("video_id")
+
+    @property
+    def media_content_type(self):
+        return MediaType.MUSIC if (self.coordinator.data or {}).get("current") else None
+
+    @property
     def media_image_url(self):
-        track = (self.coordinator.data or {}).get("current") or {}
-        return track.get("thumbnail")
+        return ((self.coordinator.data or {}).get("current") or {}).get("thumbnail")
 
     @property
     def media_image_remotely_accessible(self):
         return True
 
     @property
-    def media_content_id(self):
-        track = (self.coordinator.data or {}).get("current") or {}
-        return track.get("video_id")
+    def _soundbar_entity(self):
+        return (self.coordinator.data or {}).get("player_entity")
 
     @property
-    def media_content_type(self):
-        return "music" if (self.coordinator.data or {}).get("current") else None
+    def _soundbar_state(self):
+        entity_id = self._soundbar_entity
+        return self.hass.states.get(entity_id) if entity_id else None
+
+    @property
+    def volume_level(self):
+        state = self._soundbar_state
+        return state.attributes.get("volume_level") if state else None
+
+    @property
+    def is_volume_muted(self):
+        state = self._soundbar_state
+        return state.attributes.get("is_volume_muted") if state else None
 
     @property
     def extra_state_attributes(self):
         d = self.coordinator.data or {}
         return {
             "queue_length": d.get("queue_length", 0),
+            "history_length": d.get("history_length", 0),
             "radio_enabled": d.get("radio_enabled", False),
             "soundbar_entity_id": d.get("player_entity"),
             "last_error": d.get("last_error"),
             "cover_url": (d.get("current") or {}).get("thumbnail"),
         }
+
+    async def _soundbar_service(self, action, **params):
+        entity_id = self._soundbar_entity
+        if not entity_id:
+            return
+        await self.hass.services.async_call(
+            "media_player", action, {"entity_id": entity_id, **params}, blocking=True
+        )
+        self.async_write_ha_state()
+
+    async def async_set_volume_level(self, volume: float) -> None:
+        await self._soundbar_service("volume_set", volume_level=max(0.0, min(1.0, volume)))
+
+    async def async_volume_up(self) -> None:
+        await self.async_set_volume_level(min(1.0, (self.volume_level or 0.0) + 0.01))
+
+    async def async_volume_down(self) -> None:
+        await self.async_set_volume_level(max(0.0, (self.volume_level or 0.0) - 0.01))
+
+    async def async_mute_volume(self, mute: bool) -> None:
+        await self._soundbar_service("volume_mute", is_volume_muted=mute)
 
     async def async_media_play(self):
         await self.coordinator.command("/api/resume")
@@ -123,19 +186,145 @@ class MusicPlayer(CoordinatorEntity, MediaPlayerEntity):
     async def async_media_next_track(self):
         await self.coordinator.command("/api/next")
 
+    async def async_media_previous_track(self):
+        await self.coordinator.command("/api/previous")
+
     async def async_media_seek(self, position: float) -> None:
         await self.coordinator.command("/api/seek", {"position": int(position)})
 
+    @staticmethod
+    def _item(track: dict, identifier: str) -> BrowseMedia:
+        duration = track.get("duration_seconds")
+        timing = ""
+        if isinstance(duration, (int, float)) and duration > 0:
+            timing = f" · {int(duration)//60}:{int(duration)%60:02d}"
+        artist = track.get("artist", "")
+        title = f'{track.get("title") or "Unbekannter Titel"}'
+        if artist:
+            title += f" — {artist}"
+        return BrowseMedia(
+            media_class=MediaClass.TRACK,
+            media_content_type=MediaType.MUSIC,
+            media_content_id=identifier,
+            title=title + timing,
+            can_play=True,
+            can_expand=False,
+            thumbnail=track.get("thumbnail"),
+        )
+
+    async def async_browse_media(
+        self, media_content_type: MediaType | str | None = None,
+        media_content_id: str | None = None
+    ) -> BrowseMedia:
+        """Native Home Assistant media browser (the same UI Tonie uses)."""
+        # Refresh on opening the browser; no music control command.
+        await self.coordinator.async_request_refresh()
+        data = self.coordinator.data or {}
+        queue = data.get("queue") or []
+        history = data.get("history") or []
+        if media_content_id == QUEUE:
+            return BrowseMedia(
+                media_class=MediaClass.DIRECTORY, media_content_type=MediaType.MUSIC,
+                media_content_id=QUEUE, title=f"Warteschlange ({data.get('queue_length', 0)})",
+                can_play=False, can_expand=True, children_media_class=MediaClass.TRACK,
+                children=[
+                    self._item(track, f"{QUEUE_PREFIX}{i}:{track['video_id']}")
+                    for i, track in enumerate(queue) if isinstance(track, dict)
+                ],
+                not_shown=max(0, int(data.get("queue_length", 0)) - len(queue)),
+            )
+        if media_content_id == HISTORY:
+            return BrowseMedia(
+                media_class=MediaClass.DIRECTORY, media_content_type=MediaType.MUSIC,
+                media_content_id=HISTORY, title="Zuletzt gespielt",
+                can_play=False, can_expand=True, children_media_class=MediaClass.TRACK,
+                children=[
+                    self._item(track, f"{HISTORY_PREFIX}{i}:{track['video_id']}")
+                    for i, track in enumerate(history) if isinstance(track, dict)
+                ],
+            )
+        if media_content_id not in (None, ""):
+            raise BrowseError("Unknown YouTube Music browse location")
+        return BrowseMedia(
+            media_class=MediaClass.DIRECTORY, media_content_type=MediaType.MUSIC,
+            media_content_id="", title="YouTube Music Live",
+            can_play=False, can_expand=True, can_search=True,
+            search_media_classes=[MediaClass.TRACK],
+            children_media_class=MediaClass.DIRECTORY,
+            children=[
+                BrowseMedia(
+                    media_class=MediaClass.DIRECTORY, media_content_type=MediaType.MUSIC,
+                    media_content_id=QUEUE, title=f"Warteschlange ({data.get('queue_length', 0)})",
+                    can_play=False, can_expand=True,
+                    children_media_class=MediaClass.TRACK
+                ),
+                BrowseMedia(
+                    media_class=MediaClass.DIRECTORY, media_content_type=MediaType.MUSIC,
+                    media_content_id=HISTORY, title=f"Zuletzt gespielt ({len(history)})",
+                    can_play=False, can_expand=True,
+                    children_media_class=MediaClass.TRACK
+                ),
+            ],
+        )
+
+    async def async_search_media(self, query: SearchMediaQuery) -> SearchMedia:
+        """Search songs without starting playback."""
+        term = str(query.search_query or "").strip()
+        if not term:
+            return SearchMedia(result=[])
+        from urllib.parse import quote
+        from .api import MusicAPIError
+        try:
+            response = await self.coordinator.client.request(
+                "GET", f"/api/search?q={quote(term)}&kind=songs&limit=20"
+            )
+        except MusicAPIError as exc:
+            raise BrowseError(str(exc)) from exc
+        results = [t for t in response.get("results", []) if isinstance(t, dict)
+                   and isinstance(t.get("video_id"), str)]
+        self._search_cache = {t["video_id"]: t for t in results}
+        return SearchMedia(result=[
+            self._item(track, f"{MEDIA_PREFIX}{track['video_id']}")
+            for track in results
+        ])
+
     async def async_play_media(self, media_type, media_id, **kwargs):
-        if media_type == "playlist":
+        ident = str(media_id)
+        if ident.startswith(QUEUE_PREFIX) or ident.startswith(HISTORY_PREFIX):
+            location = QUEUE if ident.startswith(QUEUE_PREFIX) else HISTORY
+            try:
+                _, index, video_id = ident.split(":", 2)
+                index = int(index)
+            except (ValueError, TypeError) as err:
+                raise BrowseError("Invalid queue selection") from err
+            if len(video_id) != 11 or index < 0:
+                raise BrowseError("Invalid song selection")
+            await self.coordinator.command(
+                "/api/queue/play" if location == QUEUE else "/api/history/play",
+                {"index": index, "video_id": video_id}
+            )
+            return
+        if ident.startswith(MEDIA_PREFIX):
+            video_id = ident[len(MEDIA_PREFIX):]
+            track = self._search_cache.get(video_id) or {}
+            payload = {
+                "video_id": video_id, "radio": True,
+                "title": track.get("title", video_id),
+                "artist": track.get("artist", ""),
+                "duration_seconds": track.get("duration_seconds"),
+                "thumbnail": track.get("thumbnail"),
+            }
+            await self.coordinator.command("/api/play", payload)
+            return
+        if media_type == MediaType.PLAYLIST:
             await self.coordinator.command("/api/playlist", {
-                "playlist_id": str(media_id), "radio_after": True
+                "playlist_id": ident, "radio_after": True
             })
-        elif str(media_id).startswith("id:"):
+        elif ident.startswith("id:"):
             await self.coordinator.command("/api/play", {
-                "video_id": str(media_id)[3:], "radio": True
+                "video_id": ident[3:], "radio": True
             })
         else:
             await self.coordinator.command("/api/play", {
-                "query": str(media_id), "radio": True
+                "query": ident, "radio": True
             })
