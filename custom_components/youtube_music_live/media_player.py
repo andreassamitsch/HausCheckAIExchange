@@ -24,6 +24,7 @@ from .const import DOMAIN
 
 QUEUE = "queue"
 HISTORY = "history"
+SEARCH = "search"
 MEDIA_PREFIX = "song:"
 QUEUE_PREFIX = "queue:"
 HISTORY_PREFIX = "history:"
@@ -222,6 +223,19 @@ class MusicPlayer(CoordinatorEntity, MediaPlayerEntity):
         data = self.coordinator.data or {}
         queue = data.get("queue") or []
         history = data.get("history") or []
+        if media_content_id == SEARCH:
+            return BrowseMedia(
+                media_class=MediaClass.DIRECTORY,
+                media_content_type=MediaType.MUSIC,
+                media_content_id=SEARCH,
+                title="Titel suchen",
+                can_play=False,
+                can_expand=True,
+                can_search=True,
+                search_media_classes=[MediaClass.TRACK],
+                children_media_class=MediaClass.TRACK,
+                children=[],
+            )
         if media_content_id == QUEUE:
             return BrowseMedia(
                 media_class=MediaClass.DIRECTORY, media_content_type=MediaType.MUSIC,
@@ -245,29 +259,48 @@ class MusicPlayer(CoordinatorEntity, MediaPlayerEntity):
             )
         if media_content_id not in (None, ""):
             raise BrowseError("Unknown YouTube Music browse location")
-        # As with Toniebox chapter browsing, open directly into the track list.
-        # Keep previous tracks in a separate folder below upcoming songs.
-        children = [
-            self._item(track, f"{QUEUE_PREFIX}{i}:{track['video_id']}")
-            for i, track in enumerate(queue) if isinstance(track, dict)
-        ]
-        if history:
-            children.append(BrowseMedia(
-                media_class=MediaClass.DIRECTORY,
-                media_content_type=MediaType.MUSIC,
-                media_content_id=HISTORY,
-                title=f"Zuletzt gespielt ({len(history)})",
-                can_play=False, can_expand=True,
-                children_media_class=MediaClass.TRACK,
-            ))
+        # Home Assistant's frontend intentionally hides search at the browse
+        # root. A browsable SEARCH subfolder exposes the native search field
+        # after one tap, including when the playback queue is empty.
         return BrowseMedia(
-            media_class=MediaClass.DIRECTORY, media_content_type=MediaType.MUSIC,
-            media_content_id="", title=f"Warteschlange ({data.get('queue_length', 0)})",
-            can_play=False, can_expand=True, can_search=True,
-            search_media_classes=[MediaClass.TRACK],
-            children_media_class=MediaClass.TRACK,
-            children=children,
-            not_shown=max(0, int(data.get("queue_length", 0)) - len(queue)),
+            media_class=MediaClass.DIRECTORY,
+            media_content_type=MediaType.MUSIC,
+            media_content_id="",
+            title="YouTube Music Live",
+            can_play=False,
+            can_expand=True,
+            children_media_class=MediaClass.DIRECTORY,
+            children=[
+                BrowseMedia(
+                    media_class=MediaClass.DIRECTORY,
+                    media_content_type=MediaType.MUSIC,
+                    media_content_id=SEARCH,
+                    title="Titel suchen",
+                    can_play=False,
+                    can_expand=True,
+                    can_search=True,
+                    search_media_classes=[MediaClass.TRACK],
+                    children_media_class=MediaClass.TRACK,
+                ),
+                BrowseMedia(
+                    media_class=MediaClass.DIRECTORY,
+                    media_content_type=MediaType.MUSIC,
+                    media_content_id=QUEUE,
+                    title=f"Warteschlange ({data.get('queue_length', 0)})",
+                    can_play=False,
+                    can_expand=True,
+                    children_media_class=MediaClass.TRACK,
+                ),
+                BrowseMedia(
+                    media_class=MediaClass.DIRECTORY,
+                    media_content_type=MediaType.MUSIC,
+                    media_content_id=HISTORY,
+                    title=f"Zuletzt gespielt ({len(history)})",
+                    can_play=False,
+                    can_expand=True,
+                    children_media_class=MediaClass.TRACK,
+                ),
+            ],
         )
 
     async def async_search_media(self, query: SearchMediaQuery) -> SearchMedia:
