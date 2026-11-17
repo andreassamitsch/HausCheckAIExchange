@@ -72,7 +72,7 @@ class SmartYouTubeMusicMediaControlCard extends HTMLElement {
     // The standard dialog closes on 'select' but deliberately stays open on
     // 'play'. Keep the native card's original mediaPickedCallback so it still
     // calls media_player.play_media with the selected song.
-    params.action="select";
+    params.action="pick";
   }
 }
 if(!customElements.get("smart-youtube-music-media-control-card")){
