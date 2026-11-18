@@ -1,0 +1,148 @@
+{
+  "house_id": "00e1f275",
+  "analysis_date": "2026-11-18T19:21:54.193624+00:00",
+  "analysis_request_id": "965e4c22506d440b91026bf1e9f7a2e4",
+  "new_score": 48,
+  "confidence": "mittel",
+  "summary": "Gesichert im Export: Angebotspreis 349.000 €, 154 m² Wohnfläche, 1.794 m² Grund, Baujahr laut Inserat 1970, Öl-Zentralheizung, HWB 320 und fGEE 3,76. Abgeleitet: Einzelne Wohnräume wirken aufgefrischt. Der hohe Heizwärmebedarf und die sichtbaren älteren Leitungen sprechen für eine technische Bestandsaufnahme vor der Preisentscheidung. Unsicher: Alter und Zustand von Ölkessel, Tank, Dachaufbau, Fenstern und Kellerabdichtung. Eine Küche ist in dieser Serie nicht dokumentiert. Die Quellen führen Wies und Eibiswald unterschiedlich.",
+  "positive_findings": [
+    "Gesichert: Mehrere leere, helle Wohnräume mit Holzböden beziehungsweise Holzdekor und großen Fensterflächen.",
+    "Gesichert: Balkon, Gartenterrasse, Grünfläche und Garagentor sind sichtbar."
+  ],
+  "risk_findings": [
+    "Abgeleitet: Der Heizwärmebedarf spricht für eine Prüfung der Gebäudehülle und der laufenden Heizkosten.",
+    "Abgeleitet: Für Außentreppe, Sockel und Entwässerung kommt je nach Zustand Instandhaltung hinzu.",
+    "Unsicher: Alter und Zustand von Ölkessel, Tank, Dachaufbau, Fenstern und Kellerabdichtung. Eine Küche ist in dieser Serie nicht dokumentiert. Die Quellen führen Wies und Eibiswald unterschiedlich."
+  ],
+  "estimated_investment_eur": {
+    "low": null,
+    "high": null,
+    "confidence": "niedrig",
+    "comment": "Mögliche Maßnahmen an Hülle, Heizung und Leitungen erfordern einen Bauteil- und Anlagenbefund."
+  },
+  "address_hints": [
+    {
+      "hint": "Raum Wies/Eibiswald",
+      "basis": "Abweichende Ortsbezeichnungen im Exposétext und im strukturierten Inseratsfeld. Keine bestätigte Objektanschrift im Export.",
+      "confidence": "mittel"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/01.jpg, images/09.jpg, images/12.jpg",
+      "area": "Wohnräume",
+      "condition": "Leere Räume mit holzfarbenem Boden, Heizkörpern und Tageslicht. In 01 ist ein Deckenauslass mit Kabel sichtbar.",
+      "positive": [],
+      "risks": [
+        "Elektroausstattung und Fensteralter prüfen."
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/04.jpg",
+      "area": "Bad",
+      "condition": "Gefliestes Bad mit Fenster, Eckwanne, WC und Handtuchheizkörper.",
+      "positive": [],
+      "risks": [
+        "Fugen, Abdichtung und Installationsalter prüfen."
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/05.jpg",
+      "area": "Flur",
+      "condition": "Schmaler Flur mit Türen, Heizkörper und Wandverteiler.",
+      "positive": [],
+      "risks": [],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/02.jpg, images/06.jpg, images/07.jpg, images/10.jpg",
+      "area": "Haus außen",
+      "condition": "Orange Putzfassade, grauer Sockel, Balkon und gedecktes Dach. Ansicht 06 zeigt die Zufahrt mit Garagentor.",
+      "positive": [],
+      "risks": [
+        "Dach, Sockel und Balkonanschlüsse vor Ort prüfen."
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/03.jpg, images/11.jpg",
+      "area": "Garten, Aussicht und Terrasse",
+      "condition": "Ausblick ins Grüne, Hangwiese und Terrasse mit Stiegenzugang und Einfassung.",
+      "positive": [],
+      "risks": [
+        "Entwässerung und Stiegen-/Geländerzustand prüfen."
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/08.jpg, images/13.jpg",
+      "area": "Untergeschoss",
+      "condition": "Ähnlicher Blick auf gefliesten Bereich, Tür und sichtbare Leitungsführung. Das zweite Bild zeigt mehr Deckenleitungen.",
+      "positive": [],
+      "risks": [
+        "Kellerfeuchte und Rohrzustand prüfen."
+      ],
+      "confidence": "mittel"
+    }
+  ],
+  "recommendation": "Nur mit Sanierungsprüfung und bestätigten Heiz- und Betriebskosten weiterverfolgen.",
+  "next_steps": [
+    "Rechnungen zu Heizung, Tank und Sanierungen anfordern.",
+    "Hülle, Dachraum und Keller fachlich besichtigen.",
+    "Wohnfläche, Kaufumfang und Ortsangabe anhand der Unterlagen abgleichen."
+  ],
+  "score_reasoning": "Der Garten und die hellen Räume erhöhen den Nutzwert. HWB 320, Öl und offene Fragen zu Haustechnik und Hülle begrenzen die Bewertung.",
+  "limitations": [
+    "13 exportierte JPG-Dateien visuell geprüft. Der Export weist insgesamt 39 Medien aus.",
+    "Keine Kessel- oder Tankdetailfotos. Die Außenfotos belegen nur sichtbare Oberflächen."
+  ],
+  "price_assessment": {
+    "asking_price_eur": 349000,
+    "fair_value_low_eur": null,
+    "fair_value_high_eur": null,
+    "suggested_first_offer_eur": null,
+    "suggested_target_price_eur": null,
+    "maximum_recommended_price_eur": null,
+    "confidence": "niedrig",
+    "reasoning": "Der Angebotsstand ist dokumentiert. Für eine Preisbandbreite fehlen belastbare Vergleichsverkäufe und eine Kalkulation des tatsächlichen Aufwands."
+  },
+  "investment_items": [
+    {
+      "category": "Energie und Heizung",
+      "measure": "Hülle und Ölanlage prüfen und Sanierung in Varianten kalkulieren",
+      "priority": "kurzfristig",
+      "low_eur": null,
+      "high_eur": null,
+      "confidence": "niedrig",
+      "basis": "HWB 320, fGEE 3,76 und Öl-Zentralheizung laut Inseratsdaten."
+    },
+    {
+      "category": "Keller und Außenanlagen",
+      "measure": "Abdichtung, Sockel und Wasserführung prüfen",
+      "priority": "unklar",
+      "low_eur": null,
+      "high_eur": null,
+      "confidence": "niedrig",
+      "basis": "Ansichten von Sockel, Geländeanschluss und Kellerleitungen."
+    }
+  ],
+  "estimated_total_cost_eur": {
+    "low": null,
+    "high": null,
+    "confidence": "niedrig",
+    "includes_purchase_price": false,
+    "includes_acquisition_costs": false,
+    "comment": "Ein belastbarer Zielkaufpreis und eine bezifferbare Investitionsspanne fehlen."
+  },
+  "image_coverage": {
+    "exported_images_reviewed": 13,
+    "exterior_images": 6,
+    "interior_images": 5,
+    "technical_or_outbuilding_images": 2,
+    "plans_or_documents": 0,
+    "unclassified_images": 0,
+    "comment": "Die Zahlen zählen exportierte Dateien, auch bei mehreren Ansichten desselben Bereichs."
+  }
+}
