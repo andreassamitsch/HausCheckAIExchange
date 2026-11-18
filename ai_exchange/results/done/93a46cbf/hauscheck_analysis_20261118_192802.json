@@ -1,0 +1,160 @@
+{
+  "house_id": "93a46cbf",
+  "analysis_date": "2026-11-18T19:23:24.617835+00:00",
+  "analysis_request_id": "22117c07a36143778bcce87c4244955d",
+  "new_score": 71,
+  "confidence": "mittel",
+  "summary": "Gesichert im Export: Das Inserat in Wies nennt 339.000 €, 121 m² Wohnfläche, vier Zimmer, 698 m² Grund, HWB 42,9 (B) und fGEE 0,57 (A). Reale Bilder zeigen eine weitgehend ausgeführte Gebäudehülle bei sichtbar offenen Innenarbeiten. Abgeleitet: Bilder 03, 06 und 12 zeigen virtuelle Inszenierungen. Abweichungen zu den korrespondierenden Originalmotiven betreffen Bett, Wohnküche und fertige Terrasse beziehungsweise Garten. Für diese Ausstattung ist der Kaufumfang offen. Unsicher: Welche Böden, Elektroabschlüsse, Küche, Sanitärgegenstände und Außenarbeiten der Verkauf umfasst. Heiztechniktyp, Inbetriebnahme und Fertigstellungsunterlagen sind nicht eindeutig belegt.",
+  "positive_findings": [
+    "Gesichert: Moderne Hülle, große Fensterflächen, Terrasse, überdachter Stellplatz und sichtbare Technikanschlüsse.",
+    "Gesichert: Die inserierten Energiekennwerte liegen deutlich unter denen der Altbauten im Artifact. Zwei Grundrisse und ein Lage-Exposé liegen vor."
+  ],
+  "risk_findings": [
+    "Abgeleitet: Der sichtbare Fertigstellungsstand spricht für zusätzliche kalkulationspflichtige Arbeiten.",
+    "Abgeleitet: Für den übergebenen Zustand sind verbindliche Leistungsbeschreibung und dokumentierte Inbetriebnahme entscheidend.",
+    "Unsicher: Welche Böden, Elektroabschlüsse, Küche, Sanitärgegenstände und Außenarbeiten der Verkauf umfasst. Heiztechniktyp, Inbetriebnahme und Fertigstellungsunterlagen sind nicht eindeutig belegt."
+  ],
+  "estimated_investment_eur": {
+    "low": null,
+    "high": null,
+    "confidence": "niedrig",
+    "comment": "Kosten hängen von der vertraglichen Ausbaustufe und von Auswahl und Mengen ab. Im Paket fehlt eine positionsweise Leistungsbeschreibung."
+  },
+  "address_hints": [
+    {
+      "hint": "8551 Wies",
+      "basis": "Inseratsort und Lage-Exposé bestätigen die Gemeinde. Es wird keine genaue Adresse aus Karten abgeleitet.",
+      "confidence": "hoch"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/01.jpg, images/16.jpg",
+      "area": "Grundrisse EG und OG",
+      "condition": "Planzeichnungen mit Wohnküche, Zimmern, Nassbereichen, Technik und Außenbezügen.",
+      "positive": [],
+      "risks": [
+        "Planstand anhand der Ausführung bestätigen."
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/02.jpg, images/04.jpg, images/09.jpg",
+      "area": "Wohnräume im Ausbau",
+      "condition": "Unbelegte Böden, sichtbare Elektroauslässe und große Fenster-/Türöffnungen zur Terrasse beziehungsweise zum Balkon.",
+      "positive": [],
+      "risks": [
+        "Bodenaufbau, Elektro-Fertigstellung und Lieferumfang klären."
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/08.jpg, images/14.jpg",
+      "area": "Nassräume",
+      "condition": "Geflieste Wände, Nischen und Anschlusspunkte. Auf den gezeigten Ausschnitten fehlen montierte Sanitärobjekte.",
+      "positive": [],
+      "risks": [
+        "Abdichtungsprotokolle, Ausstattung und Inbetriebnahme anfordern."
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/05.jpg, images/07.jpg, images/10.jpg, images/11.jpg, images/15.jpg",
+      "area": "Außenbereich",
+      "condition": "Fassade, gedeckte Terrasse, Wege, Stellplatz und begrünte bzw. lückenhaft bewachsene Freifläche; Böschung mit Stützelementen.",
+      "positive": [],
+      "risks": [
+        "Entwässerung, Böschung sowie zugesagte Gartenarbeiten klären."
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/13.jpg",
+      "area": "Technikraum",
+      "condition": "Weißes Gerätegehäuse, Rohrgruppen, Verteiler und Wasseranschlüsse sichtbar.",
+      "positive": [],
+      "risks": [
+        "Anlagentyp, Übergabeprotokoll und Funktion bestätigen."
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/03.jpg, images/06.jpg, images/12.jpg",
+      "area": "Virtuelle Ausstattung",
+      "condition": "Bild 03 zeigt ein inszeniertes Schlafzimmer, 06 eine möblierte Wohnküche, 12 einen fertig gestalteten Außenbereich. Als Visualisierungen eingeordnet.",
+      "positive": [],
+      "risks": [
+        "Dargestellte Ausstattung und Ausbaustand aus dem Zustandsnachweis ausgeschlossen."
+      ],
+      "confidence": "hoch"
+    }
+  ],
+  "recommendation": "Besichtigung lohnt sich bei einem verbindlichen Angebot für den tatsächlich übergebenen Ausbauzustand. Fertigstellungsposten vor einem Preisvergleich einzeln kalkulieren.",
+  "next_steps": [
+    "Schriftlich abgrenzen, welche Leistungen im Preis enthalten sind.",
+    "Boden, Küche, Elektroabschlüsse, Sanitär und Außenanlagen positionenweise kalkulieren.",
+    "Energieausweis, Geräteunterlagen, Inbetriebnahme und Fertigstellungsunterlagen einholen."
+  ],
+  "score_reasoning": "Gute inserierte Energiewerte, moderne Hülle und klarer Grundriss erhöhen den Score. Die offenen Fertigstellungsleistungen und der unklare Preisumfang begrenzen ihn.",
+  "limitations": [
+    "16 exportierte JPG-Dateien visuell geprüft. Der Export weist insgesamt 83 Medien aus.",
+    "Das Lage-Exposé und die beiden Grundriss-PDFs wurden geprüft. Sie dokumentieren Umgebung und Raumkonzept. Die drei virtuellen JPGs wurden von der Zustandsbewertung ausgenommen."
+  ],
+  "price_assessment": {
+    "asking_price_eur": 339000,
+    "fair_value_low_eur": null,
+    "fair_value_high_eur": null,
+    "suggested_first_offer_eur": null,
+    "suggested_target_price_eur": null,
+    "maximum_recommended_price_eur": null,
+    "confidence": "niedrig",
+    "reasoning": "339.000 € stehen im Inserat. Erst eine verbindliche Leistungsbeschreibung und eine Kalkulation offener Gewerke machen den Preis vergleichbar."
+  },
+  "investment_items": [
+    {
+      "category": "Innenausbau",
+      "measure": "Böden, Elektroabschlüsse und Küche kalkulieren",
+      "priority": "kurzfristig",
+      "low_eur": null,
+      "high_eur": null,
+      "confidence": "niedrig",
+      "basis": "Reale Bilder 02, 04 und 09 zeigen den sichtbaren Ausbauzustand."
+    },
+    {
+      "category": "Sanitär",
+      "measure": "Sanitärobjekte und Inbetriebnahme abklären",
+      "priority": "kurzfristig",
+      "low_eur": null,
+      "high_eur": null,
+      "confidence": "niedrig",
+      "basis": "Anschlusspunkte in 08 und 14."
+    },
+    {
+      "category": "Außenbereich",
+      "measure": "Noch geschuldete Garten- und Entwässerungsarbeiten klären",
+      "priority": "mittelfristig",
+      "low_eur": null,
+      "high_eur": null,
+      "confidence": "niedrig",
+      "basis": "Reale Ansichten 05, 10, 11 und 15."
+    }
+  ],
+  "estimated_total_cost_eur": {
+    "low": null,
+    "high": null,
+    "confidence": "niedrig",
+    "includes_purchase_price": false,
+    "includes_acquisition_costs": false,
+    "comment": "Ein belastbarer Zielkaufpreis und eine bezifferbare Investitionsspanne fehlen."
+  },
+  "image_coverage": {
+    "exported_images_reviewed": 16,
+    "exterior_images": 5,
+    "interior_images": 5,
+    "technical_or_outbuilding_images": 1,
+    "plans_or_documents": 2,
+    "unclassified_images": 3,
+    "comment": "16 JPGs gesichtet. Bilder 03, 06 und 12 sind unter unklassifizierten Bildern erfasst, da sie virtuelle Ausbaubeispiele zeigen. Die 17 Seiten der drei PDFs zählen separat."
+  },
+  "source": "manual_chatgpt_upload"
+}
