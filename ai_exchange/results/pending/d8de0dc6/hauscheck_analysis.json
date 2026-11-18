@@ -1,0 +1,80 @@
+{
+  "house_id": "d8de0dc6",
+  "analysis_date": "2026-11-18T20:57:09+00:00",
+  "analysis_request_id": "e473b43934824f8a93c1e90a234fc56f",
+  "new_score": 42,
+  "confidence": "niedrig",
+  "summary": "Gesichert: Inserat bewirbt ein Hanghaus in Steyeregg um 420.000 €, mit 271 m² Wohnfläche, 1.134 m² Grundstück und sechs Zimmer; Text erwähnt Keller und Doppelgarage. Alle 23 exportierten JPGs sind als Musterfoto, Symbolbild oder Werbegrafik erkennbar. Abgeleitet: Die Galerie erlaubt keine Zustandsbewertung des tatsächlichen Hauses. Unsicher: realer Zustand, Ausstattung, Heizung, Energiekennwerte, Keller, Hang, Garage, Kaufbedingungen und exakte Grundstückszuordnung.",
+  "positive_findings": [
+    "Gesichert: Inserat enthält Flächen- und Raumangaben sowie eine Beschreibung von Nebenräumen."
+  ],
+  "risk_findings": [
+    "Abgeleitet: Vollständig nicht objektbezogene Galerie verhindert eine seriöse bauliche Bewertung.",
+    "Unsicher: Sämtliche technischen und baulichen Zustandsmerkmale."
+  ],
+  "estimated_investment_eur": {
+    "low": null,
+    "high": null,
+    "confidence": "niedrig",
+    "comment": "Ohne technischen Befund und konkrete Gewerke keine seriöse Kostenspanne."
+  },
+  "address_hints": [
+    {
+      "hint": "Steyeregg, 8551 Wies",
+      "basis": "Ortsangabe aus Inserat; keine aus Bildern erfundene Adresse",
+      "confidence": "mittel"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/01.jpg–images/23.jpg",
+      "area": "Gesamte exportierte Bildserie",
+      "condition": "images/01.jpg–images/23.jpg: 20 mit Musterfoto beschriftete Motive und drei Werbe-/Symbolgrafiken; alle als Zustandsnachweis ausgeschlossen.",
+      "positive": [],
+      "risks": [
+        "Abgeleitet: Vollständig nicht objektbezogene Galerie verhindert eine seriöse bauliche Bewertung.",
+        "Unsicher: Sämtliche technischen und baulichen Zustandsmerkmale."
+      ],
+      "confidence": "mittel"
+    }
+  ],
+  "recommendation": "Erst nach originalen Objektfotos, Unterlagen und Besichtigungsmöglichkeit weiterprüfen.",
+  "next_steps": [
+    "Echte Innen-, Außen-, Keller- und Technikfotos verlangen.",
+    "Energieausweis, Bauakt und Kaufbedingungen anfordern.",
+    "Hang, Kellerabdichtung und Garage am konkreten Objekt prüfen."
+  ],
+  "score_reasoning": "Gesichert: Inserat bewirbt ein Hanghaus in Steyeregg um 420.000 €, mit 271 m² Wohnfläche, 1.134 m² Grundstück und sechs Zimmer; Text erwähnt Keller und Doppelgarage. Alle 23 exportierten JPGs sind als Musterfoto, Symbolbild oder Werbegrafik erkennbar. Abgeleitet: Die Galerie erlaubt keine Zustandsbewertung des tatsächlichen Hauses. Unsicher: realer Zustand, Ausstattung, Heizung, Energiekennwerte, Keller, Hang, Garage, Kaufbedingungen und exakte Grundstückszuordnung.",
+  "limitations": [
+    "Alle 23 exportierten JPG-Dateien visuell gesichtet.",
+    "Verdeckte Bauteile, Betriebsdaten und Genehmigungen lassen sich nicht allein aus Bildern prüfen."
+  ],
+  "price_assessment": {
+    "asking_price_eur": 420000,
+    "fair_value_low_eur": null,
+    "fair_value_high_eur": null,
+    "suggested_first_offer_eur": null,
+    "suggested_target_price_eur": null,
+    "maximum_recommended_price_eur": null,
+    "confidence": "niedrig",
+    "reasoning": "Mangels verifizierter Vergleichsverkäufe und technischer Befunde kein belastbarer Marktwert."
+  },
+  "investment_items": [],
+  "estimated_total_cost_eur": {
+    "low": null,
+    "high": null,
+    "confidence": "niedrig",
+    "includes_purchase_price": false,
+    "includes_acquisition_costs": false,
+    "comment": "Zielkaufpreis und Investitionen nicht belastbar quantifizierbar."
+  },
+  "image_coverage": {
+    "exported_images_reviewed": 23,
+    "exterior_images": 0,
+    "interior_images": 0,
+    "technical_or_outbuilding_images": 0,
+    "plans_or_documents": 0,
+    "unclassified_images": 23,
+    "comment": "images/01.jpg–images/23.jpg: 20 mit Musterfoto beschriftete Motive und drei Werbe-/Symbolgrafiken; alle als Zustandsnachweis ausgeschlossen."
+  }
+}
