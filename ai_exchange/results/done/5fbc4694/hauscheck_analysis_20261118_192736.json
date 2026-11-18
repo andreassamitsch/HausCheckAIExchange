@@ -1,0 +1,165 @@
+{
+  "house_id": "5fbc4694",
+  "analysis_date": "2026-11-18T19:21:54.260706+00:00",
+  "analysis_request_id": "ab4feb378e0c4e2aab8c10d16c74e708",
+  "new_score": 59,
+  "confidence": "mittel",
+  "summary": "Gesichert im Export: Das aktuelle Inserat nennt Haupt- und separates Gästehaus, 229.000 €, 178 m² Wohnfläche, 1.029 m² Grund, HWB 292 und fGEE 3,24. Abgeleitet: Die Bilder zeigen ordentlich möblierte Wohnräume, mehrere ältere Nassbereiche, zwei Küchenansichten und ein weiteres Holzgebäude. Bei Wärmeversorgung und Gebäudehülle besteht Prüfbedarf. Unsicher: Wohnflächenaufteilung, baulich genehmigter Nutzungsumfang und technischer Zustand beider Gebäude. Die Heiztechnik ist in Bild 08 nur teilweise identifizierbar.",
+  "positive_findings": [
+    "Gesichert: Das Haupthaus ist aus mehreren Richtungen zu sehen. Garten, Aussicht, Garagentor und Balkone sind dokumentiert.",
+    "Gesichert: Die Serie zeigt zusätzlich ein separates Holzgebäude mit eigener Außentreppe."
+  ],
+  "risk_findings": [
+    "Abgeleitet: Mehrere ältere Duschen und die hohen Energiewerte sprechen für eine Modernisierungsprüfung.",
+    "Abgeleitet: Das zweite Gebäude erhöht die mögliche Wartungs- und Sanierungslast.",
+    "Unsicher: Wohnflächenaufteilung, baulich genehmigter Nutzungsumfang und technischer Zustand beider Gebäude. Die Heiztechnik ist in Bild 08 nur teilweise identifizierbar."
+  ],
+  "estimated_investment_eur": {
+    "low": null,
+    "high": null,
+    "confidence": "niedrig",
+    "comment": "Für eine Summe fehlen getrennte Befunde zu beiden Bauten und zum Heizsystem."
+  },
+  "address_hints": [
+    {
+      "hint": "Sankt Oswald ob Eibiswald, 8553",
+      "basis": "Inseratsort und sichtbare Aussicht über Grünland und Wald.",
+      "confidence": "mittel"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/01.jpg, images/10.jpg, images/15.jpg",
+      "area": "Garten und Aussicht",
+      "condition": "Obstbäume, Wiesen- und Waldumfeld mit geneigtem Gelände.",
+      "positive": [],
+      "risks": [],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/03.jpg, images/05.jpg, images/12.jpg, images/13.jpg",
+      "area": "Haupthaus",
+      "condition": "Helle Fassade mit Sockel, dunklem Dach, Balkonen und Garagentor.",
+      "positive": [],
+      "risks": [
+        "Balkonanschlüsse, Sockel und Dachaufbau prüfen."
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/09.jpg, images/21.jpg",
+      "area": "Separates Holzgebäude",
+      "condition": "Holzfassade, Fensterläden, Dach mit Gaube und seitliche Treppe.",
+      "positive": [],
+      "risks": [
+        "Holzschutz, Anschlüsse und Nutzungsbewilligung klären."
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/08.jpg",
+      "area": "Heiz- und Speicherraum",
+      "condition": "Speicher sowie mehrere Geräte und Rohrleitungen sichtbar.",
+      "positive": [],
+      "risks": [
+        "Energieträger, Zuordnung zu Gebäuden, Wartung und Funktion abfragen."
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/02.jpg, images/06.jpg, images/07.jpg, images/11.jpg, images/14.jpg, images/18.jpg, images/23.jpg, images/25.jpg",
+      "area": "Wohn-, Schlaf- und Essräume",
+      "condition": "Helle, eingerichtete Bereiche mit älteren Holzoberflächen und unterschiedlichen Ausbauzuständen.",
+      "positive": [],
+      "risks": [],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/04.jpg, images/17.jpg",
+      "area": "Küchenansichten",
+      "condition": "Ältere Küchenzeilen mit Geräten beziehungsweise Holzfronten.",
+      "positive": [],
+      "risks": [
+        "Zuordnung zu Gebäuden und Leitungszustand bestätigen."
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/16.jpg, images/19.jpg",
+      "area": "Treppen und Vorraum",
+      "condition": "Hölzerne Treppen und Geländer bilden die innere Erschließung.",
+      "positive": [],
+      "risks": [],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/20.jpg, images/22.jpg, images/24.jpg",
+      "area": "Nassräume",
+      "condition": "Bild 20 mit Wanne und Duschabtrennung. Bilder 22 und 24 zeigen kleine, sichtbar ältere farbig geflieste Duschbereiche.",
+      "positive": [],
+      "risks": [
+        "Abdichtungen und Lüftung prüfen."
+      ],
+      "confidence": "mittel"
+    }
+  ],
+  "recommendation": "Als Zweigebäudeangebot prüfen, wenn die zusätzliche Fläche benötigt wird. Beide Gebäude und den Energieausweis einzeln bewerten.",
+  "next_steps": [
+    "Aufstellung der genehmigten Flächen und Nutzungen beider Gebäude anfordern.",
+    "Technikraum, Heizversorgung und Verbrauch prüfen.",
+    "Holzgebäude, Dächer, Hang- und Regenwasserführung besichtigen."
+  ],
+  "score_reasoning": "Zwei Gebäude und gute Bildabdeckung sprechen für eine Besichtigung. Hoher HWB, ältere Ausstattung und unklarer Technik- und Nutzungsumfang halten den Score im Prüfbereich.",
+  "limitations": [
+    "25 exportierte JPG-Dateien visuell geprüft. Der Export weist insgesamt 78 Medien aus.",
+    "Die Bilder belegen weder die Raumaufteilung pro Gebäude noch den technischen Zustand der Anlagen."
+  ],
+  "price_assessment": {
+    "asking_price_eur": 229000,
+    "fair_value_low_eur": null,
+    "fair_value_high_eur": null,
+    "suggested_first_offer_eur": null,
+    "suggested_target_price_eur": null,
+    "maximum_recommended_price_eur": null,
+    "confidence": "niedrig",
+    "reasoning": "Der Angebotsstand ist dokumentiert. Für eine Preisbandbreite fehlen belastbare Vergleichsverkäufe und eine Kalkulation des tatsächlichen Aufwands."
+  },
+  "investment_items": [
+    {
+      "category": "Heizung",
+      "measure": "Heiz- und Warmwassersystem identifizieren und prüfen",
+      "priority": "kurzfristig",
+      "low_eur": null,
+      "high_eur": null,
+      "confidence": "niedrig",
+      "basis": "Technikraum 08, HWB 292 und fGEE 3,24."
+    },
+    {
+      "category": "Gästehaus",
+      "measure": "Holzfassade, Dach und Feuchteschutz begutachten",
+      "priority": "unklar",
+      "low_eur": null,
+      "high_eur": null,
+      "confidence": "niedrig",
+      "basis": "Objektfotos 09 und 21."
+    }
+  ],
+  "estimated_total_cost_eur": {
+    "low": null,
+    "high": null,
+    "confidence": "niedrig",
+    "includes_purchase_price": false,
+    "includes_acquisition_costs": false,
+    "comment": "Ein belastbarer Zielkaufpreis und eine bezifferbare Investitionsspanne fehlen."
+  },
+  "image_coverage": {
+    "exported_images_reviewed": 25,
+    "exterior_images": 7,
+    "interior_images": 15,
+    "technical_or_outbuilding_images": 3,
+    "plans_or_documents": 0,
+    "unclassified_images": 0,
+    "comment": "Die Zahlen zählen exportierte Dateien, auch bei mehreren Ansichten desselben Bereichs."
+  },
+  "source": "manual_chatgpt_upload"
+}
