@@ -1,0 +1,136 @@
+{
+  "house_id": "5a099be7",
+  "analysis_date": "2026-11-18T19:21:54.241694+00:00",
+  "analysis_request_id": "a85ea5deb62a438e84a849a95117b8d6",
+  "new_score": 55,
+  "confidence": "mittel",
+  "summary": "Gesichert im Export: Das Inserat für Pölfing-Brunn nennt 295.000 €, 140 m² Wohnfläche, fünf Zimmer, 1.239 m² Grund, HWB 217,4 und fGEE 2,56. Abgeleitet: Die sichtbaren Wohnräume wirken ordentlich. Ältere Küche, Sanitär und energetische Kennwerte lassen Modernisierungsbedarf erwarten. Unsicher: Heizsystem, Baujahr, Keller, Elektrik, Leitungen und Gesamtausbauzustand. Das Heizungsfeld ist leer und die Fotos zeigen keinen Technikraum.",
+  "positive_findings": [
+    "Gesichert: Gartenflächen, Giebeldach, Balkon und verglaster Eingangsbereich sind abgebildet.",
+    "Gesichert: Küche, Essplatz, Wohnraum und Duschbereich sind in der Serie vertreten."
+  ],
+  "risk_findings": [
+    "Abgeleitet: Ältere Ausstattung und hoher Wärmebedarf können das Kaufbudget erheblich beeinflussen.",
+    "Unsicher: Heizsystem, Baujahr, Keller, Elektrik, Leitungen und Gesamtausbauzustand. Das Heizungsfeld ist leer und die Fotos zeigen keinen Technikraum."
+  ],
+  "estimated_investment_eur": {
+    "low": null,
+    "high": null,
+    "confidence": "niedrig",
+    "comment": "Für Kostenansätze fehlen der technische Befund und der gewünschte Modernisierungsumfang."
+  },
+  "address_hints": [
+    {
+      "hint": "8544 Pölfing-Brunn",
+      "basis": "Ortsangabe im Inserat; Außenfotos zeigen Wohnbebauung und Blick in offene Grünflächen.",
+      "confidence": "mittel"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/01.jpg, images/04.jpg, images/10.jpg",
+      "area": "Außenansichten",
+      "condition": "Helle Fassade mit Sockel, Ziegeldach, Kamin, Balkon und Eingangsverglasung.",
+      "positive": [],
+      "risks": [
+        "Dachalter, Sockel und Fensteranschlüsse bestimmen."
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/02.jpg, images/05.jpg, images/11.jpg",
+      "area": "Garten und Umgebung",
+      "condition": "Hecken, Wiese und Feldblick. Bild 11 zeigt die langgestreckte Gartenfläche.",
+      "positive": [],
+      "risks": [],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/03.jpg, images/07.jpg, images/08.jpg",
+      "area": "Essplatz, Wohnraum und Flur",
+      "condition": "Holzeinbauten und verkleidete Flurdecke, ältere Einrichtung und sichtbar gepflegte Oberflächen.",
+      "positive": [],
+      "risks": [],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/06.jpg",
+      "area": "Duschbereich",
+      "condition": "Geflieste Dusche mit Fenster und sichtbarem Beckenrand.",
+      "positive": [],
+      "risks": [
+        "Abdichtung und Leitungen prüfen."
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/09.jpg",
+      "area": "Küche",
+      "condition": "Einbauküche mit älteren Fronten, Fliesen und modernen wie älteren Geräten gemischt.",
+      "positive": [],
+      "risks": [
+        "Anschlüsse und Gerätezustand prüfen."
+      ],
+      "confidence": "mittel"
+    }
+  ],
+  "recommendation": "Besichtigung bei Budgetreserve für Energie und Innenausbau. Heizsystem und Verbrauch vorher abfragen.",
+  "next_steps": [
+    "Original-Energieausweis und Angaben zur Wärmeversorgung anfordern.",
+    "Keller, Dach, Elektrik und Leitungen besichtigen.",
+    "Bad- und Küchenmodernisierung nach Termin kalkulieren."
+  ],
+  "score_reasoning": "Großer Garten und ordentlich gezeigter Bestand sprechen dafür. Hoher HWB und unbekannte Haustechnik begrenzen die Einstufung.",
+  "limitations": [
+    "11 exportierte JPG-Dateien visuell geprüft. Der Export weist insgesamt 77 Medien aus.",
+    "Die Bildserie zeigt keine Anlage, keinen Keller und keinen Dachraum."
+  ],
+  "price_assessment": {
+    "asking_price_eur": 295000,
+    "fair_value_low_eur": null,
+    "fair_value_high_eur": null,
+    "suggested_first_offer_eur": null,
+    "suggested_target_price_eur": null,
+    "maximum_recommended_price_eur": null,
+    "confidence": "niedrig",
+    "reasoning": "Der Angebotsstand ist dokumentiert. Für eine Preisbandbreite fehlen belastbare Vergleichsverkäufe und eine Kalkulation des tatsächlichen Aufwands."
+  },
+  "investment_items": [
+    {
+      "category": "Innenausbau",
+      "measure": "Küche und Sanitär nach Bedarf modernisieren",
+      "priority": "mittelfristig",
+      "low_eur": null,
+      "high_eur": null,
+      "confidence": "niedrig",
+      "basis": "Sichtbarer Ausstattungsstand in 06 und 09."
+    },
+    {
+      "category": "Energie",
+      "measure": "Heizung und Gebäudehülle prüfen",
+      "priority": "kurzfristig",
+      "low_eur": null,
+      "high_eur": null,
+      "confidence": "niedrig",
+      "basis": "Hohe Kennwerte bei unklarer Heizungsart."
+    }
+  ],
+  "estimated_total_cost_eur": {
+    "low": null,
+    "high": null,
+    "confidence": "niedrig",
+    "includes_purchase_price": false,
+    "includes_acquisition_costs": false,
+    "comment": "Ein belastbarer Zielkaufpreis und eine bezifferbare Investitionsspanne fehlen."
+  },
+  "image_coverage": {
+    "exported_images_reviewed": 11,
+    "exterior_images": 6,
+    "interior_images": 5,
+    "technical_or_outbuilding_images": 0,
+    "plans_or_documents": 0,
+    "unclassified_images": 0,
+    "comment": "Die Zahlen zählen exportierte Dateien, auch bei mehreren Ansichten desselben Bereichs."
+  },
+  "source": "manual_chatgpt_upload"
+}
