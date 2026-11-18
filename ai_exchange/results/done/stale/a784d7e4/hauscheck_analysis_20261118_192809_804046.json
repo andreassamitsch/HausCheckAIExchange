@@ -1,0 +1,216 @@
+{
+  "house_id": "a784d7e4",
+  "analysis_date": "2026-11-18T19:24:57.844567+00:00",
+  "analysis_request_id": "eeb70e880d56403b996ae4e290392c3a",
+  "new_score": 25,
+  "confidence": "mittel",
+  "summary": "Gesichert im Export: Das Inserat für 8544 Pölfing-Brunn bewirbt ein Mehrparteienhaus/Gasthaus um 149.000 €. Es nennt 830 m². Die Bilder zeigen Gastrobereiche, mehrere Sanitärbereiche, Technik und Räume mit Rückbauspuren. Abgeleitet: Eine vor einer Wohn- oder Gastro-Nutzung notwendige Sanierung kann umfangreich sein. Die 830 m² können Flächen mit unterschiedlichen Nutzungen umfassen. Die Galerie zeigt offene Wand- und Bodenbereiche sowie stark unterschiedliche Ausbauzustände. Unsicher: Welche Flächen genehmigter Wohnraum sind, wie viele Einheiten bestehen, welche Nutzungen möglich sind und wie Tragwerk, Brandschutz, Heiztechnik, Leitungen, Dach und Feuchte tatsächlich einzustufen sind. Grundstücksgröße und Energiekennwerte fehlen im strukturierten Export.",
+  "positive_findings": [
+    "Gesichert: Große Räume, ehemalige Bar- und Gasträume, überdachte Außenzone und Nebenflächen sind sichtbar.",
+    "Gesichert: Mehrere Sanitär- und Technikbereiche sind abgebildet."
+  ],
+  "risk_findings": [
+    "Abgeleitet: Rückbauspuren und offene Installationspunkte machen eine Kostenplanung nach Gewerken erforderlich.",
+    "Abgeleitet: Wandverfärbungen und Ablagerungen sind Prüfhinweise. Ihr Auslöser ist auf Fotos nicht bestimmbar.",
+    "Abgeleitet: Die frühere Gastro-Nutzung und der behauptete Mehrparteienbetrieb erfordern einen Abgleich mit dem Bauakt und vorhandenen Plänen.",
+    "Unsicher: Welche Flächen genehmigter Wohnraum sind, wie viele Einheiten bestehen, welche Nutzungen möglich sind und wie Tragwerk, Brandschutz, Heiztechnik, Leitungen, Dach und Feuchte tatsächlich einzustufen sind. Grundstücksgröße und Energiekennwerte fehlen im strukturierten Export."
+  ],
+  "estimated_investment_eur": {
+    "low": null,
+    "high": null,
+    "confidence": "niedrig",
+    "comment": "Ohne bestätigte Flächen, Nutzungsziele und Befund zu Tragwerk, Haustechnik und Brandschutz ist keine seriöse Investitionssumme ableitbar."
+  },
+  "address_hints": [
+    {
+      "hint": "8544 Pölfing-Brunn",
+      "basis": "Ortsangabe im Inserat. Die beigefügte Bildschirmkarte allein bestätigt weder Anschrift noch Grundstücksgrenzen.",
+      "confidence": "mittel"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/07.jpg, images/09.jpg, images/27.jpg, images/60.jpg, images/62.jpg, images/63.jpg, images/75.jpg, images/76.jpg, images/77.jpg, images/78.jpg, images/79.jpg, images/80.jpg",
+      "area": "Fassade und Zufahrt",
+      "condition": "Langgezogene gelbe Fassade mit dunkler Holzverkleidung, Straßenanschluss, Hof, überdachten Bereichen und sichtbarem Fallrohr.",
+      "positive": [],
+      "risks": [
+        "Dach, Holzverkleidung, Sockel und Entwässerung prüfen."
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/05.jpg, images/49.jpg, images/50.jpg, images/53.jpg",
+      "area": "Balkon und Hang",
+      "condition": "Überdachte Galerie mit Brüstung und abfallendem Gelände. Bild 50 zeigt die Grünfläche mit Schaukel.",
+      "positive": [],
+      "risks": [
+        "Balkontragwerk, Geländer, Böschung und Wasserführung prüfen."
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/01.jpg, images/32.jpg",
+      "area": "Neben- und Arbeitsräume",
+      "condition": "Gefliester schmaler Arbeitsbereich mit abgestellten Gegenständen und eigener Raum mit Regalen und Werkzeug.",
+      "positive": [],
+      "risks": [
+        "Nutzung, Wasseranschlüsse und Lüftung prüfen."
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/23.jpg, images/25.jpg, images/29.jpg, images/37.jpg, images/43.jpg, images/52.jpg, images/58.jpg, images/68.jpg",
+      "area": "Heiz- und Speichertechnik",
+      "condition": "Kessel, mehrere Speicher, Verteiler, Leitungen und Ausdehnungsgefäß. Teilweise offene Wanddurchbrüche in Techniknähe.",
+      "positive": [],
+      "risks": [
+        "Anlagentyp, Funktion, Wartung und Rohrnetz vor Ort prüfen."
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/03.jpg, images/12.jpg, images/18.jpg, images/20.jpg, images/40.jpg, images/46.jpg, images/65.jpg, images/71.jpg",
+      "area": "Gastraum, Bar und größere Räume",
+      "condition": "Ehemalige Gastraum-/Barbereiche mit Theke, Bestuhlung, großen Fenstern, Holzdecken und älteren Belägen. Teilweise als Lager genutzt.",
+      "positive": [],
+      "risks": [
+        "Nutzbarkeit, Fluchtwege und Brandabschnitte fachlich prüfen."
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/13.jpg, images/28.jpg, images/34.jpg, images/36.jpg, images/39.jpg, images/44.jpg, images/45.jpg, images/47.jpg, images/72.jpg",
+      "area": "Rückbau und Ausbau",
+      "condition": "Unterbrochene Böden, freigelegte Ziegel an Durchgängen und ausgeräumte oder roh wirkende Räume sind sichtbar.",
+      "positive": [],
+      "risks": [
+        "Umbaustand, Tragwerk, Bodenaufbau und Feuchte untersuchen."
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/04.jpg, images/06.jpg, images/10.jpg, images/14.jpg, images/15.jpg, images/16.jpg, images/21.jpg, images/24.jpg, images/26.jpg, images/31.jpg, images/33.jpg, images/35.jpg, images/41.jpg, images/42.jpg, images/54.jpg, images/55.jpg, images/56.jpg, images/57.jpg, images/59.jpg, images/61.jpg, images/67.jpg",
+      "area": "Flure, Stiegen und Nebenbereiche",
+      "condition": "Ältere Fliesen, Holzverkleidung, verschiedene Geländer und teils provisorische Beleuchtung. Einige weiß gestrichene Flurabschnitte wirken heller und ordentlicher.",
+      "positive": [],
+      "risks": [
+        "Beleuchtung, Fluchtwege und Installationen prüfen."
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/11.jpg, images/48.jpg, images/73.jpg",
+      "area": "Küchen- und Zimmerbereiche",
+      "condition": "Violette Wände, teilweise aufgestellte Geräte und Holzdecken. Bild 48 zeigt einen möblierten Raumausschnitt.",
+      "positive": [],
+      "risks": [
+        "Vollständigkeit und Funktion der Anschlüsse klären."
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/38.jpg, images/64.jpg, images/66.jpg",
+      "area": "Sanitär",
+      "condition": "Eckwanne, Duschkabine und Urinal in unterschiedlichen Bereichen.",
+      "positive": [],
+      "risks": [
+        "Abdichtung, Lüftung, Leitungen und Funktion prüfen."
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/17.jpg",
+      "area": "Kartenausschnitt",
+      "condition": "Handy-Screenshot mit Kartenansicht und eingezeichneter Fläche. Als Orientierung eingestuft.",
+      "positive": [],
+      "risks": [
+        "Grenzen und Flächen anhand amtlicher Unterlagen abgleichen."
+      ],
+      "confidence": "hoch"
+    },
+    {
+      "image": "images/02.jpg, images/08.jpg, images/19.jpg, images/22.jpg, images/30.jpg, images/51.jpg, images/69.jpg, images/70.jpg, images/74.jpg",
+      "area": "Galerie-Screenshots",
+      "condition": "Bildschirmkopien zeigen Ausschnitte von Zimmern, Dusche, Wanne, Waschbereich und Ofen. Auflösung, Zeitpunkt und Zuordnung sind eingeschränkt.",
+      "positive": [],
+      "risks": [
+        "Nur ergänzende Motive ohne eigenständigen Zustandsnachweis."
+      ],
+      "confidence": "mittel"
+    }
+  ],
+  "recommendation": "Für einen üblichen Eigenheimkauf zurückstellen. Nur bei konkretem Nutzungskonzept, verifizierten Flächen und belastbarer Fachkalkulation weiterprüfen.",
+  "next_steps": [
+    "Genehmigte Wohn-, Gastro- und Nebenflächen einschließlich Einheiten offenlegen lassen.",
+    "Brandschutz, Statik, Feuchte, Dach und Leitungen gemeinsam begutachten lassen.",
+    "Heiztechnik, Energieausweis, Sanierungsunterlagen und Kosten nach Gewerken anfordern."
+  ],
+  "score_reasoning": "Große Flächen ändern wenig an den sichtbaren Rückbau- und Modernisierungsrisiken. Fehlende Genehmigungs-, Flächen- und Techniknachweise machen das Angebot für die Wohnhaussuche kritisch.",
+  "limitations": [
+    "80 exportierte JPG-Dateien visuell geprüft. Der Export weist insgesamt 261 Medien aus.",
+    "Mehrere Motive wiederholen sich. Karten- und Bildschirmaufnahmen wurden bei der Aussagekraft begrenzt."
+  ],
+  "price_assessment": {
+    "asking_price_eur": 149000,
+    "fair_value_low_eur": null,
+    "fair_value_high_eur": null,
+    "suggested_first_offer_eur": null,
+    "suggested_target_price_eur": null,
+    "maximum_recommended_price_eur": null,
+    "confidence": "niedrig",
+    "reasoning": "Der Angebotsstand ist dokumentiert. Für eine Preisbandbreite fehlen belastbare Vergleichsverkäufe und eine Kalkulation des tatsächlichen Aufwands."
+  },
+  "investment_items": [
+    {
+      "category": "Gebäudesubstanz",
+      "measure": "Durchbrüche, Bodenaufbauten und Feuchte prüfen",
+      "priority": "sofort",
+      "low_eur": null,
+      "high_eur": null,
+      "confidence": "niedrig",
+      "basis": "Sichtbare Rückbauspuren in 13, 28, 36, 39 und 72."
+    },
+    {
+      "category": "Haustechnik",
+      "measure": "Kessel, Speicher, Rohrnetz, Elektro und Sanitär erfassen",
+      "priority": "kurzfristig",
+      "low_eur": null,
+      "high_eur": null,
+      "confidence": "niedrig",
+      "basis": "Technikfotos mit mehreren Speichern und offener Installation."
+    },
+    {
+      "category": "Nutzung",
+      "measure": "Bauakt, Fluchtwege und Brandabschnitte prüfen",
+      "priority": "sofort",
+      "low_eur": null,
+      "high_eur": null,
+      "confidence": "niedrig",
+      "basis": "Gast- und Barbereiche sowie beworbene Mehrparteiennutzung."
+    }
+  ],
+  "estimated_total_cost_eur": {
+    "low": null,
+    "high": null,
+    "confidence": "niedrig",
+    "includes_purchase_price": false,
+    "includes_acquisition_costs": false,
+    "comment": "Ein belastbarer Zielkaufpreis und eine bezifferbare Investitionsspanne fehlen."
+  },
+  "image_coverage": {
+    "exported_images_reviewed": 80,
+    "exterior_images": 16,
+    "interior_images": 44,
+    "technical_or_outbuilding_images": 10,
+    "plans_or_documents": 1,
+    "unclassified_images": 9,
+    "comment": "Alle 80 JPGs gesichtet. Die Karte ist als Unterlage, neun Galerie-Screenshots sind als unklassifiziert erfasst."
+  },
+  "hauscheck_archive": {
+    "category": "stale",
+    "reason": "Auftragskennung gehört zu einem anderen Export (eeb70e880d56 statt dbe2d0316ebc)",
+    "source_path": "ai_exchange/results/pending/a784d7e4/hauscheck_analysis.json",
+    "archived_at": "2026-11-18T19:28:09.804032+00:00"
+  }
+}
