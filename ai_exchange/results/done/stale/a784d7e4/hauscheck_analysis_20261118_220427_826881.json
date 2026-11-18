@@ -1,0 +1,124 @@
+{
+  "house_id": "a784d7e4",
+  "analysis_date": "2026-11-18T22:03:24Z",
+  "analysis_request_id": "eeb70e880d56403b996ae4e290392c3a",
+  "new_score": 25,
+  "confidence": "mittel",
+  "summary": "Gesichert: Inserat Mehrparteienhaus/Gasthaus in Pölfing-Brunn für 149.000 €, beworbene 830 m². Die Bilder zeigen ehemalige Gastronomie, Rückbauspuren, Technik und verschiedene Sanitärräume. Abgeleitet: erheblicher Sanierungs- und Genehmigungsprüfbedarf. Unsicher: genehmigte Wohnfläche, Tragwerk, Brandschutz, Feuchte, Heizfunktion und tatsächlicher Kaufumfang.",
+  "positive_findings": [
+    "Gesichert: Große Gasträume, Bar, Nebenräume, überdachte Außenflächen und Technik sichtbar."
+  ],
+  "risk_findings": [
+    "Abgeleitet: Offene Böden, Wanddurchbrüche und alte Installationen lassen umfangreiche Arbeiten erwarten.",
+    "Unsicher: 830 m² sind nicht als genehmigte reine Wohnfläche bestätigt."
+  ],
+  "estimated_investment_eur": {
+    "low": null,
+    "high": null,
+    "confidence": "niedrig",
+    "comment": "Ohne technische Bestandsaufnahme und verbindlichen Sanierungsumfang nicht seriös bezifferbar."
+  },
+  "address_hints": [
+    {
+      "hint": "8544 Pölfing-Brunn",
+      "basis": "Ortsangabe aus den exportierten Inseratsquellen; keine Lagebestimmung anhand von Bildern",
+      "confidence": "mittel"
+    }
+  ],
+  "image_findings": [
+    {
+      "image": "images/07.jpg, images/09.jpg, images/27.jpg, images/60.jpg, images/62.jpg, images/63.jpg, images/75.jpg, images/76.jpg, images/77.jpg, images/78.jpg, images/79.jpg, images/80.jpg",
+      "area": "Fassade und Zufahrt",
+      "condition": "Gelbe Fassade, dunkle Holzverkleidung, Hof und überdachte Zonen.",
+      "positive": [],
+      "risks": [
+        "Dach, Sockel und Entwässerung prüfen."
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/13.jpg, images/28.jpg, images/34.jpg, images/36.jpg, images/39.jpg, images/44.jpg, images/45.jpg, images/47.jpg, images/72.jpg",
+      "area": "Rückbau",
+      "condition": "Offene Boden- und Wandbereiche, freigelegte Ziegel und Rohzustände.",
+      "positive": [],
+      "risks": [
+        "Tragwerk und Feuchte prüfen."
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/23.jpg, images/25.jpg, images/29.jpg, images/37.jpg, images/43.jpg, images/52.jpg, images/58.jpg, images/68.jpg",
+      "area": "Technik",
+      "condition": "Kessel, Speicher, Leitungen, Verteiler und Durchbrüche.",
+      "positive": [],
+      "risks": [
+        "Funktion und Wartung unklar."
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/03.jpg, images/12.jpg, images/18.jpg, images/20.jpg, images/40.jpg, images/46.jpg, images/65.jpg, images/71.jpg",
+      "area": "Gastro",
+      "condition": "Theke, Gasträume und ältere Ausstattung.",
+      "positive": [],
+      "risks": [
+        "Brandschutz und Nutzungsbewilligung prüfen."
+      ],
+      "confidence": "mittel"
+    },
+    {
+      "image": "images/02.jpg, images/08.jpg, images/19.jpg, images/22.jpg, images/30.jpg, images/51.jpg, images/69.jpg, images/70.jpg, images/74.jpg",
+      "area": "Screenshots",
+      "condition": "Galerie-Screenshots mit eingeschränkter Bildqualität und Zuordnung.",
+      "positive": [],
+      "risks": [
+        "Nicht als eigenständiger Zustandsnachweis verwenden."
+      ],
+      "confidence": "mittel"
+    }
+  ],
+  "recommendation": "Für gewöhnlichen Eigenheimkauf zurückstellen; nur mit Nutzungskonzept und Fachkalkulation weiterprüfen.",
+  "next_steps": [
+    "Bauakt und genehmigte Wohn-, Gastro- und Nebenflächen einholen.",
+    "Statik, Brandschutz, Dach, Feuchte, Leitungen und Heiztechnik begutachten."
+  ],
+  "score_reasoning": "Hoher Umnutzungs- und Sanierungsbedarf trotz großer Flächen.",
+  "limitations": [
+    "80 exportierte JPGs im Paket; die Bildbefunde beruhen auf der bereits durchgeführten Sichtung derselben Haus-ID und identischen Analyseanforderung.",
+    "Fotos erlauben keine Prüfung verdeckter Bauteile, technischer Funktion oder rechtlicher Nutzung."
+  ],
+  "price_assessment": {
+    "asking_price_eur": 149000,
+    "fair_value_low_eur": null,
+    "fair_value_high_eur": null,
+    "suggested_first_offer_eur": null,
+    "suggested_target_price_eur": null,
+    "maximum_recommended_price_eur": null,
+    "confidence": "niedrig",
+    "reasoning": "Ohne Vergleichsverkäufe, technische Befunde und gesicherte Nutzflächen keine seriöse Preisbandbreite."
+  },
+  "investment_items": [],
+  "estimated_total_cost_eur": {
+    "low": null,
+    "high": null,
+    "confidence": "niedrig",
+    "includes_purchase_price": false,
+    "includes_acquisition_costs": false,
+    "comment": "Nicht belastbar kalkulierbar."
+  },
+  "image_coverage": {
+    "exported_images_reviewed": 80,
+    "exterior_images": null,
+    "interior_images": null,
+    "technical_or_outbuilding_images": null,
+    "plans_or_documents": null,
+    "unclassified_images": null,
+    "comment": "Alle exportierten JPGs wurden in der vorherigen Analyse visuell gesichtet; Kategorien hier nicht neu quantifiziert."
+  },
+  "hauscheck_archive": {
+    "category": "stale",
+    "reason": "Auftragskennung gehört zu einem anderen Export (eeb70e880d56 statt dbe2d0316ebc)",
+    "source_path": "ai_exchange/results/pending/a784d7e4/hauscheck_analysis.json",
+    "archived_at": "2026-11-18T22:04:27.826870+00:00"
+  }
+}
